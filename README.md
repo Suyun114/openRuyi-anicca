@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778096714?label=Updated)
+![Relative date](https://img.shields.io/date/1778101825?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|2.13.10|Possible downgrade from the current version (3.14.0 -> 2.13.10)|
@@ -177,6 +177,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-go-jose-go-jose-v4|4.1.3|4.1.4||
 |go-github-go-ldap-ldap|3.4.12|3.4.13||
 |go-github-go-openapi-jsonpointer|0.22.4|0.23.1||
+|go-github-go-openapi-jsonreference|0.21.4|0.21.5||
 |go-github-go-openapi-spec|0.22.3|0.22.4||
 |go-github-go-openapi-swag|0.25.4|yamlutils/v0.26.0||
 |go-github-go-openapi-testify|2.3.0|2.5.0||
@@ -291,6 +292,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jansson|2.14.1|2.15.0||
 |jasper|4.2.8|4.2.9||
 |jitterentropy|3.6.3|0.1|Possible downgrade from the current version (3.6.3 -> 0.1)|
+|jsoncpp|1.9.6|1.9.7||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.7||
 |kbd|2.8.0|2.9.0||
@@ -466,10 +468,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openexr|3.4.10|3.4.11||
 |openjdk-17|17.0.19.10|jdk-17.0.20+1||
 |openjdk-21|21.0.11.10|jdk-21.0.12+1||
+|openjdk-25|25.0.3.9|jdk-25.0.4+1||
 |openjdk-latest|26.0.1.8|jdk-25.0.4+1||
 |openldap|2.6.12|2.6.13||
 |openresolv|3.17.0|3.17.4||
-|opensbi|1.8|1.8.1||
 |openscap|1.4.4|0.6.0|Possible downgrade from the current version (1.4.4 -> 0.6.0)|
 |openssl|3.5.2|4.0.1||
 |openvpn|2.6.16|2.7.4||
@@ -530,8 +532,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
-|python-boto3|1.42.89|1.43.4||
-|python-botocore|1.42.89|1.43.4||
+|python-boto3|1.42.89|1.43.5||
+|python-botocore|1.42.89|1.43.5||
 |python-cachetools|6.2.2|7.1.1||
 |python-cchardet|2.1.19|2.2.0a2||
 |python-chardet|5.2.0|7.4.3||
