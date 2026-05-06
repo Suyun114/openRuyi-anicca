@@ -9,14 +9,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 
 if __name__ == "__main__":
     print(header)
-    print("| Package | Repo Version | New Version | Category | Warnings |")
-    print("|---------|--------------|-------------|------|----------|")
+    print("| Package | Repo Version | New Version | Warnings |")
+    print("|---------|--------------|-------------|----------|")
 
     table = json.loads(sys.stdin.read())
 
     for row in sorted(table, key=lambda x: x["name"]):
         row["before"] = row["before"].replace("+", "<br>+")
         row["warnings"] = "<br>".join(row["warnings"])
-        row["path"] = row["path"].split('/')[0]
 
         print("|" + "|".join(row.values()) + "|")

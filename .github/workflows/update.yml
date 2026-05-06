@@ -20,15 +20,15 @@ jobs:
       - name: Setup Rust toolchain
         uses: dtolnay/rust-toolchain@stable
 
-      - name: Get `aosc-findupdate`
-        run: |
-          git clone https://github.com/AOSC-Dev/aosc-findupdate
-          cd aosc-findupdate
-          git checkout tags/v0.5.0
+      - name: Install RPM tools
+        run: sudo apt-get install -y rpm
 
-      - name: Get `aosc-os-abbs`
-        run: git clone https://github.com/AOSC-Dev/aosc-os-abbs
-      
+      - name: Get `aosc-findupdate`
+        run: git clone https://github.com/Suyun114/openRuyi-findupdate
+
+      - name: Get `openRuyi`
+        run: git clone https://github.com/openRuyi-Project/openRuyi.git
+
       - name: Cargo Cache
         uses: actions/cache@v4
         with:
@@ -37,26 +37,24 @@ jobs:
             ~/.cargo/registry/index/
             ~/.cargo/registry/cache/
             ~/.cargo/git/db/
-            aosc-findupdate/target/
+            openRuyi-findupdate/target/
           key: ${{ runner.os }}-cargo-${{ hashFiles('**/Cargo.lock') }}
 
       - name: Build `aosc-findupdate`
         run: |
-          cd aosc-findupdate
+          cd openRuyi-findupdate
           cargo build --release
-      
+
       - name: Generate `pkgsupdate.json`
-        run: ./aosc-findupdate/target/release/aosc-findupdate -c --dry-run -d ./aosc-os-abbs -j "$PWD"/pkgsupdate.json
+        run: ./openRuyi-findupdate/target/release/aosc-findupdate --dry-run -t ./openRuyi-findupdate/chkupdates.toml -d ./openRuyi -j "$PWD"/pkgsupdate.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate `anicca-data.json`
         run: python ./scripts/convert-data.py -o anicca-data.json
-      
+
       - name: Render markdown
         run: cat pkgsupdate.json | python ./scripts/render-markdown.py > README.md
 
       - name: Commit
         uses: stefanzweifel/git-auto-commit-action@v5
-        with:
-          commit_user_name: AOSC OS Maintainers
-          commit_user_email: maintainers@aosc.io
-          commit_author: AOSC OS Maintainers <maintainers@aosc.io>

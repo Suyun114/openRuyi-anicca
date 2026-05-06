@@ -23,14 +23,6 @@ async function renderDataTable() {
             : data,
       },
       { title: "New Version" },
-      { title: "Category" },
-      {
-        title: "Repo Date",
-        render: (data, type, row) =>
-          type === "display"
-            ? new Date(data * 1000).toLocaleDateString()
-            : data,
-      },
       { title: "Warnings" },
     ],
     scrollX: true,
