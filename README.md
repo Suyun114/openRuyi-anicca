@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778108018?label=Updated)
+![Relative date](https://img.shields.io/date/1778111339?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|2.13.10|Possible downgrade from the current version (3.14.0 -> 2.13.10)|
@@ -295,6 +295,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jsoncpp|1.9.6|1.9.7||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.7||
+|kbd|2.8.0|2.9.0||
 |kdsoap|2.2.0|2.3.0||
 |kea|3.1.4|3.1.8||
 |keepalived|2.2.8|2.3.4||
@@ -400,7 +401,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
-|lm_sensors|3.6.0|3-6-0||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -811,7 +811,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-wit-component-0.244|0.244.0|1.248.0||
 |rust-wit-parser-0.244|0.244.0|1.248.0||
 |ruyi|0.46.0|0.48.0||
-|safeint|3.0.28a|3.24||
 |samba|4.23.2|4.24.1||
 |samurai|1.2|1.3||
 |sdbus-cpp|2.1.0|2.2.1||
@@ -880,7 +879,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.26.0|3.27.0||
 |valkey|8.1.4|9.0.4||
 |vapoursynth|73|75||
-|vim|9.2.0390|9.2.0447||
+|vim|9.2.0390|9.2.0449||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.350||
@@ -896,6 +895,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |whois|5.6.4|5.6.6.git||
 |wireguard-tools|1.0.20250521|1.0.20260223||
 |wlroots|0.19.3|0.20.0||
+|wofi|1.5.2|1.5.3||
 |wolfssl|5.8.2|5.9.1-stable||
 |wtmpdb|0.74.0|0.75.0||
 |wyhash|4|0.1.2|Possible downgrade from the current version (4 -> 0.1.2)|
