@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778184896?label=Updated)
+![Relative date](https://img.shields.io/date/1778191057?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|2.13.10|Possible downgrade from the current version (3.14.0 -> 2.13.10)|
@@ -21,7 +21,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
 |blake3|1.8.4|1.8.5||
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
-|bluez|5.84|5.86||
 |bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.91.0-1||
 |brotli|1.2.0|8.0.2||
@@ -30,7 +29,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cairo|1.18.4|1.109||
 |capstone|5.0.3|5.0.7||
 |ccache|4.13.1|4.13.6||
-|ceph|20.2.0|21.0.0||
 |chafa|1.18.0|1.18.2||
 |check|0.15.2|1.9.1||
 |cifs-utils|7.4|7.5||
@@ -51,7 +49,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |coreutils|9.10|9.11||
 |cpp-httplib|0.30.1|0.43.3||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
-|crash|9.0.1|9.0.2||
 |createrepo_c|1.2.1|1.2.3||
 |crontabs|1.11|0.2.2|Possible downgrade from the current version (1.11 -> 0.2.2)|
 |crun|1.26|1.27.1||
@@ -526,8 +523,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
-|python-boto3|1.42.89|1.43.5||
-|python-botocore|1.42.89|1.43.5||
+|python-boto3|1.42.89|1.43.6||
+|python-botocore|1.42.89|1.43.6||
 |python-cachetools|6.2.2|7.1.1||
 |python-cchardet|2.1.19|2.2.0a2||
 |python-chardet|5.2.0|7.4.3||
@@ -844,6 +841,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |taglib|2.1.1|2.2.1||
 |talloc|2.4.3|2.4.4||
 |tar|1.35|7.5.15||
+|tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.3||
 |tcpdump|4.99.5|4.99.6||
 |tcsh|6.24.15|6.24.16||
@@ -873,10 +871,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.26.0|3.27.0||
 |valkey|8.1.4|9.0.4||
 |vapoursynth|73|75||
-|vim|9.2.0390|9.2.0449||
-|vmaf|3.0.0|3.1.0||
+|vim|9.2.0390|9.2.0452||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.350||
+|vulkan-loader|1.4.335.0|1.4.350||
 |vulkan-tools|1.4.335|1.4.350||
 |vulkan-utility-libraries|1.4.335.0|1.4.350||
 |vulkan-validation-layers|1.4.335.0|1.4.350||
