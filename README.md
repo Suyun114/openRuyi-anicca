@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778134173?label=Updated)
+![Relative date](https://img.shields.io/date/1778146330?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|2.13.10|Possible downgrade from the current version (3.14.0 -> 2.13.10)|
@@ -74,7 +74,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dnsmasq|2.91|2.92||
 |docbook-utils|0.6.15|0.6.14|Possible downgrade from the current version (0.6.15 -> 0.6.14)|
 |doctest|2.4.12|2.5.2||
-|dos2unix|7.5.3|7.5.5||
 |double-conversion|3.3.1|3.4.0||
 |doxygen|1.13.2|1.17.0||
 |dpdk|25.07|26.03||
@@ -109,8 +108,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-noto|2026.01.01|noto-monthly-release-2026.05.01||
 |fonts-noto-sans-cjk|2.004|Serif2.003|Possible downgrade from the current version (2.004 -> Serif2.003)|
 |fonts-noto-serif-cjk|2.003|Serif2.003||
-|freerdp|3.22.0|3.26.0||
-|freetype|2.13.3|2.14.3||
 |fuse|2.9.9|2.5.0|Possible downgrade from the current version (2.9.9 -> 2.5.0)|
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
 |gc|8.2.8|8.2.12||
@@ -299,7 +296,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |keepalived|2.2.8|2.3.4||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
 |kiwi|10.2.42|10.3.3||
-|kpmcore|25.12.2|26.04.0||
+|kpmcore|25.12.2|26.04.1||
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
 |labwc|0.9.6|0.9.7||
 |lcms2|2.17|6.1.1||
@@ -338,7 +335,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libfyaml|0.9.3|0.9.6||
 |libgcrypt|1.11.2|1.12.2||
 |libgit2|1.9.2|1.9.3||
-|libgpg-error|1.58|1.60||
+|libgpg-error|1.58|1.61||
 |libical|3.0.20|4.0.0||
 |libinput|1.30.0|1.31.1||
 |libisoburn|1.5.6|1.5.8||
@@ -346,7 +343,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libjpeg-turbo|3.1.2|3.1.4.1||
 |libjwt|3.2.2|3.3.3||
 |libklvanc|1.6.0|id.obe.1.6.0||
-|libksba|1.6.7|1.6.8||
+|libksba|1.6.7|1.7.0||
 |liblognorm|2.0.6|2.0.9||
 |libmaxminddb|1.12.2|1.13.3||
 |libmbim|1.32.0|1.34.0||
@@ -366,7 +363,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libproxy|0.5.11|0.5.12||
 |libqalculate|5.9.0|5.10.0||
 |libqmi|1.36.0|1.38.0||
-|libqrtr-glib|1.2.2|1.4.0||
 |libsigc++|3.6.0|3.8.0||
 |libsigc++2|2.12.1|3.8.0||
 |libsodium|1.0.20|1.0.22-RELEASE||
@@ -399,7 +395,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
 |lmdb|0.9.33|0.9.35||
-|log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
 |lttng-ust|2.14.0|2.15.0||
 |lua|5.4.8|5.5.0||
@@ -429,7 +424,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mmtests|2.0~rc1<br>+git20260312.|2.0-rc1|Compound version number '2.0~rc1+git20260312.'<br>Version number indicates a snapshot (+git) is used|
 |mock|6.5|41.4-1||
 |mock-core-configs|43.2|mock-core-configs-44.2-1|Possible downgrade from the current version (43.2 -> mock-core-configs-44.2-1)|
-|mpc|1.3.1|1.4.1||
 |msgpack|3.1.0|5.4.1||
 |mstflint|4.34.0.2|4.35.0-1.6||
 |mtd-utils|2.3.0|2.3.1||
@@ -503,7 +497,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |poppler|25.11.0|26.05.0||
 |postgresql|18.1|18.3||
 |protobuf|33.2|34.1||
-|psutils|2.10|3.3.15||
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |pv|1.10.3|1.10.5||
 |pybind11|3.0.1|3.0.4||
