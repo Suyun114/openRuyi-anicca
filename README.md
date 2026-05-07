@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778121578?label=Updated)
+![Relative date](https://img.shields.io/date/1778134173?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|2.13.10|Possible downgrade from the current version (3.14.0 -> 2.13.10)|
@@ -84,11 +84,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dwarfs|0.14.1|0.15.3||
 |dwarves|1.30|1.31||
 |e2fsprogs|1.47.3|1.47.4||
-|ed|1.21.1|1.22.5||
 |editorconfig-core-c|0.12.10|0.12.11||
 |elfutils|0.194|0.195||
 |ell|0.80|0.83||
 |enchant|2.8.12|2.8.16||
+|erofs-utils|1.8.10|1.9.1||
 |ethtool|6.15|7.0||
 |exfatprogs|1.2.9|1.3.2||
 |exiv2|0.28.7|0.28.8||
@@ -110,9 +110,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-noto-sans-cjk|2.004|Serif2.003|Possible downgrade from the current version (2.004 -> Serif2.003)|
 |fonts-noto-serif-cjk|2.003|Serif2.003||
 |freerdp|3.22.0|3.26.0||
+|freetype|2.13.3|2.14.3||
 |fuse|2.9.9|2.5.0|Possible downgrade from the current version (2.9.9 -> 2.5.0)|
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
-|gawk|5.3.2|5.4.0||
 |gc|8.2.8|8.2.12||
 |gcc|15|16.1.0||
 |gdk-pixbuf|2.44.4|2.44.6||
@@ -314,6 +314,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXres|1.2.2|1.2.3||
 |libXxf86vm|1.1.6|1.1.7||
 |libaec|1.1.4|1.1.6||
+|libarchive|3.8.1|3.8.7||
 |libatomic_ops|7.8.2|7.10.0||
 |libavif|1.4.0|1.4.1||
 |libblockdev|3.4.0|3.5.0||
@@ -397,7 +398,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
-|lm_sensors|3.6.0|3-6-0||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -429,7 +429,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mmtests|2.0~rc1<br>+git20260312.|2.0-rc1|Compound version number '2.0~rc1+git20260312.'<br>Version number indicates a snapshot (+git) is used|
 |mock|6.5|41.4-1||
 |mock-core-configs|43.2|mock-core-configs-44.2-1|Possible downgrade from the current version (43.2 -> mock-core-configs-44.2-1)|
-|mold|2.40.4|2.41.0||
 |mpc|1.3.1|1.4.1||
 |msgpack|3.1.0|5.4.1||
 |mstflint|4.34.0.2|4.35.0-1.6||
@@ -496,6 +495,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |php|8.5.2|8.5.6||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
+|pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.4||
 |pkgconf|2.2.0|2.5.1||
 |plasma-wayland-protocols|1.19.0|1.20.0||
@@ -756,6 +756,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocr-runtime|7.1.1|20250912-42||
 |rocsolver|7.1.1|20250912-42||
 |rocsparse|7.1.1|7.2.3||
+|rpm|4.20.1|6.0.1-release||
 |rpmlint|2.8.0|2.9.0||
 |rsync|3.4.1|3.4.2||
 |rsyslog|8.2510.0|8.2604.0||
@@ -818,7 +819,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |shadow|4.18.0|4.19.4||
 |shim|16.1<br>+git20260422.c17fdb2|16.1|Compound version number '16.1+git20260422.c17fdb2'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
-|simdjson|4.2.4|4.6.3||
+|simdjson|4.2.4|4.6.4||
 |simdutf|7.4.0|9.0.0||
 |slang|2.3.3|2026.8||
 |slibtool|0.7.3|0.7.4||
@@ -838,6 +839,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |stress-ng|0.20.01|0.21.01||
 |strongswan|6.0.2|6.0.6||
 |swaybg|1.2.1|1.2.2||
+|sysrepo|4.2.10|4.5.4||
 |sysstat|12.7.8|12.7.9||
 |systemd|259|0.10.1|Possible downgrade from the current version (259 -> 0.10.1)|
 |systemtap|5.3|5.5||
@@ -875,7 +877,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valkey|8.1.4|9.0.4||
 |vapoursynth|73|75||
 |vim|9.2.0390|9.2.0449||
+|vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
+|vulkan-headers|1.4.335.0|1.4.350||
 |vulkan-loader|1.4.335.0|1.4.350||
 |vulkan-tools|1.4.335|1.4.350||
 |vulkan-utility-libraries|1.4.335.0|1.4.350||
