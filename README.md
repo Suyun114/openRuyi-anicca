@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778154458?label=Updated)
+![Relative date](https://img.shields.io/date/1778162662?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|2.13.10|Possible downgrade from the current version (3.14.0 -> 2.13.10)|
@@ -66,6 +66,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dialog|1.3|1.3-20260107||
 |diffstat|1.68|1.69||
 |ding-libs|0.6.2|0.7.0||
+|distribution-gpg-keys|1.115|1.119-1||
 |djvulibre|3.5.29|3.5.30||
 |dkms|3.2.2|3.4.0||
 |dmidecode|3.6|3.7||
@@ -296,7 +297,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |kea|3.1.4|3.1.8||
 |keepalived|2.2.8|2.3.4||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
-|kiwi|10.2.42|10.3.3||
+|kiwi|10.2.42|10.3.4||
 |kpmcore|25.12.2|26.04.1||
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
 |labwc|0.9.6|0.9.7||
@@ -396,6 +397,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
+|lm_sensors|3.6.0|3-6-0||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -436,6 +438,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ndctl|83|84||
 |netavark|1.17.1|1.17.2||
 |netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
+|nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
 |nfs-utils|2.8.4|2.9.1||
 |nfs4-acl-tools|0.4.2|0.3.7|Possible downgrade from the current version (0.4.2 -> 0.3.7)|
@@ -578,7 +581,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-linkify-it-py|2.0.3|2.1.0||
 |python-lxml|6.0.1|lxml-6.1.0||
 |python-marisa-trie|1.3.1|1.4.1||
-|python-markdown-it-py|4.0.0|4.1.0||
+|python-markdown-it-py|4.0.0|4.2.0||
 |python-marshmallow|4.2.1|4.3.0||
 |python-maturin|1.9.6|1.13.1||
 |python-meson-python|0.18.0|0.19.0||
@@ -619,7 +622,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pygit2|1.18.2|1.19.2||
 |python-pyjwt|2.10.1|2.12.1||
 |python-pylsqpack|0.3.23|0.3.24||
-|python-pymilvus|2.6.9|2.6.12||
+|python-pymilvus|2.6.9|3.0.0||
 |python-pymongo|4.16.0|10.10.10.10||
 |python-pymupdf|1.27.2|1.27.2.3||
 |python-pyopenssl|25.3.0|26.2.0||
@@ -662,7 +665,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-sqlparse|0.5.3|0.5.5||
 |python-srsly|2.5.2|3.0.0||
 |python-tempita|0.6.0|0.6||
-|python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
 |python-tensile|7.1.1|rocm-7.2.3||
 |python-tensorizer|2.12.0|2.12.1||
 |python-thinc|8.3.10|8.3.13||
@@ -896,7 +898,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xdg-desktop-portal|1.20.3|1.20.4||
 |xdg-desktop-portal-wlr|0.8.1|0.8.2||
 |xdg-user-dirs|0.19|0.20||
-|xfsprogs|6.16.0|6.19.0||
+|xfsprogs|6.16.0|7.0.0||
 |xkeyboard-config|2.46|2.47||
 |xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
