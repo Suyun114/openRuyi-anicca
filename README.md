@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778191057?label=Updated)
+![Relative date](https://img.shields.io/date/1778194845?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|2.13.10|Possible downgrade from the current version (3.14.0 -> 2.13.10)|
@@ -21,6 +21,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
 |blake3|1.8.4|1.8.5||
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
+|bluez|5.84|5.86||
 |bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.91.0-1||
 |brotli|1.2.0|8.0.2||
@@ -29,10 +30,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cairo|1.18.4|1.109||
 |capstone|5.0.3|5.0.7||
 |ccache|4.13.1|4.13.6||
+|ceph|20.2.0|21.0.0||
 |chafa|1.18.0|1.18.2||
 |check|0.15.2|1.9.1||
 |cifs-utils|7.4|7.5||
-|ck|0.7.2|2.6.4||
 |clevis|21|22||
 |cloud-hypervisor|50.0.0|51.1||
 |cloud-init|25.3|26.1||
@@ -49,6 +50,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |coreutils|9.10|9.11||
 |cpp-httplib|0.30.1|0.43.3||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
+|crash|9.0.1|9.0.2||
 |createrepo_c|1.2.1|1.2.3||
 |crontabs|1.11|0.2.2|Possible downgrade from the current version (1.11 -> 0.2.2)|
 |crun|1.26|1.27.1||
@@ -259,7 +261,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |haveged|1.9.19|1.9.20||
 |hdf5|2.0.0|2.1.1||
 |highway|1.3.0|1.4.0||
-|hipblas|7.1.1|20250912-17||
 |hipblas-common|7.1.1|7.2.3||
 |hipify|7.1.1|20250912-42||
 |htop|3.4.1|3.5.1||
@@ -434,7 +435,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ndctl|83|84||
 |netavark|1.17.1|1.17.2||
 |netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
-|nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
 |nfs-utils|2.8.4|2.9.1||
 |nfs4-acl-tools|0.4.2|0.3.7|Possible downgrade from the current version (0.4.2 -> 0.3.7)|
@@ -463,7 +463,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openjdk-latest|26.0.1.8|jdk-25.0.4+1||
 |openldap|2.6.12|2.6.13||
 |openresolv|3.17.0|3.17.4||
-|opensbi|1.8|1.8.1||
 |openscap|1.4.4|0.6.0|Possible downgrade from the current version (1.4.4 -> 0.6.0)|
 |openssl|3.5.2|4.0.1||
 |openvpn|2.6.16|2.7.4||
@@ -804,7 +803,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ruyi|0.46.0|0.48.0||
 |safeint|3.0.28a|3.24||
 |samba|4.23.2|4.24.1||
-|samurai|1.2|1.3||
 |sdbus-cpp|2.1.0|2.2.1||
 |seatd|0.9.1|0.9.3||
 |sed|4.9|4.10||
