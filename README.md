@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778178264?label=Updated)
+![Relative date](https://img.shields.io/date/1778184896?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|2.13.10|Possible downgrade from the current version (3.14.0 -> 2.13.10)|
@@ -93,7 +93,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |exfatprogs|1.2.9|1.3.2||
 |exiv2|0.28.7|0.28.8||
 |expat|2.7.1|2.8.0||
-|expect|5.45.4|30.3.0||
+|expect|5.45.4|30.4.0||
 |fast_float|8.1.0|8.2.5||
 |fastfetch|2.61.0|2.62.1||
 |ffmpeg|8.0.1|8.1.1||
@@ -397,7 +397,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
-|lm_sensors|3.6.0|3-6-0||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -845,9 +844,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |taglib|2.1.1|2.2.1||
 |talloc|2.4.3|2.4.4||
 |tar|1.35|7.5.15||
-|tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.3||
 |tcpdump|4.99.5|4.99.6||
+|tcsh|6.24.15|6.24.16||
 |tdb|1.4.14|1.4.15||
 |tensorpipe|0<br>+git20251218.|0.0.0|Compound version number '0+git20251218.'<br>Version number indicates a snapshot (+git) is used|
 |texinfo|7.2|7.3||
@@ -878,7 +877,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.350||
-|vulkan-loader|1.4.335.0|1.4.350||
 |vulkan-tools|1.4.335|1.4.350||
 |vulkan-utility-libraries|1.4.335.0|1.4.350||
 |vulkan-validation-layers|1.4.335.0|1.4.350||
