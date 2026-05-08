@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778251880?label=Updated)
+![Relative date](https://img.shields.io/date/1778257117?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -30,7 +30,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |capstone|5.0.3|5.0.7||
 |ccache|4.13.1|4.13.6||
 |ceph|20.2.0|21.0.0||
-|chafa|1.18.0|1.18.2||
 |check|0.15.2|1.9.1||
 |cifs-utils|7.4|7.5||
 |ck|0.7.2|2.6.4||
@@ -90,30 +89,24 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |erofs-utils|1.8.10|1.9.1||
 |ethtool|6.15|7.0||
 |exfatprogs|1.2.9|1.3.2||
-|exiv2|0.28.7|0.28.8||
 |expat|2.7.1|2.8.0||
 |expect|5.45.4|30.4.1||
 |fast_float|8.1.0|8.2.5||
 |fastfetch|2.61.0|2.62.1||
 |ffmpeg|8.0.1|8.1.1||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
-|fftw|3.3.10|3.3.11||
 |file|5.46|5.47||
 |fio|3.41|3.42||
 |firewalld|2.4.0|2.4.1||
-|fltk|1.4.4|1.4.5||
 |fmt|12.0.0|12.1.0||
-|font-util|1.4.1|1.4.2||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
 |fonts-noto|2026.01.01|noto-monthly-release-2026.05.01||
 |fonts-noto-sans-cjk|2.004|Serif2.003|Possible downgrade from the current version (2.004 -> Serif2.003)|
 |fonts-noto-serif-cjk|2.003|Serif2.003||
-|freetype|2.13.3|2.14.3||
 |fuse|2.9.9|2.5.0|Possible downgrade from the current version (2.9.9 -> 2.5.0)|
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
 |gc|8.2.8|8.2.12||
 |gcc|15|16.1.0||
-|gdk-pixbuf|2.44.4|2.44.6||
 |genext2fs|1.5.0|1.6.2||
 |gettext|1.0|2.1.0||
 |gflags|2.2.2|2.3.0||
@@ -228,13 +221,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-golang-x-crypto|0.46.0|0.50.0||
 |go-golang-x-exp|0<br>+git20260107.944ab1f|winfsnotify/v0.1.0-deprecated|Compound version number '0+git20260107.944ab1f'<br>Version number indicates a snapshot (+git) is used|
 |go-golang-x-image|0.34.0|0.39.0||
-|go-golang-x-mod|0.31.0|0.35.0||
+|go-golang-x-mod|0.31.0|0.36.0||
 |go-golang-x-net|0.48.0|0.53.0||
 |go-golang-x-oauth2|0.34.0|0.36.0||
 |go-golang-x-sync|0.19.0|0.20.0||
 |go-golang-x-sys|0.39.0|0.44.0||
-|go-golang-x-term|0.38.0|0.42.0||
-|go-golang-x-text|0.32.0|0.36.0||
+|go-golang-x-term|0.38.0|0.43.0||
+|go-golang-x-text|0.32.0|0.37.0||
 |go-golang-x-time|0.14.0|0.15.0||
 |go-golang-x-tools|0.40.0|gopls/v0.22.0-pre.1||
 |go-gonum-v1-gonum|0.16.0|0.17.0||
@@ -247,13 +240,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-uber-zap|1.27.1|1.28.0||
 |groff|1.23.0|1.24.1||
 |grpc|1.76.0|1.80.0||
-|gsettings-desktop-schemas|49.1|50.1||
 |gsl|2.8|4.2.1||
 |gsm|1.0.23|1.0.24||
 |gstreamer|1.27.50|4.3.6||
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
-|gtk-layer-shell|0.10.0|0.10.1||
 |gtk3|3.24.51|4.3.6||
 |haproxy|3.3|3.3.9||
 |harfbuzz|12.1.0|14.2.0||
@@ -265,7 +256,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hipify|7.1.1|20250912-42||
 |htop|3.4.1|3.5.1||
 |httpd|2.4.66|2.4.67||
-|hunspell|1.7.2|1.7.3||
 |hunspell-en|2026.02.25|rel-2026.02.25||
 |hwdata|0.398|0.407||
 |hwinfo|25.0|25.2||
@@ -285,7 +275,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iso-codes|4.18.0|4.20.1||
 |iwd|3.10|3.12||
 |jansson|2.14.1|2.15.0||
-|jasper|4.2.8|4.2.9||
 |jitterentropy|3.6.3|3.7.0||
 |jsoncpp|1.9.6|1.9.7||
 |jsonnet|0.21.0|0.22.0||
@@ -298,14 +287,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |kiwi|10.2.42|10.3.4||
 |kpmcore|25.12.2|26.04.1||
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
-|labwc|0.9.6|0.9.7||
 |lcms2|2.17|6.1.1||
-|libX11|1.8.12|1.8.13||
-|libXcomposite|0.4.6|0.4.7||
-|libXdamage|1.1.6|1.1.7||
-|libXext|1.3.6|1.3.7||
 |libXft|2.3.8|2.3.9||
-|libXinerama|1.1.5|1.1.6||
 |libXmu|1.2.1|1.3.1||
 |libXrandr|1.5.4|1.5.5||
 |libXres|1.2.2|1.2.3||
@@ -393,7 +376,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
 |lmdb|0.9.33|0.9.35||
-|log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
 |lttng-ust|2.14.0|2.15.0||
 |lua|5.4.8|5.5.0||
@@ -489,7 +471,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
-|pipewire|1.5.84|1.6.4||
 |plasma-wayland-protocols|1.19.0|1.20.0||
 |polkit|126|127||
 |poppler|25.11.0|26.05.0||
@@ -682,7 +663,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-zipp|3.23.0|4.0.0||
 |python-zope-event|6.1|6.2||
 |python-zope-interface|8.3|8.4.1a3||
-|qalculate-qt|5.9.0.1|5.10.0||
 |qcoro|0.12.0|0.13.0||
 |qemu|10.2.0|11.0.0||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
@@ -815,7 +795,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |spdlog|1.15.3|1.17.0||
 |spirv-cross|1.4.335.0|1.4.341.0||
 |spirv-headers|1.4.335.0|1.5.4.raytracing.fixed||
-|spirv-llvm-translator|21.1.3|22.1.2||
 |spirv-tools|1.4.335.0|2026.1||
 |sqlite|3.50.4|3.53.1||
 |squashfs-tools|4.7.2|4.7.5||
@@ -873,7 +852,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wavpack|5.8.1|5.9.0||
 |wayback|0.3|0.4.5||
 |weston|14.0.2|15.0.1||
-|which|2.23|8.0.2||
 |whois|5.6.4|5.6.6.git||
 |wireguard-tools|1.0.20250521|1.0.20260223||
 |wlroots|0.19.3|0.20.0||
