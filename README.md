@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778194845?label=Updated)
+![Relative date](https://img.shields.io/date/1778198559?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|2.13.10|Possible downgrade from the current version (3.14.0 -> 2.13.10)|
@@ -34,6 +34,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |chafa|1.18.0|1.18.2||
 |check|0.15.2|1.9.1||
 |cifs-utils|7.4|7.5||
+|ck|0.7.2|2.6.4||
 |clevis|21|22||
 |cloud-hypervisor|50.0.0|51.1||
 |cloud-init|25.3|26.1||
@@ -261,6 +262,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |haveged|1.9.19|1.9.20||
 |hdf5|2.0.0|2.1.1||
 |highway|1.3.0|1.4.0||
+|hipblas|7.1.1|20250912-17||
 |hipblas-common|7.1.1|7.2.3||
 |hipify|7.1.1|20250912-42||
 |htop|3.4.1|3.5.1||
@@ -395,6 +397,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
+|lm_sensors|3.6.0|3-6-0||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -435,6 +438,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ndctl|83|84||
 |netavark|1.17.1|1.17.2||
 |netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
+|nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
 |nfs-utils|2.8.4|2.9.1||
 |nfs4-acl-tools|0.4.2|0.3.7|Possible downgrade from the current version (0.4.2 -> 0.3.7)|
@@ -463,6 +467,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openjdk-latest|26.0.1.8|jdk-25.0.4+1||
 |openldap|2.6.12|2.6.13||
 |openresolv|3.17.0|3.17.4||
+|opensbi|1.8|1.8.1||
 |openscap|1.4.4|0.6.0|Possible downgrade from the current version (1.4.4 -> 0.6.0)|
 |openssl|3.5.2|4.0.1||
 |openvpn|2.6.16|2.7.4||
@@ -803,6 +808,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ruyi|0.46.0|0.48.0||
 |safeint|3.0.28a|3.24||
 |samba|4.23.2|4.24.1||
+|samurai|1.2|1.3||
 |sdbus-cpp|2.1.0|2.2.1||
 |seatd|0.9.1|0.9.3||
 |sed|4.9|4.10||
@@ -870,6 +876,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valkey|8.1.4|9.0.4||
 |vapoursynth|73|75||
 |vim|9.2.0390|9.2.0452||
+|vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.350||
 |vulkan-loader|1.4.335.0|1.4.350||
