@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778242748?label=Updated)
+![Relative date](https://img.shields.io/date/1778251880?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -98,6 +98,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ffmpeg|8.0.1|8.1.1||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |fftw|3.3.10|3.3.11||
+|file|5.46|5.47||
 |fio|3.41|3.42||
 |firewalld|2.4.0|2.4.1||
 |fltk|1.4.4|1.4.5||
@@ -107,6 +108,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-noto|2026.01.01|noto-monthly-release-2026.05.01||
 |fonts-noto-sans-cjk|2.004|Serif2.003|Possible downgrade from the current version (2.004 -> Serif2.003)|
 |fonts-noto-serif-cjk|2.003|Serif2.003||
+|freetype|2.13.3|2.14.3||
 |fuse|2.9.9|2.5.0|Possible downgrade from the current version (2.9.9 -> 2.5.0)|
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
 |gc|8.2.8|8.2.12||
@@ -575,7 +577,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-multipart|0.0.22|0.0.27||
 |python-munkres|1.1.4|release-1.1.4|Possible downgrade from the current version (1.1.4 -> release-1.1.4)|
 |python-murmurhash|1.0.15|release-v1.0.15|Possible downgrade from the current version (1.0.15 -> release-v1.0.15)|
-|python-narwhals|2.15.0|2.20.0||
+|python-narwhals|2.15.0|2.21.0||
 |python-networkx|3.6.1|networkx-3.6.1|Possible downgrade from the current version (3.6.1 -> networkx-3.6.1)|
 |python-nibabel|5.3.3|5.4.2||
 |python-nipype|1.10.0|1.11.0||
@@ -603,7 +605,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pycparser|2.21|release_v3.00||
 |python-pycurl|7.45.7|REL_7_46_0|Possible downgrade from the current version (7.45.7 -> REL_7_46_0)|
 |python-pydantic|2.12.5|2.13.4||
-|python-pydantic-settings|2.13.1|2.14.0||
+|python-pydantic-settings|2.13.1|2.14.1||
 |python-pyenchant|3.2.2|3.3.0||
 |python-pygit2|1.18.2|1.19.2||
 |python-pyjwt|2.10.1|2.12.1||
@@ -892,6 +894,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xsimd|14.0.0|14.2.0||
 |xxhash|0.8.3|2.3.0||
 |xz|5.8.1|5.8.3||
+|yaml-cpp|0.8.0|0.9.0||
 |zip|3.0|8.6.0||
 |zstd|1.5.7|1.5.7.3||
 |zziplib|0.13.80|3.0||
