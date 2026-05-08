@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778213837?label=Updated)
+![Relative date](https://img.shields.io/date/1778223171?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|2.13.10|Possible downgrade from the current version (3.14.0 -> 2.13.10)|
@@ -21,7 +21,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
 |blake3|1.8.4|1.8.5||
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
-|bluez|5.84|5.86||
 |bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.91.0-1||
 |brotli|1.2.0|8.0.2||
@@ -98,7 +97,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fastfetch|2.61.0|2.62.1||
 |ffmpeg|8.0.1|8.1.1||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
-|fftw|3.3.10|3.3.11||
 |file|5.46|5.47||
 |fio|3.41|3.42||
 |firewalld|2.4.0|2.4.1||
@@ -396,6 +394,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
+|lm_sensors|3.6.0|3-6-0||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -465,7 +464,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openjdk-latest|26.0.1.8|jdk-25.0.4+1||
 |openldap|2.6.12|2.6.13||
 |openresolv|3.17.0|3.17.4||
-|opensbi|1.8|1.8.1||
 |openscap|1.4.4|0.6.0|Possible downgrade from the current version (1.4.4 -> 0.6.0)|
 |openssl|3.5.2|4.0.1||
 |openvpn|2.6.16|2.7.4||
@@ -878,10 +876,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.351||
-|vulkan-loader|1.4.335.0|1.4.350||
-|vulkan-tools|1.4.335|1.4.350||
-|vulkan-utility-libraries|1.4.335.0|1.4.350||
-|vulkan-validation-layers|1.4.335.0|1.4.350||
+|vulkan-loader|1.4.335.0|1.4.351||
+|vulkan-tools|1.4.335|1.4.351||
+|vulkan-utility-libraries|1.4.335.0|1.4.351||
+|vulkan-validation-layers|1.4.335.0|1.4.351||
 |wabt|1.0.39|1.0.41||
 |wavpack|5.8.1|5.9.0||
 |wayback|0.3|0.4.5||
