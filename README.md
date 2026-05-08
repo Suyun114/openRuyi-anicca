@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778228559?label=Updated)
+![Relative date](https://img.shields.io/date/1778235852?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|2.13.10|Possible downgrade from the current version (3.14.0 -> 2.13.10)|
@@ -93,7 +93,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |exfatprogs|1.2.9|1.3.2||
 |exiv2|0.28.7|0.28.8||
 |expat|2.7.1|2.8.0||
-|expect|5.45.4|30.4.0||
+|expect|5.45.4|30.4.1||
 |fast_float|8.1.0|8.2.5||
 |fastfetch|2.61.0|2.62.1||
 |ffmpeg|8.0.1|8.1.1||
@@ -312,7 +312,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXres|1.2.2|1.2.3||
 |libXxf86vm|1.1.6|1.1.7||
 |libaec|1.1.4|1.1.6||
-|libarchive|3.8.1|3.8.7||
 |libatomic_ops|7.8.2|7.10.0||
 |libavif|1.4.0|1.4.1||
 |libblockdev|3.4.0|3.5.0||
@@ -327,7 +326,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libconfig|1.8.1|1.8.2||
 |libdatrie|0.2.13|0.2.14||
 |libdisplay-info|0.2.0|0.3.0||
-|libdrm|2.4.131|2.4.133||
 |libdwarf|2.2.0|2.3.1||
 |libeconf|0.7.8|0.8.3||
 |libedit|20250104.3.1|20251016-3.1||
@@ -374,7 +372,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libstoragemgmt|1.10.2|1.10.3||
 |libtasn1|4.20.0|4.21.0||
 |libthai|0.1.29|0.1.30||
-|libtiff|4.7.0|4.7.1||
 |libtraceevent|1.8.4|1.9.0||
 |libunibreak|6.1|7.0||
 |liburing|2.12|2.14||
@@ -396,7 +393,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
-|lm_sensors|3.6.0|3-6-0||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -488,6 +484,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |patch|2.8|3.1.1||
 |pciutils|3.14.0|3.15.0||
 |pcre2|10.45|10.47||
+|pcsc-lite|2.3.3|2.4.1||
 |perl|5.42.0|5.42.2||
 |perl-rpm-packaging|1.2|1.3||
 |php|8.5.2|8.5.6||
