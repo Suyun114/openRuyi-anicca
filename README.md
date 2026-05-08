@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778198559?label=Updated)
+![Relative date](https://img.shields.io/date/1778213837?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|2.13.10|Possible downgrade from the current version (3.14.0 -> 2.13.10)|
@@ -246,7 +246,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-opentelemetry-proto|1.9.0|1.10.0||
 |go-rsc-pdf|0.1.0<br>+git20260106.c47d69c|0.1.1|Compound version number '0.1.0+git20260106.c47d69c'<br>Version number indicates a snapshot (+git) is used|
 |go-uber-zap|1.27.1|1.28.0||
-|graphviz|14.0.4|14.1.5||
 |groff|1.23.0|1.24.1||
 |grpc|1.76.0|1.80.0||
 |gsettings-desktop-schemas|49.1|50.1||
@@ -397,7 +396,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
-|lm_sensors|3.6.0|3-6-0||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -455,7 +453,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-a.5||
 |obs-build|20250829|20260505||
-|ollama|0.13.5|0.23.1||
+|ollama|0.13.5|0.23.2||
 |onnx|1.20.1|1.21.0||
 |onnxruntime|1.24.1|1.25.1||
 |open-vmdk|0.3.12|3.0.1||
@@ -472,6 +470,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openssl|3.5.2|4.0.1||
 |openvpn|2.6.16|2.7.4||
 |openvswitch|3.5.1|3.7.1||
+|openzl|0.1.0|0.2.0||
 |opus|1.5.2|1.6.1||
 |os-prober|1.83|1.84||
 |osc|1.21.0|1.26.0||
@@ -621,7 +620,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pygit2|1.18.2|1.19.2||
 |python-pyjwt|2.10.1|2.12.1||
 |python-pylsqpack|0.3.23|0.3.24||
-|python-pymilvus|2.6.9|3.0.0||
+|python-pymilvus|2.6.9|3.0.1.dev0||
 |python-pymongo|4.16.0|10.10.10.10||
 |python-pymupdf|1.27.2|1.27.2.3||
 |python-pyopenssl|25.3.0|26.2.0||
@@ -878,7 +877,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vim|9.2.0390|9.2.0452||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
-|vulkan-headers|1.4.335.0|1.4.350||
+|vulkan-headers|1.4.335.0|1.4.351||
 |vulkan-loader|1.4.335.0|1.4.350||
 |vulkan-tools|1.4.335|1.4.350||
 |vulkan-utility-libraries|1.4.335.0|1.4.350||
