@@ -1,10 +1,9 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778242165?label=Updated)
+![Relative date](https://img.shields.io/date/1778242748?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
-|Catch2|3.14.0|2.13.10|Possible downgrade from the current version (3.14.0 -> 2.13.10)|
 |NetworkManager|1.54.3|1.56.0||
 |SDL3|3.4.2|3.4.8||
 |abseil-cpp|20260107.0|20260107.1||
@@ -99,7 +98,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ffmpeg|8.0.1|8.1.1||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |fftw|3.3.10|3.3.11||
-|file|5.46|5.47||
 |fio|3.41|3.42||
 |firewalld|2.4.0|2.4.1||
 |fltk|1.4.4|1.4.5||
@@ -109,7 +107,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-noto|2026.01.01|noto-monthly-release-2026.05.01||
 |fonts-noto-sans-cjk|2.004|Serif2.003|Possible downgrade from the current version (2.004 -> Serif2.003)|
 |fonts-noto-serif-cjk|2.003|Serif2.003||
-|freetype|2.13.3|2.14.3||
 |fuse|2.9.9|2.5.0|Possible downgrade from the current version (2.9.9 -> 2.5.0)|
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
 |gc|8.2.8|8.2.12||
@@ -225,7 +222,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-ugorji-go-codec|1.2.14|codec/v1.3.1|Possible downgrade from the current version (1.2.14 -> codec/v1.3.1)|
 |go-github-yuin-goldmark|1.7.14|1.8.2||
 |go-github-zeebo-xxh3|1.0.2|1.1.0||
-|go-golang-x-arch|0.23.0|0.26.0||
+|go-golang-x-arch|0.23.0|0.27.0||
 |go-golang-x-crypto|0.46.0|0.50.0||
 |go-golang-x-exp|0<br>+git20260107.944ab1f|winfsnotify/v0.1.0-deprecated|Compound version number '0+git20260107.944ab1f'<br>Version number indicates a snapshot (+git) is used|
 |go-golang-x-image|0.34.0|0.39.0||
@@ -275,6 +272,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |icu4c|77.1|78.3||
 |iio-sensor-proxy|3.8|3.9||
 |inetutils|2.7|2.8||
+|inih|61|62||
 |iotop|1.30|0.6|Possible downgrade from the current version (1.30 -> 0.6)|
 |iozone|3_508|3.510||
 |iperf|3.20|2.2.1|Possible downgrade from the current version (3.20 -> 2.2.1)|
@@ -480,6 +478,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |parted|3.6|3.7||
 |passt|0<br>+git20260424.ec96f01|2026_05_07.1afd4ed|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.1||
+|pciutils|3.14.0|3.15.0||
 |pcre2|10.45|10.47||
 |pcsc-lite|2.3.3|2.4.1||
 |perl|5.42.0|5.42.2||
@@ -893,7 +892,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xsimd|14.0.0|14.2.0||
 |xxhash|0.8.3|2.3.0||
 |xz|5.8.1|5.8.3||
-|yaml-cpp|0.8.0|0.9.0||
 |zip|3.0|8.6.0||
 |zstd|1.5.7|1.5.7.3||
 |zziplib|0.13.80|3.0||
