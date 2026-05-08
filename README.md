@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778263772?label=Updated)
+![Relative date](https://img.shields.io/date/1778270856?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -219,9 +219,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-yuin-goldmark|1.7.14|1.8.2||
 |go-github-zeebo-xxh3|1.0.2|1.1.0||
 |go-golang-x-arch|0.23.0|0.27.0||
-|go-golang-x-crypto|0.46.0|0.50.0||
+|go-golang-x-crypto|0.46.0|0.51.0||
 |go-golang-x-exp|0<br>+git20260107.944ab1f|winfsnotify/v0.1.0-deprecated|Compound version number '0+git20260107.944ab1f'<br>Version number indicates a snapshot (+git) is used|
-|go-golang-x-image|0.34.0|0.39.0||
+|go-golang-x-image|0.34.0|0.40.0||
 |go-golang-x-mod|0.31.0|0.36.0||
 |go-golang-x-net|0.48.0|0.53.0||
 |go-golang-x-oauth2|0.34.0|0.36.0||
@@ -376,6 +376,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -555,6 +556,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-marisa-trie|1.3.1|1.4.1||
 |python-markdown-it-py|4.0.0|4.2.0||
 |python-marshmallow|4.2.1|4.3.0||
+|python-matplotlib-inline|0.2.1|0.2.2||
 |python-maturin|1.9.6|1.13.1||
 |python-meson-python|0.18.0|0.19.0||
 |python-mitogen|0.3.37|0.3.47||
@@ -580,7 +582,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-platformdirs|4.4.0|4.9.6||
 |python-poetry_core|2.1.2|2.4.0||
 |python-preshed|3.0.12|release-v3.0.13|Possible downgrade from the current version (3.0.12 -> release-v3.0.13)|
-|python-propcache|0.4.1|0.5.0||
+|python-propcache|0.4.1|0.5.2||
 |python-protobuf|6.33.2|7.34.1||
 |python-puccinialin|0.1.8|0.1.11||
 |python-puremagic|1.30|2.2.0||
@@ -796,6 +798,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |slibtool|0.7.3|0.7.4||
 |socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
+|spdk|25.09|26.01||
 |spdlog|1.15.3|1.17.0||
 |spirv-cross|1.4.335.0|1.4.341.0||
 |spirv-headers|1.4.335.0|1.5.4.raytracing.fixed||
