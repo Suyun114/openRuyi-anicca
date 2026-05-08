@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778257117?label=Updated)
+![Relative date](https://img.shields.io/date/1778263772?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -122,6 +122,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gnupg|2.5.16|2.5.19||
 |gnutls|3.8.10|3.8.13||
 |go|1.25.8|1.26.3||
+|go-cel-expr|0.25.1|0.25.2||
 |go-filippo-edwards25519|1.1.0|1.2.0||
 |go-github-ajg-form|1.6|1.7.1||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
@@ -229,7 +230,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-golang-x-term|0.38.0|0.43.0||
 |go-golang-x-text|0.32.0|0.37.0||
 |go-golang-x-time|0.14.0|0.15.0||
-|go-golang-x-tools|0.40.0|gopls/v0.22.0-pre.1||
+|go-golang-x-tools|0.40.0|gopls/v0.22.0-pre.2||
 |go-gonum-v1-gonum|0.16.0|0.17.0||
 |go-gonum-v1-plot|0.16.0|0.17.0||
 |go-google-grpc|1.78.0|1.81.0||
@@ -370,12 +371,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libxmlb|0.3.24|0.3.26||
 |libxslt|1.1.43|1.1.45||
 |libyang|4.2.2|5.4.9||
-|linux|7.0.2|7.0|Possible downgrade from the current version (7.0.2 -> 7.0)|
-|linux-tools|7.0.2|7.0|Possible downgrade from the current version (7.0.2 -> 7.0)|
+|linux|7.0.5|7.0|Possible downgrade from the current version (7.0.5 -> 7.0)|
+|linux-tools|7.0.5|7.0|Possible downgrade from the current version (7.0.5 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
 |lmdb|0.9.33|0.9.35||
+|log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
 |lttng-ust|2.14.0|2.15.0||
 |lua|5.4.8|5.5.0||
@@ -471,6 +473,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
+|pipewire|1.5.84|1.6.4||
 |plasma-wayland-protocols|1.19.0|1.20.0||
 |polkit|126|127||
 |poppler|25.11.0|26.05.0||
@@ -577,6 +580,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-platformdirs|4.4.0|4.9.6||
 |python-poetry_core|2.1.2|2.4.0||
 |python-preshed|3.0.12|release-v3.0.13|Possible downgrade from the current version (3.0.12 -> release-v3.0.13)|
+|python-propcache|0.4.1|0.5.0||
 |python-protobuf|6.33.2|7.34.1||
 |python-puccinialin|0.1.8|0.1.11||
 |python-puremagic|1.30|2.2.0||
@@ -663,6 +667,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-zipp|3.23.0|4.0.0||
 |python-zope-event|6.1|6.2||
 |python-zope-interface|8.3|8.4.1a3||
+|qalculate-qt|5.9.0.1|5.10.0||
 |qcoro|0.12.0|0.13.0||
 |qemu|10.2.0|11.0.0||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
@@ -791,10 +796,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |slibtool|0.7.3|0.7.4||
 |socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
-|spdk|25.09|26.01||
 |spdlog|1.15.3|1.17.0||
 |spirv-cross|1.4.335.0|1.4.341.0||
 |spirv-headers|1.4.335.0|1.5.4.raytracing.fixed||
+|spirv-llvm-translator|21.1.3|22.1.2||
 |spirv-tools|1.4.335.0|2026.1||
 |sqlite|3.50.4|3.53.1||
 |squashfs-tools|4.7.2|4.7.5||
@@ -852,6 +857,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wavpack|5.8.1|5.9.0||
 |wayback|0.3|0.4.5||
 |weston|14.0.2|15.0.1||
+|which|2.23|8.0.2||
 |whois|5.6.4|5.6.6.git||
 |wireguard-tools|1.0.20250521|1.0.20260223||
 |wlroots|0.19.3|0.20.0||
