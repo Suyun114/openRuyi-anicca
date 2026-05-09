@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778318327?label=Updated)
+![Relative date](https://img.shields.io/date/1778324216?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -115,6 +115,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glew|2.2.0|2.3.1||
 |glib|2.87.1|2.88.1||
 |glibmm|2.86.0|2.88.0||
+|glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.3.0||
 |glusterfs|11.1|11.2||
 |gnupg|2.5.16|2.5.19||
@@ -256,7 +257,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |htop|3.4.1|3.5.1||
 |httpd|2.4.66|2.4.67||
 |hunspell-en|2026.02.25|rel-2026.02.25||
-|hwdata|0.398|0.407||
 |hwinfo|25.0|25.2||
 |hwloc|2.12.2|2.13.0||
 |ibus|1.5.33|1.5.34||
@@ -504,7 +504,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-boto3|1.42.89|1.43.6||
 |python-botocore|1.42.89|1.43.6||
 |python-cachetools|6.2.2|7.1.1||
-|python-cchardet|2.1.19|2.2.0a2||
 |python-chardet|5.2.0|7.4.3||
 |python-charset-normalizer|3.4.6|3.4.7||
 |python-click|8.1.7|8.3.3||
@@ -513,7 +512,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-coverage|7.13.4|7.13.5||
 |python-cryptography|46.0.3|48.0.0||
 |python-csvw|3.7.0|4.0.0||
-|python-curl_cffi|0.14.0|0.15.1b1||
 |python-cycler|0.11.0|0.12.1||
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
 |python-dashscope|1.25.11|1.25.17||
@@ -524,6 +522,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-environs|14.5.0|15.0.1||
 |python-expandvars|1.1.2|1.23.0||
 |python-fastapi|0.135.3|0.136.1||
+|python-fastavro|1.12.1|1.12.2||
 |python-filelock|3.20.0|3.29.0||
 |python-flask|3.1.2|3.1.3||
 |python-fsspec|2026.2.0|2026.4.0||
@@ -811,7 +810,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |taglib|2.1.1|2.2.1||
 |talloc|2.4.3|2.4.4||
 |tar|1.35|7.5.15||
-|tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.3||
 |tcpdump|4.99.5|4.99.6||
 |tcsh|6.24.15|6.24.16||
