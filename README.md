@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778360025?label=Updated)
+![Relative date](https://img.shields.io/date/1778362916?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -301,7 +301,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcap|2.76|2.78||
 |libcap-ng|0.8.5|0.9.3||
 |libcbor|0.11.0|0.14.0||
-|libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
 |libclc|21.1.7|22.1.5||
 |libcomps|0.1.23|0.1.24||
 |libconfig|1.8.1|1.8.2||
@@ -353,6 +352,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libstoragemgmt|1.10.2|1.10.3||
 |libtasn1|4.20.0|4.21.0||
 |libthai|0.1.29|0.1.30||
+|libtiff|4.7.0|4.7.1||
 |libtraceevent|1.8.4|1.9.0||
 |libunibreak|6.1|7.0||
 |liburing|2.12|2.14||
@@ -363,7 +363,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libwacom|2.17.0|2.18.0||
 |libwebp|1.6.0|20.3.4||
 |libxkbcommon|1.13.0|1.13.1||
-|libxkbfile|1.1.3|1.2.0||
 |libxml2|2.14.5|2.15.3||
 |libxmlb|0.3.24|0.3.26||
 |libxslt|1.1.43|1.1.45||
@@ -373,7 +372,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -458,6 +456,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |p11-kit|0.25.5|0.26.2||
 |pam|1.7.1|2.2.5||
 |pango|1.57.0|4.3.6||
+|pangomm|2.46.4|2.56.1||
 |parallel|20250822|20260422||
 |parted|3.6|3.7||
 |passt|0<br>+git20260424.ec96f01|2026_05_07.1afd4ed|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
@@ -481,6 +480,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |pv|1.10.3|1.10.5||
 |pybind11|3.0.1|3.0.4||
+|python|3.13.8|3.14.4||
 |python-GitPython|3.1.46|3.1.50||
 |python-PyMySQL|1.1.2|1.1.3||
 |python-PyNaCl|1.5.0|1.6.2||
@@ -822,10 +822,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.27.0||
 |tzdata|2026a|2026b||
+|udisks2|2.11.0|2.11.1||
 |unicode-ucd|17.0.0|18.0.0||
 |unifont|16.0.04|17.0.04||
 |universal-ctags|6.2.0|6.2.20260503.0||
-|upower|1.91.1|1.91.2||
 |usbutils|018|019||
 |usermode|1.114|usermode-1.114|Possible downgrade from the current version (1.114 -> usermode-1.114)|
 |userspace-rcu|0.15.3|0.15.6||
@@ -847,6 +847,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vulkan-validation-layers|1.4.335.0|1.4.351||
 |wabt|1.0.39|1.0.41||
 |wavpack|5.8.1|5.9.0||
+|wayback|0.3|0.4.5||
 |weston|14.0.2|15.0.1||
 |which|2.23|8.0.2||
 |whois|5.6.4|5.6.6.git||
