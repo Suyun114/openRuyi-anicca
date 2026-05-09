@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778284959?label=Updated)
+![Relative date](https://img.shields.io/date/1778300580?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -86,7 +86,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |elfutils|0.194|0.195||
 |ell|0.80|0.83||
 |enchant|2.8.12|2.8.16||
-|erofs-utils|1.8.10|1.9.1||
 |ethtool|6.15|7.0||
 |exfatprogs|1.2.9|1.3.2||
 |expat|2.7.1|2.8.0||
@@ -376,7 +375,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -580,7 +578,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pipdeptree|2.30.0|2.35.2||
 |python-pkgconfig|1.5.5|1.6.0||
 |python-platformdirs|4.4.0|4.9.6||
-|python-poetry_core|2.1.2|2.4.0||
 |python-preshed|3.0.12|release-v3.0.13|Possible downgrade from the current version (3.0.12 -> release-v3.0.13)|
 |python-propcache|0.4.1|0.5.2||
 |python-protobuf|6.33.2|7.34.1||
