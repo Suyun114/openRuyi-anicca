@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778338187?label=Updated)
+![Relative date](https://img.shields.io/date/1778341866?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -106,6 +106,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
 |gc|8.2.8|8.2.12||
 |gcc|15|16.1.0||
+|genext2fs|1.5.0|1.6.2||
 |gettext|1.0|2.1.0||
 |gflags|2.2.2|2.3.0||
 |gi-docgen|2025.4|2026.1||
@@ -374,7 +375,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -421,6 +421,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nfs4-acl-tools|0.4.2|0.3.7|Possible downgrade from the current version (0.4.2 -> 0.3.7)|
 |nftables|1.1.5|1.1.6||
 |nghttp2|1.66.0|1.69.0||
+|nghttp3|1.12.0|1.15.0||
 |nginx|1.28.0|1.30.0||
 |ngtcp2|1.16.0|1.22.1||
 |ninja|1.13.2|1.13.0|Possible downgrade from the current version (1.13.2 -> 1.13.0)|
@@ -471,7 +472,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
-|pipewire|1.5.84|1.6.4||
 |plasma-wayland-protocols|1.19.0|1.20.0||
 |polkit|126|127||
 |poppler|25.11.0|26.05.0||
@@ -710,6 +710,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocclr|7.1.1|5.6.1|Possible downgrade from the current version (7.1.1 -> 5.6.1)|
 |rocksdb|10.5.1|11.1.1||
 |rocm-bandwidth-test|6.4.2|20250912-42||
+|rocm-cmake|7.1.1|20250912-42||
 |rocm-llvm|7.1.1|20250912-42||
 |rocm-smi|7.1.1|rocm-7.2.0||
 |rocminfo|7.1.1|20250912-42||
@@ -804,7 +805,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sysrepo|4.2.10|4.5.4||
 |sysstat|12.7.8|12.7.9||
 |systemd|259|0.10.1|Possible downgrade from the current version (259 -> 0.10.1)|
-|systemtap|5.3|5.5||
 |taglib|2.1.1|2.2.1||
 |talloc|2.4.3|2.4.4||
 |tar|1.35|7.5.15||
@@ -819,7 +819,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tinysparql|3.10.1|3.11.1||
 |tree|2.2.1|2.3.2||
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
-|tuned|2.26.0|2.27.0||
 |tzdata|2026a|2026b||
 |udisks2|2.11.0|2.11.1||
 |unicode-ucd|17.0.0|18.0.0||
