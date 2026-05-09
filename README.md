@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778281242?label=Updated)
+![Relative date](https://img.shields.io/date/1778284959?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -280,6 +280,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jsoncpp|1.9.6|1.9.7||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.7||
+|kbd|2.8.0|2.9.0||
 |kdsoap|2.2.0|2.3.0||
 |kea|3.1.4|3.1.8||
 |keepalived|2.2.8|2.3.4||
@@ -375,10 +376,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
 |lttng-ust|2.14.0|2.15.0||
+|lua|5.4.8|5.5.0||
 |lua-lunitx|0.8.1|0.8.2||
 |luajit|2.1<br>+openresty20260114|2.1.ROLLING|Compound version number '2.1+openresty20260114'|
 |lutok|0.6.1|0.6.2||
@@ -791,7 +794,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.4||
 |simdutf|7.4.0|9.0.0||
-|slang|2.3.3|2026.8||
+|slang|2.3.3|2026.8.1||
 |slibtool|0.7.3|0.7.4||
 |socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
@@ -845,7 +848,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.26.0|3.27.0||
 |valkey|8.1.4|9.0.4||
 |vapoursynth|73|75||
-|vim|9.2.0390|9.2.0456||
+|vim|9.2.0390|9.2.0458||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.351||
