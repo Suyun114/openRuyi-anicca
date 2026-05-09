@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778327431?label=Updated)
+![Relative date](https://img.shields.io/date/1778332447?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -55,7 +55,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |crun|1.26|1.27.1||
 |cryptsetup|2.8.2|2.8.6||
 |cunit|2.1.3|2.1-3||
-|cups|2.4.16|2.4.19||
 |curl-impersonate-chrome|0.7.0|1.5.6||
 |date|3.0.4|3.5.1||
 |db|6.2.32|18.1.40||
@@ -262,7 +261,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hwloc|2.12.2|2.13.0||
 |ibus|1.5.33|1.5.34||
 |icu4c|77.1|78.3||
-|iio-sensor-proxy|3.8|3.9||
 |inetutils|2.7|2.8||
 |inih|61|62||
 |iotop|1.30|0.6|Possible downgrade from the current version (1.30 -> 0.6)|
@@ -661,7 +659,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-zipp|3.23.0|4.0.0||
 |python-zope-event|6.1|6.2||
 |python-zope-interface|8.3|8.4.1a3||
-|qalculate-qt|5.9.0.1|5.10.0||
 |qcoro|0.12.0|0.13.0||
 |qemu|10.2.0|11.0.0||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
