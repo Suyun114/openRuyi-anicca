@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778310467?label=Updated)
+![Relative date](https://img.shields.io/date/1778318327?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -50,6 +50,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cpp-httplib|0.30.1|0.43.3||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.2||
+|createrepo_c|1.2.1|1.2.3||
 |crontabs|1.11|crontabs-20190603||
 |crun|1.26|1.27.1||
 |cryptsetup|2.8.2|2.8.6||
@@ -114,7 +115,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glew|2.2.0|2.3.1||
 |glib|2.87.1|2.88.1||
 |glibmm|2.86.0|2.88.0||
-|glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.3.0||
 |glusterfs|11.1|11.2||
 |gnupg|2.5.16|2.5.19||
@@ -374,6 +374,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -389,6 +390,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lzip|1.25|1.26||
 |magic_enum|0.9.7|0.9.8||
 |man-pages|6.15|6.18||
+|mariadb|11.8.6|12.3.1||
 |md4c|0.5.2|0.5.3||
 |mdadm|4.4|4.6||
 |memcached|1.6.28|3.4.0||
@@ -480,7 +482,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |pv|1.10.3|1.10.5||
 |pybind11|3.0.1|3.0.4||
-|pytest|9.0.1|9.0.3||
 |python|3.13.8|3.14.4||
 |python-GitPython|3.1.46|3.1.50||
 |python-PyMySQL|1.1.2|1.1.3||
@@ -517,14 +518,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
 |python-dashscope|1.25.11|1.25.17||
 |python-datasets|4.8.3|4.8.5||
-|python-debian|1.0.1|1.1.0.git||
 |python-distlib|0.3.7|0.3.4|Possible downgrade from the current version (0.3.7 -> 0.3.4)|
 |python-editables|0.5|0.6||
 |python-en-core-web-sm|3.8.0|en_core_web_hftrf-3.8.1|Possible downgrade from the current version (3.8.0 -> en_core_web_hftrf-3.8.1)|
 |python-environs|14.5.0|15.0.1||
 |python-expandvars|1.1.2|1.23.0||
 |python-fastapi|0.135.3|0.136.1||
-|python-fastavro|1.12.1|1.12.2||
 |python-filelock|3.20.0|3.29.0||
 |python-flask|3.1.2|3.1.3||
 |python-fsspec|2026.2.0|2026.4.0||
@@ -624,7 +623,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-scikit-build-core|0.11.6|0.12.2||
 |python-setuptools-gettext|0.1.14|0.1.16||
 |python-setuptools-rust|1.11.1|1.12.1||
-|python-setuptools_scm|8.3.1|cs-versioning-v1.1.1||
 |python-sip|6.15.1|6.15.3||
 |python-smart-open|7.5.0|7.6.1||
 |python-smmap|5.0.2|5.0.3||
@@ -647,7 +645,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-transformers|5.2.0|5.8.0||
 |python-trio|0.31.0|0.33.0||
 |python-trove-classifiers|2025.8.26.11|2026.5.7.17||
-|python-typer-slim|0.21.1|0.25.1||
 |python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-uc-micro-py|1.0.3|2.0.0||
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
