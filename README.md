@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778300580?label=Updated)
+![Relative date](https://img.shields.io/date/1778310467?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -50,7 +50,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cpp-httplib|0.30.1|0.43.3||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.2||
-|createrepo_c|1.2.1|1.2.3||
 |crontabs|1.11|crontabs-20190603||
 |crun|1.26|1.27.1||
 |cryptsetup|2.8.2|2.8.6||
@@ -390,7 +389,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lzip|1.25|1.26||
 |magic_enum|0.9.7|0.9.8||
 |man-pages|6.15|6.18||
-|mariadb|11.8.6|12.3.1||
 |md4c|0.5.2|0.5.3||
 |mdadm|4.4|4.6||
 |memcached|1.6.28|3.4.0||
@@ -628,7 +626,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-setuptools-rust|1.11.1|1.12.1||
 |python-setuptools_scm|8.3.1|cs-versioning-v1.1.1||
 |python-sip|6.15.1|6.15.3||
-|python-smart-open|7.5.0|7.6.0||
+|python-smart-open|7.5.0|7.6.1||
 |python-smmap|5.0.2|5.0.3||
 |python-socks|2.8.0|2.8.1||
 |python-spacy|3.8.11|release-v3.8.14|Possible downgrade from the current version (3.8.11 -> release-v3.8.14)|
@@ -742,9 +740,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-errno-0.3|0.3.14|0.3.13|Possible downgrade from the current version (0.3.14 -> 0.3.13)|
 |rust-fastrand-2.0|2.3.0|2.4.1||
 |rust-foldhash-0.1|0.1.5|0.2.0||
-|rust-hashbrown-0.14|0.14.5|0.17.0||
-|rust-hashbrown-0.15|0.15.5|0.17.0||
-|rust-hashbrown-0.16|0.16.1|0.17.0||
+|rust-hashbrown-0.14|0.14.5|0.17.1||
+|rust-hashbrown-0.15|0.15.5|0.17.1||
+|rust-hashbrown-0.16|0.16.1|0.17.1||
 |rust-id-arena-2.0|2.3.0|2.2.1|Possible downgrade from the current version (2.3.0 -> 2.2.1)|
 |rust-indexmap-2.0|2.13.0|2.14.0||
 |rust-libc-0.2|0.2.183|0.2.186||
