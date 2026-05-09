@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778341866?label=Updated)
+![Relative date](https://img.shields.io/date/1778345671?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -47,19 +47,19 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |console-setup|1.244|1.247.git||
 |containers-common|0.67.0|0.64.2|Possible downgrade from the current version (0.67.0 -> 0.64.2)|
 |coreutils|9.10|9.11||
-|cpp-httplib|0.30.1|0.43.3||
+|cpp-httplib|0.30.1|0.43.4||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.2||
 |createrepo_c|1.2.1|1.2.3||
 |crontabs|1.11|crontabs-20190603||
 |crun|1.26|1.27.1||
-|cryptsetup|2.8.2|2.8.6||
 |cunit|2.1.3|2.1-3||
 |cups|2.4.16|2.4.19||
 |curl-impersonate-chrome|0.7.0|1.5.6||
 |date|3.0.4|3.5.1||
 |db|6.2.32|18.1.40||
 |dbus|1.16.2|5.2.2||
+|ddcutil|2.2.6|2.2.7||
 |dhcpcd|10.2.4|10.3.2||
 |dialog|1.3|1.3-20260107||
 |diffstat|1.68|1.69||
@@ -92,7 +92,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |expect|5.45.4|30.4.1||
 |fast_float|8.1.0|8.2.5||
 |fastfetch|2.61.0|2.62.1||
-|ffmpeg|8.0.1|8.1.1||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |file|5.46|5.47||
 |fio|3.41|3.42||
@@ -375,6 +374,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -472,11 +472,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
+|pipewire|1.5.84|1.6.4||
 |plasma-wayland-protocols|1.19.0|1.20.0||
 |polkit|126|127||
 |poppler|25.11.0|26.05.0||
 |postgresql|18.1|18.3||
-|protobuf|33.2|34.1||
 |psutils|2.10|3.3.15||
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |pv|1.10.3|1.10.5||
@@ -709,7 +709,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocblas|7.1.1|14.3.0||
 |rocclr|7.1.1|5.6.1|Possible downgrade from the current version (7.1.1 -> 5.6.1)|
 |rocksdb|10.5.1|11.1.1||
-|rocm-bandwidth-test|6.4.2|20250912-42||
 |rocm-cmake|7.1.1|20250912-42||
 |rocm-llvm|7.1.1|20250912-42||
 |rocm-smi|7.1.1|rocm-7.2.0||
@@ -783,7 +782,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |shim|16.1<br>+git20260422.c17fdb2|16.1|Compound version number '16.1+git20260422.c17fdb2'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.4||
-|simdutf|7.4.0|9.0.0||
 |slang|2.3.3|2026.8.1||
 |slibtool|0.7.3|0.7.4||
 |socket_wrapper|1.5.0|1.5.2||
@@ -804,7 +802,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |swaybg|1.2.1|1.2.2||
 |sysrepo|4.2.10|4.5.4||
 |sysstat|12.7.8|12.7.9||
-|systemd|259|0.10.1|Possible downgrade from the current version (259 -> 0.10.1)|
+|systemtap|5.3|5.5||
 |taglib|2.1.1|2.2.1||
 |talloc|2.4.3|2.4.4||
 |tar|1.35|7.5.15||
@@ -819,6 +817,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tinysparql|3.10.1|3.11.1||
 |tree|2.2.1|2.3.2||
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
+|tuned|2.26.0|2.27.0||
 |tzdata|2026a|2026b||
 |udisks2|2.11.0|2.11.1||
 |unicode-ucd|17.0.0|18.0.0||
@@ -836,7 +835,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.26.0|3.27.0||
 |valkey|8.1.4|9.0.4||
 |vapoursynth|73|75||
-|vim|9.2.0390|9.2.0460||
+|vim|9.2.0390|9.2.0461||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.351||
