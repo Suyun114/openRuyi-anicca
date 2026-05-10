@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778370322?label=Updated)
+![Relative date](https://img.shields.io/date/1778381013?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -24,6 +24,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.91.0-1||
 |brotli|1.2.0|8.0.2||
+|btrfs-progs|6.19.1|7.0||
 |bubblewrap|0.11.0|0.11.2||
 |byacc|2.0.20241231|20260126||
 |cairo|1.18.4|1.109||
@@ -730,9 +731,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust|1.94.1|1.95.0||
 |rust-archery-1.0|1.2.0|1.2.2||
 |rust-bitflags-2.0|2.11.0|2.11.1||
-|rust-clap-4.0|4.6.0|clap_complete-v4.6.3||
-|rust-clap-builder-4.0|4.6.0|clap_complete-v4.6.3||
-|rust-clap-lex-1.0|1.1.0|clap_complete-v4.6.3||
+|rust-clap-4.0|4.6.0|clap_complete-v4.6.4||
+|rust-clap-builder-4.0|4.6.0|clap_complete-v4.6.4||
+|rust-clap-lex-1.0|1.1.0|clap_complete-v4.6.4||
 |rust-dashmap-5.0|5.5.3|7.0.0-rc2||
 |rust-errno-0.3|0.3.14|0.3.13|Possible downgrade from the current version (0.3.14 -> 0.3.13)|
 |rust-fastrand-2.0|2.3.0|2.4.1||
@@ -781,7 +782,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |shaderc|2026.1|2026.2||
-|shadow|4.18.0|4.19.4||
 |shim|16.1<br>+git20260422.c17fdb2|16.1|Compound version number '16.1+git20260422.c17fdb2'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.4||
