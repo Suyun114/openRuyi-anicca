@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778443409?label=Updated)
+![Relative date](https://img.shields.io/date/1778449538?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -73,7 +73,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dnsmasq|2.91|2.92||
 |docbook-utils|0.6.15|0.6.14|Possible downgrade from the current version (0.6.15 -> 0.6.14)|
 |doctest|2.4.12|2.5.2||
-|dos2unix|7.5.3|7.5.5||
 |double-conversion|3.3.1|3.4.0||
 |doxygen|1.13.2|1.17.0||
 |dpdk|25.07|26.03||
@@ -88,7 +87,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ell|0.80|0.83||
 |enchant|2.8.12|2.8.16||
 |ethtool|6.15|7.0||
-|exfatprogs|1.2.9|1.3.2||
 |expat|2.7.1|2.8.1||
 |expect|5.45.4|30.4.1||
 |fast_float|8.1.0|8.2.5||
@@ -394,7 +392,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mariadb|11.8.6|12.3.1||
 |md4c|0.5.2|0.5.3||
 |mdadm|4.4|4.6||
-|mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.0.1|26.1.0||
@@ -533,8 +530,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-greenlet|3.4.0|3.5.0||
 |python-hf-xet|1.3.2|1.5.0||
 |python-huggingface-hub|1.5.0|1.14.0||
-|python-hypothesis|6.148.6|hypothesis-python-6.152.4||
-|python-idna|3.10|3.13||
+|python-hypothesis|6.148.6|hypothesis-python-6.152.5||
+|python-idna|3.10|3.14||
 |python-iniparse|0.5|0.5.1||
 |python-invoke|2.2.1|3.0.3||
 |python-iso639|0.1.4|2026.4.20||
