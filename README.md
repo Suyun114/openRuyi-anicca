@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778393492?label=Updated)
+![Relative date](https://img.shields.io/date/1778403225?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -375,7 +375,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
-|lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
 |lttng-ust|2.14.0|2.15.0||
@@ -552,7 +551,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-markdown-it-py|4.0.0|4.2.0||
 |python-marshmallow|4.2.1|4.3.0||
 |python-matplotlib-inline|0.2.1|0.2.2||
-|python-maturin|1.9.6|1.13.1||
+|python-maturin|1.9.6|1.13.2||
 |python-meson-python|0.18.0|0.19.0||
 |python-mitogen|0.3.37|0.3.47||
 |python-multipart|0.0.22|0.0.27||
@@ -638,7 +637,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-thinc|8.3.10|8.3.13||
 |python-threadpoolctl|3.5.0|3.6.0||
 |python-tokenizers|0.22.2|0.23.1||
-|python-tomlkit|0.13.2|0.14.0||
+|python-tomlkit|0.13.2|1.5.0||
 |python-torchvision|0.25.0|0.27.0-rc4||
 |python-tornado|6.5.4|6.5.5||
 |python-tqdm|4.67.1|4.67.3||
