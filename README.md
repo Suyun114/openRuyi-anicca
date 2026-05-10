@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778413829?label=Updated)
+![Relative date](https://img.shields.io/date/1778418835?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -54,6 +54,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |createrepo_c|1.2.1|1.2.3||
 |crontabs|1.11|crontabs-20190603||
 |crun|1.26|1.27.1||
+|cunit|2.1.3|2.1-3||
 |cups|2.4.16|2.4.19||
 |curl-impersonate-chrome|0.7.0|1.5.6||
 |date|3.0.4|3.5.1||
@@ -77,7 +78,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |doxygen|1.13.2|1.17.0||
 |dpdk|25.07|26.03||
 |dracut|110|111||
-|dropbear|2025.89|2026.90||
+|dropbear|2025.89|2026.91||
 |drpm|0.5.2|0.5.3||
 |dwarfs|0.14.1|0.15.3||
 |dwarves|1.30|1.31||
@@ -374,7 +375,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -483,7 +483,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |pv|1.10.3|1.10.5||
 |pybind11|3.0.1|3.0.4||
-|python|3.13.8|3.14.4||
+|python|3.13.8|3.14.5||
 |python-GitPython|3.1.46|3.1.50||
 |python-PyMySQL|1.1.2|1.1.3||
 |python-PyNaCl|1.5.0|1.6.2||
