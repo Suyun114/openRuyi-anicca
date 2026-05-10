@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778418835?label=Updated)
+![Relative date](https://img.shields.io/date/1778424715?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -42,7 +42,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cmocka|1.1.7|2.0.2||
 |cockpit|352|361||
 |concurrentqueue|1.0.4|1.0.5||
-|config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
 |conmon|2.1.13|2.2.1||
 |conntrack-tools|1.4.8|1.4.9||
 |console-setup|1.244|1.247.git||
@@ -278,7 +277,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jitterentropy|3.6.3|3.7.0||
 |jsoncpp|1.9.6|1.9.7||
 |jsonnet|0.21.0|0.22.0||
-|judy|1.0.5|2.0.7||
 |kbd|2.8.0|2.9.0||
 |kdsoap|2.2.0|2.3.0||
 |kea|3.1.4|3.1.8||
