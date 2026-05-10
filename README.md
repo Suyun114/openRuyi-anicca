@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778453109?label=Updated)
+![Relative date](https://img.shields.io/date/1778457148?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -61,7 +61,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |db|6.2.32|18.1.40||
 |dbus|1.16.2|5.2.2||
 |ddcutil|2.2.6|2.2.7||
-|dhcpcd|10.2.4|10.3.2||
 |dialog|1.3|1.3-20260107||
 |diffstat|1.68|1.69||
 |ding-libs|0.6.2|0.7.0||
@@ -90,7 +89,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ethtool|6.15|7.0||
 |exfatprogs|1.2.9|1.3.2||
 |expat|2.7.1|2.8.1||
-|expect|5.45.4|30.4.1||
 |fast_float|8.1.0|8.2.5||
 |fastfetch|2.61.0|2.62.1||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
@@ -105,7 +103,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fuse|2.9.9|2.5.0|Possible downgrade from the current version (2.9.9 -> 2.5.0)|
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
 |gc|8.2.8|8.2.12||
-|gcc|15|16.1.0||
 |gdb|17.1|17.2||
 |genext2fs|1.5.0|1.6.2||
 |gettext|1.0|2.1.0||
@@ -116,7 +113,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glew|2.2.0|2.3.1||
 |glib|2.87.1|2.88.1||
 |glibmm|2.86.0|2.88.0||
-|glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.3.0||
 |glusterfs|11.1|11.2||
 |gnupg|2.5.16|2.5.19||
@@ -251,7 +247,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |harfbuzz|12.1.0|14.2.0||
 |haveged|1.9.19|1.9.20||
 |hdf5|2.0.0|2.1.1||
-|highway|1.3.0|1.4.0||
 |hipblas|7.1.1|20250912-17||
 |hipblas-common|7.1.1|7.2.3||
 |hipify|7.1.1|20250912-42||
@@ -294,7 +289,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXrandr|1.5.4|1.5.5||
 |libXres|1.2.2|1.2.3||
 |libXxf86vm|1.1.6|1.1.7||
-|libaec|1.1.4|1.1.6||
 |libatomic_ops|7.8.2|7.10.0||
 |libavif|1.4.0|1.4.1||
 |libblockdev|3.4.0|3.5.0||
@@ -441,6 +435,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |onnxruntime|1.24.1|1.26.0||
 |open-vmdk|0.3.12|3.0.1||
 |openblas|0.3.31|0.3.33||
+|openexr|3.4.10|3.4.11||
 |openjdk-17|17.0.19.10|jdk-17.0.20+1||
 |openjdk-21|21.0.11.10|jdk-21.0.12+1||
 |openjdk-25|25.0.3.9|jdk-25.0.4+1||
@@ -724,7 +719,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocr-runtime|7.1.1|20250912-42||
 |rocsolver|7.1.1|20250912-42||
 |rocsparse|7.1.1|7.2.3||
-|rpm|4.20.1|6.0.1-release||
 |rpmlint|2.8.0|2.9.0||
 |rsync|3.4.1|3.4.2||
 |rsyslog|8.2510.0|8.2604.0||
