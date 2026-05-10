@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778403225?label=Updated)
+![Relative date](https://img.shields.io/date/1778408031?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -316,7 +316,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libfontenc|1.1.8|1.1.9||
 |libfyaml|0.9.3|0.9.6||
 |libgcrypt|1.11.2|1.12.2||
-|libgit2|1.9.2|1.9.3||
 |libgpg-error|1.58|1.61||
 |libical|3.0.20|4.0.0||
 |libinput|1.30.0|1.31.1||
@@ -375,6 +374,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
+|lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
 |lttng-ust|2.14.0|2.15.0||
@@ -413,7 +413,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |musl|1.2.5|1.2.6||
 |ncurses|6.5|6.6||
 |ndctl|83|84||
-|netavark|1.17.1|1.17.2||
 |netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
@@ -707,8 +706,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rdma-core|60.0|63.0||
 |re2|2025.08.12|2025-11-05||
 |re2c|4.3|4.5.1||
-|rest|0.10.2|2.6.9||
-|rocblas|7.1.1|14.3.0||
 |rocclr|7.1.1|5.6.1|Possible downgrade from the current version (7.1.1 -> 5.6.1)|
 |rocksdb|10.5.1|11.1.1||
 |rocm-bandwidth-test|6.4.2|20250912-42||
@@ -807,11 +804,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sysrepo|4.2.10|4.5.4||
 |sysstat|12.7.8|12.7.9||
 |systemd|259|0.10.1|Possible downgrade from the current version (259 -> 0.10.1)|
-|systemtap|5.3|5.5||
 |taglib|2.1.1|2.2.1||
 |talloc|2.4.3|2.4.4||
 |tar|1.35|7.5.15||
-|tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.3||
 |tcpdump|4.99.5|4.99.6||
 |tcsh|6.24.15|6.24.16||
