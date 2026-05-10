@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778449538?label=Updated)
+![Relative date](https://img.shields.io/date/1778453109?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -73,6 +73,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dnsmasq|2.91|2.92||
 |docbook-utils|0.6.15|0.6.14|Possible downgrade from the current version (0.6.15 -> 0.6.14)|
 |doctest|2.4.12|2.5.2||
+|dos2unix|7.5.3|7.5.5||
 |double-conversion|3.3.1|3.4.0||
 |doxygen|1.13.2|1.17.0||
 |dpdk|25.07|26.03||
@@ -87,6 +88,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ell|0.80|0.83||
 |enchant|2.8.12|2.8.16||
 |ethtool|6.15|7.0||
+|exfatprogs|1.2.9|1.3.2||
 |expat|2.7.1|2.8.1||
 |expect|5.45.4|30.4.1||
 |fast_float|8.1.0|8.2.5||
@@ -328,6 +330,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |liblognorm|2.0.6|2.0.9||
 |libmaxminddb|1.12.2|1.13.3||
 |libmbim|1.32.0|1.34.0||
+|libmd|1.1.0|1.2.0||
 |libmicrohttpd|1.0.2|1.0.5||
 |libnbd|1.23.13|1.25.5||
 |libnetfilter_conntrack|1.0.9|1.1.1||
@@ -374,6 +377,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -392,6 +396,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mariadb|11.8.6|12.3.1||
 |md4c|0.5.2|0.5.3||
 |mdadm|4.4|4.6||
+|mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.0.1|26.1.0||
@@ -436,7 +441,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |onnxruntime|1.24.1|1.26.0||
 |open-vmdk|0.3.12|3.0.1||
 |openblas|0.3.31|0.3.33||
-|openexr|3.4.10|3.4.11||
 |openjdk-17|17.0.19.10|jdk-17.0.20+1||
 |openjdk-21|21.0.11.10|jdk-21.0.12+1||
 |openjdk-25|25.0.3.9|jdk-25.0.4+1||
@@ -839,7 +843,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.26.0|3.27.0||
 |valkey|8.1.4|9.0.4||
 |vapoursynth|73|75||
-|vim|9.2.0390|9.2.0461||
+|vim|9.2.0390|9.2.0470||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.351||
