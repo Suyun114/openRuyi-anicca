@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778481587?label=Updated)
+![Relative date](https://img.shields.io/date/1778495899?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -266,6 +266,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iperf|3.20|2.2.1|Possible downgrade from the current version (3.20 -> 2.2.1)|
 |ipmitool|1.8.19|1_8_19||
 |iproute2|6.16.0|7.0.0||
+|iprutils|2.4.19|2.4.18.1|Possible downgrade from the current version (2.4.19 -> 2.4.18.1)|
 |iptables|1.8.11|1.8.13||
 |iso-codes|4.18.0|4.20.1||
 |iwd|3.10|3.12||
@@ -288,6 +289,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXrandr|1.5.4|1.5.5||
 |libXres|1.2.2|1.2.3||
 |libXxf86vm|1.1.6|1.1.7||
+|libaec|1.1.4|1.1.6||
 |libatomic_ops|7.8.2|7.10.0||
 |libavif|1.4.0|1.4.1||
 |libblockdev|3.4.0|3.5.0||
@@ -370,7 +372,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -460,6 +461,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |parted|3.6|3.7||
 |passt|0<br>+git20260424.ec96f01|2026_05_07.1afd4ed|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.1||
+|pciutils|3.14.0|3.15.0||
 |pcre2|10.45|10.47||
 |pcsc-lite|2.3.3|2.4.1||
 |perl|5.42.0|5.42.2||
@@ -544,7 +546,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-markdown-it-py|4.0.0|4.2.0||
 |python-marshmallow|4.2.1|4.3.0||
 |python-matplotlib-inline|0.2.1|0.2.2||
-|python-maturin|1.9.6|1.13.2||
+|python-maturin|1.9.6|1.13.3||
 |python-meson-python|0.18.0|0.19.0||
 |python-mitogen|0.3.37|0.3.47||
 |python-multipart|0.0.22|0.0.28||
@@ -630,7 +632,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-thinc|8.3.10|8.3.13||
 |python-threadpoolctl|3.5.0|3.6.0||
 |python-tokenizers|0.22.2|0.23.1||
-|python-tomlkit|0.13.2|1.5.0||
+|python-tomlkit|0.13.2|0.15.0||
 |python-torchvision|0.25.0|0.27.0-rc4||
 |python-tornado|6.5.4|6.5.5||
 |python-tqdm|4.67.1|4.67.3||
@@ -856,6 +858,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xdg-desktop-portal-wlr|0.8.1|0.8.2||
 |xdg-user-dirs|0.19|0.20||
 |xfsprogs|6.16.0|7.0.0||
+|xkeyboard-config|2.46|2.47||
 |xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
