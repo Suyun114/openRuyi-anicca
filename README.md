@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778517213?label=Updated)
+![Relative date](https://img.shields.io/date/1778525937?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |NetworkManager|1.54.3|1.56.0||
@@ -148,7 +148,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-codegangsta-inject|1.0~rc1|1.0-rc1||
 |go-github-containerd-typeurl|2.2.2|2.2.3||
 |go-github-coreos-go-oidc|3.17.0|3.18.0||
-|go-github-dlclark-regexp2|1.11.5|2.0.1||
+|go-github-dlclark-regexp2|1.11.5|2.0.2||
 |go-github-docker-go-connections|0.6.0|0.7.0||
 |go-github-dougm-pretty|2011.12.22|go.weekly.2011-12-22||
 |go-github-emirpasic-gods|1.18.1|2.0.0-alpha||
@@ -226,10 +226,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-golang-x-term|0.38.0|0.43.0||
 |go-golang-x-text|0.32.0|0.37.0||
 |go-golang-x-time|0.14.0|0.15.0||
-|go-golang-x-tools|0.40.0|0.45.0||
+|go-golang-x-tools|0.40.0|gopls/v0.22.0-pre.3||
 |go-gonum-v1-gonum|0.16.0|0.17.0||
 |go-gonum-v1-plot|0.16.0|0.17.0||
-|go-google-grpc|1.78.0|1.81.0||
+|go-google-grpc|1.78.0|cmd/protoc-gen-go-grpc/v1.6.2|Possible downgrade from the current version (1.78.0 -> cmd/protoc-gen-go-grpc/v1.6.2)|
 |go-gopkg-yaml.v2|2.4.0|3.0.1||
 |go-gopkg-yaml.v3|3.0.4|2.4.4|Possible downgrade from the current version (3.0.4 -> 2.4.4)|
 |go-opentelemetry-proto|1.9.0|1.10.0||
@@ -276,6 +276,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.7||
 |kbd|2.8.0|2.9.0||
+|kdsoap|2.2.0|2.3.0||
 |kea|3.1.4|3.1.8||
 |keepalived|2.2.8|2.3.4||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
@@ -321,7 +322,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libjwt|3.2.2|3.3.3||
 |libklvanc|1.6.0|id.obe.1.6.0||
 |libksba|1.6.7|1.7.0||
-|liblognorm|2.0.6|2.0.9||
+|liblognorm|2.0.6|2.1.0||
 |libmaxminddb|1.12.2|1.13.3||
 |libmbim|1.32.0|1.34.0||
 |libmd|1.1.0|1.2.0||
@@ -371,7 +372,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -725,9 +725,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust|1.94.1|1.95.0||
 |rust-archery-1.0|1.2.0|1.2.2||
 |rust-bitflags-2.0|2.11.0|2.11.1||
-|rust-clap-4.0|4.6.0|clap_complete-v4.6.4||
-|rust-clap-builder-4.0|4.6.0|clap_complete-v4.6.4||
-|rust-clap-lex-1.0|1.1.0|clap_complete-v4.6.4||
+|rust-clap-4.0|4.6.0|clap_complete-v4.6.5||
+|rust-clap-builder-4.0|4.6.0|clap_complete-v4.6.5||
+|rust-clap-lex-1.0|1.1.0|clap_complete-v4.6.5||
 |rust-dashmap-5.0|5.5.3|7.0.0-rc2||
 |rust-errno-0.3|0.3.14|0.3.13|Possible downgrade from the current version (0.3.14 -> 0.3.13)|
 |rust-fastrand-2.0|2.3.0|2.4.1||
@@ -834,7 +834,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.26.0|3.27.0||
 |valkey|8.1.4|9.0.4||
 |vapoursynth|73|75||
-|vim|9.2.0390|9.2.0470||
+|vim|9.2.0390|9.2.0475||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.351||
