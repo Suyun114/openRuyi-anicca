@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778595519?label=Updated)
+![Relative date](https://img.shields.io/date/1778606003?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -66,7 +66,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |djvulibre|3.5.29|3.5.30||
 |dkms|3.2.2|3.4.1||
 |dmidecode|3.6|3.7||
-|dnf5|5.3.0.0|5.4.2.0||
+|dnf5|5.3.0.0|5.4.2.1||
 |dnsmasq|2.91|2.92rel2||
 |docbook-utils|0.6.15|0.6.14|Possible downgrade from the current version (0.6.15 -> 0.6.14)|
 |doctest|2.4.12|2.5.2||
@@ -241,6 +241,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gsl|2.8|4.2.1||
 |gsm|1.0.23|1.0.24||
 |gstreamer|1.27.50|4.3.6||
+|gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
 |gtk3|3.24.51|4.3.6||
 |haproxy|3.3|3.3.10||
@@ -373,7 +374,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -644,7 +644,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-uc-micro-py|1.0.3|2.0.0||
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.44.0|0.46.0||
-|python-virtualenv|20.35.4|21.3.1||
+|python-virtualenv|20.35.4|21.3.2||
 |python-w3lib|2.3.1|2.4.1||
 |python-wcwidth|0.2.13|0.7.0||
 |python-weasel|0.4.3|release-v1.0.0|Possible downgrade from the current version (0.4.3 -> release-v1.0.0)|
@@ -810,7 +810,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.3||
 |tcpdump|4.99.5|4.99.6||
-|tcsh|6.24.15|6.24.16||
 |tdb|1.4.14|1.4.15||
 |tensorpipe|0<br>+git20251218.|0.0.0|Compound version number '0+git20251218.'<br>Version number indicates a snapshot (+git) is used|
 |texinfo|7.2|7.3||
@@ -842,7 +841,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vulkan-loader|1.4.335.0|1.4.351||
 |vulkan-tools|1.4.335|1.4.351||
 |vulkan-utility-libraries|1.4.335.0|1.4.351||
-|vulkan-validation-layers|1.4.335.0|1.4.351||
+|vulkan-validation-layers|1.4.335.0|ulkan-sdk-1.4.350.0|Possible downgrade from the current version (1.4.335.0 -> ulkan-sdk-1.4.350.0)|
 |wabt|1.0.39|1.0.41||
 |wavpack|5.8.1|5.9.0||
 |wayback|0.3|0.4.5||
