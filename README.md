@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778620775?label=Updated)
+![Relative date](https://img.shields.io/date/1778626828?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -374,7 +374,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.3.0|9.4.1||
 |llvm|21.1.7|22.1.5||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -429,7 +428,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nmap|7.92|7.99||
 |nodejs|24.13.0|26.1.0||
 |nspr|4.37.0|4.39||
-|ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-a.5||
 |obs-build|20250829|20260505||
 |ollama|0.13.5|0.23.2||
@@ -514,6 +512,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
 |python-dashscope|1.25.11|1.25.17||
 |python-datasets|4.8.3|4.8.5||
+|python-distlib|0.3.7|0.3.4|Possible downgrade from the current version (0.3.7 -> 0.3.4)|
 |python-editables|0.5|0.6||
 |python-en-core-web-sm|3.8.0|en_core_web_hftrf-3.8.1|Possible downgrade from the current version (3.8.0 -> en_core_web_hftrf-3.8.1)|
 |python-environs|14.5.0|15.0.1||
@@ -529,7 +528,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hf-xet|1.3.2|1.5.0||
 |python-huggingface-hub|1.5.0|1.14.0||
 |python-hypothesis|6.148.6|hypothesis-python-6.152.6||
-|python-idna|3.10|3.14||
+|python-idna|3.10|3.15||
 |python-iniparse|0.5|0.5.1||
 |python-invoke|2.2.1|3.0.3||
 |python-iso639|0.1.4|2026.4.20||
@@ -810,7 +809,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tar|1.35|7.5.15||
 |tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.3||
-|tcpdump|4.99.5|4.99.6||
 |tcsh|6.24.15|6.24.16||
 |tdb|1.4.14|1.4.15||
 |tensorpipe|0<br>+git20251218.|0.0.0|Compound version number '0+git20251218.'<br>Version number indicates a snapshot (+git) is used|
