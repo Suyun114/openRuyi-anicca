@@ -373,6 +373,7 @@
 ["python-wheel","0.45.1","0.47.0",[]],
 ["os-prober","1.83","1.84",[]],
 ["perl-rpm-packaging","1.2","1.3",[]],
+["wabt","1.0.39","1.0.41",[]],
 ["dpdk","25.07","26.03",[]],
 ["rust-wit-bindgen-core-0.51","0.51.0","0.57.1",[]],
 ["python-preshed","3.0.12","release-v3.0.13",["Possible downgrade from the current version (3.0.12 -> release-v3.0.13)"]],
@@ -473,6 +474,7 @@
 ["go-gopkg-yaml.v2","2.4.0","3.0.1",[]],
 ["tdb","1.4.14","1.4.15",[]],
 ["exfatprogs","1.2.9","1.3.2",[]],
+["osinfo-db","20250606","20251212",[]],
 ["ceph","20.2.0","21.0.0",[]],
 ["libdrm","2.4.131","2.4.133",[]],
 ["vmaf","3.0.0","3.1.0",[]],
@@ -500,6 +502,7 @@
 ["libuv","1.51.0","1.52.1",[]],
 ["python-librt","0.7.8","0.11.0",[]],
 ["sfwbar","1.0~beta16.1","0.9.10.1",["Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)"]],
+["doctest","2.4.12","2.5.2",[]],
 ["sysstat","12.7.8","12.7.9",[]],
 ["python-narwhals","2.15.0","2.21.0",[]],
 ["rust-errno-0.3","0.3.14","0.3.13",["Possible downgrade from the current version (0.3.14 -> 0.3.13)"]],
@@ -793,7 +796,6 @@
 ["fonts-noto","2026.01.01","noto-monthly-release-2026.05.01",[]],
 ["python-cachetools","6.2.2","7.1.1",[]],
 ["rust-wasip3-0.4","0.4.0","wasip3-0.6.0",["Possible downgrade from the current version (0.4.0 -> wasip3-0.6.0)"]],
-["nss","3.115","3.123.1",[]],
 ["ninja","1.13.2","1.13.0",["Possible downgrade from the current version (1.13.2 -> 1.13.0)"]],
 ["nghttp2","1.66.0","1.69.0",[]],
 ["rdfind","1.7.0","1.8.0",[]],
@@ -862,5 +864,6 @@
 ["libXmu","1.2.1","1.3.1",[]],
 ["openresolv","3.17.0","3.17.4",[]],
 ["rocblas","7.1.1","14.3.0",[]],
+["libeconf","0.7.8","0.8.3",[]],
 ["php","8.5.2","8.5.6",[]]
 ]
