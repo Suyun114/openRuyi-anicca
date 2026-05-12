@@ -1,9 +1,10 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778578622?label=Updated)
+![Relative date](https://img.shields.io/date/1778586898?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
+|Catch2|3.14.0|3.15.0||
 |NetworkManager|1.54.3|1.56.0||
 |SDL3|3.4.2|3.4.8||
 |abseil-cpp|20260107.0|20260107.1||
@@ -210,6 +211,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-spaolacci-murmur3|1.0.0|1.1.0||
 |go-github-stretchr-testify|1.11.0|1.11.1||
 |go-github-tinylib-msgp|1.6.3|1.6.4||
+|go-github-tklauser-go-numcpus|0.11.0|0.12.0||
+|go-github-tklauser-go-sysconf|0.3.16|0.4.0||
 |go-github-ugorji-go-codec|1.2.14|codec/v1.3.1|Possible downgrade from the current version (1.2.14 -> codec/v1.3.1)|
 |go-github-yuin-goldmark|1.7.14|1.8.2||
 |go-github-zeebo-xxh3|1.0.2|1.1.0||
@@ -274,7 +277,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jsoncpp|1.9.6|1.9.7||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.7||
-|kbd|2.8.0|2.9.0||
 |kdsoap|2.2.0|2.3.0||
 |kea|3.1.4|3.1.8||
 |keepalived|2.2.8|2.3.4||
@@ -288,6 +290,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXrandr|1.5.4|1.5.5||
 |libXres|1.2.2|1.2.3||
 |libXxf86vm|1.1.6|1.1.7||
+|libaec|1.1.4|1.1.6||
 |libatomic_ops|7.8.2|7.10.0||
 |libavif|1.4.0|1.4.1||
 |libblockdev|3.4.0|3.5.0||
@@ -380,7 +383,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |luajit|2.1<br>+openresty20260114|2.1.ROLLING|Compound version number '2.1+openresty20260114'|
 |lutok|0.6.1|0.6.2||
 |lvm2|2.03.35|2.03.40||
-|lxc|6.0.6|7.0.0||
 |lxcfs|6.0.6|7.0.0||
 |lz4|1.10.0|1.28.1||
 |lzip|1.25|1.26||
@@ -855,6 +857,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xdg-desktop-portal|1.20.3|1.20.4||
 |xdg-desktop-portal-wlr|0.8.1|0.8.2||
 |xdg-user-dirs|0.19|0.20||
+|xfsdump|3.2.0|3.3.0||
 |xfsprogs|6.16.0|7.0.0||
 |xkeyboard-config|2.46|2.47||
 |xmlsec|1.3.10|1.3.17||
