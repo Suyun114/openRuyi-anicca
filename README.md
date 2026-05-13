@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778667962?label=Updated)
+![Relative date](https://img.shields.io/date/1778677908?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -38,7 +38,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cockpit|352|361||
 |concurrentqueue|1.0.4|1.0.5||
 |config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
-|conmon|2.1.13|2.2.1||
 |conntrack-tools|1.4.8|1.4.9||
 |console-setup|1.244|1.247.git||
 |containers-common|0.67.0|0.64.2|Possible downgrade from the current version (0.67.0 -> 0.64.2)|
@@ -288,6 +287,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libbluray|1.4.1|1.4.0|Possible downgrade from the current version (1.4.1 -> 1.4.0)|
 |libburn|1.5.6|1.5.8||
 |libcap|2.76|2.78||
+|libcap-ng|0.8.5|0.9.3||
 |libcbor|0.11.0|0.14.0||
 |libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
 |libclc|21.1.7|22.1.5||
@@ -312,7 +312,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libjpeg-turbo|3.1.2|3.1.4.1||
 |libjwt|3.2.2|3.3.3||
 |libklvanc|1.6.0|id.obe.1.6.0||
-|libksba|1.6.7|1.7.0||
+|libksba|1.6.7|1.8.0||
 |liblognorm|2.0.6|2.1.0||
 |libmaxminddb|1.12.2|1.13.3||
 |libmbim|1.32.0|1.34.0||
@@ -426,8 +426,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openal-soft|1.25.1|1.25.2||
 |openblas|0.3.31|0.3.33||
 |openexr|3.4.10|3.4.11||
-|openjdk-17|17.0.19.10|jdk-17.0.20+1||
-|openjdk-21|21.0.11.10|jdk-21.0.12+1||
+|openjdk-17|17.0.19.10|jdk-17.0.20+2||
+|openjdk-21|21.0.11.10|jdk-21.0.12+2||
 |openjdk-25|25.0.3.9|jdk-25.0.4+1||
 |openjdk-latest|26.0.1.8|jdk-25.0.4+1||
 |openldap|2.6.12|2.6.13||
@@ -439,6 +439,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |opus|1.5.2|1.6.1||
 |os-prober|1.83|1.84||
 |osc|1.21.0|1.26.0||
+|osinfo-db|20250606|20251212||
 |otf2bdf|3.1|3.1_p1|Possible downgrade from the current version (3.1 -> 3.1_p1)|
 |ovmf|202602|edk2-stable202602|Versions not comparable: `202602` and `edk2-stable202602`|
 |p11-kit|0.25.5|0.26.2||
@@ -458,6 +459,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.4||
+|plasma-wayland-protocols|1.19.0|1.20.0||
 |polkit|126|127||
 |poppler|25.11.0|26.05.0||
 |postgresql|18.1|18.3||
@@ -468,14 +470,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python|3.13.8|3.14.5||
 |python-GitPython|3.1.46|3.1.50||
 |python-aiohttp|3.13.3|3.13.5||
-|python-altair|6.0.0|weekly-20260427-e8ce2f2||
-|python-anyio|4.11.0|4.13.0||
-|python-archinfo|9.2.193|9.2.215||
-|python-asgiref|3.8.1|3.11.1||
-|python-attrs|25.4.0|26.1.0||
+|python-altair|6.1.0|weekly-20260427-e8ce2f2||
+|python-archinfo|9.2.214|9.2.215||
 |python-awscrt|0.32.0|0.32.2||
 |python-bcrypt|3.2.2|5.0.0||
-|python-beniget|0.4.2.post1|0.5.0||
 |python-bibtexparser|1.4.4|2.0.0b9||
 |python-bitarray|3.8.0|3.8.1||
 |python-bitstring|4.3.1|4.4.0||
@@ -483,163 +481,102 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
 |python-boto3|1.42.89|1.43.6||
 |python-botocore|1.42.89|1.43.6||
-|python-cachetools|6.2.2|7.1.1||
-|python-chardet|5.2.0|7.4.3||
 |python-charset-normalizer|3.4.6|3.4.7||
 |python-click|8.1.7|8.3.3||
-|python-cloudpathlib|0.23.0|0.24.0||
-|python-confection|0.1.5|1.3.3||
 |python-coverage|7.13.4|7.14.0||
 |python-cryptography|46.0.3|48.0.0||
-|python-csvw|3.7.0|4.0.0||
-|python-cycler|0.11.0|0.12.1||
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
 |python-dashscope|1.25.11|1.25.18||
 |python-datasets|4.8.3|4.8.5||
-|python-distlib|0.3.7|0.3.4|Possible downgrade from the current version (0.3.7 -> 0.3.4)|
-|python-editables|0.5|0.6||
+|python-distlib|0.4.0|0.3.4|Possible downgrade from the current version (0.4.0 -> 0.3.4)|
 |python-en-core-web-sm|3.8.0|en_core_web_hftrf-3.8.1|Possible downgrade from the current version (3.8.0 -> en_core_web_hftrf-3.8.1)|
-|python-environs|14.5.0|15.0.1||
 |python-expandvars|1.1.2|1.23.0||
-|python-fastapi|0.135.3|0.136.1||
 |python-fastavro|1.12.1|1.12.2||
-|python-filelock|3.20.0|3.29.0||
-|python-flask|3.1.2|3.1.3||
-|python-fsspec|2026.2.0|2026.4.0||
-|python-gast|0.6.0|0.7.0||
 |python-gitdb|4.0.11|4.0.12||
 |python-greenlet|3.4.0|3.5.0||
 |python-hf-xet|1.3.2|1.5.0||
 |python-huggingface-hub|1.5.0|1.14.0||
-|python-hypothesis|6.148.6|hypothesis-python-6.152.7||
-|python-idna|3.10|3.15||
+|python-hypothesis|6.152.4|hypothesis-python-6.152.7||
+|python-idna|3.13|3.15||
+|python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
-|python-invoke|2.2.1|3.0.3||
 |python-iso639|0.1.4|2026.4.20||
-|python-jedi|0.19.2|0.20.0||
-|python-joblib|1.5.2|1.5.3||
-|python-jsonpath-ng|1.7.0|1.8.0||
-|python-jsonpointer|2.4|3.1.1||
 |python-jsonschema|4.17.3|4.26.0||
 |python-kiwisolver|1.4.9|1.5.0||
-|python-language-tags|1.2.0|1.3.1||
 |python-libclang|18.1.1|llvm-18.1.1||
 |python-librt|0.7.8|0.11.0||
 |python-linkify-it-py|2.0.3|2.1.0||
 |python-lxml|6.0.1|lxml-6.1.0||
 |python-marisa-trie|1.3.1|1.4.1||
-|python-markdown-it-py|4.0.0|4.2.0||
-|python-marshmallow|4.2.1|4.3.0||
-|python-matplotlib-inline|0.2.1|0.2.2||
 |python-maturin|1.9.6|1.13.3||
-|python-meson-python|0.18.0|0.19.0||
-|python-mitogen|0.3.37|0.3.47||
 |python-multipart|0.0.22|0.0.28||
 |python-munkres|1.1.4|release-1.1.4|Possible downgrade from the current version (1.1.4 -> release-1.1.4)|
 |python-murmurhash|1.0.15|release-v1.0.15|Possible downgrade from the current version (1.0.15 -> release-v1.0.15)|
 |python-narwhals|2.15.0|2.21.0||
 |python-networkx|3.6.1|networkx-3.6.1|Possible downgrade from the current version (3.6.1 -> networkx-3.6.1)|
-|python-nibabel|5.3.3|5.4.2||
-|python-nipype|1.10.0|1.11.0||
 |python-numpy|2.4.0|2.4.4||
-|python-oauthlib|3.2.2|3.3.1||
-|python-opentelemetry-api|1.41.0|1.41.1||
 |python-opentelemetry-semantic-conventions|0.62b0|1.41.1||
 |python-ordered-set|4.1.0|release/4.1.0||
 |python-orjson|3.11.7|3.11.9||
 |python-packaging|25.0|26.2||
-|python-paramiko|4.0.0|5.0.0||
-|python-parso|0.8.5|0.8.7||
-|python-pathspec|0.12.1|1.1.1||
 |python-pip|25.3|26.1.1||
 |python-pipdeptree|2.30.0|2.35.2||
-|python-pkgconfig|1.5.5|1.6.0||
-|python-platformdirs|4.4.0|4.9.6||
 |python-preshed|3.0.12|release-v3.0.13|Possible downgrade from the current version (3.0.12 -> release-v3.0.13)|
 |python-propcache|0.4.1|0.5.2||
 |python-protobuf|6.33.2|7.34.1||
 |python-puccinialin|0.1.8|0.1.11||
 |python-puremagic|1.30|2.2.0||
 |python-pyarrow|23.0.1|24.0.0||
-|python-pyasn1|0.6.1|0.6.3||
-|python-pycdlib|1.14.0|1.16.0||
-|python-pycparser|2.21|release_v3.00||
+|python-pycparser|3.0|release_v3.00||
 |python-pycurl|7.45.7|REL_7_46_0|Possible downgrade from the current version (7.45.7 -> REL_7_46_0)|
 |python-pydantic|2.12.5|2.13.4||
-|python-pydantic-settings|2.13.1|2.14.1||
-|python-pyenchant|3.2.2|3.3.0||
 |python-pygit2|1.18.2|1.19.2||
-|python-pyjwt|2.10.1|2.12.1||
 |python-pylsqpack|0.3.23|0.3.24||
 |python-pymilvus|2.6.9|3.0.1.dev0||
 |python-pymongo|4.16.0|10.10.10.10||
 |python-pymupdf|1.27.2|1.27.2.3||
-|python-pyopenssl|25.3.0|26.2.0||
-|python-pyparsing|3.2.1|3.3.2||
 |python-pyproject-metadata|0.9.1|0.11.0||
 |python-pyroute2|0.7.12|0.9.6||
 |python-pyrsistent|0.20.0|0.21.0||
 |python-pyside6|6.10.1|6.11.1||
 |python-pysocks|1.7.1|1.7.0|Possible downgrade from the current version (1.7.1 -> 1.7.0)|
 |python-pytest-asyncio|1.3.0|1.4.0a2||
-|python-pytest-cov|7.0.0|7.1.0||
-|python-pytest-order|1.3.0|1.4.0||
-|python-pytest-randomly|4.0.1|4.1.0||
 |python-pytest-rerunfailures|16.1|16.2||
 |python-python-dateutil|2.9.0.post0|2.9.0||
-|python-python-multipart|0.0.22|0.0.28||
 |python-pyvex|9.2.214|9.2.215||
 |python-rdflib|7.5.0|7.6.0||
 |python-redis|7.4.0|8.0.0b2||
 |python-regex|2026.1.15|2026.5.9||
-|python-requests|2.32.5|2.34.0||
-|python-resolvelib|1.1.0|1.2.1||
-|python-responses|0.25.8|0.26.0||
+|python-requests|2.33.1|2.34.0||
 |python-rfc3986|1.5.0|2.0.0||
-|python-rich|14.2.0|15.0.0||
 |python-rpmautospec|0.8.3|0.8.4||
 |python-rtslib-fb|2.2.3|2.2.4||
 |python-s3transfer|0.16.0|0.17.0||
 |python-safetensors|0.7.0|0.8.0-rc.0||
-|python-scikit-build-core|0.11.6|0.12.2||
 |python-setuptools-gettext|0.1.14|0.1.16||
-|python-setuptools-rust|1.11.1|1.12.1||
 |python-sip|6.15.1|6.15.3||
-|python-smart-open|7.5.0|7.6.1||
-|python-smmap|5.0.2|5.0.3||
 |python-spacy|3.8.11|release-v3.8.14|Possible downgrade from the current version (3.8.11 -> release-v3.8.14)|
-|python-sqlparse|0.5.3|0.5.5||
 |python-srsly|2.5.2|3.0.0||
 |python-tempita|0.6.0|0.6||
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
 |python-tensile|7.1.1|rocm-7.2.3||
 |python-tensorizer|2.12.0|2.12.1||
 |python-thinc|8.3.10|8.3.13||
-|python-threadpoolctl|3.5.0|3.6.0||
 |python-tokenizers|0.22.2|0.23.1||
-|python-tomlkit|0.13.2|0.15.0||
 |python-torchvision|0.25.0|0.27.0-rc4||
 |python-tornado|6.5.4|6.5.5||
 |python-tqdm|4.67.1|4.67.3||
-|python-traitlets|5.14.3|5.15.0||
 |python-transformers|5.2.0|5.8.1||
-|python-trio|0.31.0|0.33.0||
 |python-trove-classifiers|2025.8.26.11|2026.5.7.17||
 |python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
-|python-uc-micro-py|1.0.3|2.0.0||
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
-|python-uvicorn|0.44.0|0.46.0||
 |python-virtualenv|20.35.4|21.3.2||
-|python-w3lib|2.3.1|2.4.1||
-|python-wcwidth|0.2.13|0.7.0||
 |python-weasel|0.4.3|release-v1.0.0|Possible downgrade from the current version (0.4.3 -> release-v1.0.0)|
-|python-werkzeug|3.1.3|3.1.8||
 |python-wheel|0.45.1|0.47.0||
 |python-wrapt|2.1.1|2.2.0rc11||
 |python-xxhash|3.6.0|3.7.0||
 |python-yarl|1.22.0|1.23.0||
-|python-zipp|3.23.0|4.0.0||
-|python-zope-event|6.1|6.2||
+|python-zipp|3.23.1|4.0.0||
 |python-zope-interface|8.3|8.4.1a3||
 |qalculate-qt|5.9.0.1|5.10.0||
 |qcoro|0.12.0|0.13.0||
@@ -856,3 +793,4 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |zfs|2.4.1|2.4.2||
 |zip|3.0|8.6.0||
 |zstd|1.5.7|1.5.7.3||
+|zziplib|0.13.80|3.0||
