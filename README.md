@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778658547?label=Updated)
+![Relative date](https://img.shields.io/date/1778667962?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -83,7 +83,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |exfatprogs|1.2.9|1.3.2||
 |expect|5.45.4|30.4.1||
 |fast_float|8.1.0|8.2.5||
-|fastfetch|2.61.0|2.62.1||
+|fastfetch|2.61.0|2.63.0||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |file|5.46|5.47||
 |firewalld|2.4.0|2.4.1||
@@ -95,7 +95,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fuse|2.9.9|2.5.0|Possible downgrade from the current version (2.9.9 -> 2.5.0)|
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
 |gc|8.2.8|8.2.12||
-|gcc|15|16.1.0||
+|gcc|16|16.1.0||
 |gdb|17.1|17.2||
 |genext2fs|1.5.0|1.6.2||
 |gettext|1.0|2.1.0||
@@ -232,6 +232,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-rsc-pdf|0.1.0<br>+git20260106.c47d69c|0.1.1|Compound version number '0.1.0+git20260106.c47d69c'<br>Version number indicates a snapshot (+git) is used|
 |go-uber-zap|1.27.1|1.28.0||
 |groff|1.23.0|1.24.1||
+|gsasl|2.2.2|2.2.3||
 |gsl|2.8|4.2.1||
 |gsm|1.0.23|1.0.24||
 |gstreamer|1.27.50|4.3.6||
@@ -287,7 +288,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libbluray|1.4.1|1.4.0|Possible downgrade from the current version (1.4.1 -> 1.4.0)|
 |libburn|1.5.6|1.5.8||
 |libcap|2.76|2.78||
-|libcap-ng|0.8.5|0.9.3||
 |libcbor|0.11.0|0.14.0||
 |libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
 |libclc|21.1.7|22.1.5||
@@ -439,7 +439,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |opus|1.5.2|1.6.1||
 |os-prober|1.83|1.84||
 |osc|1.21.0|1.26.0||
-|osinfo-db|20250606|20251212||
 |otf2bdf|3.1|3.1_p1|Possible downgrade from the current version (3.1 -> 3.1_p1)|
 |ovmf|202602|edk2-stable202602|Versions not comparable: `202602` and `edk2-stable202602`|
 |p11-kit|0.25.5|0.26.2||
@@ -459,7 +458,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.4||
-|plasma-wayland-protocols|1.19.0|1.20.0||
 |polkit|126|127||
 |poppler|25.11.0|26.05.0||
 |postgresql|18.1|18.3||
@@ -581,12 +579,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pyproject-metadata|0.9.1|0.11.0||
 |python-pyroute2|0.7.12|0.9.6||
 |python-pyrsistent|0.20.0|0.21.0||
-|python-pyside6|6.10.1|6.10.3||
+|python-pyside6|6.10.1|6.11.1||
 |python-pysocks|1.7.1|1.7.0|Possible downgrade from the current version (1.7.1 -> 1.7.0)|
 |python-pytest-asyncio|1.3.0|1.4.0a2||
 |python-pytest-cov|7.0.0|7.1.0||
 |python-pytest-order|1.3.0|1.4.0||
 |python-pytest-randomly|4.0.1|4.1.0||
+|python-pytest-rerunfailures|16.1|16.2||
 |python-python-dateutil|2.9.0.post0|2.9.0||
 |python-python-multipart|0.0.22|0.0.28||
 |python-pyvex|9.2.214|9.2.215||
@@ -647,40 +646,40 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qemu|10.2.0|11.0.0||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.66||
-|qt6-qt5compat|6.10.1|6.10.3||
-|qt6-qtcharts|6.10.1|6.10.3||
-|qt6-qtcoap|6.10.1|6.10.3||
-|qt6-qtconnectivity|6.10.1|6.10.3||
-|qt6-qtdatavis3d|6.10.1|6.10.3||
-|qt6-qtdeclarative|6.10.1|6.10.3||
-|qt6-qtgrpc|6.10.1|6.10.3||
-|qt6-qthttpserver|6.10.1|6.10.3||
-|qt6-qtimageformats|6.10.1|6.10.3||
-|qt6-qtlanguageserver|6.10.1|6.10.3||
-|qt6-qtlocation|6.10.1|6.10.3||
-|qt6-qtlottie|6.10.1|6.10.3||
-|qt6-qtmqtt|6.10.1|6.10.3||
-|qt6-qtnetworkauth|6.10.1|6.10.3||
-|qt6-qtopcua|6.10.1|6.10.3||
-|qt6-qtpositioning|6.10.1|6.10.3||
-|qt6-qtquick3d|6.10.1|6.10.3||
-|qt6-qtquick3dphysics|6.10.1|6.10.3||
-|qt6-qtquickeffectmaker|6.10.1|6.10.3||
-|qt6-qtquicktimeline|6.10.1|6.10.3||
-|qt6-qtremoteobjects|6.10.1|6.10.3||
-|qt6-qtscxml|6.10.1|6.10.3||
-|qt6-qtsensors|6.10.1|6.10.3||
-|qt6-qtserialbus|6.10.1|6.10.3||
-|qt6-qtserialport|6.10.1|6.10.3||
-|qt6-qtshadertools|6.10.1|6.10.3||
-|qt6-qtspeech|6.10.1|6.10.3||
-|qt6-qttranslations|6.10.1|6.10.3||
-|qt6-qtvirtualkeyboard|6.10.1|6.10.3||
-|qt6-qtwayland|6.10.1|6.10.3||
-|qt6-qtwebchannel|6.10.1|6.10.3||
-|qt6-qtwebengine|6.10.1|6.10.3||
-|qt6-qtwebsockets|6.10.1|6.10.3||
-|qt6-qtwebview|6.10.1|6.10.3||
+|qt6-qt5compat|6.10.1|6.11.1||
+|qt6-qtcharts|6.10.1|6.11.1||
+|qt6-qtcoap|6.10.1|6.11.1||
+|qt6-qtconnectivity|6.10.1|6.11.1||
+|qt6-qtdatavis3d|6.10.1|6.11.1||
+|qt6-qtdeclarative|6.10.1|6.11.1||
+|qt6-qtgrpc|6.10.1|6.11.1||
+|qt6-qthttpserver|6.10.1|6.11.1||
+|qt6-qtimageformats|6.10.1|6.11.1||
+|qt6-qtlanguageserver|6.10.1|6.11.1||
+|qt6-qtlocation|6.10.1|6.11.1||
+|qt6-qtlottie|6.10.1|6.11.1||
+|qt6-qtmqtt|6.10.1|6.11.1||
+|qt6-qtnetworkauth|6.10.1|6.11.1||
+|qt6-qtopcua|6.10.1|6.11.1||
+|qt6-qtpositioning|6.10.1|6.11.1||
+|qt6-qtquick3d|6.10.1|6.11.1||
+|qt6-qtquick3dphysics|6.10.1|6.11.1||
+|qt6-qtquickeffectmaker|6.10.1|6.11.1||
+|qt6-qtquicktimeline|6.10.1|6.11.1||
+|qt6-qtremoteobjects|6.10.1|6.11.1||
+|qt6-qtscxml|6.10.1|6.11.1||
+|qt6-qtsensors|6.10.1|6.11.1||
+|qt6-qtserialbus|6.10.1|6.11.1||
+|qt6-qtserialport|6.10.1|6.11.1||
+|qt6-qtshadertools|6.10.1|6.11.1||
+|qt6-qtspeech|6.10.1|6.11.1||
+|qt6-qttranslations|6.10.1|6.11.1||
+|qt6-qtvirtualkeyboard|6.10.1|6.11.1||
+|qt6-qtwayland|6.10.1|6.11.1||
+|qt6-qtwebchannel|6.10.1|6.11.1||
+|qt6-qtwebengine|6.10.1|6.11.1||
+|qt6-qtwebsockets|6.10.1|6.11.1||
+|qt6-qtwebview|6.10.1|6.11.1||
 |qtkeychain|0.15.0|0.16.0||
 |quota|4.10|4.11||
 |rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
@@ -857,4 +856,3 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |zfs|2.4.1|2.4.2||
 |zip|3.0|8.6.0||
 |zstd|1.5.7|1.5.7.3||
-|zziplib|0.13.80|3.0||
