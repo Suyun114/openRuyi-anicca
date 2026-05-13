@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778689126?label=Updated)
+![Relative date](https://img.shields.io/date/1778698607?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -31,7 +31,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ceph|20.2.1|21.0.0||
 |check|0.15.2|1.9.1||
 |ck|0.7.2|2.6.4||
-|clevis|21|22||
+|clevis|21|23||
 |cloud-hypervisor|50.0.0|51.1||
 |cloud-init|25.3|26.1||
 |cmocka|1.1.7|2.0.2||
@@ -120,7 +120,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-andybalholm-brotli|1.2.0|1.2.1||
 |go-github-apache-arrow-go-arrow|0<br>+git20260107.bc21918|r-universe-release|Compound version number '0+git20260107.bc21918'<br>Version number indicates a snapshot (+git) is used<br>Versions not comparable: `0+git20260107.bc21918` and `r-universe-release`|
 |go-github-apache-arrow-go-v18|18.5.0|18.6.0||
-|go-github-apache-beam|2.71.0|2.73.0||
+|go-github-apache-beam|2.71.0|2.74.0-RC00||
 |go-github-apache-thrift|0.22.0|0.23.0||
 |go-github-apparentlymart-go-cidr|1.1.0|1.1.1||
 |go-github-apparentlymart-go-textseg|16.0.0|autoversion/v1.6.0||
@@ -411,7 +411,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nftables|1.1.5|1.1.6||
 |nghttp2|1.66.0|1.69.0||
 |nghttp3|1.12.0|1.15.0||
-|nginx|1.28.0|1.30.0||
+|nginx|1.28.0|1.31.0||
 |ngtcp2|1.16.0|1.22.1||
 |ninja|1.13.2|1.13.0|Possible downgrade from the current version (1.13.2 -> 1.13.0)|
 |nmap|7.92|7.99||
@@ -563,7 +563,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-trove-classifiers|2025.8.26.11|2026.5.7.17||
 |python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
-|python-virtualenv|20.35.4|21.3.2||
+|python-virtualenv|20.35.4|21.3.3||
 |python-weasel|0.4.3|release-v1.0.0|Possible downgrade from the current version (0.4.3 -> release-v1.0.0)|
 |python-wheel|0.45.1|0.47.0||
 |python-wrapt|2.1.1|2.2.0rc11||
@@ -574,6 +574,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qalculate-qt|5.9.0.1|5.10.0||
 |qcoro|0.12.0|0.13.0||
 |qemu|10.2.0|11.0.0||
+|qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.66||
 |qt6-qt5compat|6.10.1|6.11.1||
 |qt6-qtcharts|6.10.1|6.11.1||
@@ -751,6 +752,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.351||
+|vulkan-loader|1.4.335.0|1.4.351||
 |vulkan-tools|1.4.335|1.4.351||
 |vulkan-utility-libraries|1.4.335.0|1.4.351||
 |vulkan-validation-layers|1.4.335.0|ulkan-sdk-1.4.350.0|Possible downgrade from the current version (1.4.335.0 -> ulkan-sdk-1.4.350.0)|
