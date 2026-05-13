@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778705155?label=Updated)
+![Relative date](https://img.shields.io/date/1778710199?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -95,6 +95,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fuse|2.9.9|2.5.0|Possible downgrade from the current version (2.9.9 -> 2.5.0)|
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
 |gc|8.2.8|8.2.12||
+|gcc|16|16.1.0||
 |gdb|17.1|17.2||
 |genext2fs|1.5.0|1.6.2||
 |gettext|1.0|2.1.0||
@@ -544,7 +545,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-rdflib|7.5.0|7.6.0||
 |python-redis|7.4.0|8.0.0b2||
 |python-regex|2026.1.15|2026.5.9||
-|python-requests|2.33.1|2.34.0||
+|python-requests|2.33.1|2.34.1||
 |python-rfc3986|1.5.0|2.0.0||
 |python-rpmautospec|0.8.3|0.8.4||
 |python-rtslib-fb|2.2.3|2.2.4||
