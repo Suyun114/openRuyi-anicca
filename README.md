@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778791252?label=Updated)
+![Relative date](https://img.shields.io/date/1778796619?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -31,7 +31,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |check|0.15.2|1.9.1||
 |ck|0.7.2|2.6.4||
 |clevis|21|23||
-|cloud-hypervisor|51.0.0|51.1||
+|cloud-hypervisor|51.0.0|52.0||
 |cloud-init|25.3|26.1||
 |cmocka|1.1.7|2.0.2||
 |cockpit|352|361||
@@ -546,6 +546,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-zope-interface|8.3|8.4.1a3||
 |qalculate-qt|5.9.0.1|5.10.0||
 |qcoro|0.12.0|0.13.0||
+|qemu|10.2.0|11.0.0||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.66||
 |qt6-qt5compat|6.10.1|6.11.1||
@@ -721,7 +722,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.26.0|3.27.0||
 |valkey|8.1.4|9.0.4||
 |vapoursynth|73|76||
-|vim|9.2.0390|9.2.0480||
+|vim|9.2.0390|9.2.0481||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.351||
