@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778778089?label=Updated)
+![Relative date](https://img.shields.io/date/1778785267?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -210,7 +210,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-golang-x-tools|0.40.0|gopls/v0.22.0-pre.3||
 |go-gonum-v1-gonum|0.16.0|0.17.0||
 |go-gonum-v1-plot|0.16.0|0.17.0||
-|go-google-grpc|1.78.0|cmd/protoc-gen-go-grpc/v1.6.2|Possible downgrade from the current version (1.78.0 -> cmd/protoc-gen-go-grpc/v1.6.2)|
+|go-google-grpc|1.78.0|1.81.1||
 |go-gopkg-yaml.v2|2.4.0|3.0.1||
 |go-gopkg-yaml.v3|3.0.4|2.4.4|Possible downgrade from the current version (3.0.4 -> 2.4.4)|
 |go-opentelemetry-proto|1.9.0|1.10.0||
@@ -284,7 +284,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libgcrypt|1.11.2|1.12.2||
 |libgit2|1.9.2|1.9.3||
 |libgpg-error|1.58|1.61||
-|libical|3.0.20|4.0.0||
+|libical|3.0.20|4.0.1||
 |libinput|1.30.0|1.31.2||
 |libisoburn|1.5.6|1.5.8||
 |libisofs|1.5.6|1.5.8.pl01||
@@ -648,8 +648,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-wasmparser-0.244|0.244.0|1.248.0||
 |rust-windows-link-0.2|0.2.1|73||
 |rust-windows-sys-0.61|0.61.2|73||
-|rust-winnow-0.7|0.7.15|1.0.2||
-|rust-winnow-1.0|1.0.0|1.0.2||
+|rust-winnow-0.7|0.7.15|1.0.3||
+|rust-winnow-1.0|1.0.0|1.0.3||
 |rust-wit-bindgen-0.51|0.51.0|0.57.1||
 |rust-wit-bindgen-core-0.51|0.51.0|0.57.1||
 |rust-wit-bindgen-rust-0.51|0.51.0|0.57.1||
@@ -722,8 +722,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vala|0.56.18|0.56.19||
 |valgrind|3.26.0|3.27.0||
 |valkey|8.1.4|9.0.4||
-|vapoursynth|73|75||
-|vim|9.2.0390|9.2.0478||
+|vapoursynth|73|76||
+|vim|9.2.0390|9.2.0480||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.351||
