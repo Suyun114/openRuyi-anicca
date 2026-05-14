@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778739891?label=Updated)
+![Relative date](https://img.shields.io/date/1778751275?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -32,7 +32,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |check|0.15.2|1.9.1||
 |ck|0.7.2|2.6.4||
 |clevis|21|23||
-|cloud-hypervisor|50.0.0|51.1||
+|cloud-hypervisor|51.0.0|51.1||
 |cloud-init|25.3|26.1||
 |cmocka|1.1.7|2.0.2||
 |cockpit|352|361||
@@ -74,6 +74,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dropbear|2025.89|2026.91||
 |drpm|0.5.2|0.5.3||
 |dwarfs|0.14.1|0.15.3||
+|dwarves|1.30|1.31||
 |editorconfig-core-c|0.12.10|0.12.11||
 |elfutils|0.194|0.195||
 |ell|0.80|0.83||
@@ -337,7 +338,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libsigc++2|2.12.1|3.8.0||
 |libsodium|1.0.20|1.0.22-RELEASE||
 |libsoup|3.6.5|3.6.6||
-|libssh|0.11.3|0.12.0||
 |libstoragemgmt|1.10.2|1.10.3||
 |libtasn1|4.20.0|4.21.0||
 |libthai|0.1.29|0.1.30||
@@ -402,7 +402,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ncurses|6.5|6.6||
 |ndctl|83|84||
 |netavark|1.17.1|1.17.2||
-|netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
 |nfs-utils|2.8.4|2.9.1||
@@ -459,7 +458,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.5||
-|plasma-wayland-protocols|1.19.0|1.20.0||
+|plasma-wayland-protocols|1.19.0|1.21.0||
 |polkit|126|127||
 |poppler|25.11.0|26.05.0||
 |postgresql|18.1|18.3||
