@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778826877?label=Updated)
+![Relative date](https://img.shields.io/date/1778838433?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -52,7 +52,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |date|3.0.4|3.5.1||
 |db|6.2.32|18.1.40||
 |dbus|1.16.2|5.2.2||
-|ddcutil|2.2.6|2.2.7||
 |dialog|1.3|1.3-20260107||
 |ding-libs|0.6.2|0.7.0||
 |distribution-gpg-keys|1.115|1.119-1||
@@ -80,6 +79,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-noto|2026.01.01|noto-monthly-release-2026.05.01||
 |fonts-noto-sans-cjk|2.004|Serif2.003|Possible downgrade from the current version (2.004 -> Serif2.003)|
 |fonts-noto-serif-cjk|2.003|Serif2.003||
+|foot|1.26.1|1.27.0||
 |fuse|2.9.9|2.5.0|Possible downgrade from the current version (2.9.9 -> 2.5.0)|
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
 |gcc|16|16.1.0||
@@ -88,7 +88,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gettext|1.0|2.1.0||
 |gi-docgen|2025.4|2026.1||
 |giflib|5.2.2|6.1.3||
-|git|2.51.0|2.54.0||
 |glew|2.2.0|2.3.1||
 |glib|2.87.1|2.88.1||
 |glibmm|2.86.0|2.88.0||
@@ -339,6 +338,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.5|7.0|Possible downgrade from the current version (7.0.5 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.5||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -356,6 +356,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mdadm|4.4|4.6||
 |mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
+|mergerfs|2.41.1|2.42.0||
 |mesa|26.0.1|26.1.0||
 |meson|1.10.2|1.11.1||
 |mimalloc|3.1.5|3.3.2||
