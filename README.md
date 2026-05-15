@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778846179?label=Updated)
+![Relative date](https://img.shields.io/date/1778853752?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -433,6 +433,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pipewire|1.5.84|1.6.5||
 |plasma-wayland-protocols|1.19.0|1.21.0||
 |polkit|126|127||
+|poppler|25.11.0|26.05.0||
 |postgresql|18.1|18.4||
 |protobuf|33.2|34.1||
 |psutils|2.10|3.3.15||
@@ -727,7 +728,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vulkan-loader|1.4.335.0|1.4.352||
 |vulkan-tools|1.4.335|1.4.352||
 |vulkan-utility-libraries|1.4.335.0|1.4.352||
-|vulkan-validation-layers|1.4.335.0|ulkan-sdk-1.4.350.0|Possible downgrade from the current version (1.4.335.0 -> ulkan-sdk-1.4.350.0)|
+|vulkan-validation-layers|1.4.335.0|1.4.352||
 |wabt|1.0.39|1.0.41||
 |wavpack|5.8.1|5.9.0||
 |wayback|0.3|0.4.5||
