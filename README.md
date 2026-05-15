@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778885936?label=Updated)
+![Relative date](https://img.shields.io/date/1778889490?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -22,6 +22,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.91.0-1||
 |brotli|1.2.0|8.0.2||
+|btrfs-progs|6.19.1|7.0||
 |busybox|1.37.0|1.38.0||
 |byacc|2.0.20260126|20260126||
 |cairo|1.18.4|1.109||
@@ -94,6 +95,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glslang|1.4.335.0|16.3.0||
 |glusterfs|11.1|11.2||
 |gnupg|2.5.16|2.5.20||
+|go|1.25.8|1.26.3||
 |go-cel-expr|0.25.1|0.25.2||
 |go-filippo-edwards25519|1.1.0|1.2.0||
 |go-github-ajg-form|1.6|1.7.1||
@@ -221,7 +223,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
 |gtk3|3.24.51|4.3.6||
-|haproxy|3.3|3.3.10||
 |harfbuzz|12.1.0|14.2.0||
 |hdf5|2.0.0|2.1.1||
 |hipblas|7.1.1|20250912-17||
@@ -281,7 +282,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libfontenc|1.1.8|1.1.9||
 |libfyaml|0.9.3|0.9.6||
 |libgcrypt|1.11.2|1.12.2||
-|libgit2|1.9.2|1.9.3||
 |libgpg-error|1.58|1.61||
 |libical|3.0.20|4.0.1||
 |libinput|1.30.0|1.31.2||
@@ -348,6 +348,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lvm2|2.03.35|2.03.41||
 |lxc|6.0.6|7.0.0||
 |lxcfs|6.0.6|7.0.0||
+|lz4|1.10.0|1.28.1||
 |man-pages|6.15|6.18||
 |mariadb|11.8.6|12.3.1||
 |mdadm|4.4|4.6||
@@ -412,7 +413,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |osinfo-db|20250606|20251212||
 |otf2bdf|3.1|3.1_p1|Possible downgrade from the current version (3.1 -> 3.1_p1)|
 |ovmf|202602|edk2-stable202602|Versions not comparable: `202602` and `edk2-stable202602`|
-|p11-kit|0.25.5|0.26.2||
 |pam|1.7.1|2.2.5||
 |pango|1.57.0|4.3.6||
 |pangomm|2.46.4|2.56.1||
@@ -725,9 +725,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vulkan-headers|1.4.335.0|1.4.352||
 |vulkan-loader|1.4.335.0|1.4.352||
 |vulkan-tools|1.4.335|1.4.352||
+|vulkan-utility-libraries|1.4.335.0|1.4.352||
 |vulkan-validation-layers|1.4.335.0|1.4.352||
 |wabt|1.0.39|1.0.41||
 |wavpack|5.8.1|5.9.0||
+|wayback|0.3|0.4.5||
 |weston|14.0.2|15.0.1||
 |which|2.23|8.0.2||
 |whois|5.6.4|5.6.6.git||
@@ -751,7 +753,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xsimd|14.0.0|14.2.0||
 |xxhash|0.8.3|2.3.0||
 |xz|5.8.1|5.8.3||
-|yaml-cpp|0.8.0|0.9.0||
 |zfs|2.4.1|2.4.2||
 |zip|3.0|8.6.0||
 |zstd|1.5.7|1.5.7.3||
