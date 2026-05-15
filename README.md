@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778853752?label=Updated)
+![Relative date](https://img.shields.io/date/1778863894?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -111,7 +111,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-asaskevich-govalidator|11.0.1|12.0.0||
 |go-github-aws-smithy-go|2025.12.01|1.25.1|Possible downgrade from the current version (2025.12.01 -> 1.25.1)|
 |go-github-aymanbagabas-go-udiff|0.3.1|0.4.1||
-|go-github-brianvoe-gofakeit|7.14.0|7.14.1||
+|go-github-brianvoe-gofakeit|7.14.0|7.15.0||
 |go-github-buger-jsonparser|1.1.1|1.2.0||
 |go-github-cespare-xxhash|1.1.0|2.3.0||
 |go-github-charmbracelet-bubbletea|1.3.10|2.0.6||
@@ -120,6 +120,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-charmbracelet-log|0.4.2|2.0.0||
 |go-github-charmbracelet-x|0<br>+git20260204.d6a2763|powernap/v0.1.5|Compound version number '0+git20260204.d6a2763'<br>Version number indicates a snapshot (+git) is used|
 |go-github-cheggaaa-pb-v1|1.0.29|3.1.7||
+|go-github-chewxy-math32|1.11.1|1.11.2||
 |go-github-clipperhouse-displaywidth|0.6.2|0.11.0||
 |go-github-clipperhouse-uax29-v2|2.3.0|2.7.0||
 |go-github-cloudykit-jet|6.3.1|6.3.2||
@@ -206,7 +207,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-golang-x-term|0.38.0|0.43.0||
 |go-golang-x-text|0.32.0|0.37.0||
 |go-golang-x-time|0.14.0|0.15.0||
-|go-golang-x-tools|0.40.0|gopls/v0.22.0-pre.3||
+|go-golang-x-tools|0.40.0|gopls/v0.22.0-pre.4||
 |go-gonum-v1-gonum|0.16.0|0.17.0||
 |go-gonum-v1-plot|0.16.0|0.17.0||
 |go-google-grpc|1.78.0|1.81.1||
@@ -222,7 +223,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
 |gtk3|3.24.51|4.3.6||
-|haproxy|3.3|3.3.10||
 |harfbuzz|12.1.0|14.2.0||
 |hdf5|2.0.0|2.1.1||
 |hipblas|7.1.1|20250912-17||
@@ -338,7 +338,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.5|7.0|Possible downgrade from the current version (7.0.5 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.5||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -388,6 +387,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nmap|7.92|7.99||
 |nodejs|24.13.0|26.1.0||
 |nspr|4.37.0|4.39||
+|nss|3.123.1|3.124||
 |ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-a.5||
 |obs-build|20250829|20260505||
@@ -494,13 +494,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-propcache|0.4.1|0.5.2||
 |python-protobuf|6.33.2|7.34.1||
 |python-puremagic|1.30|2.2.0||
-|python-pyarrow|23.0.1|24.0.0||
 |python-pycparser|3.0|release_v3.00||
 |python-pycurl|7.45.7|REL_7_46_0|Possible downgrade from the current version (7.45.7 -> REL_7_46_0)|
 |python-pydantic|2.12.5|2.13.4||
 |python-pygit2|1.18.2|1.19.2||
 |python-pylsqpack|0.3.23|0.3.24||
-|python-pymilvus|2.6.9|3.0.1.dev0||
+|python-pymilvus|2.6.9|2.6.14||
 |python-pymongo|4.16.0|10.10.10.10||
 |python-pymupdf|1.27.2|1.27.2.3||
 |python-pyproject-metadata|0.9.1|0.11.0||
@@ -642,9 +641,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-utf8parse-0.2|0.2.2|0.15.0||
 |rust-wasip2-1.0|1.0.2|wasip3-0.6.0||
 |rust-wasip3-0.4|0.4.0|wasip3-0.6.0|Possible downgrade from the current version (0.4.0 -> wasip3-0.6.0)|
-|rust-wasm-encoder-0.244|0.244.0|1.248.0||
-|rust-wasm-metadata-0.244|0.244.0|1.248.0||
-|rust-wasmparser-0.244|0.244.0|1.248.0||
+|rust-wasm-encoder-0.244|0.244.0|1.249.0||
+|rust-wasm-metadata-0.244|0.244.0|1.249.0||
+|rust-wasmparser-0.244|0.244.0|1.249.0||
 |rust-windows-link-0.2|0.2.1|73||
 |rust-windows-sys-0.61|0.61.2|73||
 |rust-winnow-0.7|0.7.15|1.0.3||
@@ -653,8 +652,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-wit-bindgen-core-0.51|0.51.0|0.57.1||
 |rust-wit-bindgen-rust-0.51|0.51.0|0.57.1||
 |rust-wit-bindgen-rust-macro-0.51|0.51.0|0.57.1||
-|rust-wit-component-0.244|0.244.0|1.248.0||
-|rust-wit-parser-0.244|0.244.0|1.248.0||
+|rust-wit-component-0.244|0.244.0|1.249.0||
+|rust-wit-parser-0.244|0.244.0|1.249.0||
 |ruyi|0.46.0|0.48.0||
 |safeint|3.0.28a|3.24||
 |samba|4.23.2|4.24.2||
@@ -721,7 +720,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.26.0|3.27.0||
 |valkey|8.1.4|9.0.4||
 |vapoursynth|73|76||
-|vim|9.2.0390|9.2.0482||
+|vim|9.2.0481|9.2.0482||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.352||
