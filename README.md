@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1778958714?label=Updated)
+![Relative date](https://img.shields.io/date/1778964228?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -318,6 +318,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libsodium|1.0.20|1.0.22-RELEASE||
 |libsoup|3.6.5|3.6.6||
 |libssh|0.11.3|0.12.0||
+|libstoragemgmt|1.10.2|1.10.3||
 |libthai|0.1.29|0.1.30||
 |libtiff|4.7.0|4.7.1||
 |libtraceevent|1.8.4|1.9.0||
@@ -372,7 +373,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
 |multipath-tools|0.11.1|0.14.3||
-|musl|1.2.5|1.2.6||
 |ncurses|6.5|6.6||
 |ndctl|83|84||
 |netavark|1.17.1|1.17.2||
@@ -453,6 +453,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
 |python-boto3|1.43.6|1.43.9||
 |python-botocore|1.43.6|1.43.9||
+|python-cachetools|7.1.1|7.1.2||
 |python-charset-normalizer|3.4.6|3.4.7||
 |python-coverage|7.13.4|7.14.0||
 |python-cryptography|46.0.3|48.0.0||
@@ -547,7 +548,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qalculate-qt|5.9.0.1|5.10.0||
 |qcoro|0.12.0|0.13.0||
 |qemu|10.2.0|11.0.0||
-|qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.66||
 |qt6-qt5compat|6.10.1|6.11.1||
 |qt6-qtcharts|6.10.1|6.11.1||
