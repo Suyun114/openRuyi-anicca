@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779023759?label=Updated)
+![Relative date](https://img.shields.io/date/1779029719?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -189,7 +189,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-shirou-gopsutil|4.26.1|4.26.4||
 |go-github-shoenig-test|1.12.2|1.13.2||
 |go-github-spaolacci-murmur3|1.0.0|1.1.0||
-|go-github-stretchr-testify|1.11.0|1.11.1||
+|go-github-stretchr-testify|1.11.0|1.2.3|Possible downgrade from the current version (1.11.0 -> 1.2.3)|
 |go-github-tinylib-msgp|1.6.3|1.6.4||
 |go-github-tklauser-go-numcpus|0.11.0|0.12.0||
 |go-github-tklauser-go-sysconf|0.3.16|0.4.0||
@@ -252,6 +252,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |judy|1.0.5|2.0.7||
 |kdsoap|2.2.0|2.3.0||
 |kea|3.1.4|3.1.8||
+|keepalived|2.2.8|2.3.4||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
 |kiwi|10.2.42|10.3.4||
 |kpmcore|25.12.2|26.04.1||
@@ -314,7 +315,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libqalculate|5.9.0|5.10.0||
 |libqmi|1.36.0|1.38.0||
 |libqrtr-glib|1.2.2|1.4.0||
-|libsigc++|3.6.0|3.8.0||
+|libsigc++|3.6.0|3.8.1||
 |libsigc++2|2.12.1|3.8.1||
 |libsodium|1.0.20|1.0.22-RELEASE||
 |libsoup|3.6.5|3.6.6||
@@ -516,6 +517,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pytest-asyncio|1.3.0|1.4.0a2||
 |python-pytest-rerunfailures|16.1|16.2||
 |python-python-dateutil|2.9.0.post0|2.9.0||
+|python-python-multipart|0.0.28|0.0.29||
 |python-pyvex|9.2.214|9.2.215||
 |python-rdflib|7.5.0|7.6.0||
 |python-redis|7.4.0|8.0.0b2||
@@ -615,7 +617,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rsyslog|8.2510.0|8.2604.0||
 |rtkit|0.11|0.14||
 |ruby|4.0.3|4.0.4||
-|runc|1.4.0|1.4.2||
 |rust|1.94.1|1.95.0||
 |rust-archery-1.0|1.2.0|1.2.2||
 |rust-bitflags-2.0|2.11.0|2.11.1||
