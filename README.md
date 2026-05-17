@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779040951?label=Updated)
+![Relative date](https://img.shields.io/date/1779048346?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -39,7 +39,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |conmon|2.1.13|2.2.1||
 |conntrack-tools|1.4.8|1.4.9||
 |console-setup|1.244|1.248||
-|containers-common|0.67.0|0.64.2|Possible downgrade from the current version (0.67.0 -> 0.64.2)|
 |coreutils|9.10|9.11||
 |cpp-httplib|0.30.1|0.45.0||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
@@ -224,7 +223,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
 |gtk3|3.24.51|4.3.6||
-|haproxy|3.3|3.3.10||
 |harfbuzz|12.1.0|14.2.0||
 |hdf5|2.0.0|2.1.1||
 |hipblas|7.1.1|20250912-17||
@@ -341,6 +339,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.5|7.0|Possible downgrade from the current version (7.0.5 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.5||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -483,7 +482,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-marisa-trie|1.3.1|1.4.1||
 |python-maturin|1.9.6|1.13.3||
 |python-meh|0.52|0.53||
-|python-multipart|0.0.22|0.0.28||
+|python-multipart|0.0.22|0.0.29||
 |python-munkres|1.1.4|release-1.1.4|Possible downgrade from the current version (1.1.4 -> release-1.1.4)|
 |python-murmurhash|1.0.15|release-v1.0.15|Possible downgrade from the current version (1.0.15 -> release-v1.0.15)|
 |python-narwhals|2.15.0|2.21.2||
@@ -664,7 +663,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ruyi|0.46.0|0.48.0||
 |safeint|3.0.28a|3.24||
 |samba|4.23.2|4.24.2||
-|sdbus-cpp|2.1.0|2.2.1||
+|sdbus-cpp|2.1.0|2.3.0||
 |seatd|0.9.1|0.9.3||
 |sed|4.9|4.10||
 |setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
