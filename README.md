@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779138672?label=Updated)
+![Relative date](https://img.shields.io/date/1779145223?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -222,7 +222,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gsasl|2.2.2|2.2.3||
 |gsl|2.8|4.2.1||
 |gstreamer|1.27.50|4.3.6||
-|gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
 |gtk3|3.24.51|4.3.6||
 |haproxy|3.3|3.3.10||
@@ -345,6 +344,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.5|7.0|Possible downgrade from the current version (7.0.5 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.5||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -492,7 +492,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-murmurhash|1.0.15|release-v1.0.15|Possible downgrade from the current version (1.0.15 -> release-v1.0.15)|
 |python-narwhals|2.15.0|2.21.2||
 |python-networkx|3.6.1|networkx-3.6.1|Possible downgrade from the current version (3.6.1 -> networkx-3.6.1)|
-|python-numpy|2.4.0|2.4.5||
+|python-numpy|2.4.0|2.4.6||
 |python-opentelemetry-semantic-conventions|0.62b1|1.41.1||
 |python-ordered-set|4.1.0|release/4.1.0||
 |python-orjson|3.11.7|3.11.9||
@@ -531,7 +531,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-rpmautospec|0.8.3|0.8.4||
 |python-rtslib-fb|2.2.3|2.2.4||
 |python-safetensors|0.7.0|0.8.0-rc.0||
-|python-setuptools-gettext|0.1.14|0.1.16||
+|python-setuptools-gettext|0.1.14|0.1.17||
 |python-sip|6.15.1|6.15.3||
 |python-spacy|3.8.11|release-v3.8.14|Possible downgrade from the current version (3.8.11 -> release-v3.8.14)|
 |python-srsly|2.5.2|3.0.0||
@@ -732,7 +732,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.26.0|3.27.0||
 |valkey|8.1.4|9.0.4||
 |vapoursynth|73|76||
-|vim|9.2.0481|9.2.0498||
+|vim|9.2.0481|9.2.0500||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.352||
