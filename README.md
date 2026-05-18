@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779117991?label=Updated)
+![Relative date](https://img.shields.io/date/1779127270?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -104,7 +104,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-andybalholm-brotli|1.2.0|1.2.1||
 |go-github-apache-arrow-go-arrow|0<br>+git20260107.bc21918|r-universe-release|Compound version number '0+git20260107.bc21918'<br>Version number indicates a snapshot (+git) is used<br>Versions not comparable: `0+git20260107.bc21918` and `r-universe-release`|
 |go-github-apache-arrow-go-v18|18.5.0|18.6.0||
-|go-github-apache-beam|2.71.0|2.74.0-RC00||
+|go-github-apache-beam|2.71.0|2.74.0-RC1||
 |go-github-apache-thrift|0.22.0|0.23.0||
 |go-github-apparentlymart-go-cidr|1.1.0|1.1.1||
 |go-github-apparentlymart-go-textseg|16.0.0|autoversion/v1.6.0||
@@ -260,6 +260,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
 |lcms2|2.17|6.1.1||
 |libXft|2.3.8|2.3.9||
+|libXi|1.8.2|1.8.3||
 |libXmu|1.2.1|1.3.1||
 |libXrandr|1.5.4|1.5.5||
 |libXres|1.2.2|1.2.3||
@@ -430,7 +431,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |patch|2.8|3.1.1||
 |pcre2|10.45|10.47||
 |pcsc-lite|2.3.3|2.4.1||
+|perl|5.42.0|5.42.2||
 |perl-rpm-packaging|1.2|1.3||
+|php|8.5.2|8.5.6||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
@@ -541,7 +544,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-tornado|6.5.4|6.5.5||
 |python-transformers|5.2.0|5.8.1||
 |python-trove-classifiers|2025.8.26.11|2026.5.7.17||
-|python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.47.0||
 |python-virtualenv|20.35.4|21.3.3||
@@ -734,7 +736,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.352||
 |vulkan-loader|1.4.335.0|1.4.352||
-|vulkan-tools|1.4.335|1.4.352||
 |vulkan-utility-libraries|1.4.335.0|1.4.352||
 |vulkan-validation-layers|1.4.335.0|1.4.352||
 |wabt|1.0.39|1.0.41||
