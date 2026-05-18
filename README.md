@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779127270?label=Updated)
+![Relative date](https://img.shields.io/date/1779134173?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -68,7 +68,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |drpm|0.5.2|0.5.3||
 |dwarfs|0.14.1|0.15.3||
 |dwarves|1.30|1.31||
-|editorconfig-core-c|0.12.10|0.12.11||
 |elfutils|0.194|0.195||
 |ethtool|6.15|7.0||
 |expect|5.45.4|30.4.1||
@@ -207,7 +206,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-golang-x-term|0.38.0|0.43.0||
 |go-golang-x-text|0.32.0|0.37.0||
 |go-golang-x-time|0.14.0|0.15.0||
-|go-golang-x-tools|0.40.0|gopls/v0.22.0-pre.4||
+|go-golang-x-tools|0.40.0|gopls/v0.22.0||
 |go-gonum-v1-gonum|0.16.0|0.17.0||
 |go-gonum-v1-plot|0.16.0|0.17.0||
 |go-google-grpc|1.78.0|1.81.1||
@@ -333,7 +332,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
 |libvirt|12.2.0|12.3.0||
 |libvpx|1.15.2|1.16.0||
-|libwacom|2.17.0|2.18.0||
 |libwebp|1.6.0|20.3.4||
 |libxkbcommon|1.13.0|1.13.1||
 |libxkbfile|1.1.3|1.2.0||
@@ -418,8 +416,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |opus|1.5.2|1.6.1||
 |os-prober|1.83|1.84||
 |osc|1.21.0|1.26.0||
-|osinfo-db|20250606|20251212||
-|otf2bdf|3.1|3.1_p1|Possible downgrade from the current version (3.1 -> 3.1_p1)|
 |ovmf|202602|edk2-stable202602|Versions not comparable: `202602` and `edk2-stable202602`|
 |p11-kit|0.25.5|0.26.2||
 |pam|1.7.1|2.2.5||
@@ -459,7 +455,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
 |python-boto3|1.43.6|1.43.9||
 |python-botocore|1.43.6|1.43.9||
-|python-cachetools|7.1.1|7.1.2||
+|python-cachetools|7.1.1|7.1.3||
 |python-charset-normalizer|3.4.6|3.4.7||
 |python-click|8.3.3|8.4.0||
 |python-coverage|7.13.4|7.14.0||
@@ -497,7 +493,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-ordered-set|4.1.0|release/4.1.0||
 |python-orjson|3.11.7|3.11.9||
 |python-packaging|25.0|26.2||
-|python-pip|25.3|26.1.1||
 |python-pipdeptree|2.30.0|2.35.3||
 |python-preshed|3.0.12|release-v3.0.13|Possible downgrade from the current version (3.0.12 -> release-v3.0.13)|
 |python-propcache|0.4.1|0.5.2||
@@ -544,6 +539,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-tornado|6.5.4|6.5.5||
 |python-transformers|5.2.0|5.8.1||
 |python-trove-classifiers|2025.8.26.11|2026.5.7.17||
+|python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.47.0||
 |python-virtualenv|20.35.4|21.3.3||
@@ -736,6 +732,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.352||
 |vulkan-loader|1.4.335.0|1.4.352||
+|vulkan-tools|1.4.335|1.4.352||
 |vulkan-utility-libraries|1.4.335.0|1.4.352||
 |vulkan-validation-layers|1.4.335.0|1.4.352||
 |wabt|1.0.39|1.0.41||
@@ -755,7 +752,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xdg-user-dirs|0.19|0.20||
 |xfsdump|3.2.0|3.3.0||
 |xfsprogs|6.16.0|7.0.0||
-|xkeyboard-config|2.46|2.47||
 |xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
