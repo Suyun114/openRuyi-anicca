@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779105215?label=Updated)
+![Relative date](https://img.shields.io/date/1779117991?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -260,7 +260,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
 |lcms2|2.17|6.1.1||
 |libXft|2.3.8|2.3.9||
-|libXi|1.8.2|1.8.3||
 |libXmu|1.2.1|1.3.1||
 |libXrandr|1.5.4|1.5.5||
 |libXres|1.2.2|1.2.3||
@@ -345,6 +344,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.5|7.0|Possible downgrade from the current version (7.0.5 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.5||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -430,9 +430,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |patch|2.8|3.1.1||
 |pcre2|10.45|10.47||
 |pcsc-lite|2.3.3|2.4.1||
-|perl|5.42.0|5.42.2||
 |perl-rpm-packaging|1.2|1.3||
-|php|8.5.2|8.5.6||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
@@ -482,7 +480,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-kiwisolver|1.4.9|1.5.0||
 |python-libclang|18.1.1|llvm-18.1.1||
 |python-librt|0.7.8|0.11.0||
-|python-lxml|6.0.1|lxml-6.1.0||
+|python-lxml|6.0.1|lxml-6.1.1||
 |python-marisa-trie|1.3.1|1.4.1||
 |python-maturin|1.9.6|1.13.3||
 |python-meh|0.52|0.53||
@@ -501,6 +499,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-preshed|3.0.12|release-v3.0.13|Possible downgrade from the current version (3.0.12 -> release-v3.0.13)|
 |python-propcache|0.4.1|0.5.2||
 |python-protobuf|6.33.2|7.34.1||
+|python-puccinialin|0.1.11|0.1.12||
 |python-puremagic|1.30|2.2.0||
 |python-pyarrow|23.0.1|24.0.0||
 |python-pycparser|3.0|release_v3.00||
@@ -678,7 +677,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.4||
 |skalibs|2.14.5.1|2.15.0.0||
-|slang|2.3.3|2026.8.1||
+|slang|2.3.3|2026.9||
 |slibtool|0.7.3|0.7.4||
 |socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
@@ -724,7 +723,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |userspace-rcu|0.15.3|0.15.6||
 |utf8cpp|4.0.8|4.1.0||
 |utf8proc|2.10.0|2.11.3||
-|util-linux|2.41.3|2.42||
+|util-linux|2.41.3|2.42.1||
 |uuid|1.6.2|1.23.1||
 |vala|0.56.18|0.56.19||
 |valgrind|3.26.0|3.27.0||
