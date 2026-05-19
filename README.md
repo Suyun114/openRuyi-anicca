@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779192544?label=Updated)
+![Relative date](https://img.shields.io/date/1779207568?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -265,6 +265,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXrandr|1.5.4|1.5.5||
 |libXres|1.2.2|1.2.3||
 |libXxf86vm|1.1.6|1.1.7||
+|libaec|1.1.6|1.1.7||
 |libatomic_ops|7.8.2|7.10.0||
 |libavif|1.4.0|1.4.1||
 |libblockdev|3.4.0|3.5.0||
@@ -341,8 +342,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libxmlb|0.3.24|0.3.27||
 |libxslt|1.1.43|1.1.45||
 |libyang|4.2.2|5.4.9||
-|linux|7.0.5|7.0|Possible downgrade from the current version (7.0.5 -> 7.0)|
-|linux-tools|7.0.5|7.0|Possible downgrade from the current version (7.0.5 -> 7.0)|
+|linux|7.0.9|7.0|Possible downgrade from the current version (7.0.9 -> 7.0)|
+|linux-firmware|20260410|20260519||
+|linux-tools|7.0.9|7.0|Possible downgrade from the current version (7.0.9 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.6||
 |lmdb|0.9.33|0.9.35||
@@ -723,6 +725,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |unicode-ucd|17.0.0|18.0.0||
 |unifont|16.0.04|17.0.04||
 |universal-ctags|6.2.0|6.2.20260517.0||
+|unixbench|6.0.0|6.0.1||
 |upower|1.91.1|1.91.2||
 |usbutils|018|019||
 |usermode|1.114|usermode-1.114|Possible downgrade from the current version (1.114 -> usermode-1.114)|
@@ -762,7 +765,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xfsprogs|6.16.0|7.0.0||
 |xkeyboard-config|2.46|2.47||
 |xmlsec|1.3.10|1.3.17||
-|xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
 |xorg-server|21.1.21|21.1.22||
 |xorgproto|2024.1|2025.1||
