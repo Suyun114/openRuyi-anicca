@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779166766?label=Updated)
+![Relative date](https://img.shields.io/date/1779179570?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -94,7 +94,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.3.0||
 |glusterfs|11.1|11.2||
-|gnupg|2.5.16|2.5.20||
 |go|1.25.8|1.26.3||
 |go-cel-expr|0.25.1|0.25.2||
 |go-filippo-edwards25519|1.1.0|1.2.0||
@@ -145,7 +144,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-go-openapi-jsonreference|0.21.4|0.21.5||
 |go-github-go-openapi-spec|0.22.3|0.22.4||
 |go-github-go-openapi-swag|0.25.4|yamlutils/v0.26.0||
-|go-github-go-openapi-testify|2.3.0|2.5.0||
+|go-github-go-openapi-testify|2.3.0|2.5.1||
 |go-github-go-playground-validator-v10|10.30.1|10.30.2||
 |go-github-go-redis-redis|9.18.0|9.19.0||
 |go-github-go-sql-driver-mysql|1.9.2|1.10.0||
@@ -379,7 +378,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
 |multipath-tools|0.11.1|0.14.3||
-|musl|1.2.5|1.2.6||
 |ncurses|6.5|6.6||
 |ndctl|83|84||
 |netavark|1.17.1|1.17.2||
@@ -618,6 +616,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocsparse|7.1.1|7.2.3||
 |rpm|4.20.1|6.0.1-release||
 |rpmlint|2.8.0|2.9.0||
+|rrdtool|1.9.0|1.10.0||
 |rsync|3.4.1|3.4.2||
 |rsyslog|8.2510.0|8.2604.0||
 |rtkit|0.11|0.14||
@@ -667,7 +666,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-wit-bindgen-rust-macro-0.51|0.51.0|0.57.1||
 |rust-wit-component-0.244|0.244.0|1.249.0||
 |rust-wit-parser-0.244|0.244.0|1.249.0||
-|ruyi|0.46.0|0.48.0||
+|ruyi|0.46.0|0.49.0-beta.20260519||
 |safeint|3.0.28a|3.24||
 |samba|4.23.2|4.24.2||
 |sdbus-cpp|2.1.0|2.3.0||
