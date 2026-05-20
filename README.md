@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779253429?label=Updated)
+![Relative date](https://img.shields.io/date/1779269307?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -263,7 +263,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXft|2.3.8|2.3.9||
 |libXi|1.8.2|1.8.3||
 |libXmu|1.2.1|1.3.1||
-|libXrandr|1.5.4|1.5.5||
 |libXres|1.2.2|1.2.3||
 |libXxf86vm|1.1.6|1.1.7||
 |libaec|1.1.6|1.1.7||
@@ -274,9 +273,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libburn|1.5.6|1.5.8||
 |libcap|2.76|2.78||
 |libcap-ng|0.8.5|0.9.3||
+|libcdata|20240414|20260520||
 |libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
 |libcerror|20240413|20260513||
 |libclc|21.1.7|22.1.6||
+|libcnotify|20240414|20260520||
 |libcomps|0.1.23|0.1.24||
 |libconfig|1.8.1|1.8.2||
 |libcthreads|20240413|20260518||
@@ -412,8 +413,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openexr|3.4.10|3.4.11||
 |openjdk-17|17.0.19.10|jdk-17.0.20+2||
 |openjdk-21|21.0.11.10|jdk-21.0.12+2||
-|openjdk-25|25.0.3.9|jdk-25.0.4+1||
-|openjdk-latest|26.0.1.8|jdk-25.0.4+1||
+|openjdk-25|25.0.3.9|jdk-25.0.4+2||
+|openjdk-latest|26.0.1.8|jdk-25.0.4+2||
 |openldap|2.6.12|2.6.13||
 |opensbi|1.8|1.8.1||
 |openssl|3.5.2|4.0.2||
@@ -540,12 +541,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-safetensors|0.7.0|0.8.0-rc.0||
 |python-setuptools-gettext|0.1.14|0.1.18||
 |python-sip|6.15.1|6.15.3||
-|python-spacy|3.8.11|release-v3.8.14|Possible downgrade from the current version (3.8.11 -> release-v3.8.14)|
-|python-srsly|2.5.2|3.0.0||
+|python-spacy|3.8.14|release-v3.8.14|Possible downgrade from the current version (3.8.14 -> release-v3.8.14)|
+|python-srsly|2.5.3|3.0.0||
 |python-tempita|0.6.0|0.6||
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
 |python-tensile|7.1.1|rocm-7.2.3||
-|python-thinc|8.3.10|8.3.13||
 |python-tokenizers|0.22.2|0.23.1||
 |python-torchvision|0.25.0|0.27.0||
 |python-tornado|6.5.4|6.5.5||
@@ -555,7 +555,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.47.0||
 |python-virtualenv|20.35.4|21.3.3||
-|python-weasel|0.4.3|release-v1.0.0|Possible downgrade from the current version (0.4.3 -> release-v1.0.0)|
+|python-weasel|1.0.0|release-v1.0.0||
 |python-wheel|0.45.1|0.47.0||
 |python-wrapt|2.1.1|2.2.0rc11||
 |python-xxhash|3.6.0|3.7.0||
@@ -625,7 +625,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rpm|4.20.1|6.0.1-release||
 |rpmlint|2.8.0|2.9.0||
 |rrdtool|1.9.0|1.10.2||
-|rsync|3.4.1|3.4.2||
+|rsync|3.4.1|3.4.3||
 |rsyslog|8.2510.0|8.2604.0||
 |rtkit|0.11|0.14||
 |ruby|4.0.3|4.0.5||
@@ -725,6 +725,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tuned|2.26.0|2.27.0||
 |tzdata|2026a|2026b||
 |udisks2|2.11.0|2.11.1||
+|unbound|1.25.0|1.25.1||
 |unicode-ucd|17.0.0|18.0.0||
 |unifont|16.0.04|17.0.04||
 |universal-ctags|6.2.0|6.2.20260517.0||
