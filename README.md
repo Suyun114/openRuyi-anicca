@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779333956?label=Updated)
+![Relative date](https://img.shields.io/date/1779349757?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -60,6 +60,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dmidecode|3.6|3.7||
 |dnf5|5.4.2.0|5.4.2.1||
 |dnsmasq|2.92|2.92rel2|Possible downgrade from the current version (2.92 -> 2.92rel2)|
+|docbook-utils|0.6.15|0.6.14|Possible downgrade from the current version (0.6.15 -> 0.6.14)|
 |doxygen|1.13.2|1.17.0||
 |dpdk|25.07|26.03||
 |dracut|110|111||
@@ -67,10 +68,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |drpm|0.5.2|0.5.3||
 |dwarfs|0.14.1|0.15.3||
 |dwarves|1.30|1.31||
+|editorconfig-core-c|0.12.10|0.12.11||
 |elfutils|0.194|0.195||
 |ethtool|6.15|7.0||
 |expect|5.45.4|30.4.1||
-|fakeroot|1.37.2|1.38||
+|fakeroot|1.37.2|1.38.1||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |firewalld|2.4.0|2.4.1||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
@@ -218,13 +220,15 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gpgmepp|2.0.0|2.1.0||
 |groff|1.23.0|1.24.1||
 |gsasl|2.2.2|2.2.3||
-|gsl|2.8|4.2.1||
+|gsl|2.8|4.2.2||
 |gstreamer|1.27.50|4.3.6||
+|gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
 |gtk3|3.24.51|4.3.6||
+|guidelines-support-library|4.2.1|4.2.2||
 |haproxy|3.3|3.3.10||
 |harfbuzz|12.1.0|14.2.0||
-|haveged|1.9.20|1.9.21||
+|haveged|1.9.20|1.9.22||
 |hdf5|2.0.0|2.1.1||
 |hipblas|7.1.1|20250912-17||
 |hipblas-common|7.1.1|7.2.3||
@@ -288,6 +292,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libei|1.5.0|1.6.0||
 |libevdev|1.13.5|1.13.6||
 |libfcache|20240414|20260520||
+|libfdata|20240415|20260521||
 |libfontenc|1.1.8|1.1.9||
 |libfyaml|0.9.3|0.9.6||
 |libgcrypt|1.11.2|1.12.2||
@@ -348,7 +353,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.9|7.0|Possible downgrade from the current version (7.0.9 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.6||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -370,7 +374,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mesa|26.0.1|26.1.1||
 |meson|1.10.2|1.11.1||
 |mimalloc|3.1.5|3.3.2||
-|minicom|2.10|2.11.1||
 |minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
 |minizip-ng|4.1.0|4.2.1||
 |mkosi|25.3<br>+git20251224.|26|Compound version number '25.3+git20251224.'<br>Version number indicates a snapshot (+git) is used|
@@ -380,6 +383,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mock-core-configs|43.2|mock-core-configs-44.2-1|Possible downgrade from the current version (43.2 -> mock-core-configs-44.2-1)|
 |msgpack|3.1.0|5.4.1||
 |mstflint|4.34.0.2|4.36.0-1||
+|mtd-utils|2.3.0|2.3.1||
 |multipath-tools|0.11.1|0.14.3||
 |musl|1.2.5|1.2.6||
 |ncurses|6.5|6.6||
@@ -401,6 +405,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-a.5||
 |obs-build|20250829|20260505||
+|ollama|0.13.5|0.24.0||
 |onnx|1.20.1|1.21.0||
 |onnxruntime|1.24.1|1.26.0||
 |open-vmdk|0.3.12|3.0.1||
@@ -433,7 +438,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |patch|2.8|3.1.1||
 |pcre2|10.45|10.47||
 |pcsc-lite|2.3.3|2.4.1||
-|perl|5.42.0|5.42.2||
 |perl-rpm-packaging|1.2|1.3||
 |php|8.5.2|8.5.6||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
@@ -448,7 +452,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |protobuf|33.2|35.0||
 |psutils|2.10|3.3.15||
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
-|pybind11|3.0.1|3.0.4||
 |python|3.13.8|3.14.5||
 |python-aiohappyeyeballs|2.6.1|2.7.0||
 |python-aiohttp|3.13.3|3.13.5||
@@ -503,6 +506,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-ordered-set|4.1.0|release/4.1.0||
 |python-orjson|3.11.7|3.11.9||
 |python-packaging|25.0|26.2||
+|python-pip|25.3|26.1.1||
 |python-pipdeptree|2.30.0|2.35.3||
 |python-preshed|3.0.12|release-v3.0.13|Possible downgrade from the current version (3.0.12 -> release-v3.0.13)|
 |python-propcache|0.4.1|0.5.2||
@@ -554,7 +558,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-virtualenv|20.35.4|21.3.3||
 |python-weasel|1.0.0|release-v1.0.0||
 |python-wheel|0.45.1|0.47.0||
-|python-wrapt|2.1.1|2.2.0rc12||
+|python-wrapt|2.1.1|2.2.0||
 |python-xxhash|3.6.0|3.7.0||
 |python-yarl|1.22.0|1.24.2||
 |python-zipp|3.23.1|4.1.0||
@@ -608,6 +612,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rest|0.10.2|2.6.9||
 |rocblas|7.1.1|14.3.0||
 |rocclr|7.1.1|5.6.1|Possible downgrade from the current version (7.1.1 -> 5.6.1)|
+|rocksdb|10.5.1|11.1.1||
 |rocm-bandwidth-test|6.4.2|20250912-42||
 |rocm-cmake|7.1.1|20250912-42||
 |rocm-llvm|7.1.1|20250912-42||
@@ -673,6 +678,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ruyi|0.46.0|0.50.0-alpha.20260519||
 |safeint|3.0.28a|3.24||
 |samba|4.23.2|4.24.2||
+|sdbus-cpp|2.1.0|2.3.1||
 |seatd|0.9.1|0.9.3||
 |sed|4.9|4.10||
 |setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
@@ -721,7 +727,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tuned|2.26.0|2.27.0||
 |tzdata|2026a|2026b||
 |udisks2|2.11.0|2.11.1||
-|unbound|1.25.0|1.25.1||
 |unicode-ucd|17.0.0|18.0.0||
 |unifont|16.0.04|17.0.04||
 |universal-ctags|6.2.0|6.2.20260517.0||
@@ -736,6 +741,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |uuid|1.6.2|1.23.1||
 |vala|0.56.18|0.56.19||
 |valgrind|3.26.0|3.27.1||
+|valkey|8.1.4|9.1.0||
 |vapoursynth|73|76||
 |vim|9.2.0481|9.2.0506||
 |vmaf|3.0.0|3.1.0||
