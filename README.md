@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779569286?label=Updated)
+![Relative date](https://img.shields.io/date/1779573214?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -60,7 +60,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dmidecode|3.6|3.7||
 |dnf5|5.4.2.0|5.4.2.1||
 |dnsmasq|2.92|2.92rel2|Possible downgrade from the current version (2.92 -> 2.92rel2)|
-|docbook-utils|0.6.15|0.6.14|Possible downgrade from the current version (0.6.15 -> 0.6.14)|
 |doxygen|1.13.2|1.17.0||
 |dpdk|25.07|26.03||
 |dracut|110|111||
@@ -134,6 +133,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-emirpasic-gods-v2|2.0.0~alpha|2.0.0-alpha||
 |go-github-envoyproxy-protoc-gen-validate|1.3.0|1.3.3||
 |go-github-etcd-io-bbolt|1.4.3|1.5.0-beta.0||
+|go-github-etcd-io-raft|3.6.0|3.7.0-beta.0||
 |go-github-fatih-color|1.18.0|1.19.0||
 |go-github-fsnotify-fsnotify|1.9.0|1.10.1||
 |go-github-gabriel-vasile-mimetype|1.4.12|1.4.13||
@@ -219,6 +219,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-uber-zap|1.27.1|1.28.0||
 |gpgme|2.0.1|2.1.0||
 |gpgmepp|2.0.0|2.1.0||
+|graphviz|14.1.5|15.0.0||
 |groff|1.23.0|1.24.1||
 |gsasl|2.2.2|2.2.3||
 |gsl|2.8|4.2.2||
@@ -355,12 +356,14 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.9|7.0|Possible downgrade from the current version (7.0.9 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.6||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
 |lttng-ust|2.14.0|2.15.1||
 |lua|5.4.8|5.5.0||
 |lua-lunitx|0.8.1|0.8.2||
+|luajit|2.1<br>+openresty20260114|2.1.ROLLING|Compound version number '2.1+openresty20260114'|
 |lutok|0.6.1|0.6.2||
 |lvm2|2.03.35|2.03.41||
 |lxc|6.0.6|7.0.0||
@@ -370,6 +373,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mariadb|11.8.6|12.3.1||
 |mariadb-connector-c|3.4.8|3.4.9||
 |mdevd|0.1.8.1|0.1.8.2||
+|memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.0.1|26.1.1||
 |meson|1.10.2|1.11.1||
