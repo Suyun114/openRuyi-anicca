@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779559224?label=Updated)
+![Relative date](https://img.shields.io/date/1779564198?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -26,7 +26,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |busybox|1.37.0|1.38.0||
 |byacc|2.0.20260126|20260126||
 |cairo|1.18.4|1.109||
-|capstone|5.0.3|5.0.7||
+|capstone|5.0.3|5.0.8||
 |ceph|20.2.1|21.0.0||
 |check|0.15.2|1.9.1||
 |ck|0.7.2|2.6.4||
@@ -248,7 +248,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iperf|3.20|2.2.1|Possible downgrade from the current version (3.20 -> 2.2.1)|
 |ipmitool|1.8.19|1_8_19||
 |iproute2|6.16.0|7.0.0||
-|iprutils|2.4.19|2.4.18.1|Possible downgrade from the current version (2.4.19 -> 2.4.18.1)|
 |iptables|1.8.11|1.8.13||
 |iso-codes|4.18.0|4.20.1||
 |jitterentropy|3.6.3|3.7.0||
@@ -355,6 +354,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.9|7.0|Possible downgrade from the current version (7.0.9 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.6||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -420,7 +420,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openjdk-21|21.0.11.10|jdk-21.0.12+3||
 |openjdk-25|25.0.3.9|jdk-25.0.4+2||
 |openjdk-latest|26.0.1.8|jdk-25.0.4+2||
-|opensbi|1.8|1.8.1||
 |openssl|3.5.2|4.0.2||
 |openvpn|2.6.16|2.7.4||
 |openvswitch|3.5.1|3.7.1||
@@ -481,7 +480,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-distlib|0.4.0|0.3.4|Possible downgrade from the current version (0.4.0 -> 0.3.4)|
 |python-en-core-web-sm|3.8.0|en_core_web_hftrf-3.8.1|Possible downgrade from the current version (3.8.0 -> en_core_web_hftrf-3.8.1)|
 |python-expandvars|1.1.2|1.24.2||
-|python-fastapi|0.136.1|0.136.2||
+|python-fastapi|0.136.1|0.136.3||
 |python-fastavro|1.12.1|1.12.2||
 |python-gevent|26.4.0|26.5.0||
 |python-greenlet|3.4.0|3.5.1||
@@ -703,7 +702,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |slibtool|0.7.3|0.7.4||
 |socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
-|spdk|25.09|26.01||
 |spdlog|1.15.3|1.17.0||
 |spirv-cross|1.4.335.0|1.4.350.0||
 |spirv-headers|1.4.350.0|1.5.4.raytracing.fixed||
@@ -733,12 +731,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |thrift|0.22.0|0.23.0||
 |tinysparql|3.10.1|3.11.1||
 |tmux|3.6a|3.6b||
-|trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.27.0||
 |tzdata|2026a|2026b||
 |udisks2|2.11.0|2.11.1||
 |unicode-ucd|17.0.0|18.0.0||
-|unifont|16.0.04|17.0.04||
 |universal-ctags|6.2.0|6.2.20260517.0||
 |unixbench|6.0.0|6.0.1||
 |upower|1.91.1|1.91.2||
@@ -763,7 +759,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vulkan-validation-layers|1.4.335.0|1.4.352||
 |wabt|1.0.39|1.0.41||
 |wavpack|5.8.1|5.9.0||
-|wayback|0.3|0.5.0||
 |weston|14.0.2|15.0.1||
 |which|2.23|8.0.2||
 |whois|5.6.4|5.6.6.git||
