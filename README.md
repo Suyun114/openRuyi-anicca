@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779614518?label=Updated)
+![Relative date](https://img.shields.io/date/1779621405?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -44,6 +44,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |coreutils|9.10|9.11||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.2||
+|createrepo_c|1.2.1|1.2.3||
 |crontabs|1.11|crontabs-20190603||
 |cunit|2.1.3|2.1-3||
 |cups|2.4.16|2.4.19||
@@ -79,6 +80,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-noto-sans-cjk|2.004|Serif2.003|Possible downgrade from the current version (2.004 -> Serif2.003)|
 |fonts-noto-serif-cjk|2.003|Serif2.003||
 |foot|1.26.1|1.27.0||
+|fuse|2.9.9|2.5.0|Possible downgrade from the current version (2.9.9 -> 2.5.0)|
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
 |gcc|16|16.1.0||
 |gdb|17.1|17.2||
@@ -239,6 +241,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hwinfo|25.0|25.3||
 |hwloc|2.12.2|2.13.0||
 |hyphen|2.8.8|2.8.9||
+|ibus|1.5.33|1.5.34||
 |icu4c|77.1|78.3||
 |iio-sensor-proxy|3.8|3.9||
 |inetutils|2.7|2.8||
@@ -302,8 +305,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libheif|1.21.2|1.22.0||
 |libical|3.0.20|4.0.1||
 |libinput|1.30.0|1.31.2||
-|libisoburn|1.5.6|1.5.8||
-|libisofs|1.5.6|1.5.8.pl01||
+|libisoburn|1.5.6|1.5.8.pl02||
+|libisofs|1.5.6|1.5.8.pl02||
 |libjpeg-turbo|3.1.2|3.1.4.1||
 |libjwt|3.2.2|3.3.3||
 |libklvanc|1.6.0|id.obe.1.6.0||
@@ -343,7 +346,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
 |libvirt|12.2.0|12.3.0||
 |libvpx|1.15.2|1.16.0||
-|libwacom|2.17.0|2.18.0||
 |libwebp|1.6.0|20.3.4||
 |libxkbcommon|1.13.0|1.13.1||
 |libxkbfile|1.1.3|1.2.0||
@@ -355,7 +357,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.9|7.0|Possible downgrade from the current version (7.0.9 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.6||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -500,6 +501,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-lxml|6.0.1|lxml-6.1.1||
 |python-marisa-trie|1.3.1|1.4.1||
 |python-maturin|1.9.6|1.13.3||
+|python-meh|0.52|0.53||
 |python-mitogen|0.3.47|0.3.48||
 |python-more-itertools|11.0.2|11.1.0||
 |python-multipart|0.0.22|0.0.29||
@@ -735,6 +737,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tmux|3.6a|3.6b||
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.27.0||
+|tzdata|2026a|2026b||
 |udisks2|2.11.0|2.11.1||
 |unicode-ucd|17.0.0|18.0.0||
 |unifont|16.0.04|17.0.04||
