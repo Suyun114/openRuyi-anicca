@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779621405?label=Updated)
+![Relative date](https://img.shields.io/date/1779628948?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -268,7 +268,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXft|2.3.8|2.3.9||
 |libXi|1.8.2|1.8.3||
 |libXmu|1.2.1|1.3.1||
-|libXrandr|1.5.4|1.5.5||
 |libXres|1.2.2|1.2.3||
 |libXxf86vm|1.1.6|1.1.7||
 |libaec|1.1.6|1.1.7||
@@ -283,7 +282,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
 |libcerror|20240413|20260513||
 |libclc|21.1.7|22.1.6||
-|libcnotify|20240414|20260520||
 |libcomps|0.1.23|0.1.24||
 |libconfig|1.8.1|1.8.2||
 |libcthreads|20240413|20260518||
@@ -291,7 +289,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libdisplay-info|0.2.0|0.3.0||
 |libdrm|2.4.131|2.4.133||
 |libdwarf|2.2.0|2.3.1||
-|libeconf|0.7.8|0.8.3||
 |libedit|20250104.3.1|20260512-3.1||
 |libei|1.5.0|1.6.0||
 |libevdev|1.13.5|1.13.6||
@@ -346,6 +343,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
 |libvirt|12.2.0|12.3.0||
 |libvpx|1.15.2|1.16.0||
+|libwacom|2.17.0|2.18.0||
 |libwebp|1.6.0|20.3.4||
 |libxkbcommon|1.13.0|1.13.1||
 |libxkbfile|1.1.3|1.2.0||
@@ -357,6 +355,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.9|7.0|Possible downgrade from the current version (7.0.9 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.6||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -372,7 +371,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |man-pages|6.15|6.18||
 |mariadb|11.8.6|12.3.1||
 |mariadb-connector-c|3.4.8|3.4.9||
-|mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.0.1|26.1.1||
@@ -431,9 +429,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |os-prober|1.83|1.84||
 |osc|1.21.0|1.26.0||
 |osinfo-db|20250606|20251212||
-|otf2bdf|3.1|3.1_p1|Possible downgrade from the current version (3.1 -> 3.1_p1)|
 |ovmf|202602|edk2-stable202605|Versions not comparable: `202602` and `edk2-stable202605`|
-|p11-kit|0.25.5|0.26.2||
 |pam|1.7.1|2.2.5||
 |pango|1.57.0|4.3.6||
 |pangomm|2.46.4|2.56.1||
@@ -452,7 +448,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pipewire|1.5.84|1.6.5||
 |plasma-wayland-protocols|1.19.0|1.21.0||
 |polkit|126|127||
-|poppler|25.11.0|26.05.0||
 |ppp|2.5.2|2.5.3||
 |protobuf|33.2|35.0||
 |psutils|2.10|3.3.15||
@@ -566,7 +561,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-trove-classifiers|2025.8.26.11|2026.5.22.10||
 |python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
-|python-uvicorn|0.46.0|0.47.0||
+|python-uvicorn|0.46.0|0.48.0||
 |python-virtualenv|20.35.4|21.3.3||
 |python-weasel|1.0.0|release-v1.0.0||
 |python-wheel|0.45.1|0.47.0||
@@ -735,7 +730,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |thrift|0.22.0|0.23.0||
 |tinysparql|3.10.1|3.11.1||
 |tmux|3.6a|3.6b||
-|trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.27.0||
 |tzdata|2026a|2026b||
 |udisks2|2.11.0|2.11.1||
