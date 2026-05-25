@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779730983?label=Updated)
+![Relative date](https://img.shields.io/date/1779737284?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -82,7 +82,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-noto-serif-cjk|2.003|Serif2.003||
 |fonts-sarasa-gothic|1.0.37|1.0.39||
 |foot|1.26.1|1.27.0||
-|fuse|2.9.9|2.5.0|Possible downgrade from the current version (2.9.9 -> 2.5.0)|
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
 |gcc|16|16.1.0||
 |gdb|17.1|17.2||
@@ -285,6 +284,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcap-ng|0.8.5|0.9.3||
 |libcdata|20240414|20260520||
 |libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
+|libcerror|20240413|20260513||
 |libclc|21.1.7|22.1.6||
 |libcnotify|20240414|20260520||
 |libcomps|0.1.23|0.1.24||
@@ -305,7 +305,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libgcrypt|1.11.2|1.12.2||
 |libgit2|1.9.2|1.9.4||
 |libgpg-error|1.58|1.61||
-|libheif|1.21.2|1.22.0||
+|libheif|1.21.2|1.22.1||
 |libical|3.0.20|4.0.1||
 |libinput|1.30.0|1.31.2||
 |libisoburn|1.5.6|1.5.8.pl02||
@@ -351,6 +351,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libvpx|1.15.2|1.16.0||
 |libwacom|2.17.0|2.18.0||
 |libwebp|1.6.0|20.3.4||
+|libxkbcommon|1.13.0|1.13.1||
 |libxkbfile|1.1.3|1.2.0||
 |libxml2|2.14.5|2.15.3||
 |libxmlb|0.3.24|0.3.27||
@@ -415,6 +416,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-a.5||
 |obs-build|20250829|20260505||
+|ollama|0.13.5|0.24.0||
 |onnx|1.20.1|1.21.0||
 |onnxruntime|1.24.1|1.26.0||
 |open-vmdk|0.3.12|3.0.1||
@@ -427,6 +429,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openjdk-latest|26.0.1.8|jdk-25.0.4+2||
 |opensbi|1.8|1.8.1||
 |openssl|3.5.2|4.0.2||
+|openvpn|2.6.16|2.7.4||
 |openvswitch|3.5.1|3.7.1||
 |openzl|0.1.0|0.2.0||
 |opus|1.5.2|1.6.1||
@@ -525,7 +528,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-protobuf|6.33.2|7.35.0||
 |python-puccinialin|0.1.11|0.1.12||
 |python-puremagic|1.30|2.2.0||
-|python-pyarrow|23.0.1|24.0.0||
 |python-pycparser|3.0|release_v3.00||
 |python-pycurl|7.45.7|REL_7_46_0|Possible downgrade from the current version (7.45.7 -> REL_7_46_0)|
 |python-pydantic|2.12.5|2.14.0a1||
@@ -580,7 +582,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-zope-interface|8.3|8.4.1a3||
 |qalculate-qt|5.9.0.1|5.11.0||
 |qcoro|0.12.0|0.13.0||
-|qemu|10.2.0|11.0.0||
+|qemu|10.2.0|11.0.1||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.66||
 |qt6-qt5compat|6.10.1|6.11.1||
@@ -619,7 +621,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qt6-qtwebview|6.10.1|6.11.1||
 |qtkeychain|0.15.0|0.16.0||
 |quota|4.10|4.11||
-|rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
 |rdfind|1.7.0|1.8.0||
 |rdma-core|60.0|63.0||
 |re2|2025.08.12|2025-11-05||
@@ -696,6 +697,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |samba|4.23.2|4.24.2||
 |sdbus-cpp|2.1.0|2.3.1||
 |seatd|0.9.1|0.9.3||
+|sed|4.9|4.10||
 |setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |shaderc|2026.1|2026.2||
