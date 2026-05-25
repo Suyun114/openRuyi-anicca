@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779743138?label=Updated)
+![Relative date](https://img.shields.io/date/1779750010?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -367,6 +367,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lshw|B.02.20|02.20||
 |lttng-ust|2.14.0|2.15.1||
 |lua|5.4.8|5.5.0||
+|lua-json|1.3.4|1.3.5||
 |lua-lunitx|0.8.1|0.8.2||
 |luajit|2.1<br>+openresty20260114|2.1.ROLLING|Compound version number '2.1+openresty20260114'|
 |lutok|0.6.1|0.6.2||
@@ -384,7 +385,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |meson|1.10.2|1.11.1||
 |mimalloc|3.1.5|3.3.2||
 |minicom|2.10|2.11.1||
-|minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
 |minizip-ng|4.1.0|4.2.1||
 |mkosi|25.3<br>+git20251224.|26|Compound version number '25.3+git20251224.'<br>Version number indicates a snapshot (+git) is used|
 |mksh|59|59c|Possible downgrade from the current version (59 -> 59c)|
@@ -494,6 +494,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-gevent|26.4.0|26.5.0||
 |python-greenlet|3.4.0|3.5.1||
 |python-hf-xet|1.3.2|0.0.0|Possible downgrade from the current version (1.3.2 -> 0.0.0)|
+|python-httptools|0.7.1|0.8.0||
 |python-huggingface-hub|1.5.0|1.16.1||
 |python-hypothesis|6.152.4|6.152.10||
 |python-idna|3.13|3.16||
