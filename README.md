@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779823200?label=Updated)
+![Relative date](https://img.shields.io/date/1779831828?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -83,6 +83,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-noto-serif-cjk|2.003|Serif2.003||
 |fonts-sarasa-gothic|1.0.37|1.0.39||
 |foot|1.26.1|1.27.0||
+|fuse|2.9.9|2.5.0|Possible downgrade from the current version (2.9.9 -> 2.5.0)|
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
 |gcc|16|16.1.0||
 |gdb|17.1|17.2||
@@ -222,13 +223,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-opentelemetry-proto|1.9.0|1.10.0||
 |go-rsc-pdf|0.1.0<br>+git20260106.c47d69c|0.1.1|Compound version number '0.1.0+git20260106.c47d69c'<br>Version number indicates a snapshot (+git) is used|
 |go-uber-zap|1.27.1|1.28.0||
-|gpgme|2.0.1|2.1.0||
 |gpgmepp|2.0.0|2.1.0||
 |graphviz|14.1.5|15.0.0||
 |groff|1.23.0|1.24.1||
 |gsasl|2.2.2|2.2.3||
 |gsl|2.8|4.2.2||
 |gstreamer|1.27.50|4.3.6||
+|gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
 |gtk3|3.24.51|4.3.6||
 |guidelines-support-library|4.2.1|4.2.2||
@@ -267,6 +268,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |kiwi|10.2.42|10.3.4||
 |kpmcore|25.12.2|26.04.1||
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
+|labwc|0.9.7|0.20.0||
 |lcms2|2.17|6.1.1||
 |less|692|702||
 |libXft|2.3.8|2.3.9||
@@ -399,9 +401,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
 |multipath-tools|0.11.1|0.14.3||
+|musl|1.2.5|1.2.6||
 |ncurses|6.5|6.6||
 |ndctl|83|84||
 |netavark|1.17.1|1.17.2||
+|netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
 |nfs-utils|2.8.4|2.9.1||
@@ -478,12 +482,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
-|python-boto3|1.43.6|1.43.14||
-|python-botocore|1.43.11|1.43.14||
+|python-boto3|1.43.6|1.43.15||
+|python-botocore|1.43.11|1.43.15||
 |python-cachetools|7.1.1|7.1.4||
 |python-charset-normalizer|3.4.6|3.4.7||
 |python-click|8.3.3|8.4.1||
-|python-coverage|7.13.4|7.14.0||
+|python-coverage|7.13.4|7.14.1||
 |python-cryptography|46.0.3|48.0.0||
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
 |python-dashscope|1.25.11|1.25.19||
@@ -559,6 +563,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-rfc3986|1.5.0|2.0.0||
 |python-rpmautospec|0.8.3|0.8.4||
 |python-rtslib-fb|2.2.3|2.2.4||
+|python-s3transfer|0.17.0|0.17.1||
 |python-safetensors|0.7.0|0.8.0-rc.0||
 |python-setuptools-gettext|0.1.14|0.1.18||
 |python-sip|6.15.1|6.15.3||
@@ -714,7 +719,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |slang|2.3.3|2026.9.1||
 |slibtool|0.7.3|0.7.4||
 |socket_wrapper|1.5.0|1.5.2||
-|softhsm|2.6.1|2.7.0||
 |spdk|25.09|26.01||
 |spdlog|1.15.3|1.17.0||
 |spirv-cross|1.4.335.0|1.4.350.0||
