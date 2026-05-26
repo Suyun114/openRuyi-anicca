@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779754330?label=Updated)
+![Relative date](https://img.shields.io/date/1779771794?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -267,6 +267,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |kiwi|10.2.42|10.3.4||
 |kpmcore|25.12.2|26.04.1||
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
+|labwc|0.9.7|0.20.0||
 |lcms2|2.17|6.1.1||
 |less|692|702||
 |libXft|2.3.8|2.3.9||
@@ -306,7 +307,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libgcrypt|1.11.2|1.12.2||
 |libgit2|1.9.2|1.9.4||
 |libgpg-error|1.58|1.61||
-|libheif|1.21.2|1.22.1||
+|libheif|1.21.2|1.22.2||
 |libical|3.0.20|4.0.1||
 |libinput|1.30.0|1.31.2||
 |libisoburn|1.5.6|1.5.8.pl02||
@@ -497,7 +498,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hf-xet|1.3.2|0.0.0|Possible downgrade from the current version (1.3.2 -> 0.0.0)|
 |python-httptools|0.7.1|0.8.0||
 |python-huggingface-hub|1.5.0|1.16.1||
-|python-hypothesis|6.152.4|6.152.10||
+|python-hypothesis|6.152.4|6.152.12||
 |python-idna|3.13|3.16||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
@@ -696,7 +697,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-wit-bindgen-rust-macro-0.51|0.51.0|0.57.1||
 |rust-wit-component-0.244|0.244.0|1.250.0||
 |rust-wit-parser-0.244|0.244.0|1.250.0||
-|ruyi|0.46.0|0.50.0-alpha.20260519||
+|ruyi|0.46.0|0.49.0||
 |safeint|3.0.28a|3.24||
 |samba|4.23.2|4.24.2||
 |sdbus-cpp|2.1.0|2.3.1||
