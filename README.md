@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779909832?label=Updated)
+![Relative date](https://img.shields.io/date/1779918812?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -57,6 +57,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dialog|1.3|1.3-20260107||
 |ding-libs|0.6.2|0.7.0||
 |distribution-gpg-keys|1.115|1.119-1||
+|djvulibre|3.5.29|3.5.30||
 |dkms|3.2.2|3.4.1||
 |dmidecode|3.6|3.7||
 |dnf5|5.4.2.0|5.4.2.1||
@@ -91,7 +92,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |genext2fs|1.5.0|1.6.2||
 |gettext|1.0|2.1.0||
 |gi-docgen|2025.4|2026.1||
-|giflib|5.2.2|6.1.3||
 |glew|2.2.0|2.3.1||
 |glib|2.87.1|2.88.1||
 |glibmm|2.86.0|2.88.0||
@@ -129,7 +129,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-clipperhouse-uax29-v2|2.3.0|2.7.0||
 |go-github-cloudykit-jet|6.3.1|6.3.2||
 |go-github-codegangsta-inject|1.0~rc1|1.0-rc1||
-|go-github-containerd-typeurl|2.2.2|2.2.3||
+|go-github-containerd-typeurl|2.2.2|2.3.0||
 |go-github-coreos-go-oidc|3.17.0|3.18.0||
 |go-github-dlclark-regexp2|1.11.5|2.1.0||
 |go-github-docker-go-connections|0.6.0|0.7.0||
@@ -138,7 +138,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-emirpasic-gods-v2|2.0.0~alpha|2.0.0-alpha||
 |go-github-envoyproxy-protoc-gen-validate|1.3.0|1.3.3||
 |go-github-etcd-io-bbolt|1.4.3|1.5.0-rc.0||
-|go-github-etcd-io-raft|3.6.0|3.7.0-rc.0||
+|go-github-etcd-io-raft|3.6.0|3.7.0-rc.1||
 |go-github-fatih-color|1.18.0|1.19.0||
 |go-github-fsnotify-fsnotify|1.9.0|1.10.1||
 |go-github-gabriel-vasile-mimetype|1.4.12|1.4.13||
@@ -482,7 +482,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
-|python-boto3|1.43.6|1.43.15||
+|python-boto3|1.43.6|1.43.16||
 |python-botocore|1.43.11|1.43.15||
 |python-cachetools|7.1.1|7.1.4||
 |python-charset-normalizer|3.4.6|3.4.7||
@@ -649,6 +649,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocr-runtime|7.1.1|20250912-42||
 |rocsolver|7.1.1|20250912-42||
 |rocsparse|7.1.1|7.2.3||
+|rpcbind|1.2.8|1.2.9||
 |rpm|4.20.1|6.0.1-release||
 |rpmlint|2.8.0|2.9.0||
 |rrdtool|1.9.0|1.10.3||
