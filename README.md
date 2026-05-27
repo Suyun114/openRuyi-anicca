@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779868981?label=Updated)
+![Relative date](https://img.shields.io/date/1779884432?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -72,6 +72,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |editorconfig-core-c|0.12.10|0.12.11||
 |elfutils|0.194|0.195||
 |ethtool|6.15|7.0||
+|exfatprogs|1.3.2|1.4.0||
 |expect|5.45.4|30.4.1||
 |fakeroot|1.37.2|1.38.1||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
@@ -173,8 +174,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-mattn-go-isatty|0.0.20|0.0.22||
 |go-github-mattn-go-runewidth|0.0.19|0.0.23||
 |go-github-minio-highwayhash|1.0.3|1.0.4||
-|go-github-minio-kes-go|0.2.1|kms/v0.6.0||
-|go-github-minio-kms-go|0.2.1|kms/v0.6.0||
+|go-github-minio-kes-go|0.2.1|kms/v0.7.0||
+|go-github-minio-kms-go|0.2.1|kms/v0.7.0||
 |go-github-minio-mux|1.9.2|1.10.0||
 |go-github-minio-sio|0.4.3|0.5.1||
 |go-github-mitchellh-go-testing-interface|1.14.1|1.0.4|Possible downgrade from the current version (1.14.1 -> 1.0.4)|
@@ -396,7 +397,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mmtests|2.0~rc1<br>+git20260312.|2.0-rc5|Compound version number '2.0~rc1+git20260312.'<br>Version number indicates a snapshot (+git) is used|
 |mock|6.5|41.4-1||
 |mock-core-configs|43.2|mock-core-configs-44.2-1|Possible downgrade from the current version (43.2 -> mock-core-configs-44.2-1)|
-|mod_http2|2.0.39|2.0.40||
+|mod_http2|2.0.39|2.0.41||
 |msgpack|3.1.0|5.4.1||
 |mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
@@ -630,6 +631,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qtkeychain|0.15.0|0.16.0||
 |quota|4.10|4.11||
 |rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
+|rdfind|1.7.0|1.8.0||
 |rdma-core|60.0|63.0||
 |re2|2025.08.12|2025-11-05||
 |re2c|4.3|4.5.1||
@@ -779,7 +781,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vulkan-validation-layers|1.4.335.0|1.4.352||
 |wabt|1.0.39|1.0.41||
 |wavpack|5.8.1|5.9.0||
-|wayback|0.3|0.5.0||
 |weston|14.0.2|15.0.1||
 |which|2.23|8.0.2||
 |whois|5.6.4|5.6.6.git||
