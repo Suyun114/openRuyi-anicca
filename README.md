@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779918812?label=Updated)
+![Relative date](https://img.shields.io/date/1779923814?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -92,6 +92,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |genext2fs|1.5.0|1.6.2||
 |gettext|1.0|2.1.0||
 |gi-docgen|2025.4|2026.1||
+|giflib|5.2.2|6.1.3||
 |glew|2.2.0|2.3.1||
 |glib|2.87.1|2.88.1||
 |glibmm|2.86.0|2.88.0||
@@ -367,6 +368,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.6||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -727,7 +729,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |spirv-cross|1.4.335.0|1.4.350.0||
 |spirv-headers|1.4.350.0|1.5.4.raytracing.fixed||
 |spirv-llvm-translator|21.1.3|22.1.2||
-|spirv-tools|1.4.350.0|2026.1||
 |sqlite|3.50.4|3.53.1||
 |squashfs-tools|4.7.2|4.7.5||
 |srt|1.5.4|1.5.5||
@@ -800,7 +801,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xkeyboard-config|2.46|2.47||
 |xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
-|xmltoman|0.4|0.6||
 |xorg-server|21.1.21|21.1.22||
 |xorgproto|2024.1|2025.1||
 |xsimd|14.0.0|14.2.0||
