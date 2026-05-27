@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779884432?label=Updated)
+![Relative date](https://img.shields.io/date/1779899809?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -47,6 +47,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |crash|9.0.1|9.0.2||
 |createrepo_c|1.2.1|1.2.3||
 |crontabs|1.11|crontabs-20190603||
+|crun|1.27.1|1.28||
 |cunit|2.1.3|2.1-3||
 |cups|2.4.16|2.4.19||
 |curl-impersonate-chrome|0.7.0|2.0.0a4||
@@ -122,7 +123,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-charmbracelet-colorprofile|0.4.2|0.4.3||
 |go-github-charmbracelet-lipgloss|1.1.0|2.0.3||
 |go-github-charmbracelet-log|0.4.2|2.0.0||
-|go-github-charmbracelet-x|0<br>+git20260204.d6a2763|powernap/v0.1.5|Compound version number '0+git20260204.d6a2763'<br>Version number indicates a snapshot (+git) is used|
+|go-github-charmbracelet-x|0<br>+git20260204.d6a2763|powernap/v0.1.6|Compound version number '0+git20260204.d6a2763'<br>Version number indicates a snapshot (+git) is used|
 |go-github-cheggaaa-pb-v1|1.0.29|3.1.7||
 |go-github-chewxy-math32|1.11.1|1.11.2||
 |go-github-clipperhouse-displaywidth|0.6.2|0.11.0||
@@ -137,8 +138,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-emirpasic-gods|1.18.1|2.0.0-alpha||
 |go-github-emirpasic-gods-v2|2.0.0~alpha|2.0.0-alpha||
 |go-github-envoyproxy-protoc-gen-validate|1.3.0|1.3.3||
-|go-github-etcd-io-bbolt|1.4.3|1.5.0-beta.0||
-|go-github-etcd-io-raft|3.6.0|3.7.0-beta.0||
+|go-github-etcd-io-bbolt|1.4.3|1.5.0-rc.0||
+|go-github-etcd-io-raft|3.6.0|3.7.0-rc.0||
 |go-github-fatih-color|1.18.0|1.19.0||
 |go-github-fsnotify-fsnotify|1.9.0|1.10.1||
 |go-github-gabriel-vasile-mimetype|1.4.12|1.4.13||
@@ -264,7 +265,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |judy|1.0.5|2.0.7||
 |kbd|2.9.0|2.10.0||
 |kdsoap|2.2.0|2.3.0||
-|kea|3.1.4|3.1.8||
+|kea|3.1.4|3.1.9||
 |keepalived|2.2.8|2.3.4||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
 |kiwi|10.2.42|10.3.4||
@@ -367,6 +368,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.6||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -440,7 +442,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openzl|0.1.0|0.2.0||
 |opus|1.5.2|1.6.1||
 |os-prober|1.83|1.84||
-|osc|1.21.0|1.26.0||
+|osc|1.21.0|1.27.0||
 |osinfo-db|20250606|20251212||
 |otf2bdf|3.1|3.1_p1|Possible downgrade from the current version (3.1 -> 3.1_p1)|
 |ovmf|202602|edk2-stable202605|Versions not comparable: `202602` and `edk2-stable202605`|
@@ -453,7 +455,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |passt|0<br>+git20260424.ec96f01|2026_05_26.038c51e|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.1||
 |pcre2|10.45|10.47||
-|pcsc-lite|2.3.3|2.4.1||
+|pcsc-lite|2.3.3|2.5.0||
 |perl|5.42.0|5.42.2||
 |perl-rpm-packaging|1.2|1.3||
 |php|8.5.2|8.5.6||
@@ -502,7 +504,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hf-xet|1.3.2|0.0.0|Possible downgrade from the current version (1.3.2 -> 0.0.0)|
 |python-httptools|0.7.1|0.8.0||
 |python-huggingface-hub|1.5.0|1.16.4||
-|python-hypothesis|6.152.4|6.153.2||
+|python-hypothesis|6.152.4|6.153.5||
 |python-idna|3.13|3.16||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
@@ -575,7 +577,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-tensile|7.1.1|rocm-7.2.3||
 |python-tokenizers|0.22.2|0.23.1||
 |python-torchvision|0.25.0|0.27.0||
-|python-tornado|6.5.4|6.5.5||
+|python-tornado|6.5.4|6.5.6||
 |python-transformers|5.2.0|5.9.0||
 |python-trove-classifiers|2025.8.26.11|2026.5.22.10||
 |python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
@@ -679,14 +681,14 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-parking-lot-core-0.9|0.9.12|parking_lot-v0.12.5||
 |rust-semver-1.0|1.0.27|1.0.28||
 |rust-serde-json-1.0|1.0.149|1.0.150||
-|rust-serde-spanned-1.0|1.0.4|0.25.11|Possible downgrade from the current version (1.0.4 -> 0.25.11)|
+|rust-serde-spanned-1.0|1.0.4|0.25.12|Possible downgrade from the current version (1.0.4 -> 0.25.12)|
 |rust-serial-test-2.0|2.0.0|3.4.0||
 |rust-serial-test-derive-2.0|2.0.0|3.4.0||
 |rust-smallvec-1.0|1.15.1|2.0.0-alpha.12||
-|rust-toml-0.9|0.9.12|0.25.11||
-|rust-toml-datetime-0.7|0.7.5|0.25.11||
-|rust-toml-parser-1.0|1.0.10|0.25.11|Possible downgrade from the current version (1.0.10 -> 0.25.11)|
-|rust-toml-writer-1.0|1.0.7|0.25.11|Possible downgrade from the current version (1.0.7 -> 0.25.11)|
+|rust-toml-0.9|0.9.12|0.25.12||
+|rust-toml-datetime-0.7|0.7.5|0.25.12||
+|rust-toml-parser-1.0|1.0.10|0.25.12|Possible downgrade from the current version (1.0.10 -> 0.25.12)|
+|rust-toml-writer-1.0|1.0.7|0.25.12|Possible downgrade from the current version (1.0.7 -> 0.25.12)|
 |rust-utf8parse-0.2|0.2.2|0.15.0||
 |rust-wasip2-1.0|1.0.2|wasip3-0.6.0||
 |rust-wasip3-0.4|0.4.0|wasip3-0.6.0|Possible downgrade from the current version (0.4.0 -> wasip3-0.6.0)|
@@ -781,6 +783,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vulkan-validation-layers|1.4.335.0|1.4.352||
 |wabt|1.0.39|1.0.41||
 |wavpack|5.8.1|5.9.0||
+|wayback|0.3|0.5.0||
 |weston|14.0.2|15.0.1||
 |which|2.23|8.0.2||
 |whois|5.6.4|5.6.6.git||
