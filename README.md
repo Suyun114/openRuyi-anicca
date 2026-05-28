@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779991924?label=Updated)
+![Relative date](https://img.shields.io/date/1780002579?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -69,6 +69,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dpdk|25.07|26.03||
 |dracut|110|111||
 |dropbear|2025.89|2026.91||
+|drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarves|1.30|1.31||
 |editorconfig-core-c|0.12.10|0.12.11||
@@ -110,7 +111,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-andybalholm-brotli|1.2.0|1.2.1||
 |go-github-apache-arrow-go-arrow|0<br>+git20260107.bc21918|r-universe-release|Compound version number '0+git20260107.bc21918'<br>Version number indicates a snapshot (+git) is used<br>Versions not comparable: `0+git20260107.bc21918` and `r-universe-release`|
 |go-github-apache-arrow-go-v18|18.5.0|18.6.0||
-|go-github-apache-beam|2.71.0|2.74.0-RC2||
+|go-github-apache-beam|2.71.0|2.74.0-RC3||
 |go-github-apache-thrift|0.22.0|0.23.0||
 |go-github-apparentlymart-go-cidr|1.1.0|1.1.1||
 |go-github-apparentlymart-go-textseg|16.0.0|autoversion/v1.6.0||
@@ -242,7 +243,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |haveged|1.9.20|1.9.22||
 |hdf5|2.0.0|2.1.1||
 |hipblas|7.1.1|20250912-17||
-|hipblas-common|7.1.1|7.2.3||
+|hipblas-common|7.1.1|7.2.4||
 |hipify|7.1.1|20250912-42||
 |httpd|2.4.66|2.4.67||
 |hunspell-en|2026.02.25|rel-2026.02.25||
@@ -299,6 +300,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcthreads|20240413|20260518||
 |libdatrie|0.2.13|0.2.14||
 |libdisplay-info|0.2.0|0.3.0||
+|libdrm|2.4.131|2.4.133||
 |libdwarf|2.2.0|2.3.1||
 |libeconf|0.7.8|0.8.3||
 |libedit|20250104.3.1|20260512-3.1||
@@ -320,7 +322,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libjwt|3.2.2|3.3.3||
 |libklvanc|1.6.0|id.obe.1.6.0||
 |libksba|1.6.7|1.8.0||
-|liblognorm|2.0.6|2.1.0||
 |libmaxminddb|1.12.2|1.13.3||
 |libmbim|1.32.0|1.34.0||
 |libmd|1.1.0|1.2.0||
@@ -382,7 +383,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lxcfs|6.0.6|7.0.0||
 |lz4|1.10.0|1.28.1||
 |man-pages|6.15|6.18||
-|mariadb|11.8.6|12.3.1||
+|mariadb|11.8.6|12.3.2||
 |mariadb-connector-c|3.4.8|3.4.9||
 |mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
@@ -483,7 +484,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
-|python-boto3|1.43.6|1.43.16||
+|python-boto3|1.43.6|1.43.17||
 |python-botocore|1.43.11|1.43.16||
 |python-cachetools|7.1.1|7.1.4||
 |python-charset-normalizer|3.4.6|3.4.7||
@@ -565,7 +566,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-rfc3986|1.5.0|2.0.0||
 |python-rpmautospec|0.8.3|0.8.4||
 |python-rtslib-fb|2.2.3|2.2.4||
-|python-s3transfer|0.17.0|0.17.1||
+|python-s3transfer|0.17.0|0.18.0||
 |python-safetensors|0.7.0|0.8.0-rc.0||
 |python-setuptools-gettext|0.1.14|0.1.18||
 |python-sip|6.15.1|6.15.3||
@@ -574,7 +575,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-starlette|1.0.0|1.2.0||
 |python-tempita|0.6.0|0.6||
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
-|python-tensile|7.1.1|rocm-7.2.3||
+|python-tensile|7.1.1|rocm-7.2.4||
 |python-tokenizers|0.22.2|0.23.1||
 |python-torchvision|0.25.0|0.27.0||
 |python-tornado|6.5.4|6.5.6||
@@ -774,7 +775,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|76||
-|vim|9.2.0481|9.2.0545||
+|vim|9.2.0481|9.2.0549||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.352||
