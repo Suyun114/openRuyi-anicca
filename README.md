@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1779979163?label=Updated)
+![Relative date](https://img.shields.io/date/1779991924?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -27,7 +27,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |busybox|1.37.0|1.38.0||
 |byacc|2.0.20260126|20260126||
 |cairo|1.18.4|1.109||
-|capstone|5.0.3|5.0.8||
+|capstone|5.0.3|5.0.9||
 |cbindgen|0.29.2|0.29.3||
 |ceph|20.2.1|21.0.0||
 |check|0.15.2|1.9.1||
@@ -69,7 +69,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dpdk|25.07|26.03||
 |dracut|110|111||
 |dropbear|2025.89|2026.91||
-|drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarves|1.30|1.31||
 |editorconfig-core-c|0.12.10|0.12.11||
@@ -300,7 +299,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcthreads|20240413|20260518||
 |libdatrie|0.2.13|0.2.14||
 |libdisplay-info|0.2.0|0.3.0||
-|libdrm|2.4.131|2.4.133||
 |libdwarf|2.2.0|2.3.1||
 |libeconf|0.7.8|0.8.3||
 |libedit|20250104.3.1|20260512-3.1||
@@ -325,6 +323,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |liblognorm|2.0.6|2.1.0||
 |libmaxminddb|1.12.2|1.13.3||
 |libmbim|1.32.0|1.34.0||
+|libmd|1.1.0|1.2.0||
 |libmicrohttpd|1.0.2|1.0.5||
 |libnbd|1.23.13|1.25.5||
 |libnetfilter_conntrack|1.0.9|1.1.1||
@@ -411,6 +410,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
+|nfs-utils|2.8.4|2.9.1||
 |nfs4-acl-tools|0.4.2|0.3.7|Possible downgrade from the current version (0.4.2 -> 0.3.7)|
 |nftables|1.1.5|1.1.6||
 |nghttp3|1.12.0|1.15.0||
@@ -502,8 +502,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-greenlet|3.4.0|3.5.1||
 |python-hf-xet|1.3.2|1.5.1-dev0||
 |python-httptools|0.7.1|0.8.0||
-|python-huggingface-hub|1.5.0|1.17.0.rc0||
-|python-hypothesis|6.152.4|6.154.1||
+|python-huggingface-hub|1.5.0|1.17.0||
+|python-hypothesis|6.152.4|6.155.0||
 |python-idna|3.13|3.17||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
