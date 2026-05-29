@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780010145?label=Updated)
+![Relative date](https://img.shields.io/date/1780023463?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -134,7 +134,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-codegangsta-inject|1.0~rc1|1.0-rc1||
 |go-github-containerd-typeurl|2.2.2|2.3.0||
 |go-github-coreos-go-oidc|3.17.0|3.18.0||
-|go-github-dlclark-regexp2|1.11.5|2.1.0||
+|go-github-dlclark-regexp2|1.11.5|2.1.1||
 |go-github-docker-go-connections|0.6.0|0.7.0||
 |go-github-dougm-pretty|2011.12.22|go.weekly.2011-12-22||
 |go-github-emirpasic-gods|1.18.1|2.0.0-alpha||
@@ -358,7 +358,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
 |libvirt|12.2.0|12.3.0||
 |libvpx|1.15.2|1.16.0||
-|libwacom|2.17.0|2.18.0||
+|libwacom|2.17.0|2.19.0||
 |libwebp|1.6.0|20.3.4||
 |libxkbcommon|1.13.0|1.13.1||
 |libxkbfile|1.1.3|1.2.0||
@@ -370,7 +370,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.6||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -427,7 +426,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nvme-cli|2.16|3.0-a.5||
 |obs-build|20250829|20260505||
 |ollama|0.13.5|0.24.0||
-|onnx|1.20.1|1.21.0||
 |onnxruntime|1.24.1|1.26.0||
 |open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
@@ -804,6 +802,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xfsprogs|6.16.0|7.0.1||
 |xkeyboard-config|2.46|2.47||
 |xmlsec|1.3.10|1.3.17||
+|xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
 |xorg-server|21.1.21|21.1.22||
 |xorgproto|2024.1|2025.1||
