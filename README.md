@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780076315?label=Updated)
+![Relative date](https://img.shields.io/date/1780086247?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -292,7 +292,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libbluray|1.4.1|1.4.0|Possible downgrade from the current version (1.4.1 -> 1.4.0)|
 |libburn|1.5.6|1.5.8||
 |libcap|2.76|2.78||
-|libcap-ng|0.8.5|0.9.3||
 |libcdata|20240414|20260520||
 |libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
 |libcerror|20240413|20260527||
@@ -406,7 +405,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mock-core-configs|43.2|mock-core-configs-44.2-1|Possible downgrade from the current version (43.2 -> mock-core-configs-44.2-1)|
 |mod_http2|2.0.39|2.0.42||
 |msgpack|3.1.0|5.4.1||
-|mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
 |multipath-tools|0.11.1|0.14.3||
 |musl|1.2.5|1.2.6||
@@ -489,7 +487,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
-|python-boto3|1.43.6|1.43.17||
+|python-boto3|1.43.6|1.43.18||
 |python-botocore|1.43.11|1.43.17||
 |python-cachetools|7.1.1|7.1.4||
 |python-charset-normalizer|3.4.6|3.4.7||
@@ -604,40 +602,40 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qemu|10.2.0|11.0.1||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.66||
-|qt6-qt5compat|6.10.1|6.11.1||
-|qt6-qtcharts|6.10.1|6.11.1||
-|qt6-qtcoap|6.10.1|6.11.1||
-|qt6-qtconnectivity|6.10.1|6.11.1||
-|qt6-qtdatavis3d|6.10.1|6.11.1||
-|qt6-qtdeclarative|6.10.1|6.11.1||
-|qt6-qtgrpc|6.10.1|6.11.1||
-|qt6-qthttpserver|6.10.1|6.11.1||
-|qt6-qtimageformats|6.10.1|6.11.1||
-|qt6-qtlanguageserver|6.10.1|6.11.1||
-|qt6-qtlocation|6.10.1|6.11.1||
-|qt6-qtlottie|6.10.1|6.11.1||
-|qt6-qtmqtt|6.10.1|6.11.1||
-|qt6-qtnetworkauth|6.10.1|6.11.1||
-|qt6-qtopcua|6.10.1|6.11.1||
-|qt6-qtpositioning|6.10.1|6.11.1||
-|qt6-qtquick3d|6.10.1|6.11.1||
-|qt6-qtquick3dphysics|6.10.1|6.11.1||
-|qt6-qtquickeffectmaker|6.10.1|6.11.1||
-|qt6-qtquicktimeline|6.10.1|6.11.1||
-|qt6-qtremoteobjects|6.10.1|6.11.1||
-|qt6-qtscxml|6.10.1|6.11.1||
-|qt6-qtsensors|6.10.1|6.11.1||
-|qt6-qtserialbus|6.10.1|6.11.1||
-|qt6-qtserialport|6.10.1|6.11.1||
-|qt6-qtshadertools|6.10.1|6.11.1||
-|qt6-qtspeech|6.10.1|6.11.1||
-|qt6-qttranslations|6.10.1|6.11.1||
-|qt6-qtvirtualkeyboard|6.10.1|6.11.1||
-|qt6-qtwayland|6.10.1|6.11.1||
-|qt6-qtwebchannel|6.10.1|6.11.1||
-|qt6-qtwebengine|6.10.1|6.11.1||
-|qt6-qtwebsockets|6.10.1|6.11.1||
-|qt6-qtwebview|6.10.1|6.11.1||
+|qt6-qt5compat|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtcharts|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtcoap|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtconnectivity|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtdatavis3d|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtdeclarative|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtgrpc|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qthttpserver|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtimageformats|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtlanguageserver|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtlocation|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtlottie|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtmqtt|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtnetworkauth|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtopcua|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtpositioning|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtquick3d|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtquick3dphysics|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtquickeffectmaker|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtquicktimeline|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtremoteobjects|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtscxml|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtsensors|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtserialbus|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtserialport|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtshadertools|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtspeech|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qttranslations|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtvirtualkeyboard|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtwayland|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtwebchannel|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtwebengine|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtwebsockets|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qt6-qtwebview|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
 |qtkeychain|0.15.0|0.16.0||
 |quota|4.10|4.11||
 |rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
