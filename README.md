@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780063222?label=Updated)
+![Relative date](https://img.shields.io/date/1780076315?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -174,8 +174,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-lib-pq|1.11.1|1.12.3||
 |go-github-lucasb-eyer-go-colorful|1.3.0|1.4.0||
 |go-github-mailru-easyjson|0.9.1|0.9.2||
+|go-github-mattn-go-colorable|0.1.14|0.1.15||
 |go-github-mattn-go-isatty|0.0.20|0.0.22||
-|go-github-mattn-go-runewidth|0.0.19|0.0.23||
+|go-github-mattn-go-runewidth|0.0.19|0.0.24||
 |go-github-minio-highwayhash|1.0.3|1.0.4||
 |go-github-minio-kes-go|0.2.1|kms/v0.7.0||
 |go-github-minio-kms-go|0.2.1|kms/v0.7.0||
@@ -191,6 +192,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-phpdave11-gofpdi|1.0.15|1.0.16||
 |go-github-pierrec-lz4-v4|4.1.23|4.1.26||
 |go-github-pkg-sftp|1.13.10|2.0.0-alpha2||
+|go-github-prometheus-common|0.67.5|0.68.0||
 |go-github-prometheus-procfs|0.19.2|0.20.1||
 |go-github-puzpuzpuz-xsync|4.4.0|4.5.0||
 |go-github-rabbitmq-amqp091-go|1.10.0|1.11.0||
@@ -231,6 +233,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gpgmepp|2.0.0|2.1.0||
 |graphviz|14.1.5|15.0.0||
 |groff|1.23.0|1.24.1||
+|grpc|1.80.0|1.81.0||
 |gsasl|2.2.2|2.2.3||
 |gsl|2.8|4.2.2||
 |gstreamer|1.27.50|4.3.6||
@@ -313,7 +316,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libgcrypt|1.11.2|1.12.2||
 |libgit2|1.9.2|1.9.4||
 |libgpg-error|1.58|1.61||
-|libheif|1.21.2|1.22.2||
+|libheif|1.21.2|1.23.0||
 |libical|3.0.20|4.0.1||
 |libinput|1.30.0|1.31.2||
 |libisoburn|1.5.6|1.5.8.pl02||
