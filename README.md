@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780147531?label=Updated)
+![Relative date](https://img.shields.io/date/1780153593?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -10,7 +10,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |abseil-cpp|20260107.0|20260107.1||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
 |accountsservice|23.13.9|26.13.3||
-|arrow|23.0.1|58.3.0||
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |at-spi2-core|2.58.2|2.60.4||
 |atkmm|2.28.4|2.36.4||
@@ -462,7 +461,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |passt|0<br>+git20260424.ec96f01|2026_05_26.038c51e|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.1||
 |pcre2|10.45|10.47||
-|pcsc-lite|2.3.3|2.5.0||
 |perl|5.42.0|5.42.2||
 |perl-rpm-packaging|1.2|1.3||
 |php|8.5.2|8.5.6||
@@ -472,6 +470,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pipewire|1.5.84|1.6.6||
 |plasma-wayland-protocols|1.19.0|1.21.0||
 |polkit|126|127||
+|poppler|25.11.0|26.05.0||
 |ppp|2.5.2|2.5.3||
 |protobuf|33.2|35.0||
 |psutils|2.10|3.3.15||
@@ -754,6 +753,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |taglib|2.1.1|2.3||
 |talloc|2.4.3|2.4.4||
 |tar|1.35|7.5.15||
+|tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.3||
 |tcpdump|4.99.5|4.99.6||
 |tcsh|6.24.15|6.24.16||
