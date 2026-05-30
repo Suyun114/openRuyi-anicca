@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780116796?label=Updated)
+![Relative date](https://img.shields.io/date/1780126876?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -59,6 +59,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dialog|1.3|1.3-20260107||
 |ding-libs|0.6.2|0.7.0||
 |distribution-gpg-keys|1.115|1.119-1||
+|djvulibre|3.5.29|3.5.30||
 |dkms|3.2.2|3.4.1||
 |dmidecode|3.6|3.7||
 |dnf5|5.4.2.0|5.4.2.1||
@@ -230,7 +231,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-rsc-pdf|0.1.0<br>+git20260106.c47d69c|0.1.1|Compound version number '0.1.0+git20260106.c47d69c'<br>Version number indicates a snapshot (+git) is used|
 |go-uber-zap|1.27.1|1.28.0||
 |gpgme|2.0.1|2.1.0||
-|gpgmepp|2.0.0|2.1.0||
 |graphviz|14.1.5|15.0.0||
 |groff|1.23.0|1.24.1||
 |grpc|1.80.0|1.81.0||
@@ -373,6 +373,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.6||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -402,6 +403,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mkosi|25.3<br>+git20251224.|26|Compound version number '25.3+git20251224.'<br>Version number indicates a snapshot (+git) is used|
 |mksh|59|59c|Possible downgrade from the current version (59 -> 59c)|
 |mmtests|2.0~rc1<br>+git20260312.|2.0-rc5|Compound version number '2.0~rc1+git20260312.'<br>Version number indicates a snapshot (+git) is used|
+|mock|6.5|41.4-1||
 |mock-core-configs|43.2|mock-core-configs-44.2-1|Possible downgrade from the current version (43.2 -> mock-core-configs-44.2-1)|
 |mod_http2|2.0.39|2.0.42||
 |msgpack|3.1.0|5.4.1||
@@ -650,7 +652,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocksdb|10.5.1|11.1.1||
 |rocm-bandwidth-test|6.4.2|20250912-42||
 |rocm-cmake|7.1.1|20250912-42||
-|rocm-llvm|7.1.1|20250912-42||
 |rocm-smi|7.1.1|rocm-7.2.4||
 |rocminfo|7.1.1|20250912-42||
 |rocprim|7.1.1|7.2.4||
@@ -658,6 +659,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocr-runtime|7.1.1|20250912-42||
 |rocsolver|7.1.1|20250912-42||
 |rocsparse|7.1.1|7.2.4||
+|rpcbind|1.2.8|1.2.9||
 |rpm|4.20.1|6.0.1-release||
 |rpmlint|2.8.0|2.9.0||
 |rrdtool|1.9.0|1.10.3||
@@ -781,7 +783,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|76||
 |vim|9.2.0481|9.2.0564||
-|vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.352||
 |vulkan-loader|1.4.335.0|1.4.352||
