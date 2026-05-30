@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780171782?label=Updated)
+![Relative date](https://img.shields.io/date/1780178520?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -285,7 +285,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXmu|1.2.1|1.3.1||
 |libXrandr|1.5.4|1.5.5||
 |libXres|1.2.2|1.2.3||
-|libXxf86vm|1.1.6|1.1.7||
 |libaec|1.1.6|1.1.7||
 |libatomic_ops|7.8.2|7.10.0||
 |libavif|1.4.0|1.4.2||
@@ -354,7 +353,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libstoragemgmt|1.10.2|1.10.3||
 |libthai|0.1.29|0.1.30||
 |libtiff|4.7.0|4.7.1||
-|libtraceevent|1.8.4|1.9.0||
 |libudev-zero|1.0.3|1.0.4||
 |libunibreak|6.1|7.0||
 |liburing|2.12|2.14||
@@ -374,7 +372,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.6||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -387,6 +384,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lutok|0.6.1|0.6.2||
 |lvm2|2.03.35|2.03.41||
 |lxc|6.0.6|7.0.0||
+|lxcfs|6.0.6|7.0.0||
 |lz4|1.10.0|1.28.1||
 |man-pages|6.15|6.18||
 |mariadb|11.8.6|13.0.1||
@@ -656,6 +654,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocm-llvm|7.1.1|20250912-42||
 |rocm-smi|7.1.1|rocm-7.2.4||
 |rocminfo|7.1.1|20250912-42||
+|rocprim|7.1.1|7.2.4||
 |rocprofiler-register|7.1.0|20250912-42||
 |rocr-runtime|7.1.1|20250912-42||
 |rocsolver|7.1.1|20250912-42||
@@ -692,8 +691,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-semver-1.0|1.0.27|1.0.28||
 |rust-serde-json-1.0|1.0.149|1.0.150||
 |rust-serde-spanned-1.0|1.0.4|0.25.12|Possible downgrade from the current version (1.0.4 -> 0.25.12)|
-|rust-serial-test-2.0|2.0.0|3.4.0||
-|rust-serial-test-derive-2.0|2.0.0|3.4.0||
+|rust-serial-test-2.0|2.0.0|3.5.0||
+|rust-serial-test-derive-2.0|2.0.0|3.5.0||
 |rust-smallvec-1.0|1.15.1|2.0.0-alpha.12||
 |rust-toml-0.9|0.9.12|0.25.12||
 |rust-toml-datetime-0.7|0.7.5|0.25.12||
@@ -811,7 +810,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xkeyboard-config|2.46|2.47||
 |xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
-|xmltoman|0.4|0.6||
 |xorg-server|21.1.21|21.1.22||
 |xorgproto|2024.1|2025.1||
 |xsimd|14.0.0|14.2.0||
@@ -820,4 +818,5 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |yaml-cpp|0.8.0|0.9.0||
 |zfs|2.4.1|2.4.2||
 |zip|3.0|8.6.0||
+|zstd|1.5.7|1.5.7.3||
 |zziplib|0.13.80|3.0||
