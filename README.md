@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780261133?label=Updated)
+![Relative date](https://img.shields.io/date/1780264916?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -232,6 +232,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-uber-zap|1.27.1|1.28.0||
 |gpgme|2.0.1|2.1.0||
 |gpgmepp|2.0.0|2.1.0||
+|graphite2|1.3.14|1.3.15||
 |graphviz|14.1.5|15.0.0||
 |groff|1.23.0|1.24.1||
 |grpc|1.80.0|1.81.0||
@@ -301,7 +302,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcnotify|20240414|20260520||
 |libcomps|0.1.23|0.1.24||
 |libconfig|1.8.1|1.8.2||
-|libcthreads|20240413|20260518||
+|libcthreads|20240413|20260530||
 |libdatrie|0.2.13|0.2.14||
 |libdisplay-info|0.2.0|0.3.0||
 |libdrm|2.4.131|2.4.134||
@@ -813,6 +814,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
+|xorg-server|21.1.21|21.1.22||
 |xorgproto|2024.1|2025.1||
 |xsimd|14.0.0|14.2.0||
 |xxhash|0.8.3|2.3.0||
