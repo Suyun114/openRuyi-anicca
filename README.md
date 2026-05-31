@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780198439?label=Updated)
+![Relative date](https://img.shields.io/date/1780213537?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -32,7 +32,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ceph|20.2.1|21.0.0||
 |check|0.15.2|1.9.1||
 |ck|0.7.2|2.6.4||
-|clevis|21|23||
 |cloud-hypervisor|51.0.0|52.0||
 |cloud-init|25.3|26.1||
 |cmake|4.3.2|4.3.3||
@@ -69,11 +68,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |doxygen|1.13.2|1.17.0||
 |dpdk|25.07|26.03||
 |dracut|110|111||
+|dropbear|2025.89|2026.91||
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarves|1.30|1.31||
 |editorconfig-core-c|0.12.10|0.12.11||
 |elfutils|0.194|0.195||
+|ethtool|6.15|7.0||
 |exfatprogs|1.3.2|1.4.1||
 |expect|5.45.4|30.4.1||
 |fakeroot|1.37.2|1.38.1||
@@ -316,6 +317,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libgit2|1.9.2|1.9.4||
 |libgpg-error|1.58|1.61||
 |libheif|1.21.2|1.23.0||
+|libical|3.0.20|4.0.2||
 |libinput|1.30.0|1.31.2||
 |libisoburn|1.5.6|1.5.8.pl02||
 |libisofs|1.5.6|1.5.8.pl02||
@@ -747,6 +749,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |swaybg|1.2.1|1.2.2||
 |sysrepo|4.2.10|4.5.4||
 |sysstat|12.7.8|12.7.9||
+|systemd|259|0.10.1|Possible downgrade from the current version (259 -> 0.10.1)|
 |taglib|2.1.1|2.3||
 |talloc|2.4.3|2.4.4||
 |tar|1.35|7.5.15||
@@ -766,7 +769,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |udisks2|2.11.0|2.11.1||
 |unicode-ucd|17.0.0|18.0.0||
 |unifont|16.0.04|17.0.04||
-|universal-ctags|6.2.0|6.2.20260524.0||
+|universal-ctags|6.2.0|6.2.20260531.0||
 |unixbench|6.0.0|6.0.1||
 |upower|1.91.1|1.91.2||
 |usbutils|018|019||
