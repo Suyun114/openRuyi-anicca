@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780229512?label=Updated)
+![Relative date](https://img.shields.io/date/1780238659?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -33,7 +33,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |check|0.15.2|1.9.1||
 |ck|0.7.2|2.6.4||
 |clevis|21|23||
-|cloud-hypervisor|51.0.0|52.0||
 |cloud-init|25.3|26.1||
 |cmake|4.3.2|4.3.3||
 |cmocka|1.1.7|2.0.2||
@@ -237,6 +236,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |grpc|1.80.0|1.81.0||
 |gsasl|2.2.2|2.2.3||
 |gsl|2.8|4.2.2||
+|gstreamer|1.27.50|4.3.6||
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
 |gtk3|3.24.51|4.3.6||
@@ -337,7 +337,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libnotify|0.8.7|0.8.8||
 |libp11|0.4.13|0.4.18||
 |libpaper|2.2.6|2.2.8||
-|libpcap|1.10.5|1.10.6||
+|libpciaccess|0.18|0.19||
 |libplasma|6.5.5|6.6.5||
 |libpng|1.6.55|1.6.58||
 |libqalculate|5.9.0|5.11.0||
@@ -372,6 +372,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.6||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -782,7 +783,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|76||
-|vim|9.2.0481|9.2.0567||
+|vim|9.2.0481|9.2.0568||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.352||
@@ -799,7 +800,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wireguard-tools|1.0.20250521|1.0.20260223||
 |wlroots|0.19.3|0.20.1||
 |wofi|1.5.2|1.5.3||
-|wolfssl|5.8.2|5.9.1-stable||
 |wtmpdb|0.74.0|0.75.0||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
 |xdg-desktop-portal|1.20.3|1.20.4||
