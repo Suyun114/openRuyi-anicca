@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780243635?label=Updated)
+![Relative date](https://img.shields.io/date/1780250479?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -462,7 +462,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |patch|2.8|3.1.1||
 |pcre2|10.45|10.47||
 |pcsc-lite|2.3.3|2.5.0||
-|perl|5.42.0|5.42.2||
 |perl-rpm-packaging|1.2|1.3||
 |php|8.5.2|8.5.6||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
@@ -593,7 +592,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.48.0||
-|python-virtualenv|20.35.4|21.4.1||
+|python-virtualenv|20.35.4|21.4.2||
 |python-weasel|1.0.0|release-v1.0.0||
 |python-wheel|0.45.1|0.47.0||
 |python-wrapt|2.1.1|2.2.1||
