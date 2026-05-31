@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780250479?label=Updated)
+![Relative date](https://img.shields.io/date/1780255755?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -97,7 +97,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gi-docgen|2025.4|2026.1||
 |giflib|5.2.2|6.1.3||
 |glew|2.2.0|2.3.1||
-|glib|2.87.1|2.88.1||
 |glibmm|2.86.0|2.88.0||
 |glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.3.0||
@@ -407,7 +406,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mock-core-configs|43.2|mock-core-configs-44.2-1|Possible downgrade from the current version (43.2 -> mock-core-configs-44.2-1)|
 |mod_http2|2.0.39|2.0.42||
 |msgpack|3.1.0|5.4.1||
-|mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
 |multipath-tools|0.11.1|0.14.3||
 |musl|1.2.5|1.2.6||
@@ -462,6 +460,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |patch|2.8|3.1.1||
 |pcre2|10.45|10.47||
 |pcsc-lite|2.3.3|2.5.0||
+|perl|5.42.0|5.42.2||
 |perl-rpm-packaging|1.2|1.3||
 |php|8.5.2|8.5.6||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
@@ -563,7 +562,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pytest-asyncio|1.3.0|1.4.0||
 |python-pytest-rerunfailures|16.1|16.3||
 |python-python-dateutil|2.9.0.post0|2.9.0||
-|python-python-multipart|0.0.28|0.0.29||
+|python-python-multipart|0.0.28|0.0.30||
 |python-pyvex|9.2.214|9.2.219||
 |python-rdflib|7.5.0|7.6.0||
 |python-redis|7.4.0|8.0.0||
@@ -782,7 +781,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vala|0.56.18|0.56.19||
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
-|vapoursynth|73|76||
 |vim|9.2.0481|9.2.0568||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
@@ -799,7 +797,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |whois|5.6.4|5.6.6.git||
 |wireguard-tools|1.0.20250521|1.0.20260223||
 |wlroots|0.19.3|0.20.1||
-|wofi|1.5.2|1.5.3||
 |wolfssl|5.8.2|5.9.1-stable||
 |wtmpdb|0.74.0|0.75.0||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
