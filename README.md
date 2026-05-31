@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780255755?label=Updated)
+![Relative date](https://img.shields.io/date/1780261133?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -97,6 +97,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gi-docgen|2025.4|2026.1||
 |giflib|5.2.2|6.1.3||
 |glew|2.2.0|2.3.1||
+|glib|2.87.1|2.88.1||
 |glibmm|2.86.0|2.88.0||
 |glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.3.0||
@@ -151,7 +152,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-go-jose-go-jose-v4|4.1.3|4.1.4||
 |go-github-go-ldap-ldap|3.4.12|3.4.13||
 |go-github-go-openapi-jsonpointer|0.22.4|0.23.1||
-|go-github-go-openapi-jsonreference|0.21.4|0.21.5||
+|go-github-go-openapi-jsonreference|0.21.4|0.21.6||
 |go-github-go-openapi-spec|0.22.3|0.22.4||
 |go-github-go-openapi-swag|0.25.4|yamlutils/v0.26.0||
 |go-github-go-openapi-testify|2.3.0|2.5.1||
@@ -406,6 +407,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mock-core-configs|43.2|mock-core-configs-44.2-1|Possible downgrade from the current version (43.2 -> mock-core-configs-44.2-1)|
 |mod_http2|2.0.39|2.0.42||
 |msgpack|3.1.0|5.4.1||
+|mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
 |multipath-tools|0.11.1|0.14.3||
 |musl|1.2.5|1.2.6||
@@ -523,7 +525,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-meh|0.52|0.53||
 |python-mitogen|0.3.47|0.3.48||
 |python-more-itertools|11.0.2|11.1.0||
-|python-multipart|0.0.22|0.0.29||
+|python-multipart|0.0.22|0.0.30||
 |python-munkres|1.1.4|release-1.1.4|Possible downgrade from the current version (1.1.4 -> release-1.1.4)|
 |python-murmurhash|1.0.15|release-v1.0.15|Possible downgrade from the current version (1.0.15 -> release-v1.0.15)|
 |python-narwhals|2.15.0|2.21.2||
@@ -534,7 +536,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-ordered-set|4.1.0|release/4.1.0||
 |python-orjson|3.11.7|3.11.9||
 |python-packaging|25.0|26.2||
-|python-pip|25.3|26.1.1||
+|python-pip|25.3|26.1.2||
 |python-pipdeptree|2.30.0|2.35.3||
 |python-platformdirs|4.9.6|4.10.0||
 |python-preshed|3.0.12|release-v3.0.13|Possible downgrade from the current version (3.0.12 -> release-v3.0.13)|
@@ -781,7 +783,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vala|0.56.18|0.56.19||
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
-|vim|9.2.0481|9.2.0568||
+|vapoursynth|73|76||
+|vim|9.2.0481|9.2.0578||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.352||
@@ -797,6 +800,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |whois|5.6.4|5.6.6.git||
 |wireguard-tools|1.0.20250521|1.0.20260223||
 |wlroots|0.19.3|0.20.1||
+|wofi|1.5.2|1.5.3||
 |wolfssl|5.8.2|5.9.1-stable||
 |wtmpdb|0.74.0|0.75.0||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
@@ -809,7 +813,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
-|xorg-server|21.1.21|21.1.22||
 |xorgproto|2024.1|2025.1||
 |xsimd|14.0.0|14.2.0||
 |xxhash|0.8.3|2.3.0||
