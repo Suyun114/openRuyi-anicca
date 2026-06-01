@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780269219?label=Updated)
+![Relative date](https://img.shields.io/date/1780285538?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -83,7 +83,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |firewalld|2.4.0|2.4.1||
 |fontconfig|2.17.1|2.18.0||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
-|fonts-noto|2026.01.01|noto-monthly-release-2026.05.01||
+|fonts-noto|2026.01.01|noto-monthly-release-2026.06.01||
 |fonts-noto-sans-cjk|2.004|Serif2.003|Possible downgrade from the current version (2.004 -> Serif2.003)|
 |fonts-noto-serif-cjk|2.003|Serif2.003||
 |fonts-sarasa-gothic|1.0.37|1.0.39||
@@ -199,7 +199,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-rabbitmq-amqp091-go|1.10.0|1.11.0||
 |go-github-rogpeppe-go-internal|1.14.1|1.15.0||
 |go-github-russross-blackfriday|1.6.0|2.1.0||
-|go-github-shirou-gopsutil|4.26.1|4.26.4||
+|go-github-shirou-gopsutil|4.26.1|4.26.5||
 |go-github-shoenig-test|1.12.2|1.13.2||
 |go-github-spaolacci-murmur3|1.0.0|1.1.0||
 |go-github-stretchr-testify|1.11.0|1.2.3|Possible downgrade from the current version (1.11.0 -> 1.2.3)|
@@ -337,7 +337,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libnftnl|1.3.0|1.3.1||
 |libnl|3.11.0|3.12.0||
 |libnotify|0.8.7|0.8.8||
-|libp11|0.4.13|0.4.18||
 |libpaper|2.2.6|2.2.8||
 |libpcap|1.10.5|1.10.6||
 |libpciaccess|0.18|0.19||
@@ -396,7 +395,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
-|mesa|26.0.1|26.1.1||
 |meson|1.10.2|1.11.1||
 |mimalloc|3.1.5|3.3.2||
 |minicom|2.10|2.11.1||
@@ -444,7 +442,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openjdk-25|25.0.3.9|jdk-25.0.4+3||
 |openjdk-latest|26.0.1.8|jdk-25.0.4+3||
 |opensbi|1.8|1.8.1||
-|openssl|3.5.2|4.0.2||
+|openssl|3.6.2|4.0.2||
 |openvpn|2.6.16|2.7.4||
 |openvswitch|3.5.1|3.7.1||
 |openzl|0.1.0|0.2.0||
@@ -460,6 +458,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pangomm|2.46.4|2.56.1||
 |parallel|20250822|20260522||
 |parted|3.6|3.7||
+|passt|0<br>+git20260424.ec96f01|2026_05_26.038c51e|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.1||
 |pcre2|10.45|10.47||
 |pcsc-lite|2.3.3|2.5.0||
@@ -652,6 +651,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocblas|7.1.1|14.3.0||
 |rocclr|7.1.1|5.6.1|Possible downgrade from the current version (7.1.1 -> 5.6.1)|
 |rocksdb|10.5.1|11.1.1||
+|rocm-bandwidth-test|6.4.2|20250912-42||
 |rocm-cmake|7.1.1|20250912-42||
 |rocm-llvm|7.1.1|20250912-42||
 |rocm-smi|7.1.1|rocm-7.2.4||
@@ -671,7 +671,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |runc|1.4.0|1.4.2||
 |rust|1.94.1|1.96.0||
 |rust-archery-1.0|1.2.0|1.2.2||
-|rust-bitflags-2.0|2.11.0|2.12.0||
+|rust-bitflags-2.0|2.11.0|2.12.1||
 |rust-clap-4.0|4.6.0|clap_complete-v4.6.5||
 |rust-clap-builder-4.0|4.6.0|clap_complete-v4.6.5||
 |rust-clap-lex-1.0|1.1.0|clap_complete-v4.6.5||
@@ -784,7 +784,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|76||
-|vim|9.2.0481|9.2.0578||
+|vim|9.2.0481|9.2.0580||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.352||
