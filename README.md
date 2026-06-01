@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780345071?label=Updated)
+![Relative date](https://img.shields.io/date/1780354977?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -80,6 +80,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |exfatprogs|1.3.2|1.4.1||
 |expect|5.45.4|30.4.1||
 |fakeroot|1.37.2|1.38.1||
+|fast_float|8.2.5|8.2.6||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |firewalld|2.4.0|2.4.1||
 |fontconfig|2.17.1|2.18.0||
@@ -450,6 +451,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |parted|3.6|3.7||
 |passt|0<br>+git20260424.ec96f01|2026_05_26.038c51e|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.1||
+|pcre2|10.45|10.47||
 |pcsc-lite|2.3.3|2.5.0||
 |perl|5.42.0|5.42.2||
 |perl-rpm-packaging|1.2|1.3||
@@ -706,6 +708,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ruyi|0.46.0|0.49.0||
 |safeint|3.0.28a|3.24||
 |samba|4.23.2|4.24.3||
+|scap-security-guide|0.1.80|0.1.81||
 |sdbus-cpp|2.1.0|2.3.1||
 |seatd|0.9.1|0.9.3||
 |sed|4.9|4.10||
@@ -717,14 +720,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.4||
 |skalibs|2.14.5.1|2.15.0.0||
-|slang|2.3.3|2026.10||
+|slang|2.3.3|2026.10.1||
 |slibtool|0.7.3|0.7.4||
 |socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
 |spdk|25.09|26.05||
 |spdlog|1.15.3|1.17.0||
 |spirv-cross|1.4.335.0|1.4.350.0||
-|spirv-headers|1.4.350.0|1.5.4.raytracing.fixed||
 |spirv-llvm-translator|21.1.3|22.1.3||
 |spirv-tools|1.4.350.0|2026.2||
 |sqlite|3.50.4|3.53.1||
