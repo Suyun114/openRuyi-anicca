@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780329416?label=Updated)
+![Relative date](https://img.shields.io/date/1780345071?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -31,6 +31,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |capstone|5.0.3|5.0.9||
 |cbindgen|0.29.2|0.29.3||
 |ceph|20.2.1|21.0.0||
+|check|0.15.2|1.9.1||
 |ck|0.7.2|2.6.4||
 |clevis|21|23||
 |cloud-hypervisor|51.0.0|52.0||
@@ -44,7 +45,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |console-setup|1.244|1.248||
 |containers-common|0.67.0|0.64.2|Possible downgrade from the current version (0.67.0 -> 0.64.2)|
 |coreutils|9.10|9.11||
-|cpp-httplib|0.45.0|0.46.0||
+|cpp-httplib|0.45.0|0.46.1||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.2||
 |createrepo_c|1.2.1|1.2.3||
@@ -120,7 +121,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-brianvoe-gofakeit|7.14.1|7.15.0||
 |go-github-buger-jsonparser|1.1.1|1.2.0||
 |go-github-cespare-xxhash|1.1.0|2.3.0||
-|go-github-charmbracelet-bubbletea|1.3.10|2.0.6||
+|go-github-charmbracelet-bubbletea|1.3.10|2.0.7||
 |go-github-charmbracelet-colorprofile|0.4.2|0.4.3||
 |go-github-charmbracelet-lipgloss|1.1.0|2.0.3||
 |go-github-charmbracelet-log|0.4.2|2.0.0||
@@ -449,7 +450,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |parted|3.6|3.7||
 |passt|0<br>+git20260424.ec96f01|2026_05_26.038c51e|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.1||
-|pcre2|10.45|10.47||
 |pcsc-lite|2.3.3|2.5.0||
 |perl|5.42.0|5.42.2||
 |perl-rpm-packaging|1.2|1.3||
@@ -468,9 +468,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pybind11|3.0.1|3.0.4||
 |python|3.13.8|3.14.5||
 |python-aiohappyeyeballs|2.6.1|2.7.0||
-|python-aiohttp|3.13.3|3.13.5||
+|python-aiohttp|3.13.3|3.14.0||
 |python-altair|6.1.0|weekly-20260601-93abfa6||
-|python-archinfo|9.2.214|9.2.219||
+|python-archinfo|9.2.214|9.2.220||
 |python-awscrt|0.32.0|0.33.0||
 |python-bcrypt|3.2.2|5.0.0||
 |python-beaker|1.13.0|1.14.1||
@@ -479,7 +479,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
-|python-boto3|1.43.6|1.43.18||
+|python-boto3|1.43.6|1.43.19||
 |python-botocore|1.43.11|1.43.18||
 |python-cachetools|7.1.1|7.1.4||
 |python-charset-normalizer|3.4.6|3.4.7||
@@ -554,7 +554,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pytest-rerunfailures|16.1|16.3||
 |python-python-dateutil|2.9.0.post0|2.9.0||
 |python-python-multipart|0.0.28|0.0.30||
-|python-pyvex|9.2.214|9.2.219||
+|python-pyvex|9.2.214|9.2.220||
 |python-rdflib|7.5.0|7.6.0||
 |python-redis|7.4.0|8.0.0||
 |python-regex|2026.1.15|2026.5.9||
@@ -578,7 +578,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-torchvision|0.25.0|0.27.0||
 |python-tornado|6.5.4|6.5.6||
 |python-transformers|5.2.0|5.9.0||
-|python-trove-classifiers|2025.8.26.11|2026.5.22.10||
+|python-trove-classifiers|2025.8.26.11|2026.6.1.19||
 |python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.48.0||
@@ -658,7 +658,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.5||
 |runc|1.4.0|1.4.2||
-|rust|1.94.1|1.96.0||
+|rust|1.95.0|1.96.0||
 |rust-bitflags-2.0|2.11.1|2.12.1||
 |rust-clap-4.0|4.6.1|clap_complete-v4.6.5||
 |rust-clap-builder-4.0|4.6.0|clap_complete-v4.6.5||
@@ -739,7 +739,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |systemd|259|0.10.1|Possible downgrade from the current version (259 -> 0.10.1)|
 |taglib|2.1.1|2.3||
 |talloc|2.4.3|2.4.4||
-|tar|1.35|7.5.15||
+|tar|1.35|7.5.16||
 |tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.3||
 |tcpdump|4.99.5|4.99.6||
