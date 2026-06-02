@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780388958?label=Updated)
+![Relative date](https://img.shields.io/date/1780404093?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -83,7 +83,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fakeroot|1.37.2|1.38.1||
 |fast_float|8.2.5|8.2.6||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
-|firewalld|2.4.0|2.4.1||
 |fontconfig|2.17.1|2.18.0||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
 |fonts-noto|2026.01.01|noto-monthly-release-2026.06.01||
@@ -214,6 +213,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hipify|7.1.1|20250912-42||
 |httpd|2.4.66|2.4.67||
 |hunspell-en|2026.02.25|rel-2026.02.25||
+|hwdata|0.407|0.408||
 |hwinfo|25.0|25.3||
 |hwloc|2.12.2|2.13.0||
 |hyphen|2.8.8|2.8.9||
@@ -337,7 +337,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -626,6 +625,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocsparse|7.1.1|7.2.4||
 |rpcbind|1.2.8|1.2.9||
 |rpm|4.20.1|6.0.1-release||
+|rpmlint|2.8.0|2.9.0||
 |rrdtool|1.9.0|1.10.3||
 |rsyslog|8.2510.0|8.2604.0||
 |rtkit|0.11|0.14||
@@ -646,7 +646,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-id-arena-2.0|2.3.0|2.2.1|Possible downgrade from the current version (2.3.0 -> 2.2.1)|
 |rust-indexmap-2.0|2.13.0|2.14.0||
 |rust-lock-api-0.4|0.4.14|parking_lot-v0.12.5||
-|rust-log-0.4|0.4.29|0.4.30||
+|rust-log-0.4|0.4.29|0.4.31||
 |rust-memchr-2.0|2.8.0|2.8.1||
 |rust-parking-lot-0.12|0.12.5|parking_lot-v0.12.5||
 |rust-parking-lot-core-0.9|0.9.12|parking_lot-v0.12.5||
@@ -691,7 +691,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.4||
 |skalibs|2.14.5.1|2.15.0.0||
-|slang|2.3.3|2026.10.1||
+|slang|2.3.3|2026.10.2||
 |slibtool|0.7.3|0.7.4||
 |socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
@@ -706,14 +706,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |srt|1.5.4|1.5.5||
 |sssd|2.11.1|2.13.0||
 |strace|6.18|6.19||
-|stress-ng|0.20.01|0.21.01||
+|stress-ng|0.20.01|0.21.02||
 |strongswan|6.0.2|6.0.6||
 |sysrepo|4.2.10|4.5.4||
 |sysstat|12.7.8|12.7.9||
 |systemd|259|0.10.1|Possible downgrade from the current version (259 -> 0.10.1)|
 |taglib|2.1.1|2.3||
 |talloc|2.4.3|2.4.4||
-|tar|1.35|7.5.16||
 |tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.3||
 |tcpdump|4.99.5|4.99.6||
