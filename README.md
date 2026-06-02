@@ -1,12 +1,13 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780354977?label=Updated)
+![Relative date](https://img.shields.io/date/1780371698?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
 |NetworkManager|1.54.3|1.56.1||
 |SDL3|3.4.2|3.4.10||
+|Xwayland|24.1.11|24.1.12||
 |abseil-cpp|20260107.0|20260107.1||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
 |accountsservice|23.13.9|26.13.3||
@@ -421,7 +422,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-a.5||
 |obs-build|20250829|20260505||
-|ollama|0.13.5|0.24.0||
+|ollama|0.13.5|0.30.0||
 |onnx|1.20.1|1.21.0||
 |onnxruntime|1.24.1|1.26.0||
 |open-vmdk|0.3.12|3.0.1||
@@ -521,7 +522,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-murmurhash|1.0.15|release-v1.0.15|Possible downgrade from the current version (1.0.15 -> release-v1.0.15)|
 |python-narwhals|2.15.0|2.22.0||
 |python-networkx|3.6.1|networkx-3.6.1|Possible downgrade from the current version (3.6.1 -> networkx-3.6.1)|
-|python-numpy|2.4.0|2.6.0.dev0||
+|python-numpy|2.4.0|2.5.0rc1||
 |python-opentelemetry-api|1.42.0|1.42.1||
 |python-opentelemetry-semantic-conventions|0.63b0|1.42.1||
 |python-ordered-set|4.1.0|release/4.1.0||
@@ -594,7 +595,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-zope-interface|8.3|8.5||
 |qalculate-qt|5.9.0.1|5.11.0||
 |qcoro|0.12.0|0.13.0||
-|qemu|10.2.0|11.0.1||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.66||
 |qt6-qt5compat|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
@@ -652,7 +652,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocr-runtime|7.1.1|20250912-42||
 |rocsolver|7.1.1|20250912-42||
 |rocsparse|7.1.1|7.2.4||
-|rpcbind|1.2.8|1.2.9||
 |rpm|4.20.1|6.0.1-release||
 |rpmlint|2.8.0|2.9.0||
 |rrdtool|1.9.0|1.10.3||
@@ -728,9 +727,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |spdlog|1.15.3|1.17.0||
 |spirv-cross|1.4.335.0|1.4.350.0||
 |spirv-llvm-translator|21.1.3|22.1.3||
-|spirv-tools|1.4.350.0|2026.2||
 |sqlite|3.50.4|3.53.1||
 |squashfs-tools|4.7.2|4.7.5||
+|squashfuse|0.6.1|0.6.2||
 |srt|1.5.4|1.5.5||
 |sssd|2.11.1|2.13.0||
 |strace|6.18|6.19||
@@ -741,7 +740,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |systemd|259|0.10.1|Possible downgrade from the current version (259 -> 0.10.1)|
 |taglib|2.1.1|2.3||
 |talloc|2.4.3|2.4.4||
-|tar|1.35|7.5.16||
 |tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.3||
 |tcpdump|4.99.5|4.99.6||
@@ -772,7 +770,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|76||
-|vim|9.2.0481|9.2.0580||
+|vim|9.2.0481|9.2.0586||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.352||
@@ -801,7 +799,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
-|xorg-server|21.1.21|21.1.22||
+|xorg-server|21.1.21|21.1.23||
 |xorgproto|2024.1|2025.1||
 |xsimd|14.0.0|14.2.0||
 |xxhash|0.8.3|2.3.0||
