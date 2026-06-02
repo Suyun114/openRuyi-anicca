@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780404093?label=Updated)
+![Relative date](https://img.shields.io/date/1780420940?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -83,7 +83,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fakeroot|1.37.2|1.38.1||
 |fast_float|8.2.5|8.2.6||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
-|fontconfig|2.17.1|2.18.0||
+|fontconfig|2.17.1|2.18.1||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
 |fonts-noto|2026.01.01|noto-monthly-release-2026.06.01||
 |fonts-noto-sans-cjk|2.004|Serif2.003|Possible downgrade from the current version (2.004 -> Serif2.003)|
@@ -115,7 +115,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-apache-thrift|0.22.0|0.23.0||
 |go-github-apparentlymart-go-textseg|16.0.0|autoversion/v1.6.0||
 |go-github-asaskevich-govalidator|11.0.1|12.0.0||
-|go-github-aws-smithy-go|2025.12.01|1.26.0|Possible downgrade from the current version (2025.12.01 -> 1.26.0)|
+|go-github-aws-smithy-go|2025.12.01|1.27.0|Possible downgrade from the current version (2025.12.01 -> 1.27.0)|
 |go-github-aymanbagabas-go-udiff|0.3.1|0.4.1||
 |go-github-brianvoe-gofakeit|7.14.1|7.15.0||
 |go-github-cespare-xxhash|1.1.0|2.3.0||
@@ -140,7 +140,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-gin-gonic-gin|1.8.1|1.12.0||
 |go-github-go-openapi-jsonpointer|0.22.4|0.23.1||
 |go-github-go-openapi-jsonreference|0.21.4|0.21.6||
-|go-github-go-openapi-spec|0.22.3|0.22.4||
+|go-github-go-openapi-spec|0.22.3|0.22.5||
 |go-github-go-openapi-swag|0.25.4|yamlutils/v0.26.0||
 |go-github-go-openapi-testify|2.3.0|2.5.1||
 |go-github-go-playground-validator-v10|10.30.2|10.30.3||
@@ -214,7 +214,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |httpd|2.4.66|2.4.67||
 |hunspell-en|2026.02.25|rel-2026.02.25||
 |hwdata|0.407|0.408||
-|hwinfo|25.0|25.3||
+|hwinfo|25.0|25.4||
 |hwloc|2.12.2|2.13.0||
 |hyphen|2.8.8|2.8.9||
 |ibus|1.5.33|1.5.34||
@@ -337,6 +337,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -349,7 +350,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lutok|0.6.1|0.6.2||
 |lvm2|2.03.35|2.03.41||
 |lxc|6.0.6|7.0.0||
-|lxcfs|6.0.6|7.0.0||
 |lz4|1.10.0|1.28.1||
 |man-pages|6.15|6.18||
 |mariadb|11.8.6|13.0.1||
@@ -464,6 +464,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-decorator|5.2.1|5.3.1||
 |python-distlib|0.4.0|0.3.4|Possible downgrade from the current version (0.4.0 -> 0.3.4)|
 |python-en-core-web-sm|3.8.0|en_core_web_hftrf-3.8.1|Possible downgrade from the current version (3.8.0 -> en_core_web_hftrf-3.8.1)|
+|python-eval-type-backport|0.3.1|0.4.0||
 |python-expandvars|1.1.2|1.24.2||
 |python-fastapi|0.136.1|0.136.3||
 |python-fastavro|1.12.1|1.12.2||
@@ -473,7 +474,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-httptools|0.7.1|0.8.0||
 |python-huggingface-hub|1.5.0|1.17.0||
 |python-hypothesis|6.152.4|6.155.1||
-|python-idna|3.13|3.17||
+|python-idna|3.13|3.18||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
 |python-iso639|0.1.4|2026.4.20||
@@ -713,6 +714,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |systemd|259|0.10.1|Possible downgrade from the current version (259 -> 0.10.1)|
 |taglib|2.1.1|2.3||
 |talloc|2.4.3|2.4.4||
+|tar|1.35|7.5.16||
 |tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.3||
 |tcpdump|4.99.5|4.99.6||
