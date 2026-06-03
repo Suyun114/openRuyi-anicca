@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780451214?label=Updated)
+![Relative date](https://img.shields.io/date/1780469597?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -54,7 +54,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |crun|1.27.1|1.28||
 |cunit|2.1.3|2.1-3||
 |cups|2.4.16|2.4.19||
-|curl-impersonate-chrome|0.7.0|2.0.0a4||
+|curl-impersonate-chrome|0.7.0|2.0.0a5||
 |date|3.0.4|3.5.1||
 |db|6.2.32|18.1.40||
 |dbus|1.16.2|5.2.2||
@@ -105,7 +105,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glslang|1.4.335.0|16.3.0||
 |glusterfs|11.1|11.2||
 |gnupg|2.5.16|2.5.20||
-|go|1.25.8|1.26.4||
+|go|1.26.3|1.26.4||
 |go-github-ajg-form|1.6|1.7.1||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
 |go-github-alecthomas-kong|1.13.0|1.15.0||
@@ -564,7 +564,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-yarl|1.22.0|1.24.2||
 |python-zipp|3.23.1|4.1.0||
 |python-zope-interface|8.3|8.5||
-|qalculate-qt|5.9.0.1|5.11.0||
 |qcoro|0.12.0|0.13.0||
 |qemu|10.2.0|11.0.1||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
