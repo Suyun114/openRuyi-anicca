@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780517975?label=Updated)
+![Relative date](https://img.shields.io/date/1780528041?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -60,6 +60,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dialog|1.3|1.3-20260107||
 |ding-libs|0.6.2|0.7.0||
 |distribution-gpg-keys|1.115|1.119-1||
+|djvulibre|3.5.29|3.5.30||
 |dkms|3.2.2|3.4.1||
 |dmidecode|3.6|3.7||
 |dnf5|5.4.2.0|5.4.2.1||
@@ -264,6 +265,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libconfig|1.8.1|1.8.2||
 |libcthreads|20240413|20260530||
 |libdatrie|0.2.13|0.2.14||
+|libdisplay-info|0.2.0|0.3.0||
 |libdrm|2.4.131|2.4.134||
 |libdwarf|2.2.0|2.3.1||
 |libeconf|0.7.8|0.8.3||
@@ -319,6 +321,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libunibreak|6.1|7.0||
 |liburing|2.12|2.14||
 |libusb|1.0.29|1.0.30||
+|libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
 |libvirt|12.2.0|12.4.0||
 |libvpx|1.15.2|1.16.0||
 |libwacom|2.17.0|2.19.0||
@@ -333,6 +336,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -441,7 +445,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-aiohttp|3.13.3|3.14.0||
 |python-altair|6.1.0|weekly-20260601-93abfa6||
 |python-archinfo|9.2.214|9.2.220||
-|python-awscrt|0.32.0|0.33.0||
+|python-awscrt|0.32.0|0.34.0||
 |python-bcrypt|3.2.2|5.0.0||
 |python-beaker|1.13.0|1.14.1||
 |python-bibtexparser|1.4.4|2.0.0b9||
@@ -485,7 +489,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-marisa-trie|1.3.1|1.4.1||
 |python-maturin|1.9.6|1.13.3||
 |python-meh|0.52|0.53||
-|python-mitogen|0.3.47|0.3.48||
+|python-mitogen|0.3.47|0.3.49||
 |python-more-itertools|11.0.2|11.1.0||
 |python-multipart|0.0.22|0.0.30||
 |python-munkres|1.1.4|release-1.1.4|Possible downgrade from the current version (1.1.4 -> release-1.1.4)|
@@ -552,9 +556,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-tornado|6.5.4|6.5.6||
 |python-transformers|5.2.0|5.10.1||
 |python-trove-classifiers|2025.8.26.11|2026.6.1.19||
-|python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
-|python-uvicorn|0.46.0|0.48.0||
+|python-uvicorn|0.46.0|0.49.0||
 |python-virtualenv|20.35.4|21.4.2||
 |python-weasel|1.0.0|release-v1.0.0||
 |python-wheel|0.45.1|0.47.0||
@@ -700,7 +703,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |spirv-cross|1.4.335.0|1.4.350.0||
 |spirv-llvm-translator|21.1.3|22.1.3||
 |spirv-tools|1.4.350.0|2026.2||
-|sqlite|3.50.4|3.53.1||
+|sqlite|3.50.4|3.53.2||
 |squashfs-tools|4.7.2|4.7.5||
 |squashfuse|0.6.1|0.6.2||
 |srt|1.5.4|1.5.5||
@@ -722,6 +725,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tensorpipe|0<br>+git20251218.|0.0.0|Compound version number '0+git20251218.'<br>Version number indicates a snapshot (+git) is used|
 |texinfo|7.2|7.3||
 |thrift|0.22.0|0.23.0||
+|tinysparql|3.10.1|3.11.1||
 |tmux|3.6a|3.6b||
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.27.0||
