@@ -1,14 +1,16 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780561301?label=Updated)
+![Relative date](https://img.shields.io/date/1780573948?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
+|Catch2|3.14.0|3.15.0||
 |NetworkManager|1.54.3|1.56.1||
 |SDL3|3.4.2|3.4.10||
 |Xwayland|24.1.11|24.1.12||
 |abseil-cpp|20260107.0|20260526.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
+|accountsservice|23.13.9|26.13.3||
 |alsa-lib|1.2.15.3|1.2.16||
 |arrow|23.0.1|58.3.0||
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
@@ -30,6 +32,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |capstone|5.0.3|5.0.9||
 |cbindgen|0.29.2|0.29.3||
 |check|0.15.2|1.9.1||
+|checkpolicy|3.10|3.11-rc1||
 |ck|0.7.2|2.6.4||
 |clevis|21|23||
 |cloud-hypervisor|51.0.0|52.0||
@@ -99,9 +102,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glew|2.2.0|2.3.1||
 |glib|2.87.1|2.88.1||
 |glibmm|2.86.0|2.88.0||
+|glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.3.0||
 |glusterfs|11.1|11.2||
-|go|1.26.3|1.26.4||
 |go-github-ajg-form|1.6|1.7.1||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
 |go-github-alecthomas-kong|1.13.0|1.15.0||
@@ -195,6 +198,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |grpc|1.80.0|1.81.0||
 |gsasl|2.2.2|2.2.3||
 |gsl|2.8|4.2.2||
+|gstreamer|1.27.50|4.3.6||
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
 |gtk3|3.24.51|4.3.6||
@@ -215,7 +219,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ibus|1.5.33|1.5.34||
 |icu4c|77.1|78.3||
 |iio-sensor-proxy|3.8|3.9||
-|inetutils|2.7|2.8||
 |iotop|1.30|0.6|Possible downgrade from the current version (1.30 -> 0.6)|
 |iozone|3_508|3.510||
 |iperf|3.20|2.2.1|Possible downgrade from the current version (3.20 -> 2.2.1)|
@@ -283,6 +286,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libjpeg-turbo|3.1.2|3.1.4.1||
 |libjwt|3.2.2|3.3.3||
 |libklvanc|1.6.0|id.obe.1.6.0||
+|libksba|1.6.7|1.8.0||
 |liblognorm|2.0.6|2.1.0||
 |libmaxminddb|1.12.2|1.13.3||
 |libmbim|1.32.0|1.34.0||
@@ -302,6 +306,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libqalculate|5.9.0|5.11.0||
 |libqmi|1.36.0|1.38.0||
 |libqrtr-glib|1.2.2|1.4.0||
+|libsemanage|3.10|3.11-rc1||
+|libsepol|3.10|3.11-rc1||
 |libsigc++|3.6.0|3.8.1||
 |libsigc++2|2.12.1|3.8.1||
 |libsodium|1.0.20|1.0.22-RELEASE||
@@ -331,6 +337,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -427,6 +434,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.6||
 |plasma-wayland-protocols|1.19.0|1.21.0||
+|policycoreutils|3.10|3.11-rc1||
 |polkit|126|127||
 |poppler|25.11.0|26.06.0||
 |ppp|2.5.2|2.5.3||
@@ -485,7 +493,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-meh|0.52|0.53||
 |python-mitogen|0.3.47|0.3.49||
 |python-more-itertools|11.0.2|11.1.0||
-|python-multipart|0.0.22|0.0.30||
+|python-multipart|0.0.22|0.0.31||
 |python-munkres|1.1.4|release-1.1.4|Possible downgrade from the current version (1.1.4 -> release-1.1.4)|
 |python-murmurhash|1.0.15|release-v1.0.15|Possible downgrade from the current version (1.0.15 -> release-v1.0.15)|
 |python-narwhals|2.15.0|2.22.0||
@@ -522,7 +530,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pytest-asyncio|1.3.0|1.4.0||
 |python-pytest-rerunfailures|16.1|16.3||
 |python-python-dateutil|2.9.0.post0|2.9.0||
-|python-python-multipart|0.0.28|0.0.30||
+|python-python-multipart|0.0.28|0.0.31||
 |python-pyvex|9.2.214|9.2.221||
 |python-rdflib|7.5.0|7.6.0||
 |python-redis|7.4.0|8.0.0||
@@ -610,10 +618,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocblas|7.1.1|14.3.0||
 |rocclr|7.1.1|5.6.1|Possible downgrade from the current version (7.1.1 -> 5.6.1)|
 |rocksdb|10.5.1|11.1.1||
+|rocm-bandwidth-test|6.4.2|20250912-42||
 |rocm-cmake|7.1.1|20250912-42||
 |rocm-llvm|7.1.1|20250912-42||
 |rocm-smi|7.1.1|rocm-7.2.4||
 |rocminfo|7.1.1|20250912-42||
+|rocprim|7.1.1|7.2.4||
 |rocprofiler-register|7.1.0|20250912-42||
 |rocr-runtime|7.1.1|20250912-42||
 |rocsolver|7.1.1|20250912-42||
@@ -769,6 +779,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
 |xorg-server|21.1.21|21.1.23||
+|xorgproto|2024.1|2025.1||
 |xsimd|14.0.0|14.2.0||
 |xxhash|0.8.3|2.3.0||
 |xz|5.8.1|5.8.3||
