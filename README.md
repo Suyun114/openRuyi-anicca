@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780528041?label=Updated)
+![Relative date](https://img.shields.io/date/1780544659?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -336,7 +336,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -444,7 +443,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-aiohappyeyeballs|2.6.1|2.7.0||
 |python-aiohttp|3.13.3|3.14.0||
 |python-altair|6.1.0|weekly-20260601-93abfa6||
-|python-archinfo|9.2.214|9.2.220||
+|python-archinfo|9.2.214|9.2.221||
 |python-awscrt|0.32.0|0.34.0||
 |python-bcrypt|3.2.2|5.0.0||
 |python-beaker|1.13.0|1.14.1||
@@ -454,7 +453,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
 |python-boto3|1.43.6|1.43.22||
-|python-botocore|1.43.11|1.43.21||
+|python-botocore|1.43.11|1.43.22||
 |python-cachetools|7.1.1|7.1.4||
 |python-charset-normalizer|3.4.6|3.4.7||
 |python-click|8.3.3|8.4.1||
@@ -497,12 +496,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-narwhals|2.15.0|2.22.0||
 |python-networkx|3.6.1|networkx-3.6.1|Possible downgrade from the current version (3.6.1 -> networkx-3.6.1)|
 |python-numpy|2.4.0|2.5.0rc1||
-|python-opentelemetry-api|1.42.0|1.42.1||
-|python-opentelemetry-semantic-conventions|0.63b0|1.42.1||
+|python-opentelemetry-semantic-conventions|0.63b1|1.42.1||
 |python-ordered-set|4.1.0|release/4.1.0||
 |python-orjson|3.11.7|3.11.9||
 |python-packaging|25.0|26.2||
-|python-pip|25.3|26.1.2||
 |python-pipdeptree|2.30.0|3.1.0||
 |python-platformdirs|4.9.6|4.10.0||
 |python-preshed|3.0.12|release-v3.0.13|Possible downgrade from the current version (3.0.12 -> release-v3.0.13)|
@@ -531,7 +528,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pytest-rerunfailures|16.1|16.3||
 |python-python-dateutil|2.9.0.post0|2.9.0||
 |python-python-multipart|0.0.28|0.0.30||
-|python-pyvex|9.2.214|9.2.220||
+|python-pyvex|9.2.214|9.2.221||
 |python-rdflib|7.5.0|7.6.0||
 |python-redis|7.4.0|8.0.0||
 |python-regex|2026.1.15|2026.5.9||
@@ -554,8 +551,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-tokenizers|0.22.2|0.23.1||
 |python-torchvision|0.25.0|0.27.0||
 |python-tornado|6.5.4|6.5.6||
+|python-traitlets|5.15.0|5.15.1||
 |python-transformers|5.2.0|5.10.1||
 |python-trove-classifiers|2025.8.26.11|2026.6.1.19||
+|python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.49.0||
 |python-virtualenv|20.35.4|21.4.2||
