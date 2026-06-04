@@ -1,16 +1,14 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780544659?label=Updated)
+![Relative date](https://img.shields.io/date/1780561301?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
-|Catch2|3.14.0|3.15.0||
 |NetworkManager|1.54.3|1.56.1||
 |SDL3|3.4.2|3.4.10||
 |Xwayland|24.1.11|24.1.12||
 |abseil-cpp|20260107.0|20260526.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
-|accountsservice|23.13.9|26.13.3||
 |alsa-lib|1.2.15.3|1.2.16||
 |arrow|23.0.1|58.3.0||
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
@@ -101,7 +99,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glew|2.2.0|2.3.1||
 |glib|2.87.1|2.88.1||
 |glibmm|2.86.0|2.88.0||
-|glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.3.0||
 |glusterfs|11.1|11.2||
 |go|1.26.3|1.26.4||
@@ -198,7 +195,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |grpc|1.80.0|1.81.0||
 |gsasl|2.2.2|2.2.3||
 |gsl|2.8|4.2.2||
-|gstreamer|1.27.50|4.3.6||
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
 |gtk3|3.24.51|4.3.6||
@@ -281,13 +277,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libgpg-error|1.58|1.61||
 |libheif|1.21.2|1.23.0||
 |libical|3.0.20|4.0.2||
-|libinput|1.30.0|1.31.2||
+|libinput|1.30.0|1.31.3||
 |libisoburn|1.5.6|1.5.8.pl02||
 |libisofs|1.5.6|1.5.8.pl02||
 |libjpeg-turbo|3.1.2|3.1.4.1||
 |libjwt|3.2.2|3.3.3||
 |libklvanc|1.6.0|id.obe.1.6.0||
-|libksba|1.6.7|1.8.0||
 |liblognorm|2.0.6|2.1.0||
 |libmaxminddb|1.12.2|1.13.3||
 |libmbim|1.32.0|1.34.0||
@@ -392,7 +387,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-a.5||
 |obs-build|20250829|20260505||
-|ollama|0.13.5|0.30.3||
+|ollama|0.13.5|0.30.4||
 |onnx|1.20.1|1.21.0||
 |onnxruntime|1.24.1|1.26.0||
 |open-vmdk|0.3.12|3.0.1||
@@ -460,7 +455,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-coverage|7.13.4|7.14.1||
 |python-cryptography|46.0.3|48.0.0||
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
-|python-dashscope|1.25.11|1.25.20||
+|python-dashscope|1.25.11|1.25.21||
 |python-decorator|5.2.1|5.3.1||
 |python-distlib|0.4.0|0.3.4|Possible downgrade from the current version (0.4.0 -> 0.3.4)|
 |python-en-core-web-sm|3.8.0|en_core_web_hftrf-3.8.1|Possible downgrade from the current version (3.8.0 -> en_core_web_hftrf-3.8.1)|
@@ -615,12 +610,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocblas|7.1.1|14.3.0||
 |rocclr|7.1.1|5.6.1|Possible downgrade from the current version (7.1.1 -> 5.6.1)|
 |rocksdb|10.5.1|11.1.1||
-|rocm-bandwidth-test|6.4.2|20250912-42||
 |rocm-cmake|7.1.1|20250912-42||
 |rocm-llvm|7.1.1|20250912-42||
 |rocm-smi|7.1.1|rocm-7.2.4||
 |rocminfo|7.1.1|20250912-42||
-|rocprim|7.1.1|7.2.4||
 |rocprofiler-register|7.1.0|20250912-42||
 |rocr-runtime|7.1.1|20250912-42||
 |rocsolver|7.1.1|20250912-42||
@@ -648,7 +641,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-id-arena-2.0|2.3.0|2.2.1|Possible downgrade from the current version (2.3.0 -> 2.2.1)|
 |rust-indexmap-2.0|2.13.0|2.14.0||
 |rust-lock-api-0.4|0.4.14|parking_lot-v0.12.5||
-|rust-log-0.4|0.4.29|0.4.31||
+|rust-log-0.4|0.4.29|0.4.32||
 |rust-memchr-2.0|2.8.0|2.8.1||
 |rust-parking-lot-0.12|0.12.5|parking_lot-v0.12.5||
 |rust-parking-lot-core-0.9|0.9.12|parking_lot-v0.12.5||
@@ -776,7 +769,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
 |xorg-server|21.1.21|21.1.23||
-|xorgproto|2024.1|2025.1||
 |xsimd|14.0.0|14.2.0||
 |xxhash|0.8.3|2.3.0||
 |xz|5.8.1|5.8.3||
