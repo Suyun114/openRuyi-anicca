@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780573948?label=Updated)
+![Relative date](https://img.shields.io/date/1780584939?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -39,7 +39,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cloud-init|25.3|26.1||
 |cmake|4.3.2|4.3.3||
 |cmocka|1.1.7|2.0.2||
-|cockpit|352|362||
+|cockpit|352|363||
 |config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
 |conmon|2.1.13|2.2.1||
 |conntrack-tools|1.4.8|1.4.9||
@@ -65,7 +65,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dkms|3.2.2|3.4.1||
 |dmidecode|3.6|3.7||
 |dnf5|5.4.2.0|5.4.2.1||
-|dnsmasq|2.92|2.92rel2|Possible downgrade from the current version (2.92 -> 2.92rel2)|
+|dnsmasq|2.92|2.93||
 |docbook-utils|0.6.15|0.6.14|Possible downgrade from the current version (0.6.15 -> 0.6.14)|
 |dos2unix|7.5.5|7.5.6||
 |doxygen|1.13.2|1.17.0||
@@ -337,7 +337,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -371,7 +370,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mock-core-configs|43.2|mock-core-configs-44.2-1|Possible downgrade from the current version (43.2 -> mock-core-configs-44.2-1)|
 |mod_http2|2.0.39|2.0.42||
 |msgpack|3.1.0|5.4.1||
-|mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
 |multipath-tools|0.11.1|0.14.3||
 |musl|1.2.5|1.2.6||
@@ -471,7 +469,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-expandvars|1.1.2|1.24.2||
 |python-fastapi|0.136.1|0.136.3||
 |python-fastavro|1.12.1|1.12.2||
-|python-filelock|3.29.0|3.29.1||
+|python-filelock|3.29.0|3.29.2||
 |python-gevent|26.4.0|26.5.0||
 |python-greenlet|3.4.0|3.5.1||
 |python-hf-xet|1.3.2|1.5.1-dev1||
@@ -713,7 +711,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |strace|6.18|6.19||
 |stress-ng|0.20.01|0.21.02||
 |strongswan|6.0.2|6.0.6||
-|sysrepo|4.2.10|4.5.4||
 |sysstat|12.7.8|12.7.9||
 |systemd|259|0.10.1|Possible downgrade from the current version (259 -> 0.10.1)|
 |taglib|2.1.1|2.3||
