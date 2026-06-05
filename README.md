@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780689164?label=Updated)
+![Relative date](https://img.shields.io/date/1780694717?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -71,7 +71,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |doxygen|1.13.2|1.17.0||
 |dpdk|25.07|26.03||
 |dracut|110|111||
-|dropbear|2025.89|2026.91||
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarves|1.30|1.31||
@@ -280,7 +279,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libgit2|1.9.2|1.9.4||
 |libgpg-error|1.58|1.61||
 |libheif|1.21.2|1.23.0||
-|libical|3.0.20|4.0.2||
 |libinput|1.30.0|1.31.3||
 |libisoburn|1.5.6|1.5.8.pl02||
 |libisofs|1.5.6|1.5.8.pl02||
@@ -395,12 +393,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-a.5||
 |obs-build|20250829|20260505||
-|ollama|0.13.5|0.30.5||
+|ollama|0.13.5|0.30.6||
 |onnx|1.20.1|1.21.0||
 |onnxruntime|1.24.1|1.26.0||
 |open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
 |openblas|0.3.31|0.3.33||
+|opencv|4.13.0|5.0.0||
 |openexr|3.4.10|3.4.12||
 |openjdk-17|17.0.19.10|jdk-17.0.20+5||
 |openjdk-21|21.0.11.10|jdk-21.0.12+5||
@@ -564,6 +563,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.49.0||
 |python-virtualenv|20.35.4|21.4.2||
+|python-wcwidth|0.7.0|0.8.0||
 |python-weasel|1.0.0|release-v1.0.0||
 |python-wheel|0.45.1|0.47.0||
 |python-wrapt|2.1.1|2.2.1||
@@ -751,12 +751,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|76||
-|vim|9.2.0481|9.2.0597||
+|vim|9.2.0481|9.2.0600||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.353||
 |vulkan-loader|1.4.335.0|1.4.353||
-|vulkan-tools|1.4.335|1.4.352||
+|vulkan-tools|1.4.335|1.4.353||
 |vulkan-utility-libraries|1.4.335.0|1.4.353||
 |vulkan-validation-layers|1.4.335.0|1.4.352||
 |wabt|1.0.39|1.0.41||
