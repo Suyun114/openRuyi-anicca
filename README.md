@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780674865?label=Updated)
+![Relative date](https://img.shields.io/date/1780682205?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -75,7 +75,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarves|1.30|1.31||
-|editorconfig-core-c|0.12.10|0.12.11||
 |elfutils|0.194|0.195||
 |ethtool|6.15|7.0||
 |exfatprogs|1.3.2|1.4.1||
@@ -355,7 +354,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |man-pages|6.15|6.18||
 |mariadb|11.8.6|13.0.1||
 |mariadb-connector-c|3.4.8|3.4.9||
-|mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.1.1|26.1.2||
@@ -406,7 +404,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openjdk-25|25.0.3.9|jdk-25.0.4+4||
 |openjdk-latest|26.0.1.8|jdk-25.0.4+4||
 |opensbi|1.8|1.8.1||
-|openssl|3.6.2|4.0.2||
 |openvpn|2.6.16|2.7.4||
 |openvswitch|3.5.1|3.7.1||
 |openzl|0.1.0|0.2.0||
@@ -445,7 +442,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python|3.13.8|3.14.5||
 |python-aiohappyeyeballs|2.6.1|2.7.0||
 |python-aiohttp|3.13.3|3.14.0||
-|python-altair|6.1.0|6.2.0||
+|python-altair|6.1.0|6.2.1||
 |python-archinfo|9.2.214|9.2.221||
 |python-awscrt|0.32.0|0.34.1||
 |python-bcrypt|3.2.2|5.0.0||
@@ -479,7 +476,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hiredis|3.3.1|3.4.0||
 |python-httptools|0.7.1|0.8.0||
 |python-huggingface-hub|1.5.0|1.18.0||
-|python-hypothesis|6.152.4|6.155.1||
+|python-hypothesis|6.152.4|6.155.2||
 |python-idna|3.13|3.18||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
@@ -555,7 +552,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-tokenizers|0.22.2|0.23.1||
 |python-torchvision|0.25.0|0.27.0||
 |python-tornado|6.5.4|6.5.6||
-|python-tqdm|4.67.3|4.68.0||
+|python-tqdm|4.67.3|4.68.1||
 |python-traitlets|5.15.0|5.15.1||
 |python-transformers|5.2.0|5.10.2||
 |python-trove-classifiers|2025.8.26.11|2026.6.1.19||
