@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780663003?label=Updated)
+![Relative date](https://img.shields.io/date/1780674865?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -61,6 +61,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dialog|1.3|1.3-20260107||
 |ding-libs|0.6.2|0.7.0||
 |distribution-gpg-keys|1.115|1.119-1||
+|djvulibre|3.5.29|3.5.30||
 |dkms|3.2.2|3.4.1||
 |dmidecode|3.6|3.7||
 |dnf5|5.4.2.0|5.4.2.1||
@@ -81,7 +82,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |expect|5.45.4|30.4.1||
 |fakeroot|1.37.2|1.38.1||
 |fast_float|8.2.5|8.2.6||
-|fastfetch|2.63.1|2.64.1||
+|fastfetch|2.63.1|2.64.2||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |fontconfig|2.17.1|2.18.1||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
@@ -463,6 +464,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-cryptography|46.0.3|48.0.0||
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
 |python-dashscope|1.25.11|1.25.21||
+|python-datasets|4.8.5|5.0.0||
 |python-decorator|5.2.1|5.3.1||
 |python-distlib|0.4.0|0.3.4|Possible downgrade from the current version (0.4.0 -> 0.3.4)|
 |python-en-core-web-sm|3.8.0|en_core_web_hftrf-3.8.1|Possible downgrade from the current version (3.8.0 -> en_core_web_hftrf-3.8.1)|
@@ -553,6 +555,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-tokenizers|0.22.2|0.23.1||
 |python-torchvision|0.25.0|0.27.0||
 |python-tornado|6.5.4|6.5.6||
+|python-tqdm|4.67.3|4.68.0||
 |python-traitlets|5.15.0|5.15.1||
 |python-transformers|5.2.0|5.10.2||
 |python-trove-classifiers|2025.8.26.11|2026.6.1.19||
