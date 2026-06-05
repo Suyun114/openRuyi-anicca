@@ -1,19 +1,58 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780618842?label=Updated)
+![Relative date](https://img.shields.io/date/1780623605?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
+|Catch2|3.14.0|3.15.0||
+|NetworkManager|1.54.3|1.56.1||
+|alsa-lib|1.2.15.3|1.2.16||
+|bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
+|boost|1.89.0|1.91.0-1||
+|btrfs-progs|6.19.1|7.0||
+|buildah|1.43.1|1.44.0||
+|busybox|1.37.0|1.38.0||
+|cairo|1.18.4|1.109||
+|capstone|5.0.3|5.0.9||
+|cbindgen|0.29.2|0.29.3||
 |checkpolicy|3.10|3.11-rc1||
+|clevis|21|23||
+|cloud-hypervisor|51.0.0|52.0||
+|config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
+|containers-common|0.67.0|0.64.2|Possible downgrade from the current version (0.67.0 -> 0.64.2)|
+|cpp-httplib|0.45.0|0.46.1||
+|createrepo_c|1.2.1|1.2.3||
 |crontabs|1.11|crontabs-20190603||
+|crun|1.27.1|1.28||
+|cunit|2.1.3|2.1-3||
+|cups|2.4.16|2.4.19||
 |curl-impersonate-chrome|0.7.0|2.0.0a5||
+|dbus|1.16.2|5.2.2||
+|ding-libs|0.6.2|0.7.0||
+|dkms|3.2.2|3.4.1||
+|dnsmasq|2.92|2.93||
+|dpdk|25.07|26.03||
+|dropbear|2025.89|2026.91||
+|dtc|1.7.2|1.8.1||
+|elfutils|0.194|0.195||
+|ethtool|6.15|7.0||
+|expect|5.45.4|30.4.1||
+|fast_float|8.2.5|8.2.6||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
+|fontconfig|2.17.1|2.18.1||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
 |fonts-noto|2026.01.01|noto-monthly-release-2026.06.01||
 |fonts-noto-sans-cjk|2.004|Serif2.003|Possible downgrade from the current version (2.004 -> Serif2.003)|
 |fonts-noto-serif-cjk|2.003|Serif2.003||
 |fonts-sarasa-gothic|1.0.37|1.0.39||
+|foot|1.26.1|1.27.0||
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
+|gcc|16|16.1.0||
+|gdb|17.1|17.2||
+|glib|2.87.1|2.88.1||
+|glibmm|2.86.0|2.88.0||
+|glog|0.7.1|1.2.5||
+|glslang|1.4.335.0|16.3.0||
 |go-github-ajg-form|1.6|1.7.1||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
 |go-github-alecthomas-kong|1.13.0|1.15.0||
@@ -37,7 +76,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-codegangsta-inject|1.0~rc1|1.0-rc1||
 |go-github-containerd-typeurl|2.2.3|2.3.0||
 |go-github-coreos-go-oidc|3.17.0|3.18.0||
-|go-github-dlclark-regexp2|1.11.5|2.1.1||
+|go-github-dlclark-regexp2|1.11.5|2.1.2||
 |go-github-docker-go-connections|0.6.0|0.7.0||
 |go-github-dougm-pretty|2011.12.22|go.weekly.2011-12-22||
 |go-github-emirpasic-gods|1.18.1|2.0.0-alpha||
@@ -99,27 +138,133 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-opentelemetry-proto|1.9.0|1.10.0||
 |go-rsc-pdf|0.1.0<br>+git20260106.c47d69c|0.1.1|Compound version number '0.1.0+git20260106.c47d69c'<br>Version number indicates a snapshot (+git) is used|
 |go-uber-zap|1.27.1|1.28.0||
+|graphviz|14.1.5|15.0.0||
+|grpc|1.80.0|1.81.0||
+|gsl|2.8|4.2.2||
+|gstreamer|1.27.50|4.3.6||
+|guidelines-support-library|4.2.1|4.2.2||
+|haproxy|3.3|3.4.0||
+|harfbuzz|12.1.0|14.2.1||
+|hdf5|2.0.0|2.1.1||
+|hipblas|7.1.1|20250912-17||
+|hipify|7.1.1|20250912-42||
 |hunspell-en|2026.02.25|rel-2026.02.25||
+|icu4c|77.1|78.3||
+|iperf|3.20|2.2.1|Possible downgrade from the current version (3.20 -> 2.2.1)|
+|jitterentropy|3.6.3|3.7.0||
+|jsonnet|0.21.0|0.22.0||
+|judy|1.0.5|2.0.7||
+|kdsoap|2.2.0|2.3.0||
+|keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
+|kpmcore|25.12.2|26.04.2||
+|less|692|702||
+|libXft|2.3.8|2.3.9||
+|libXi|1.8.2|1.8.3||
+|libXmu|1.2.1|1.3.1||
+|libXrandr|1.5.4|1.5.5||
+|libblockdev|3.4.0|3.5.0||
+|libbluray|1.4.1|1.4.0|Possible downgrade from the current version (1.4.1 -> 1.4.0)|
+|libcap|2.76|2.78||
+|libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
+|libcerror|20240413|20260527||
+|libconfig|1.8.1|1.8.2||
+|libdisplay-info|0.2.0|0.3.0||
+|libdrm|2.4.131|2.4.134||
+|libdwarf|2.2.0|2.3.1||
+|libeconf|0.7.8|0.8.3||
+|libedit|20250104.3.1|20260512-3.1||
+|libevdev|1.13.5|1.13.6||
 |libfcache|20240414|20260520||
 |libfdata|20240415|20260521||
+|libfyaml|0.9.3|0.9.6||
+|libgcrypt|1.11.2|1.12.2||
+|libgit2|1.9.2|1.9.4||
+|libical|3.0.20|4.0.2||
+|libisoburn|1.5.6|1.5.8.pl02||
+|libisofs|1.5.6|1.5.8.pl02||
+|libjpeg-turbo|3.1.2|3.1.4.1||
+|libjwt|3.2.2|3.3.3||
 |libklvanc|1.6.0|id.obe.1.6.0||
+|libksba|1.6.7|1.8.0||
+|liblognorm|2.0.6|2.1.0||
+|libmd|1.1.0|1.2.0||
+|libnotify|0.8.7|0.8.8||
+|libp11|0.4.13|0.4.18||
+|libpaper|2.2.6|2.2.8||
+|libplasma|6.5.5|6.6.5||
+|libpng|1.6.55|1.6.58||
+|libqrtr-glib|1.2.2|1.4.0||
 |libsemanage|3.10|3.11-rc1||
 |libsepol|3.10|3.11-rc1||
 |libsigc++2|2.12.1|3.8.1||
+|libsodium|1.0.20|1.0.22-RELEASE||
+|libsoup|3.6.5|3.7.1||
+|libstoragemgmt|1.10.2|1.10.3||
+|libtraceevent|1.8.4|1.9.0||
+|liburing|2.12|2.14||
+|libwacom|2.17.0|2.19.0||
+|libwebp|1.6.0|20.3.4||
+|libxkbcommon|1.13.0|1.13.2||
+|libxml2|2.14.5|2.15.3||
+|libxmlb|0.3.24|0.3.27||
+|libyang|4.2.2|5.4.9||
 |lldpad|1.1.0|1.1.1||
+|log4cxx|1.6.1|1.7.0||
+|lshw|B.02.20|02.20||
 |lua-json|1.3.4|1.3.5||
 |lua-lunitx|0.8.1|0.8.2||
+|lutok|0.6.1|0.6.2||
+|lz4|1.10.0|1.28.1||
+|man-pages|6.15|6.18||
+|mariadb|11.8.6|13.0.1||
+|mariadb-connector-c|3.4.8|3.4.9||
+|mdevd|0.1.8.1|0.1.8.2||
+|memcached|1.6.28|3.4.0||
+|meson|1.10.2|1.11.1||
+|minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
+|mkosi|25.3<br>+git20251224.|26|Compound version number '25.3+git20251224.'<br>Version number indicates a snapshot (+git) is used|
+|mksh|59|59c|Possible downgrade from the current version (59 -> 59c)|
 |mmtests|2.0~rc1<br>+git20260312.|2.0-rc5|Compound version number '2.0~rc1+git20260312.'<br>Version number indicates a snapshot (+git) is used|
 |mock-core-configs|43.2|mock-core-configs-44.2-1|Possible downgrade from the current version (43.2 -> mock-core-configs-44.2-1)|
 |mod_http2|2.0.39|2.0.42||
+|msgpack|3.1.0|5.4.1||
+|mstflint|4.34.0.2|4.36.0-1||
+|multipath-tools|0.11.1|0.14.3||
+|musl|1.2.5|1.2.6||
+|netavark|1.17.1|1.17.2||
+|nettle|3.10.2|7.5.0||
+|ngtcp2|1.16.0|1.23.0||
+|nodejs|24.13.0|26.3.0||
+|ntfs-3g|2022.10.3|2026.2.25||
+|obs-build|20250829|20260505||
+|onnxruntime|1.24.1|1.26.0||
+|open-vmdk|0.3.12|3.0.1||
 |openjdk-17|17.0.19.10|jdk-17.0.20+5||
 |openjdk-21|21.0.11.10|jdk-21.0.12+5||
 |openjdk-25|25.0.3.9|jdk-25.0.4+4||
 |openjdk-latest|26.0.1.8|jdk-25.0.4+4||
+|openvpn|2.6.16|2.7.4||
+|openvswitch|3.5.1|3.7.1||
+|openzl|0.1.0|0.2.0||
+|os-prober|1.83|1.84||
+|osc|1.21.0|1.27.1||
 |ovmf|202602|edk2-stable202605|Versions not comparable: `202602` and `edk2-stable202605`|
+|pam|1.7.1|2.2.5||
+|parted|3.6|3.7||
+|passt|0<br>+git20260424.ec96f01|2026_05_26.038c51e|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
+|pcre2|10.45|10.47||
+|perl|5.42.0|5.42.2||
+|perl-rpm-packaging|1.2|1.3||
+|php|8.5.2|8.5.7||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
+|pinentry|1.3.2|4.0.1||
+|pipewire|1.5.84|1.6.6||
+|plasma-wayland-protocols|1.19.0|1.21.0||
 |policycoreutils|3.10|3.11-rc1||
+|polkit|126|127||
+|ppp|2.5.2|2.5.3||
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
+|python|3.13.8|3.14.5||
 |python-aiohappyeyeballs|2.6.1|2.7.0||
 |python-aiohttp|3.13.3|3.14.0||
 |python-altair|6.1.0|weekly-20260601-93abfa6||
@@ -133,6 +278,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
 |python-boto3|1.43.6|1.43.23||
+|python-botocore|1.43.11|1.43.23||
 |python-cachetools|7.1.1|7.1.4||
 |python-charset-normalizer|3.4.6|3.4.7||
 |python-coverage|7.13.4|7.14.1||
@@ -140,6 +286,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
 |python-dashscope|1.25.11|1.25.21||
 |python-decorator|5.2.1|5.3.1||
+|python-distlib|0.4.0|0.3.4|Possible downgrade from the current version (0.4.0 -> 0.3.4)|
 |python-en-core-web-sm|3.8.0|en_core_web_hftrf-3.8.1|Possible downgrade from the current version (3.8.0 -> en_core_web_hftrf-3.8.1)|
 |python-eval-type-backport|0.3.1|0.4.0||
 |python-expandvars|1.1.2|1.24.2||
@@ -155,6 +302,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-idna|3.13|3.18||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
+|python-iso639|0.1.4|2026.4.20||
 |python-jsonschema|4.17.3|4.26.0||
 |python-kiwisolver|1.4.9|1.5.0||
 |python-libclang|18.1.1|llvm-18.1.1||
@@ -164,6 +312,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-maturin|1.9.6|1.13.3||
 |python-mitogen|0.3.47|0.3.49||
 |python-more-itertools|11.0.2|11.1.0||
+|python-multipart|0.0.22|0.0.32||
 |python-munkres|1.1.4|release-1.1.4|Possible downgrade from the current version (1.1.4 -> release-1.1.4)|
 |python-murmurhash|1.0.15|release-v1.0.15|Possible downgrade from the current version (1.0.15 -> release-v1.0.15)|
 |python-narwhals|2.15.0|2.22.0||
@@ -180,6 +329,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-propcache|0.4.1|0.5.2||
 |python-puccinialin|0.1.11|0.1.12||
 |python-puremagic|1.30|2.2.0||
+|python-pyarrow|23.0.1|24.0.0||
 |python-pycparser|3.0|release_v3.00||
 |python-pycurl|7.45.7|REL_7_46_0|Possible downgrade from the current version (7.45.7 -> REL_7_46_0)|
 |python-pydantic|2.12.5|2.14.0a1||
@@ -188,6 +338,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pyjwt|2.12.1|2.13.0||
 |python-pylsqpack|0.3.23|0.3.24||
 |python-pymilvus|2.6.9|2.6.15||
+|python-pymongo|4.16.0|10.10.10.10||
 |python-pymupdf|1.27.2|1.27.2.3||
 |python-pyproject-metadata|0.9.1|0.11.0||
 |python-pyroute2|0.7.12|0.9.6||
@@ -222,6 +373,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-tornado|6.5.4|6.5.6||
 |python-transformers|5.2.0|5.10.2||
 |python-trove-classifiers|2025.8.26.11|2026.6.1.19||
+|python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.49.0||
 |python-virtualenv|20.35.4|21.4.2||
@@ -231,6 +383,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-yarl|1.22.0|1.24.2||
 |python-zipp|3.23.1|4.1.0||
 |python-zope-interface|8.3|8.5||
+|qcoro|0.12.0|0.13.0||
 |qmpbackup|0.52|0.66||
 |qt6-qt5compat|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
 |qt6-qtcharts|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
@@ -266,7 +419,23 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qt6-qtwebengine|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
 |qt6-qtwebsockets|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
 |qt6-qtwebview|6.10.1|6.5.9-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.5.9-lts-lgpl)|
+|qtkeychain|0.15.0|0.16.0||
+|rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
+|rdma-core|60.0|63.0||
+|re2|2025.08.12|2025-11-05||
+|re2c|4.3|4.5.1||
+|rocclr|7.1.1|5.6.1|Possible downgrade from the current version (7.1.1 -> 5.6.1)|
+|rocm-bandwidth-test|6.4.2|20250912-42||
+|rocm-cmake|7.1.1|20250912-42||
 |rocm-smi|7.1.1|rocm-7.2.4||
+|rocminfo|7.1.1|20250912-42||
+|rocprim|7.1.1|7.2.4||
+|rocr-runtime|7.1.1|20250912-42||
+|rocsolver|7.1.1|20250912-42||
+|rocsparse|7.1.1|7.2.4||
+|rsyslog|8.2510.0|8.2604.0||
+|rtkit|0.11|0.14||
+|runc|1.4.0|1.4.2||
 |rust-bitflags-2.0|2.11.1|2.12.1||
 |rust-clap-4.0|4.6.1|clap_complete-v4.6.5||
 |rust-clap-builder-4.0|4.6.0|clap_complete-v4.6.5||
@@ -312,7 +481,70 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-wit-component-0.244|0.244.0|1.251.0||
 |rust-wit-parser-0.244|0.244.0|1.251.0||
 |ruyi|0.46.0|0.49.0||
+|safeint|3.0.28a|3.24||
+|samba|4.23.2|4.24.3||
+|sdbus-cpp|2.1.0|2.3.1||
+|sed|4.9|4.10||
+|setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
+|sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
+|shadow|4.18.0|4.19.4||
+|simdjson|4.2.4|4.6.4||
+|slang|2.3.3|2026.10.2||
+|slibtool|0.7.3|0.7.4||
+|socket_wrapper|1.5.0|1.5.2||
+|spdlog|1.15.3|1.17.0||
+|sqlite|3.50.4|3.53.2||
 |squashfs-tools|4.7.2|4.7.5||
+|squashfuse|0.6.1|0.6.2||
+|srt|1.5.4|1.5.5||
+|strace|6.18|6.19||
+|stress-ng|0.20.01|0.21.02||
+|strongswan|6.0.2|6.0.6||
+|talloc|2.4.3|2.4.4||
+|tar|1.35|7.5.16||
+|tbb|2022.3.0|2023.0.0||
+|tcl|8.6.16|9.0.3||
+|tcpdump|4.99.5|4.99.6||
+|tcsh|6.24.15|6.24.16||
+|texinfo|7.2|7.3||
+|tinysparql|3.10.1|3.11.1||
+|tuned|2.26.0|2.27.0||
+|udisks2|2.11.0|2.11.1||
+|unifont|16.0.04|17.0.04||
+|upower|1.91.1|1.91.2||
+|usbutils|018|019||
+|usermode|1.114|usermode-1.114|Possible downgrade from the current version (1.114 -> usermode-1.114)|
+|userspace-rcu|0.15.3|0.15.6||
 |utf8cpp|4.0.8|4.1.1||
+|utf8proc|2.10.0|2.11.3||
+|uuid|1.6.2|1.23.2||
+|vala|0.56.18|0.56.19||
+|valgrind|3.27.0|3.27.1||
+|valkey|8.1.4|9.1.0||
+|vim|9.2.0481|9.2.0597||
+|vmaf|3.0.0|3.1.0||
+|vulkan-headers|1.4.335.0|1.4.352||
+|vulkan-loader|1.4.335.0|1.4.352||
+|vulkan-tools|1.4.335|1.4.352||
+|vulkan-utility-libraries|1.4.335.0|1.4.352||
 |vulkan-validation-layers|1.4.335.0|1.4.352||
+|wabt|1.0.39|1.0.41||
+|wavpack|5.8.1|5.9.0||
+|wayback|0.3|0.5.0||
+|whois|5.6.4|5.6.6.git||
+|wireguard-tools|1.0.20250521|1.0.20260223||
+|wlroots|0.19.3|0.20.1||
+|wolfssl|5.8.2|5.9.1-stable||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
+|xfsdump|3.2.0|3.3.0||
+|xfsprogs|6.16.0|7.0.1||
+|xkeyboard-config|2.46|2.47||
+|xmlsec|1.3.10|1.3.17||
+|xorg-server|21.1.21|21.1.23||
+|xorgproto|2024.1|2025.1||
+|xsimd|14.0.0|14.2.0||
+|yaml-cpp|0.8.0|0.9.0||
+|zfs|2.4.1|2.4.2||
+|zip|3.0|8.6.0||
+|zsh|5.9|5.9.1||
+|zstd|1.5.7|1.5.7.3||
