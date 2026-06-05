@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780682205?label=Updated)
+![Relative date](https://img.shields.io/date/1780689164?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -75,6 +75,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarves|1.30|1.31||
+|editorconfig-core-c|0.12.10|0.12.11||
 |elfutils|0.194|0.195||
 |ethtool|6.15|7.0||
 |exfatprogs|1.3.2|1.4.1||
@@ -114,7 +115,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-apache-thrift|0.22.0|0.23.0||
 |go-github-apparentlymart-go-textseg|16.0.0|autoversion/v1.6.0||
 |go-github-asaskevich-govalidator|11.0.1|12.0.0||
-|go-github-aws-smithy-go|2025.12.01|1.27.1|Possible downgrade from the current version (2025.12.01 -> 1.27.1)|
+|go-github-aws-smithy-go|2025.12.01|1.27.2|Possible downgrade from the current version (2025.12.01 -> 1.27.2)|
 |go-github-aymanbagabas-go-udiff|0.3.1|0.4.1||
 |go-github-brianvoe-gofakeit|7.14.1|7.15.0||
 |go-github-cespare-xxhash|1.1.0|2.3.0||
@@ -337,6 +338,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -354,6 +356,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |man-pages|6.15|6.18||
 |mariadb|11.8.6|13.0.1||
 |mariadb-connector-c|3.4.8|3.4.9||
+|mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.1.1|26.1.2||
@@ -404,6 +407,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openjdk-25|25.0.3.9|jdk-25.0.4+4||
 |openjdk-latest|26.0.1.8|jdk-25.0.4+4||
 |opensbi|1.8|1.8.1||
+|openssl|3.6.2|4.0.2||
 |openvpn|2.6.16|2.7.4||
 |openvswitch|3.5.1|3.7.1||
 |openzl|0.1.0|0.2.0||
@@ -452,7 +456,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
-|python-boto3|1.43.6|1.43.23||
+|python-boto3|1.43.6|1.43.24||
 |python-botocore|1.43.11|1.43.23||
 |python-cachetools|7.1.1|7.1.4||
 |python-charset-normalizer|3.4.6|3.4.7||
