@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780773620?label=Updated)
+![Relative date](https://img.shields.io/date/1780779799?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -16,6 +16,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |at-spi2-core|2.58.2|2.60.4||
 |atkmm|2.28.4|2.36.4||
+|authselect|1.6.1|1.7.1||
 |autoconf|2.72|2.73||
 |bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
@@ -60,6 +61,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dialog|1.3|1.3-20260107||
 |ding-libs|0.6.2|0.7.0||
 |distribution-gpg-keys|1.115|1.119-1||
+|djvulibre|3.5.29|3.5.30||
 |dkms|3.2.2|3.4.1||
 |dmidecode|3.6|3.7||
 |dnf5|5.4.2.0|5.4.2.1||
@@ -73,6 +75,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarves|1.30|1.31||
+|editorconfig-core-c|0.12.10|0.12.11||
 |elfutils|0.194|0.195||
 |ethtool|6.15|7.0||
 |exfatprogs|1.3.2|1.4.1||
@@ -204,6 +207,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |haproxy|3.3|3.4.0||
 |harfbuzz|12.1.0|14.2.1||
 |haveged|1.9.20|1.9.22||
+|hdf5|2.0.0|2.1.1||
 |hipblas|7.1.1|20250912-17||
 |hipblas-common|7.1.1|7.2.4||
 |hipify|7.1.1|20250912-42||
@@ -237,7 +241,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
 |labwc|0.9.7|0.20.0||
 |lcms2|2.17|6.1.1||
-|less|692|702||
+|less|692|704||
 |libXft|2.3.8|2.3.9||
 |libXi|1.8.2|1.8.3||
 |libXmu|1.2.1|1.3.1||
@@ -287,6 +291,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |liblognorm|2.0.6|2.1.0||
 |libmaxminddb|1.12.2|1.13.3||
 |libmbim|1.32.0|1.34.0||
+|libmd|1.1.0|1.2.0||
 |libmicrohttpd|1.0.2|1.0.5||
 |libnbd|1.23.13|1.25.5||
 |libnetfilter_conntrack|1.0.9|1.1.1||
@@ -330,6 +335,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libxslt|1.1.43|1.1.45||
 |libyang|4.2.2|5.4.9||
 |linux|7.0.11|7.0|Possible downgrade from the current version (7.0.11 -> 7.0)|
+|linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
 |lmdb|0.9.33|0.9.35||
@@ -567,6 +573,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-yarl|1.22.0|1.24.2||
 |python-zipp|3.23.1|4.1.0||
 |python-zope-interface|8.3|8.5||
+|qalculate-qt|5.9.0.1|5.11.0||
 |qcoro|0.12.0|0.13.0||
 |qemu|10.2.0|11.0.1||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
