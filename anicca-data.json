@@ -140,6 +140,7 @@
 ["pcre2","10.45","10.47",[]],
 ["go-github-aws-smithy-go","2025.12.01","1.27.2",["Possible downgrade from the current version (2025.12.01 -> 1.27.2)"]],
 ["utf8proc","2.10.0","2.11.3",[]],
+["go-github-anishathalye-porcupine","1.1.0","1.2.0",[]],
 ["python-sip","6.15.1","6.15.3",[]],
 ["go-github-emirpasic-gods","1.18.1","2.0.0-alpha",[]],
 ["python-blivet","3.13.1","blivet-3.13.2",["Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)"]],
