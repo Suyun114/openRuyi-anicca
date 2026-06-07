@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780860039?label=Updated)
+![Relative date](https://img.shields.io/date/1780866713?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -49,7 +49,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cpp-httplib|0.45.0|0.46.1||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.2||
-|createrepo_c|1.2.1|1.2.3||
 |crontabs|1.11|crontabs-20190603||
 |crun|1.27.1|1.28||
 |cunit|2.1.3|2.1-3||
@@ -205,7 +204,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gtk-doc|1.35.1|1.36.1||
 |gtk3|3.24.51|4.3.6||
 |guidelines-support-library|4.2.1|4.2.2||
-|haproxy|3.3|3.4.0||
 |harfbuzz|12.1.0|14.2.1||
 |haveged|1.9.20|1.9.22||
 |hdf5|2.0.0|2.1.1||
@@ -285,6 +283,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libinput|1.30.0|1.31.3||
 |libisoburn|1.5.6|1.5.8.pl02||
 |libisofs|1.5.6|1.5.8.pl02||
+|libjpeg-turbo|3.1.2|3.1.4.1||
 |libjwt|3.2.2|3.3.3||
 |libklvanc|1.6.0|id.obe.1.6.0||
 |libksba|1.6.7|1.8.0||
@@ -446,7 +445,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pybind11|3.0.1|3.0.4||
 |python|3.13.8|3.14.5||
 |python-aiohappyeyeballs|2.6.1|2.7.0||
-|python-aiohttp|3.13.3|3.14.0||
+|python-aiohttp|3.13.3|3.14.1||
 |python-altair|6.1.0|6.2.1||
 |python-archinfo|9.2.214|9.2.221||
 |python-awscrt|0.32.0|0.34.1||
@@ -562,7 +561,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-traitlets|5.15.0|5.15.1||
 |python-transformers|5.2.0|5.10.2||
 |python-trove-classifiers|2025.8.26.11|2026.6.1.19||
-|python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.49.0||
 |python-virtualenv|20.35.4|21.4.2||
@@ -754,7 +752,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|76||
-|vim|9.2.0481|9.2.0600||
+|vim|9.2.0481|9.2.0602||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.353||
