@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780890219?label=Updated)
+![Relative date](https://img.shields.io/date/1780908875?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -85,6 +85,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fastfetch|2.63.1|2.64.2||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |file|5.47|5.48||
+|fmt|12.1.0|12.2.0||
 |fontconfig|2.17.1|2.18.1||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
 |fonts-noto|2026.01.01|noto-monthly-release-2026.06.01||
@@ -187,7 +188,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-golang-x-tools|0.40.0|gopls/v0.22.0||
 |go-gonum-v1-gonum|0.16.0|0.17.0||
 |go-gonum-v1-plot|0.16.0|0.17.0||
-|go-google-grpc|1.78.0|1.81.1||
+|go-google-grpc|1.78.0|1.83.0-dev||
 |go-gopkg-yaml.v2|2.4.0|3.0.1||
 |go-gopkg-yaml.v3|3.0.4|2.4.4|Possible downgrade from the current version (3.0.4 -> 2.4.4)|
 |go-opentelemetry-proto|1.9.0|1.10.0||
@@ -344,6 +345,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lshw|B.02.20|02.20||
 |ltp|20260130|20260529||
 |lttng-ust|2.14.0|2.15.1||
+|lua|5.4.8|5.5.0||
 |lua-json|1.3.4|1.3.5||
 |lua-lunitx|0.8.1|0.8.2||
 |luajit|2.1<br>+openresty20260114|2.1.ROLLING|Compound version number '2.1+openresty20260114'|
@@ -563,7 +565,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.49.0||
 |python-virtualenv|20.35.4|21.4.2||
-|python-wcwidth|0.7.0|0.8.0||
+|python-wcwidth|0.7.0|0.8.1||
 |python-weasel|1.0.0|release-v1.0.0||
 |python-wheel|0.45.1|0.47.0||
 |python-wrapt|2.1.1|2.2.1||
@@ -635,6 +637,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rpm|4.20.1|6.0.1-release||
 |rpmlint|2.8.0|2.9.0||
 |rrdtool|1.9.0|1.10.3||
+|rsync|3.4.3|3.4.4||
 |rsyslog|8.2510.0|8.2604.0||
 |rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.5||
@@ -708,7 +711,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |spirv-cross|1.4.335.0|1.4.350.0||
 |spirv-llvm-translator|21.1.3|22.1.3||
 |spirv-tools|1.4.350.0|2026.2||
-|sqlite|3.50.4|3.53.2||
 |squashfuse|0.6.1|0.6.2||
 |srt|1.5.4|1.5.5||
 |sssd|2.11.1|2.13.0||
@@ -783,7 +785,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xorgproto|2024.1|2025.1||
 |xsimd|14.0.0|14.2.0||
 |xxhash|0.8.3|2.3.0||
-|xz|5.8.1|5.8.3||
 |yaml-cpp|0.8.0|0.9.0||
 |zfs|2.4.1|2.4.2||
 |zip|3.0|8.6.0||
