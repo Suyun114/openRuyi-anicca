@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780908875?label=Updated)
+![Relative date](https://img.shields.io/date/1780924060?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -39,13 +39,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cloud-init|25.3|26.1||
 |cmake|4.3.2|4.3.3||
 |cmocka|1.1.7|2.0.2||
-|cockpit|352|363.1||
+|cockpit|352|363.2||
 |config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
 |conmon|2.1.13|2.2.1||
 |conntrack-tools|1.4.8|1.4.9||
 |console-setup|1.244|1.248||
 |containers-common|0.67.0|0.64.2|Possible downgrade from the current version (0.67.0 -> 0.64.2)|
-|coreutils|9.10|9.11||
 |cpp-httplib|0.45.0|0.46.1||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.2||
@@ -175,14 +174,15 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-shirou-gopsutil|4.26.1|4.26.5||
 |go-github-stretchr-testify|1.11.1|1.2.3|Possible downgrade from the current version (1.11.1 -> 1.2.3)|
 |go-github-ugorji-go-codec|1.2.14|codec/v1.3.1|Possible downgrade from the current version (1.2.14 -> codec/v1.3.1)|
-|go-golang-x-arch|0.23.0|0.27.0||
+|go-golang-x-arch|0.23.0|0.28.0||
 |go-golang-x-crypto|0.46.0|0.52.0||
 |go-golang-x-exp|0<br>+git20260107.944ab1f|winfsnotify/v0.1.0-deprecated|Compound version number '0+git20260107.944ab1f'<br>Version number indicates a snapshot (+git) is used|
 |go-golang-x-image|0.34.0|0.41.0||
 |go-golang-x-mod|0.31.0|0.36.0||
 |go-golang-x-net|0.48.0|0.55.0||
 |go-golang-x-oauth2|0.34.0|0.36.0||
-|go-golang-x-sys|0.39.0|0.45.0||
+|go-golang-x-sync|0.20.0|0.21.0||
+|go-golang-x-sys|0.39.0|0.46.0||
 |go-golang-x-term|0.38.0|0.43.0||
 |go-golang-x-text|0.32.0|0.37.0||
 |go-golang-x-tools|0.40.0|gopls/v0.22.0||
@@ -198,7 +198,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gpgmepp|2.0.0|2.1.0||
 |graphite2|1.3.14|1.3.15||
 |graphviz|14.1.5|15.0.0||
-|groff|1.23.0|1.24.1||
 |grpc|1.80.0|1.81.0||
 |gsasl|2.2.2|2.2.3||
 |gsl|2.8|4.2.2||
@@ -232,6 +231,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iptables|1.8.11|1.8.13||
 |iso-codes|4.18.0|4.20.1||
 |jitterentropy|3.6.3|3.7.0||
+|jose|14|15||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.7||
 |kbd|2.9.0|2.10.0||
@@ -240,7 +240,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |keepalived|2.2.8|2.3.4||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
 |kiwi|10.2.42|10.3.4||
-|kpmcore|25.12.2|26.04.2||
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
 |labwc|0.9.7|0.20.0||
 |lcms2|2.17|6.1.1||
@@ -340,6 +339,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -363,7 +363,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |meson|1.10.2|1.11.1||
 |mimalloc|3.1.5|3.3.2||
 |minicom|2.10|2.11.1||
-|minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
 |minizip-ng|4.1.0|4.2.1||
 |mkosi|25.3<br>+git20251224.|26|Compound version number '25.3+git20251224.'<br>Version number indicates a snapshot (+git) is used|
 |mksh|59|59c|Possible downgrade from the current version (59 -> 59c)|
@@ -375,7 +374,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
 |multipath-tools|0.11.1|0.14.3||
-|musl|1.2.5|1.2.6||
 |ncurses|6.5|6.6||
 |ndctl|83|84||
 |netavark|1.17.1|1.17.2||
