@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780949599?label=Updated)
+![Relative date](https://img.shields.io/date/1780957597?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -80,7 +80,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |exfatprogs|1.3.2|1.4.1||
 |expect|5.45.4|30.4.1||
 |fakeroot|1.37.2|1.38.1||
-|fast_float|8.2.5|8.2.7||
+|fast_float|8.2.5|8.2.8||
 |fastfetch|2.63.1|2.64.2||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |file|5.47|5.48||
@@ -299,7 +299,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libnetfilter_conntrack|1.0.9|1.1.1||
 |libnftnl|1.3.0|1.3.1||
 |libnl|3.11.0|3.12.0||
-|libnotify|0.8.7|0.8.8||
 |libp11|0.4.13|0.4.18||
 |libpaper|2.2.6|2.2.8||
 |libpcap|1.10.5|1.10.6||
@@ -474,7 +473,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-filelock|3.29.0|3.29.3||
 |python-gevent|26.4.0|26.5.0||
 |python-greenlet|3.4.0|3.5.1||
-|python-hf-xet|1.3.2|1.5.1-dev1||
+|python-hf-xet|1.3.2|1.5.1-rc0||
 |python-hiredis|3.3.1|3.4.0||
 |python-httptools|0.7.1|0.8.0||
 |python-huggingface-hub|1.5.0|1.18.0||
@@ -752,7 +751,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|76||
-|vim|9.2.0593|9.2.0602||
+|vim|9.2.0593|9.2.0604||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.353||
