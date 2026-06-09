@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1780963561?label=Updated)
+![Relative date](https://img.shields.io/date/1780981490?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -191,7 +191,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-gonum-v1-plot|0.16.0|0.17.0||
 |go-google-grpc|1.78.0|1.83.0-dev||
 |go-gopkg-yaml.v2|2.4.0|3.0.1||
-|go-gopkg-yaml.v3|3.0.4|2.4.4|Possible downgrade from the current version (3.0.4 -> 2.4.4)|
+|go-gopkg-yaml.v3|3.0.4|4.0.0-rc.5||
 |go-opentelemetry-proto|1.9.0|1.10.0||
 |go-rsc-pdf|0.1.0<br>+git20260106.c47d69c|0.1.1|Compound version number '0.1.0+git20260106.c47d69c'<br>Version number indicates a snapshot (+git) is used|
 |go-uber-zap|1.27.1|1.28.0||
@@ -249,6 +249,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXi|1.8.2|1.8.3||
 |libXmu|1.2.1|1.3.1||
 |libXrandr|1.5.4|1.5.5||
+|libXres|1.2.2|1.2.3||
 |libXxf86vm|1.1.6|1.1.7||
 |libaec|1.1.6|1.1.7||
 |libatomic_ops|7.8.2|7.10.0||
@@ -339,6 +340,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -393,7 +395,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-a.5||
 |obs-build|20250829|20260505||
-|ollama|0.13.5|0.30.6||
+|ollama|0.13.5|0.30.7||
 |onnx|1.20.1|1.21.0||
 |onnxruntime|1.24.1|1.26.0||
 |open-vmdk|0.3.12|3.0.1||
