@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781096237?label=Updated)
+![Relative date](https://img.shields.io/date/1781109372?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -72,9 +72,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dpdk|25.07|26.03||
 |dracut|110|111||
 |dropbear|2025.89|2026.91||
-|drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarves|1.30|1.31||
+|editorconfig-core-c|0.12.10|0.12.11||
 |elfutils|0.194|0.195||
 |ethtool|6.15|7.0||
 |exfatprogs|1.3.2|1.4.1||
@@ -340,7 +340,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -401,12 +400,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
 |openblas|0.3.31|0.3.33||
-|opencv|4.13.0|5.0.0||
 |openexr|3.4.10|3.4.12||
-|openjdk-17|17.0.19.10|jdk-17.0.20+5||
-|openjdk-21|21.0.11.10|jdk-21.0.12+5||
-|openjdk-25|25.0.3.9|jdk-25.0.4+4||
-|openjdk-latest|26.0.1.8|jdk-25.0.4+4||
+|openjdk-17|17.0.19.10|jdk-17.0.20+6||
+|openjdk-21|21.0.11.10|jdk-21.0.12+6||
+|openjdk-25|25.0.3.9|jdk-25.0.4+5||
+|openjdk-latest|26.0.1.8|jdk-25.0.4+5||
 |opensbi|1.8|1.8.1||
 |openssl|3.6.3|4.0.2||
 |openvpn|2.6.16|2.7.4||
@@ -426,7 +424,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |passt|0<br>+git20260424.ec96f01|2026_05_26.038c51e|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.1||
 |pcre2|10.45|10.47||
-|pcsc-lite|2.3.3|2.5.0||
+|pcsc-lite|2.3.3|2.5.1||
 |perl|5.42.0|5.42.2||
 |perl-rpm-packaging|1.2|1.3||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
@@ -442,7 +440,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |psutils|2.10|3.3.15||
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |pybind11|3.0.1|3.0.4||
-|python|3.13.8|3.14.5||
+|python|3.13.8|3.14.6||
 |python-aiohappyeyeballs|2.6.1|2.7.0||
 |python-aiohttp|3.13.3|3.14.1||
 |python-altair|6.1.0|6.2.1||
@@ -472,7 +470,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-expandvars|1.1.2|1.24.2||
 |python-fastapi|0.136.1|0.136.3||
 |python-fastavro|1.12.1|1.12.2||
-|python-filelock|3.29.0|3.29.3||
+|python-filelock|3.29.0|3.29.2||
 |python-gevent|26.4.0|26.5.0||
 |python-greenlet|3.4.0|3.5.1||
 |python-hf-xet|1.3.2|1.5.1||
@@ -555,11 +553,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
 |python-tensile|7.1.1|rocm-7.2.4||
 |python-tokenizers|0.22.2|0.23.1||
-|python-torchvision|0.25.0|0.27.1-rc2||
+|python-torchvision|0.25.0|0.27.1-rc3||
 |python-tornado|6.5.4|6.5.7||
 |python-tqdm|4.67.3|4.68.2||
 |python-traitlets|5.15.0|5.15.1||
-|python-transformers|5.2.0|5.10.2||
+|python-transformers|5.2.0|5.11.0||
 |python-trove-classifiers|2025.8.26.11|2026.6.1.19||
 |python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
@@ -623,6 +621,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocblas|7.1.1|14.3.0||
 |rocclr|7.1.1|5.6.1|Possible downgrade from the current version (7.1.1 -> 5.6.1)|
 |rocksdb|10.5.1|11.1.1||
+|rocm-bandwidth-test|6.4.2|20250912-42||
 |rocm-cmake|7.1.1|20250912-42||
 |rocm-llvm|7.1.1|20250912-42||
 |rocm-smi|7.1.1|rocm-7.2.4||
@@ -775,7 +774,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xdg-desktop-portal-wlr|0.8.1|0.8.2||
 |xdg-user-dirs|0.19|0.20||
 |xfsdump|3.2.0|3.3.0||
-|xfsprogs|6.16.0|7.0.1||
 |xkeyboard-config|2.46|2.47||
 |xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
