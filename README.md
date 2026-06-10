@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781050396?label=Updated)
+![Relative date](https://img.shields.io/date/1781068620?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -46,7 +46,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |conntrack-tools|1.4.8|1.4.9||
 |console-setup|1.244|1.248||
 |containers-common|0.67.0|0.64.2|Possible downgrade from the current version (0.67.0 -> 0.64.2)|
-|cpp-httplib|0.45.0|0.46.1||
+|cpp-httplib|0.45.0|0.47.0||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.2||
 |createrepo_c|1.2.1|1.2.3||
@@ -72,6 +72,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dpdk|25.07|26.03||
 |dracut|110|111||
 |dropbear|2025.89|2026.91||
+|drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarves|1.30|1.31||
 |editorconfig-core-c|0.12.10|0.12.11||
@@ -230,6 +231,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iprutils|2.4.19|2.4.18.1|Possible downgrade from the current version (2.4.19 -> 2.4.18.1)|
 |iptables|1.8.11|1.8.13||
 |iso-codes|4.18.0|4.20.1||
+|jitterentropy|3.6.3|3.7.0||
 |jose|14|15||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.7||
@@ -248,6 +250,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXmu|1.2.1|1.3.1||
 |libXrandr|1.5.4|1.5.5||
 |libXres|1.2.2|1.2.3||
+|libXxf86vm|1.1.6|1.1.7||
 |libaec|1.1.6|1.1.7||
 |libatomic_ops|7.8.2|7.10.0||
 |libavif|1.4.0|1.4.2||
@@ -337,6 +340,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -380,6 +384,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
 |nfs-utils|2.8.4|2.9.1||
 |nfs4-acl-tools|0.4.2|0.3.7|Possible downgrade from the current version (0.4.2 -> 0.3.7)|
+|nftables|1.1.5|1.1.6||
 |nghttp3|1.12.0|1.16.0||
 |ngtcp2|1.16.0|1.23.0||
 |ninja|1.13.2|1.13.0|Possible downgrade from the current version (1.13.2 -> 1.13.0)|
@@ -479,7 +484,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
 |python-iso639|0.1.4|2026.4.20||
-|python-jsonschema|4.17.3|4.26.0||
 |python-kiwisolver|1.4.9|1.5.0||
 |python-langtable|0.0.70|0.0.71||
 |python-libclang|18.1.1|llvm-18.1.1||
@@ -551,7 +555,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
 |python-tensile|7.1.1|rocm-7.2.4||
 |python-tokenizers|0.22.2|0.23.1||
-|python-torchvision|0.25.0|0.27.0||
+|python-torchvision|0.25.0|0.27.1-rc1||
 |python-tornado|6.5.4|6.5.7||
 |python-tqdm|4.67.3|4.68.2||
 |python-traitlets|5.15.0|5.15.1||
