@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781181933?label=Updated)
+![Relative date](https://img.shields.io/date/1781196903?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -17,6 +17,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |at-spi2-core|2.58.2|2.60.4||
 |atkmm|2.28.4|2.36.4||
+|authselect|1.6.1|1.7.1||
 |autoconf|2.72|2.73||
 |bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
@@ -67,11 +68,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dmidecode|3.6|3.7||
 |dnf5|5.4.2.0|5.4.2.1||
 |dnsmasq|2.92|2.93||
-|docbook-utils|0.6.15|0.6.14|Possible downgrade from the current version (0.6.15 -> 0.6.14)|
 |dos2unix|7.5.5|7.5.6||
 |doxygen|1.13.2|1.17.0||
 |dpdk|25.07|26.03||
-|dracut|110|111||
 |dropbear|2025.89|2026.91||
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
@@ -82,7 +81,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |exfatprogs|1.3.2|1.4.1||
 |expect|5.45.4|30.4.1||
 |fakeroot|1.37.2|1.38.1||
-|fast_float|8.2.5|8.2.8||
 |fastfetch|2.63.1|2.64.2||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |file|5.47|5.48||
@@ -207,14 +205,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
 |gtk3|3.24.51|4.3.6||
-|guidelines-support-library|4.2.1|4.2.2||
 |haproxy|3.3|3.4.0||
 |harfbuzz|12.1.0|14.2.1||
 |haveged|1.9.20|1.9.22||
 |hdf5|2.0.0|2.1.1||
 |hipblas|7.1.1|20250912-17||
 |hipblas-common|7.1.1|7.2.4||
-|hipify|7.1.1|20250912-42||
 |httpd|2.4.66|2.4.68||
 |hunspell-en|2026.02.25|rel-2026.02.25||
 |hwdata|0.407|0.408||
@@ -286,9 +282,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libgpg-error|1.58|1.61||
 |libheif|1.21.2|1.23.0||
 |libical|3.0.20|4.0.2||
-|libinput|1.30.0|1.31.3||
 |libisoburn|1.5.6|1.5.8.pl02||
-|libisofs|1.5.6|1.5.8.pl02||
 |libjpeg-turbo|3.1.2|3.1.4.1||
 |libjwt|3.2.2|3.3.3||
 |libklvanc|1.6.0|id.obe.1.6.0||
@@ -342,7 +336,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -412,6 +405,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |opensbi|1.8|1.8.1||
 |openssl|3.6.3|4.0.2||
 |openvpn|2.6.16|2.7.4||
+|openvswitch|3.5.1|3.7.1||
 |openzl|0.1.0|0.2.0||
 |opus|1.5.2|1.6.1||
 |os-prober|1.83|1.84||
@@ -444,6 +438,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |pybind11|3.0.1|3.0.4||
 |python|3.13.8|3.14.6||
+|python-accelerate|1.13.0|1.14.0||
 |python-aiohappyeyeballs|2.6.1|2.7.0||
 |python-aiohttp|3.13.3|3.14.1||
 |python-altair|6.1.0|6.2.1||
@@ -566,7 +561,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.49.0||
-|python-virtualenv|20.35.4|21.4.2||
+|python-virtualenv|20.35.4|21.4.3||
 |python-wcwidth|0.7.0|0.8.1||
 |python-weasel|1.0.0|release-v1.0.0||
 |python-wheel|0.45.1|0.47.0||
@@ -785,7 +780,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xmltoman|0.4|0.6||
 |xorg-server|21.1.21|21.1.23||
 |xorgproto|2024.1|2025.1||
-|xsimd|14.0.0|14.2.0||
 |xxhash|0.8.3|2.3.0||
 |yaml-cpp|0.8.0|0.9.0||
 |zfs|2.4.1|2.4.2||
