@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781242263?label=Updated)
+![Relative date](https://img.shields.io/date/1781258926?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -88,6 +88,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |file|5.47|5.48||
 |firewalld|2.4.1|2.4.2||
+|flex|2.6.4|2.5.39|Possible downgrade from the current version (2.6.4 -> 2.5.39)|
 |fmt|12.1.0|12.2.0||
 |fontconfig|2.17.1|2.18.1||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
@@ -339,10 +340,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libxslt|1.1.43|1.1.45||
 |libyang|4.2.2|5.4.9||
 |linux|7.0.11|7.0|Possible downgrade from the current version (7.0.11 -> 7.0)|
-|linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -396,7 +395,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nss|3.123.1|3.124||
 |ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-a.5||
-|obs-build|20250829|20260505||
+|obs-build|20250829|20260612||
 |ollama|0.13.5|0.30.7||
 |onnx|1.20.1|1.21.0||
 |onnxruntime|1.24.1|1.26.0||
@@ -555,7 +554,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-soundfile|0.13.1|0.14.0||
 |python-spacy|3.8.14|release-v3.8.14|Possible downgrade from the current version (3.8.14 -> release-v3.8.14)|
 |python-srsly|2.5.3|3.0.0||
-|python-starlette|1.0.0|1.3.0||
+|python-starlette|1.0.0|1.3.1||
 |python-tempita|0.6.0|0.6||
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
 |python-tensile|7.1.1|rocm-7.2.4||
@@ -580,7 +579,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-zope-interface|8.3|8.5||
 |qalculate-qt|5.9.0.1|5.11.0||
 |qcoro|0.12.0|0.13.0||
-|qemu|10.2.0|11.0.1||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.66||
 |qt6-qt5compat|6.10.1|6.12.0-beta1||
@@ -760,11 +758,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vim|9.2.0593|9.2.0620||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
-|vulkan-headers|1.4.335.0|1.4.353||
-|vulkan-loader|1.4.335.0|1.4.353||
-|vulkan-tools|1.4.335|1.4.353||
-|vulkan-utility-libraries|1.4.335.0|1.4.353||
-|vulkan-validation-layers|1.4.335.0|1.4.353||
+|vulkan-headers|1.4.335.0|1.4.354||
+|vulkan-loader|1.4.335.0|1.4.354||
+|vulkan-tools|1.4.335|1.4.354||
+|vulkan-utility-libraries|1.4.335.0|1.4.354||
+|vulkan-validation-layers|1.4.335.0|1.4.354||
 |wabt|1.0.39|1.0.41||
 |wavpack|5.8.1|5.9.0||
 |wayback|0.3|0.5.0||
