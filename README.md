@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781223551?label=Updated)
+![Relative date](https://img.shields.io/date/1781242263?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -83,7 +83,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |exfatprogs|1.3.2|1.4.1||
 |expect|5.45.4|30.4.1||
 |fakeroot|1.37.2|1.38.1||
-|fast_float|8.2.5|8.2.8||
+|fast_float|8.2.5|8.2.9||
 |fastfetch|2.63.1|2.64.2||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |file|5.47|5.48||
@@ -342,6 +342,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-tools|7.0.10|7.0|Possible downgrade from the current version (7.0.10 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -442,6 +443,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |protobuf|33.2|35.1||
 |psutils|2.10|3.3.15||
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
+|pv|1.10.5|1.11.0||
 |pybind11|3.0.1|3.0.4||
 |python|3.13.8|3.14.6||
 |python-accelerate|1.13.0|1.14.0||
@@ -558,7 +560,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
 |python-tensile|7.1.1|rocm-7.2.4||
 |python-tokenizers|0.22.2|0.23.1||
-|python-torchvision|0.25.0|0.27.1-rc3||
+|python-torchvision|0.25.0|0.28.0-rc1||
 |python-tornado|6.5.4|6.5.7||
 |python-tqdm|4.67.3|4.68.2||
 |python-traitlets|5.15.0|5.15.1||
@@ -661,7 +663,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-indexmap-2.0|2.13.0|2.14.0||
 |rust-lock-api-0.4|0.4.14|parking_lot-v0.12.5||
 |rust-log-0.4|0.4.29|0.4.32||
-|rust-memchr-2.0|2.8.0|2.8.1||
+|rust-memchr-2.0|2.8.0|2.8.2||
 |rust-parking-lot-0.12|0.12.5|parking_lot-v0.12.5||
 |rust-parking-lot-core-0.9|0.9.12|parking_lot-v0.12.5||
 |rust-semver-1.0|1.0.27|1.0.28||
@@ -728,7 +730,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.3||
 |tcpdump|4.99.5|4.99.6||
+|tcsh|6.24.15|6.24.16||
 |tdb|1.4.14|1.4.15||
+|tensorpipe|0<br>+git20251218.|0.0.0|Compound version number '0+git20251218.'<br>Version number indicates a snapshot (+git) is used|
 |texinfo|7.2|7.3||
 |thrift|0.22.0|0.23.0||
 |tinysparql|3.10.1|3.11.1||
@@ -766,6 +770,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wayback|0.3|0.5.0||
 |wayland-protocols|1.48|1.49||
 |weston|14.0.2|15.0.1||
+|which|2.23|8.0.3||
 |whois|5.6.4|5.6.6.git||
 |wlroots|0.19.3|0.20.1||
 |wofi|1.5.2|1.5.3||
