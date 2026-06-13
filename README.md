@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781328048?label=Updated)
+![Relative date](https://img.shields.io/date/1781340983?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -45,6 +45,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cockpit|352|363.2||
 |config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
 |conmon|2.1.13|2.2.1||
+|conntrack-tools|1.4.8|1.4.9||
 |console-setup|1.244|1.248||
 |containers-common|0.67.0|0.64.2|Possible downgrade from the current version (0.67.0 -> 0.64.2)|
 |cpp-httplib|0.45.0|0.47.0||
@@ -229,7 +230,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iperf|3.21|2.2.1|Possible downgrade from the current version (3.21 -> 2.2.1)|
 |ipmitool|1.8.19|1_8_19||
 |iproute2|6.16.0|7.0.0||
-|iprutils|2.4.19|2.4.18.1|Possible downgrade from the current version (2.4.19 -> 2.4.18.1)|
 |iptables|1.8.11|1.8.13||
 |isa-l_crypto|2.26|2.26.1||
 |iso-codes|4.18.0|4.20.1||
@@ -324,7 +324,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libthai|0.1.29|0.1.30||
 |libtiff|4.7.0|4.7.1||
 |libtraceevent|1.8.4|1.9.0||
-|libudev-zero|1.0.3|1.0.4||
 |libunibreak|6.1|7.0||
 |liburing|2.12|2.14||
 |libusb|1.0.29|1.0.30||
@@ -335,14 +334,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libwebp|1.6.0|20.3.4||
 |libxkbcommon|1.13.0|1.13.2||
 |libxkbfile|1.1.3|1.2.0||
-|libxml2|2.14.5|2.15.3||
 |libxmlb|0.3.24|0.3.27||
 |libxslt|1.1.43|1.1.45||
 |libyang|4.2.2|5.4.9||
 |linux|7.0.11|7.0|Possible downgrade from the current version (7.0.11 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -359,7 +356,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lz4|1.10.0|1.28.1||
 |mariadb|11.8.6|13.0.1||
 |mariadb-connector-c|3.4.8|3.4.9||
-|mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.1.1|26.1.2||
@@ -392,8 +388,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ninja|1.13.2|1.13.0|Possible downgrade from the current version (1.13.2 -> 1.13.0)|
 |nmap|7.92|7.99||
 |nodejs|24.13.0|26.3.0||
-|nspr|4.37.0|4.39||
-|nss|3.123.1|3.125||
+|nspr|4.39.0|4.39||
+|nss|3.124.0|3.125||
 |ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-a.5||
 |obs-build|20250829|20260612||
@@ -523,7 +519,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pycurl|7.45.7|REL_7_46_0|Possible downgrade from the current version (7.45.7 -> REL_7_46_0)|
 |python-pydantic|2.12.5|2.14.0a1||
 |python-pyelftools|0.32|0.33||
-|python-pygit2|1.18.2|1.19.2||
+|python-pygit2|1.18.2|1.19.3||
 |python-pyjwt|2.12.1|2.13.0||
 |python-pylsqpack|0.3.23|0.3.24||
 |python-pymilvus|2.6.9|2.6.15||
@@ -536,6 +532,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pyside6|6.10.1|6.11.1||
 |python-pysocks|1.7.1|1.7.0|Possible downgrade from the current version (1.7.1 -> 1.7.0)|
 |python-pytest-asyncio|1.3.0|1.4.0||
+|python-pytest-order|1.4.0|1.5.0||
 |python-pytest-rerunfailures|16.1|16.3||
 |python-python-dateutil|2.9.0.post0|2.9.0||
 |python-python-multipart|0.0.28|0.0.32||
@@ -635,6 +632,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocm-smi|7.1.1|rocm-7.2.4||
 |rocminfo|7.1.1|20250912-42||
 |rocprim|7.1.1|7.2.4||
+|rocprofiler-register|7.1.0|20250912-42||
 |rocr-runtime|7.1.1|20250912-42||
 |rocsolver|7.1.1|20250912-42||
 |rocsparse|7.1.1|7.2.4||
@@ -753,7 +751,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |utf8proc|2.10.0|2.11.3||
 |util-linux|2.41.3|2.42.1||
 |uuid|1.6.2|1.23.3||
-|vala|0.56.18|0.56.19||
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|76||
