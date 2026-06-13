@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781349248?label=Updated)
+![Relative date](https://img.shields.io/date/1781358895?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -12,7 +12,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |abseil-cpp|20260107.0|20260526.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
 |accountsservice|23.13.9|26.13.3||
-|alsa-lib|1.2.15.3|1.2.16||
 |arrow|23.0.1|59.0.0||
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |at-spi2-core|2.58.2|2.60.4||
@@ -83,6 +82,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |exfatprogs|1.3.2|1.4.1||
 |expect|5.45.4|30.4.1||
 |fakeroot|1.37.2|1.38.1||
+|fast_float|8.2.5|8.2.9||
 |fastfetch|2.63.1|2.64.2||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |file|5.47|5.48||
@@ -95,7 +95,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-noto-serif-cjk|2.003|Serif2.003||
 |fonts-sarasa-gothic|1.0.37|1.0.39||
 |foot|1.26.1|1.27.0||
-|fuse|2.9.9|2.5.0|Possible downgrade from the current version (2.9.9 -> 2.5.0)|
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
 |gcc|16|16.1.0||
 |genext2fs|1.5.0|1.6.2||
@@ -238,7 +237,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.7||
 |kbd|2.9.0|2.10.0||
-|kdsoap|2.2.0|2.3.0||
 |kea|3.1.4|3.1.9||
 |keepalived|2.2.8|2.3.4||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
@@ -269,6 +267,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcnotify|20240414|20260612||
 |libcomps|0.1.23|0.1.24||
 |libconfig|1.8.1|1.8.2||
+|libcthreads|20240413|20260612||
 |libdatrie|0.2.13|0.2.14||
 |libdisplay-info|0.2.0|0.3.0||
 |libdrm|2.4.131|2.4.134||
@@ -287,6 +286,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libheif|1.21.2|1.23.0||
 |libical|3.0.20|4.0.2||
 |libisoburn|1.5.6|1.5.8.pl02||
+|libisofs|1.5.6|1.5.8.pl02||
 |libjpeg-turbo|3.1.2|3.1.4.1||
 |libjwt|3.2.2|3.3.3||
 |libklvanc|1.6.0|id.obe.1.6.0||
@@ -305,7 +305,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libp11|0.4.13|0.4.18||
 |libpaper|2.2.6|2.2.8||
 |libpcap|1.10.5|1.10.6||
-|libpciaccess|0.18|0.19||
 |libpng|1.6.55|1.6.58||
 |libqalculate|5.9.0|5.11.0||
 |libqmi|1.36.0|1.38.0||
@@ -340,6 +339,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux|7.0.11|7.0|Possible downgrade from the current version (7.0.11 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -394,6 +394,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-a.5||
 |obs-build|20250829|20260612||
+|ollama|0.13.5|0.30.8||
 |onnx|1.20.1|1.21.0||
 |onnxruntime|1.24.1|1.26.0||
 |open-vmdk|0.3.12|3.0.1||
@@ -410,7 +411,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openvpn|2.6.16|2.7.4||
 |openvswitch|3.5.1|3.7.1||
 |openzl|0.1.0|0.2.0||
-|opus|1.5.2|1.6.1||
 |os-prober|1.83|1.84||
 |osc|1.21.0|1.27.1||
 |osinfo-db|20250606|20251212||
@@ -692,7 +692,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-wit-parser-0.244|0.244.0|1.252.0||
 |ruyi|0.46.0|0.49.0||
 |safeint|3.0.28a|3.24||
-|samba|4.23.2|4.24.3||
 |scap-security-guide|0.1.80|0.1.81||
 |sdbus-cpp|2.1.0|2.3.1||
 |seatd|0.9.1|0.9.3||
@@ -751,7 +750,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |utf8proc|2.10.0|2.11.3||
 |util-linux|2.41.3|2.42.1||
 |uuid|1.6.2|1.23.3||
-|vala|0.56.18|0.56.19||
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|76||
