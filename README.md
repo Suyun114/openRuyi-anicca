@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781385266?label=Updated)
+![Relative date](https://img.shields.io/date/1781391819?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -330,6 +330,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |liburing|2.12|2.14||
 |libusb|1.0.29|1.0.30||
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
+|libvirt|12.2.0|12.4.0||
 |libvpx|1.15.2|1.16.0||
 |libwacom|2.17.0|2.19.0||
 |libwebp|1.6.0|20.3.4||
@@ -342,7 +343,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux|7.0.11|7.0|Possible downgrade from the current version (7.0.11 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -648,7 +648,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rsyslog|8.2510.0|8.2604.0||
 |rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.5||
-|runc|1.4.0|1.4.2||
+|runc|1.4.0|1.4.3||
 |rust|1.95.0|1.96.0||
 |rust-bitflags-2.0|2.11.1|2.13.0||
 |rust-clap-4.0|4.6.1|clap_complete-v4.6.5||
@@ -759,7 +759,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|76||
-|vim|9.2.0593|9.2.0637||
+|vim|9.2.0593|9.2.0640||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.354||
