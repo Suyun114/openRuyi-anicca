@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781378602?label=Updated)
+![Relative date](https://img.shields.io/date/1781385266?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
@@ -18,6 +18,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |at-spi2-core|2.58.2|2.60.4||
 |atkmm|2.28.4|2.36.4||
 |authselect|1.6.1|1.7.1||
+|autoconf|2.72|2.73||
 |bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
 |binutils|2.46.0|2.46.1||
@@ -48,6 +49,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |console-setup|1.244|1.248||
 |containers-common|0.67.0|0.64.2|Possible downgrade from the current version (0.67.0 -> 0.64.2)|
 |cpp-httplib|0.45.0|0.47.0||
+|cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.2||
 |createrepo_c|1.2.1|1.2.4||
 |crontabs|1.11|crontabs-20190603||
@@ -328,7 +330,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |liburing|2.12|2.14||
 |libusb|1.0.29|1.0.30||
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
-|libvirt|12.2.0|12.4.0||
 |libvpx|1.15.2|1.16.0||
 |libwacom|2.17.0|2.19.0||
 |libwebp|1.6.0|20.3.4||
@@ -341,6 +342,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux|7.0.11|7.0|Possible downgrade from the current version (7.0.11 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -570,7 +572,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.49.0||
-|python-virtualenv|20.35.4|21.4.3||
+|python-virtualenv|20.35.4|21.5.0||
 |python-wcwidth|0.7.0|0.8.1||
 |python-weasel|1.0.0|release-v1.0.0||
 |python-wheel|0.45.1|0.47.0||
