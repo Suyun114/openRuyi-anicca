@@ -1,12 +1,11 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781303136?label=Updated)
+![Relative date](https://img.shields.io/date/1781310000?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
 |NetworkManager|1.54.3|1.56.1||
-|SDL3|3.4.2|3.4.10||
 |Xwayland|24.1.11|24.1.12||
 |aardvark-dns|1.17.1|2.0.0||
 |abseil-cpp|20260107.0|20260526.0||
@@ -49,10 +48,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |console-setup|1.244|1.248||
 |containers-common|0.67.0|0.64.2|Possible downgrade from the current version (0.67.0 -> 0.64.2)|
 |cpp-httplib|0.45.0|0.47.0||
+|cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.2||
 |createrepo_c|1.2.1|1.2.4||
 |crontabs|1.11|crontabs-20190603||
 |crun|1.27.1|1.28||
+|cunit|2.1.3|2.1-3||
 |cups|2.4.16|2.4.19||
 |curl-impersonate-chrome|0.7.0|2.0.0a5||
 |date|3.0.4|3.5.1||
@@ -67,10 +68,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dnf5|5.4.2.0|5.4.2.1||
 |dnsmasq|2.92|2.93||
 |docbook-utils|0.6.15|0.6.14|Possible downgrade from the current version (0.6.15 -> 0.6.14)|
-|dos2unix|7.5.5|7.5.6||
 |doxygen|1.13.2|1.17.0||
 |dpdk|25.07|26.03||
 |dracut|110|111||
+|dropbear|2025.89|2026.91||
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarves|1.30|1.31||
@@ -84,6 +85,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fastfetch|2.63.1|2.64.2||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |file|5.47|5.48||
+|firewalld|2.4.1|2.4.2||
 |fmt|12.1.0|12.2.0||
 |fontconfig|2.17.1|2.18.1||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
@@ -99,6 +101,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |genimage|19|20||
 |gettext|1.0|2.1.0||
 |gi-docgen|2025.4|2026.1||
+|giflib|5.2.2|6.1.3||
 |glew|2.2.0|2.3.1||
 |glib|2.87.1|2.88.1||
 |glibmm|2.86.0|2.88.0||
@@ -221,11 +224,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |icu4c|77.1|78.3||
 |iio-sensor-proxy|3.8|3.9||
 |iotop|1.30|0.6|Possible downgrade from the current version (1.30 -> 0.6)|
-|iozone|3_508|3.510||
 |iperf|3.21|2.2.1|Possible downgrade from the current version (3.21 -> 2.2.1)|
 |ipmitool|1.8.19|1_8_19||
 |iproute2|6.16.0|7.0.0||
-|iprutils|2.4.19|2.4.18.1|Possible downgrade from the current version (2.4.19 -> 2.4.18.1)|
 |iptables|1.8.11|1.8.13||
 |isa-l_crypto|2.26|2.26.1||
 |iso-codes|4.18.0|4.20.1||
@@ -299,6 +300,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libnetfilter_conntrack|1.0.9|1.1.1||
 |libnftnl|1.3.0|1.3.1||
 |libnl|3.11.0|3.12.0||
+|libnotify|0.8.7|0.8.8||
 |libp11|0.4.13|0.4.18||
 |libpaper|2.2.6|2.2.8||
 |libpcap|1.10.5|1.10.6||
@@ -355,6 +357,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mariadb|11.8.6|13.0.1||
 |mariadb-connector-c|3.4.8|3.4.9||
 |mdevd|0.1.8.1|0.1.8.2||
+|memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.1.1|26.1.2||
 |meson|1.10.2|1.11.1||
@@ -419,6 +422,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pango|1.57.0|4.3.6||
 |pangomm|2.46.4|2.56.1||
 |parallel|20250822|20260522||
+|passt|0<br>+git20260424.ec96f01|2026_06_11.a9c61ff|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.1||
 |pcre2|10.45|10.47||
 |pcsc-lite|2.3.3|2.5.1||
@@ -693,6 +697,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sdbus-cpp|2.1.0|2.3.1||
 |seatd|0.9.1|0.9.3||
 |sed|4.9|4.10||
+|setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |shaderc|2026.1|2026.2||
 |shadow|4.18.0|4.19.4||
