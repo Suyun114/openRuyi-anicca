@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781445522?label=Updated)
+![Relative date](https://img.shields.io/date/1781452254?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -82,7 +82,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ethtool|6.15|7.0||
 |exfatprogs|1.3.2|1.4.1||
 |expect|5.45.4|30.4.1||
-|fast_float|8.2.5|8.2.9||
+|fakeroot|1.37.2|1.38.1||
+|fast_float|8.2.5|8.2.10||
 |fastfetch|2.63.1|2.64.2||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |file|5.47|5.48||
@@ -342,6 +343,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux|7.0.11|7.0|Possible downgrade from the current version (7.0.11 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
