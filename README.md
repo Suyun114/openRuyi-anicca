@@ -1,12 +1,13 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781408703?label=Updated)
+![Relative date](https://img.shields.io/date/1781424904?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.0||
 |NetworkManager|1.54.3|1.56.1||
 |SDL3|3.4.2|3.4.10||
+|Xwayland|24.1.11|24.1.12||
 |aardvark-dns|1.17.1|2.0.0||
 |abseil-cpp|20260107.0|20260526.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
@@ -63,6 +64,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ding-libs|0.6.2|0.7.0||
 |distribution-gpg-keys|1.115|1.119-1||
 |djvulibre|3.5.29|3.5.30||
+|dkms|3.2.2|3.4.1||
 |dmidecode|3.6|3.7||
 |dnf5|5.4.2.0|5.4.2.1||
 |dnsmasq|2.92|2.93||
@@ -266,7 +268,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcerror|20240413|20260612||
 |libclc|21.1.7|22.1.7||
 |libcnotify|20240414|20260612||
-|libcomps|0.1.23|0.1.24||
 |libconfig|1.8.1|1.8.2||
 |libcthreads|20240413|20260612||
 |libdatrie|0.2.13|0.2.14||
@@ -333,6 +334,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libwacom|2.17.0|2.19.0||
 |libwebp|1.6.0|20.3.4||
 |libxkbcommon|1.13.0|1.13.2||
+|libxkbfile|1.1.3|1.2.0||
 |libxml2|2.14.5|2.15.3||
 |libxmlb|0.3.24|0.3.27||
 |libxslt|1.1.43|1.1.45||
@@ -340,13 +342,16 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux|7.0.11|7.0|Possible downgrade from the current version (7.0.11 -> 7.0)|
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
+|lshw|B.02.20|02.20||
 |ltp|20260130|20260529||
 |lttng-ust|2.14.0|2.15.1||
 |lua|5.4.8|5.5.0||
 |lua-json|1.3.4|1.3.5||
 |lua-lunitx|0.8.1|0.8.2||
+|luajit|2.1<br>+openresty20260114|2.1.ROLLING|Compound version number '2.1+openresty20260114'|
 |lutok|0.6.1|0.6.2||
 |lvm2|2.03.35|2.03.41||
 |lxc|6.0.6|7.0.0||
@@ -398,6 +403,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
 |openblas|0.3.31|0.3.33||
+|openconnect|9.12|9.20||
 |opencv|4.13.0|5.0.0||
 |openexr|3.4.10|3.4.12||
 |openjdk-17|17.0.19.10|jdk-17.0.20+6||
