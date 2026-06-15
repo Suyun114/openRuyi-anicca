@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781478512?label=Updated)
+![Relative date](https://img.shields.io/date/1781495974?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -9,7 +9,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |SDL3|3.4.2|3.4.10||
 |Xwayland|24.1.11|24.1.12||
 |aardvark-dns|1.17.1|2.0.0||
-|abseil-cpp|20260107.0|20260526.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
 |accountsservice|23.13.9|26.13.3||
 |alsa-lib|1.2.15.3|1.2.16.1||
@@ -132,6 +131,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-clipperhouse-displaywidth|0.6.2|0.11.0||
 |go-github-clipperhouse-uax29-v2|2.3.0|2.7.0||
 |go-github-codegangsta-inject|1.0~rc1|1.0-rc1||
+|go-github-coder-websocket|1.8.14|1.8.15||
 |go-github-containerd-typeurl|2.2.3|2.3.0||
 |go-github-coreos-go-oidc|3.17.0|3.18.0||
 |go-github-dlclark-regexp2|1.11.5|2.2.1||
@@ -340,6 +340,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libxmlb|0.3.24|0.3.27||
 |libxslt|1.1.43|1.1.45||
 |libyang|4.2.2|5.4.9||
+|lighttpd|1.4.82|1.4.83||
 |linux|7.0.11|7.1||
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
@@ -401,6 +402,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |onnx|1.20.1|1.21.0||
 |onnxruntime|1.24.1|1.26.0||
 |open-vmdk|0.3.12|3.0.1||
+|openal-soft|1.25.1|1.25.2||
 |openblas|0.3.31|0.3.33||
 |openconnect|9.12|9.20||
 |opencv|4.13.0|5.0.0||
@@ -629,7 +631,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rest|0.10.2|2.6.9||
 |rocblas|7.1.1|14.3.0||
 |rocclr|7.1.1|5.6.1|Possible downgrade from the current version (7.1.1 -> 5.6.1)|
-|rocksdb|10.5.1|11.1.1||
 |rocm-bandwidth-test|6.4.2|20250912-42||
 |rocm-cmake|7.1.1|20250912-42||
 |rocm-llvm|7.1.1|20250912-42||
