@@ -1,11 +1,12 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781555175?label=Updated)
+![Relative date](https://img.shields.io/date/1781564575?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
 |NetworkManager|1.54.3|1.56.1||
+|SDL3|3.4.2|3.4.10||
 |Xwayland|24.1.11|24.1.12||
 |aardvark-dns|1.17.1|2.0.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
@@ -15,6 +16,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |at-spi2-core|2.58.2|2.60.4||
 |atkmm|2.28.4|2.36.4||
+|authselect|1.6.1|1.7.1||
 |autoconf|2.72|2.73||
 |bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
@@ -63,6 +65,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |djvulibre|3.5.29|3.5.30||
 |dkms|3.2.2|3.4.1||
 |dmidecode|3.6|3.7||
+|dnf5|5.4.2.0|5.4.2.1||
 |dnsmasq|2.92|2.93||
 |docbook-utils|0.6.15|0.6.14|Possible downgrade from the current version (0.6.15 -> 0.6.14)|
 |dos2unix|7.5.5|7.5.6||
@@ -132,7 +135,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-coder-websocket|1.8.14|1.8.15||
 |go-github-containerd-typeurl|2.2.3|2.3.0||
 |go-github-coreos-go-oidc|3.17.0|3.18.0||
-|go-github-dlclark-regexp2|1.11.5|2.2.1||
+|go-github-dlclark-regexp2|1.11.5|2.2.2||
 |go-github-docker-go-connections|0.6.0|0.7.0||
 |go-github-dougm-pretty|2011.12.22|go.weekly.2011-12-22||
 |go-github-emirpasic-gods|1.18.1|2.0.0-alpha||
@@ -200,7 +203,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |graphite2|1.3.14|1.3.15||
 |graphviz|14.1.5|15.0.0||
 |grpc|1.80.0|1.81.1||
-|gsasl|2.2.2|2.2.3||
+|gsasl|2.2.2|2.2.4||
 |gsl|2.8|4.2.2||
 |gstreamer|1.27.50|4.3.6||
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
@@ -213,6 +216,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hdf5|2.0.0|2.1.1||
 |hipblas|7.1.1|20250912-17||
 |hipblas-common|7.1.1|7.2.4||
+|hipify|7.1.1|20250912-42||
 |httpd|2.4.66|2.4.68||
 |hunspell-en|2026.02.25|rel-2026.02.25||
 |hwdata|0.407|0.408||
@@ -341,6 +345,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux|7.0.11|7.1||
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -450,6 +455,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-aiohappyeyeballs|2.6.1|2.7.0||
 |python-aiohttp|3.13.3|3.14.1||
 |python-altair|6.1.0|6.2.2||
+|python-anyio|4.13.0|4.14.0||
 |python-archinfo|9.2.214|9.2.221||
 |python-awscrt|0.32.0|0.34.1||
 |python-bcrypt|3.2.2|5.0.0||
@@ -459,7 +465,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
-|python-boto3|1.43.6|1.43.29||
+|python-boto3|1.43.6|1.43.30||
 |python-botocore|1.43.11|1.43.29||
 |python-cachetools|7.1.1|7.1.4||
 |python-charset-normalizer|3.4.6|3.4.7||
@@ -746,6 +752,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tzdata|2026a|2026b||
 |udisks2|2.11.0|2.11.1||
 |unicode-ucd|17.0.0|18.0.0||
+|unifont|16.0.04|17.0.04||
 |universal-ctags|6.2.0|6.2.20260607.0||
 |unixbench|6.0.0|6.0.1||
 |upower|1.91.1|1.91.2||
@@ -760,7 +767,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|76||
-|vim|9.2.0593|9.2.0652||
+|vim|9.2.0593|9.2.0653||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.354||
