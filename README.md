@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781495974?label=Updated)
+![Relative date](https://img.shields.io/date/1781519324?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -79,7 +79,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |editorconfig-core-c|0.12.10|0.12.11||
 |elfutils|0.194|0.195||
 |ethtool|6.15|7.0||
-|exfatprogs|1.3.2|1.4.1||
+|exfatprogs|1.3.2|1.4.2||
 |expect|5.45.4|30.4.1||
 |fakeroot|1.37.2|1.38.1||
 |fast_float|8.2.5|8.2.10||
@@ -398,7 +398,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-a.5||
 |obs-build|20250829|20260612||
-|ollama|0.13.5|0.30.8||
 |onnx|1.20.1|1.21.0||
 |onnxruntime|1.24.1|1.26.0||
 |open-vmdk|0.3.12|3.0.1||
@@ -578,7 +577,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-wcwidth|0.7.0|0.8.1||
 |python-weasel|1.0.0|release-v1.0.0||
 |python-wheel|0.45.1|0.47.0||
-|python-wrapt|2.1.1|2.2.1||
+|python-wrapt|2.1.1|2.2.2rc1||
 |python-xxhash|3.6.0|3.7.0||
 |python-yarl|1.22.0|1.24.2||
 |python-zipp|3.23.1|4.1.0||
@@ -631,6 +630,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rest|0.10.2|2.6.9||
 |rocblas|7.1.1|14.3.0||
 |rocclr|7.1.1|5.6.1|Possible downgrade from the current version (7.1.1 -> 5.6.1)|
+|rocksdb|10.5.1|11.1.1||
 |rocm-bandwidth-test|6.4.2|20250912-42||
 |rocm-cmake|7.1.1|20250912-42||
 |rocm-llvm|7.1.1|20250912-42||
@@ -699,6 +699,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |safeint|3.0.28a|3.24||
 |samba|4.23.2|4.24.3||
 |scap-security-guide|0.1.80|0.1.81||
+|scdoc|1.11.3|1.11.4||
 |sdbus-cpp|2.1.0|2.3.1||
 |seatd|0.9.1|0.9.3||
 |sed|4.9|4.10||
@@ -710,7 +711,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.4||
 |skalibs|2.14.5.1|2.15.0.0||
-|slang|2.3.3|2026.10.2||
+|slang|2.3.3|2026.11||
 |slibtool|0.7.3|0.7.4||
 |socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
