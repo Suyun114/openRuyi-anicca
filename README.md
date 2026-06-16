@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781564575?label=Updated)
+![Relative date](https://img.shields.io/date/1781581693?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -35,6 +35,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ceph|21.0.0|21.3.0||
 |check|0.15.2|1.9.1||
 |checkpolicy|3.10|3.11-rc2||
+|cifs-utils|7.5|7.6||
 |ck|0.7.2|2.6.4||
 |clevis|21|23||
 |cloud-hypervisor|51.0.0|52.0||
@@ -103,7 +104,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |genimage|19|20||
 |gettext|1.0|2.1.0||
 |gi-docgen|2025.4|2026.1||
-|giflib|5.2.2|6.1.3||
 |glew|2.2.0|2.3.1||
 |glib|2.87.1|2.88.1||
 |glibmm|2.86.0|2.88.0||
@@ -230,7 +230,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iozone|3_508|3.510||
 |iperf|3.21|2.2.1|Possible downgrade from the current version (3.21 -> 2.2.1)|
 |ipmitool|1.8.19|1_8_19||
-|iproute2|6.16.0|7.0.0||
+|iproute2|6.16.0|7.1.0||
 |iprutils|2.4.19|2.4.18.1|Possible downgrade from the current version (2.4.19 -> 2.4.18.1)|
 |iptables|1.8.11|1.8.13||
 |isa-l_crypto|2.26|2.26.1||
@@ -345,7 +345,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux|7.0.11|7.1||
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.7||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -435,7 +434,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pcsc-lite|2.3.3|2.5.1||
 |perl|5.42.0|5.42.2||
 |perl-rpm-packaging|1.2|1.3||
-|picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
+|picoclaw|0.2.3|0.3.0||
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.6||
@@ -466,7 +465,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
 |python-boto3|1.43.6|1.43.30||
-|python-botocore|1.43.11|1.43.29||
+|python-botocore|1.43.11|1.43.30||
 |python-cachetools|7.1.1|7.1.4||
 |python-charset-normalizer|3.4.6|3.4.7||
 |python-click|8.3.3|8.4.1||
@@ -483,13 +482,14 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-fastapi|0.136.1|0.137.1||
 |python-fastavro|1.12.1|1.12.2||
 |python-filelock|3.29.0|3.29.4||
+|python-fsspec|2026.4.0|2026.6.0||
 |python-gevent|26.4.0|26.5.0||
 |python-greenlet|3.4.0|3.5.1||
 |python-hf-xet|1.3.2|1.5.1||
 |python-hiredis|3.3.1|3.4.0||
 |python-httptools|0.7.1|0.8.0||
 |python-huggingface-hub|1.5.0|1.19.0||
-|python-hypothesis|6.152.4|6.155.2||
+|python-hypothesis|6.152.4|6.155.3||
 |python-idna|3.13|3.18||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
@@ -582,7 +582,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-wcwidth|0.7.0|0.8.1||
 |python-weasel|1.0.0|release-v1.0.0||
 |python-wheel|0.45.1|0.47.0||
-|python-wrapt|2.1.1|2.2.2rc1||
+|python-wrapt|2.1.1|2.2.2rc2||
 |python-xxhash|3.6.0|3.7.0||
 |python-yarl|1.22.0|1.24.2||
 |python-zipp|3.23.1|4.1.0||
@@ -752,7 +752,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tzdata|2026a|2026b||
 |udisks2|2.11.0|2.11.1||
 |unicode-ucd|17.0.0|18.0.0||
-|unifont|16.0.04|17.0.04||
 |universal-ctags|6.2.0|6.2.20260607.0||
 |unixbench|6.0.0|6.0.1||
 |upower|1.91.1|1.91.2||
