@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781709738?label=Updated)
+![Relative date](https://img.shields.io/date/1781720099?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -308,6 +308,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libmd|1.1.0|1.2.0||
 |libmicrohttpd|1.0.2|1.0.5||
 |libmodulemd|2.15.2|2.15.3||
+|libnbd|1.23.13|1.25.5||
 |libnetfilter_conntrack|1.0.9|1.1.1||
 |libnftnl|1.3.0|1.3.1||
 |libnl|3.11.0|3.12.0||
@@ -399,6 +400,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nfs4-acl-tools|0.4.2|0.3.7|Possible downgrade from the current version (0.4.2 -> 0.3.7)|
 |nftables|1.1.5|1.1.6||
 |nghttp3|1.12.0|1.16.0||
+|nginx|1.31.1|1.31.2||
 |ngtcp2|1.16.0|1.23.0||
 |ninja|1.13.2|1.13.0|Possible downgrade from the current version (1.13.2 -> 1.13.0)|
 |nmap|7.92|7.99||
@@ -462,14 +464,14 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-accelerate|1.13.0|1.14.0||
 |python-aiohappyeyeballs|2.6.1|2.7.0||
 |python-aiohttp|3.13.3|3.14.1||
-|python-altair|6.1.0|6.2.1||
+|python-altair|6.1.0|6.2.2||
 |python-anyio|4.13.0|4.14.0||
 |python-archinfo|9.2.214|9.2.221||
 |python-awscrt|0.32.0|0.34.1||
 |python-bcrypt|3.2.2|5.0.0||
 |python-beaker|1.13.0|1.14.1||
 |python-bibtexparser|1.4.4|2.0.0b9||
-|python-bitarray|3.8.0|3.8.1||
+|python-bitarray|3.8.0|3.8.2||
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
@@ -493,7 +495,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-filelock|3.29.0|3.29.4||
 |python-fsspec|2026.4.0|2026.6.0||
 |python-gevent|26.4.0|26.5.0||
-|python-greenlet|3.4.0|3.5.1||
+|python-greenlet|3.4.0|3.5.2||
 |python-hf-xet|1.3.2|1.5.1||
 |python-hiredis|3.3.1|3.4.0||
 |python-httptools|0.7.1|0.8.0||
@@ -665,37 +667,19 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ruby|4.0.4|4.0.5||
 |runc|1.4.0|1.4.3||
 |rust|1.95.0|1.96.0||
-|rust-bitflags-2.0|2.11.1|2.13.0||
-|rust-clap-4.0|4.6.1|clap_complete-v4.6.5||
-|rust-clap-builder-4.0|4.6.0|clap_complete-v4.6.5||
-|rust-clap-lex-1.0|1.1.0|clap_complete-v4.6.5||
-|rust-dashmap-5.0|5.5.3|6.2.1||
 |rust-errno-0.3|0.3.14|0.3.13|Possible downgrade from the current version (0.3.14 -> 0.3.13)|
-|rust-fastrand-2.0|2.3.0|2.4.1||
 |rust-foldhash-0.1|0.1.5|0.2.0||
+|rust-getrandom-0.4|0.4.2|0.4.3||
 |rust-hashbrown-0.14|0.14.5|0.17.1||
 |rust-hashbrown-0.15|0.15.5|0.17.1||
 |rust-hashbrown-0.16|0.16.1|0.17.1||
-|rust-id-arena-2.0|2.3.0|2.2.1|Possible downgrade from the current version (2.3.0 -> 2.2.1)|
-|rust-indexmap-2.0|2.13.0|2.14.0||
 |rust-lock-api-0.4|0.4.14|parking_lot-v0.12.5||
-|rust-log-0.4|0.4.29|0.4.32||
-|rust-memchr-2.0|2.8.0|2.8.2||
+|rust-log-0.4|0.4.30|0.4.32||
 |rust-parking-lot-0.12|0.12.5|parking_lot-v0.12.5||
 |rust-parking-lot-core-0.9|0.9.12|parking_lot-v0.12.5||
-|rust-semver-1.0|1.0.27|1.0.28||
-|rust-serde-json-1.0|1.0.149|1.0.150||
-|rust-serde-spanned-1.0|1.0.4|0.25.12|Possible downgrade from the current version (1.0.4 -> 0.25.12)|
-|rust-serial-test-2.0|2.0.0|3.5.0||
-|rust-serial-test-derive-2.0|2.0.0|3.5.0||
-|rust-smallvec-1.0|1.15.1|1.15.2||
-|rust-syn-2.0|2.0.117|2.0.118||
 |rust-toml-0.9|0.9.12|0.25.12||
 |rust-toml-datetime-0.7|0.7.5|0.25.12||
-|rust-toml-parser-1.0|1.0.10|0.25.12|Possible downgrade from the current version (1.0.10 -> 0.25.12)|
-|rust-toml-writer-1.0|1.0.7|0.25.12|Possible downgrade from the current version (1.0.7 -> 0.25.12)|
 |rust-utf8parse-0.2|0.2.2|0.15.0||
-|rust-wasip2-1.0|1.0.3|wasip3-0.7.0||
 |rust-wasip3-0.4|0.4.0|wasip3-0.7.0|Possible downgrade from the current version (0.4.0 -> wasip3-0.7.0)|
 |rust-wasm-encoder-0.244|0.244.0|1.252.0||
 |rust-wasm-metadata-0.244|0.244.0|1.252.0||
@@ -703,7 +687,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-windows-link-0.2|0.2.1|73||
 |rust-windows-sys-0.61|0.61.2|73||
 |rust-winnow-0.7|0.7.15|1.0.3||
-|rust-winnow-1.0|1.0.2|1.0.3||
 |rust-wit-bindgen-0.51|0.51.0|0.58.0||
 |rust-wit-bindgen-core-0.51|0.51.0|0.58.0||
 |rust-wit-bindgen-rust-0.51|0.51.0|0.58.0||
@@ -755,6 +738,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |texinfo|7.2|7.3||
 |thrift|0.22.0|0.23.0||
 |tinysparql|3.10.1|3.11.1||
+|tmux|3.6a|3.6b||
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.27.0||
 |tzdata|2026a|2026b||
