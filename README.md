@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781696825?label=Updated)
+![Relative date](https://img.shields.io/date/1781709738?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -41,7 +41,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |clevis|21|23||
 |cloud-hypervisor|51.0.0|52.0||
 |cloud-init|25.3|26.1||
-|cmake|4.3.2|4.3.3||
+|cmake|4.3.2|4.3.4||
 |cmocka|1.1.7|2.0.2||
 |cockpit|352|363.2||
 |config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
@@ -272,6 +272,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcap|2.76|2.78||
 |libcap-ng|0.8.5|0.9.3||
 |libcdata|20240414|20260612||
+|libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
 |libcerror|20240413|20260612||
 |libclc|21.1.7|22.1.8||
 |libcnotify|20240414|20260612||
@@ -291,6 +292,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libfontenc|1.1.8|1.1.9||
 |libfyaml|0.9.3|0.9.6||
 |libgcrypt|1.11.2|1.12.2||
+|libgit2|1.9.2|1.9.4||
 |libgpg-error|1.58|1.61||
 |libheif|1.21.2|1.23.0||
 |libical|3.0.20|4.0.3||
@@ -306,7 +308,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libmd|1.1.0|1.2.0||
 |libmicrohttpd|1.0.2|1.0.5||
 |libmodulemd|2.15.2|2.15.3||
-|libnbd|1.23.13|1.25.5||
 |libnetfilter_conntrack|1.0.9|1.1.1||
 |libnftnl|1.3.0|1.3.1||
 |libnl|3.11.0|3.12.0||
@@ -352,7 +353,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux|7.0.11|7.1||
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.8||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -755,7 +755,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |texinfo|7.2|7.3||
 |thrift|0.22.0|0.23.0||
 |tinysparql|3.10.1|3.11.1||
-|tmux|3.6a|3.6b||
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.27.0||
 |tzdata|2026a|2026b||
