@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781730337?label=Updated)
+![Relative date](https://img.shields.io/date/1781738588?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -137,7 +137,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-codegangsta-inject|1.0~rc1|1.0-rc1||
 |go-github-coder-websocket|1.8.14|1.8.15||
 |go-github-containerd-typeurl|2.2.3|2.3.0||
-|go-github-coreos-go-oidc|3.17.0|3.18.0||
+|go-github-coreos-go-oidc|3.17.0|3.19.0||
 |go-github-dlclark-regexp2|1.11.5|2.2.2||
 |go-github-docker-go-connections|0.6.0|0.7.0||
 |go-github-dougm-pretty|2011.12.22|go.weekly.2011-12-22||
@@ -260,7 +260,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXft|2.3.8|2.3.9||
 |libXi|1.8.2|1.8.3||
 |libXmu|1.2.1|1.3.1||
-|libXrandr|1.5.4|1.5.5||
 |libXres|1.2.2|1.2.3||
 |libXxf86vm|1.1.6|1.1.7||
 |libaec|1.1.6|1.1.7||
@@ -354,7 +353,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux|7.0.11|7.1||
 |lldpad|1.1.0|1.1.1||
 |llvm|21.1.7|22.1.8||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -760,7 +758,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|77||
-|vim|9.2.0593|9.2.0663||
+|vim|9.2.0593|9.2.0670||
 |vmaf|3.0.0|3.1.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.354||
