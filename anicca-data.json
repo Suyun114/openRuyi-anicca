@@ -250,7 +250,6 @@
 ["runc","1.4.0","1.4.3",[]],
 ["simdjson","4.2.4","4.6.4",[]],
 ["go-golang-x-text","0.32.0","0.38.0",[]],
-["libmicrohttpd","1.0.2","1.0.5",[]],
 ["go-github-rogpeppe-go-internal","1.14.1","1.15.0",[]],
 ["unixbench","6.0.0","6.0.1",[]],
 ["go-github-charmbracelet-log","0.4.2","2.0.0",[]],
