@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781785530?label=Updated)
+![Relative date](https://img.shields.io/date/1781800254?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -353,6 +353,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lighttpd|1.4.82|1.4.84||
 |linux|7.0.11|7.1||
 |lldpad|1.1.0|1.1.1||
+|llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
@@ -499,7 +500,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hf-xet|1.3.2|1.5.1||
 |python-hiredis|3.3.1|3.4.0||
 |python-httptools|0.7.1|0.8.0||
-|python-huggingface-hub|1.5.0|1.20.0.rc0||
+|python-huggingface-hub|1.5.0|1.20.0||
 |python-hypothesis|6.152.4|6.155.4||
 |python-idna|3.13|3.18||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
@@ -780,7 +781,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wtmpdb|0.74.0|0.75.0||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
 |xdg-desktop-portal|1.20.3|1.22.1||
-|xdg-desktop-portal-wlr|0.8.1|0.8.2||
+|xdg-desktop-portal-wlr|0.8.1|0.8.3||
 |xdg-user-dirs|0.19|0.20||
 |xfsdump|3.2.0|3.3.0||
 |xfsprogs|6.16.0|7.0.1||
