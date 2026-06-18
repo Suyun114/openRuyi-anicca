@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781772351?label=Updated)
+![Relative date](https://img.shields.io/date/1781785530?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -374,7 +374,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
-|mesa|26.1.1|26.1.2||
+|mesa|26.1.1|26.1.3||
 |meson|1.10.2|1.11.1||
 |mimalloc|3.1.5|3.3.2||
 |minicom|2.10|2.11.1||
@@ -404,7 +404,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ngtcp2|1.16.0|1.23.0||
 |ninja|1.13.2|1.13.0|Possible downgrade from the current version (1.13.2 -> 1.13.0)|
 |nmap|7.92|7.99||
-|nodejs|24.13.0|26.3.0||
+|nodejs|24.13.0|26.3.1||
+|nspr|4.39.0|4.39||
 |nss|3.124.0|3.125||
 |ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-a.5||
@@ -434,6 +435,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |otf2bdf|3.1|3.1_p1|Possible downgrade from the current version (3.1 -> 3.1_p1)|
 |ovmf|202602|edk2-stable202605|Versions not comparable: `202602` and `edk2-stable202605`|
 |p11-kit|0.25.5|0.26.2||
+|pam|1.7.1|2.2.5||
 |pango|1.57.0|4.3.6||
 |pangomm|2.46.4|2.56.1||
 |parallel|20250822|20260522||
@@ -446,7 +448,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
-|pipewire|1.5.84|1.6.6||
+|pipewire|1.5.84|1.6.7||
 |plasma-wayland-protocols|1.20.0|1.21.0||
 |podman|5.8.2|5.8.3||
 |policycoreutils|3.10|3.11-rc2||
@@ -497,7 +499,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hf-xet|1.3.2|1.5.1||
 |python-hiredis|3.3.1|3.4.0||
 |python-httptools|0.7.1|0.8.0||
-|python-huggingface-hub|1.5.0|1.19.0||
+|python-huggingface-hub|1.5.0|1.20.0.rc0||
 |python-hypothesis|6.152.4|6.155.4||
 |python-idna|3.13|3.18||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
