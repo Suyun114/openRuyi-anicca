@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781738588?label=Updated)
+![Relative date](https://img.shields.io/date/1781754023?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -22,8 +22,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
 |binutils|2.46.0|2.46.1||
-|blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
-|bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.91.0-1||
 |brotli|1.2.0|8.0.4||
 |btrfs-progs|6.19.1|7.0||
@@ -39,7 +37,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cifs-utils|7.5|7.6||
 |ck|0.7.2|2.6.4||
 |clevis|21|23||
-|cloud-hypervisor|51.0.0|52.0||
 |cloud-init|25.3|26.1||
 |cmake|4.3.2|4.3.4||
 |cmocka|1.1.7|2.0.2||
@@ -50,7 +47,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |console-setup|1.244|1.248||
 |containers-common|0.67.0|0.64.2|Possible downgrade from the current version (0.67.0 -> 0.64.2)|
 |cpp-httplib|0.45.0|0.47.0||
-|cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.2||
 |crontabs|1.11|crontabs-20190603||
 |crun|1.27.1|1.28||
@@ -63,7 +59,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dialog|1.3|1.3-20260107||
 |ding-libs|0.6.2|0.7.0||
 |distribution-gpg-keys|1.115|1.119-1||
-|djvulibre|3.5.29|3.5.30||
 |dkms|3.2.2|3.4.1||
 |dmidecode|3.6|3.7||
 |dnf5|5.4.2.0|5.4.2.1||
@@ -104,7 +99,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |genext2fs|1.5.0|1.6.2||
 |genimage|19|20||
 |gettext|1.0|2.1.0||
-|gi-docgen|2025.4|2026.1||
 |giflib|5.2.2|6.1.3||
 |glew|2.2.0|2.3.1||
 |glib|2.87.1|2.88.1||
@@ -218,7 +212,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |guidelines-support-library|4.2.1|4.2.2||
 |haproxy|3.3|3.4.0||
 |harfbuzz|12.1.0|14.2.1||
-|haveged|1.9.20|1.9.22||
+|haveged|1.9.20|1.9.23||
 |hdf5|2.0.0|2.1.1||
 |hipblas|7.1.1|20250912-17||
 |hipblas-common|7.1.1|7.2.4||
@@ -239,7 +233,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iproute2|6.16.0|7.1.0||
 |iprutils|2.4.19|2.4.18.1|Possible downgrade from the current version (2.4.19 -> 2.4.18.1)|
 |iptables|1.8.11|1.8.13||
-|isa-l_crypto|2.26|2.26.1||
 |iso-codes|4.18.0|4.20.1||
 |jitterentropy|3.6.3|3.7.0||
 |jose|14|15||
@@ -260,6 +253,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXft|2.3.8|2.3.9||
 |libXi|1.8.2|1.8.3||
 |libXmu|1.2.1|1.3.1||
+|libXrandr|1.5.4|1.5.5||
 |libXres|1.2.2|1.2.3||
 |libXxf86vm|1.1.6|1.1.7||
 |libaec|1.1.6|1.1.7||
@@ -391,7 +385,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |multipath-tools|0.11.1|0.14.3||
 |ncurses|6.5|6.6||
 |ndctl|83|84||
-|netavark|1.17.1|2.0.0||
 |netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
@@ -449,7 +442,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.6||
 |plasma-wayland-protocols|1.20.0|1.21.0||
-|podman|5.8.2|5.8.3||
 |policycoreutils|3.10|3.11-rc2||
 |polkit|126|127||
 |poppler|25.11.0|26.06.0||
@@ -700,7 +692,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sdbus-cpp|2.1.0|2.3.1||
 |seatd|0.9.1|0.9.3||
 |sed|4.9|4.10||
-|setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |shaderc|2026.1|2026.2||
 |shim|16.1<br>+git20260422.c17fdb2|16.1|Compound version number '16.1+git20260422.c17fdb2'<br>Version number indicates a snapshot (+git) is used|
