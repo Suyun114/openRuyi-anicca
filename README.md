@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781868148?label=Updated)
+![Relative date](https://img.shields.io/date/1781881241?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -502,7 +502,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hiredis|3.3.1|3.4.0||
 |python-httptools|0.7.1|0.8.0||
 |python-huggingface-hub|1.5.0|1.20.1||
-|python-hypothesis|6.152.4|6.155.5||
+|python-hypothesis|6.152.4|6.155.6||
 |python-idna|3.13|3.18||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
@@ -516,7 +516,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-maturin|1.13.3|1.14.1||
 |python-meh|0.52|0.53||
 |python-meson-python|0.19.0|0.20.0||
-|python-mitogen|0.3.47|0.3.49||
+|python-mitogen|0.3.47|0.3.50||
 |python-more-itertools|11.0.2|11.1.0||
 |python-multipart|0.0.22|0.0.32||
 |python-munkres|1.1.4|release-1.1.4|Possible downgrade from the current version (1.1.4 -> release-1.1.4)|
@@ -540,6 +540,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pycparser|3.0|release_v3.00||
 |python-pycurl|7.45.7|REL_7_46_0|Possible downgrade from the current version (7.45.7 -> REL_7_46_0)|
 |python-pydantic|2.12.5|2.14.0a1||
+|python-pydantic-settings|2.14.1|2.14.2||
 |python-pyelftools|0.32|0.33||
 |python-pygit2|1.18.2|1.19.3||
 |python-pyjwt|2.12.1|2.13.0||
@@ -668,7 +669,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rsyslog|8.2510.0|8.2604.0||
 |rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.5||
-|runc|1.4.0|1.4.3||
+|runc|1.4.0|1.5.0||
 |rust|1.95.0|1.96.0||
 |rust-errno-0.3|0.3.14|0.3.13|Possible downgrade from the current version (0.3.14 -> 0.3.13)|
 |rust-foldhash-0.1|0.1.5|0.2.0||
