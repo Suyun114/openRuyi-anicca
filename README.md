@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781889826?label=Updated)
+![Relative date](https://img.shields.io/date/1781898459?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -201,7 +201,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-gonum-v1-plot|0.16.0|0.17.0||
 |go-google-grpc|1.78.0|1.83.0-dev||
 |go-gopkg-yaml.v2|2.4.0|3.0.1||
-|go-gopkg-yaml.v3|3.0.4|4.0.0-rc.5||
+|go-gopkg-yaml.v3|3.0.4|4.0.0-rc.6||
 |go-opentelemetry-proto|1.9.0|1.10.0||
 |go-rsc-pdf|0.1.0<br>+git20260106.c47d69c|0.1.1|Compound version number '0.1.0+git20260106.c47d69c'<br>Version number indicates a snapshot (+git) is used|
 |go-uber-zap|1.27.1|1.28.0||
@@ -356,6 +356,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -420,7 +421,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openblas|0.3.31|0.3.33||
 |openconnect|9.12|9.21||
 |opencv|4.13.0|5.0.0||
-|openexr|3.4.10|3.4.12||
+|openexr|3.4.10|3.4.13||
 |openjdk-17|17.0.19.10|jdk-17.0.20+6||
 |openjdk-21|21.0.11.10|jdk-21.0.12+6||
 |openjdk-25|25.0.3.9|jdk-25.0.4+5||
@@ -477,7 +478,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
-|python-boto3|1.43.6|1.43.33||
+|python-boto3|1.43.6|1.43.34||
 |python-botocore|1.43.11|1.43.33||
 |python-cachetools|7.1.1|7.1.4||
 |python-charset-normalizer|3.4.6|3.4.7||
@@ -774,7 +775,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vulkan-validation-layers|1.4.335.0|1.4.354||
 |wabt|1.0.39|1.0.41||
 |wavpack|5.8.1|5.9.0||
-|wayback|0.3|0.5.0||
+|wayback|0.3|0.5.1||
 |wayland-protocols|1.48|1.49||
 |weston|14.0.2|15.0.1||
 |which|2.23|8.0.4||
