@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781914161?label=Updated)
+![Relative date](https://img.shields.io/date/1781932390?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -414,7 +414,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |obs-build|20250829|20260612||
 |ollama|0.13.5|0.30.10||
 |onnx|1.20.1|1.22.0||
-|onnxruntime|1.24.1|1.26.0||
+|onnxruntime|1.24.1|1.27.0||
 |open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
 |openblas|0.3.31|0.3.33||
@@ -478,7 +478,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
 |python-boto3|1.43.6|1.43.34||
-|python-botocore|1.43.11|1.43.33||
+|python-botocore|1.43.11|1.43.34||
 |python-cachetools|7.1.1|7.1.4||
 |python-charset-normalizer|3.4.6|3.4.7||
 |python-click|8.3.3|8.4.1||
@@ -492,7 +492,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-en-core-web-sm|3.8.0|en_core_web_hftrf-3.8.1|Possible downgrade from the current version (3.8.0 -> en_core_web_hftrf-3.8.1)|
 |python-eval-type-backport|0.3.1|0.4.0||
 |python-expandvars|1.1.2|1.24.2||
-|python-fastapi|0.136.1|0.137.2||
+|python-fastapi|0.136.1|0.138.0||
 |python-fastavro|1.12.1|1.12.2||
 |python-filelock|3.29.0|3.29.4||
 |python-fsspec|2026.4.0|2026.6.0||
@@ -765,7 +765,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|77||
 |vim|9.2.0593|9.2.0677||
-|vmaf|3.0.0|3.1.0||
+|vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.354||
 |vulkan-loader|1.4.335.0|1.4.354||
