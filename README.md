@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781990240?label=Updated)
+![Relative date](https://img.shields.io/date/1781996858?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -358,7 +358,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -652,6 +651,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |re2c|4.3|4.5.1||
 |rest|0.10.2|2.6.9||
 |rocblas|7.1.1|14.3.0||
+|rocclr|7.1.1|5.6.1|Possible downgrade from the current version (7.1.1 -> 5.6.1)|
 |rocksdb|10.5.1|11.1.1||
 |rocm-bandwidth-test|6.4.2|20250912-42||
 |rocm-cmake|7.1.1|20250912-42||
@@ -680,7 +680,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-hashbrown-0.15|0.15.5|0.17.1||
 |rust-hashbrown-0.16|0.16.1|0.17.1||
 |rust-lock-api-0.4|0.4.14|parking_lot-v0.12.5||
-|rust-log-0.4|0.4.30|0.4.32||
+|rust-log-0.4|0.4.30|0.4.33||
 |rust-parking-lot-0.12|0.12.5|parking_lot-v0.12.5||
 |rust-parking-lot-core-0.9|0.9.12|parking_lot-v0.12.5||
 |rust-toml-0.9|0.9.12|0.25.12||
