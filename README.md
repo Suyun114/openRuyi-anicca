@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1781996858?label=Updated)
+![Relative date](https://img.shields.io/date/1782014140?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -240,6 +240,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iproute2|6.16.0|7.1.0||
 |iprutils|2.4.19|2.4.18.1|Possible downgrade from the current version (2.4.19 -> 2.4.18.1)|
 |iptables|1.8.11|1.8.13||
+|iptstate|2.2.7|2.3.0||
 |isa-l_crypto|2.26|2.26.1||
 |iso-codes|4.18.0|4.20.1||
 |jitterentropy|3.6.3|3.7.0||
@@ -599,7 +600,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-wcwidth|0.7.0|0.8.1||
 |python-weasel|1.0.0|release-v1.0.0||
 |python-wheel|0.45.1|0.47.0||
-|python-wrapt|2.1.1|2.2.2rc3||
+|python-wrapt|2.1.1|2.2.2||
 |python-xxhash|3.6.0|3.7.0||
 |python-yarl|1.22.0|1.24.2||
 |python-zipp|3.23.1|4.1.0||
@@ -752,7 +753,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |udisks2|2.11.0|2.11.1||
 |unicode-ucd|17.0.0|18.0.0||
 |unifont|16.0.04|17.0.04||
-|universal-ctags|6.2.0|6.2.20260607.0||
+|universal-ctags|6.2.0|6.2.20260621.0||
 |unixbench|6.0.0|6.0.1||
 |upower|1.91.1|1.91.2||
 |usbutils|018|019||
@@ -791,7 +792,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xdg-user-dirs|0.19|0.20||
 |xfsdump|3.2.0|3.3.0||
 |xfsprogs|6.16.0|7.0.1||
-|xkeyboard-config|2.46|2.47||
+|xkeyboard-config|2.46|2.48||
 |xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
