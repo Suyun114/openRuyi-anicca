@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782050797?label=Updated)
+![Relative date](https://img.shields.io/date/1782059475?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -145,8 +145,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-emirpasic-gods|1.18.1|2.0.0-alpha||
 |go-github-emirpasic-gods-v2|2.0.0~alpha|2.0.0-alpha||
 |go-github-envoyproxy-protoc-gen-validate|1.3.0|1.3.3||
-|go-github-etcd-io-bbolt|1.4.3|1.5.0-rc.0||
-|go-github-etcd-io-raft|3.6.0|3.7.0-rc.1||
+|go-github-etcd-io-bbolt|1.4.3|1.5.0||
+|go-github-etcd-io-raft|3.6.0|3.7.0||
 |go-github-gin-gonic-gin|1.8.1|1.12.0||
 |go-github-go-openapi-jsonpointer|0.22.4|0.23.1||
 |go-github-go-openapi-jsonreference|0.21.4|0.21.6||
@@ -359,7 +359,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
