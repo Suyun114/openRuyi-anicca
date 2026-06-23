@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782190760?label=Updated)
+![Relative date](https://img.shields.io/date/1782203571?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -9,7 +9,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |PackageKit|1.3.5|1.3.6||
 |SDL3|3.4.2|3.4.10||
 |Xwayland|24.1.11|24.1.12||
-|aardvark-dns|1.17.1|2.0.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
 |accountsservice|23.13.9|26.13.3||
 |alsa-lib|1.2.15.3|1.2.16.1||
@@ -106,7 +105,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |genext2fs|1.5.0|1.6.2||
 |genimage|19|20||
 |gettext|1.0|2.1.0||
-|gi-docgen|2025.4|2026.1||
 |giflib|5.2.2|6.1.3||
 |glew|2.2.0|2.3.1||
 |glib|2.87.1|2.88.1||
@@ -114,98 +112,65 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.3.0||
 |glusterfs|11.1|11.2||
-|go-github-ajg-form|1.6|1.7.1||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
-|go-github-alecthomas-kong|1.13.0|1.15.0||
-|go-github-anishathalye-porcupine|1.1.0|1.2.0||
 |go-github-apache-arrow-go-arrow|0<br>+git20260107.bc21918|r-universe-release|Compound version number '0+git20260107.bc21918'<br>Version number indicates a snapshot (+git) is used<br>Versions not comparable: `0+git20260107.bc21918` and `r-universe-release`|
 |go-github-apache-arrow-go-v18|18.5.0|18.6.0||
-|go-github-apache-beam|2.71.0|2.74.0||
 |go-github-apparentlymart-go-textseg|16.0.0|autoversion/v1.6.0||
 |go-github-asaskevich-govalidator|11.0.1|12.0.0||
 |go-github-aws-smithy-go|2025.12.01|1.27.2|Possible downgrade from the current version (2025.12.01 -> 1.27.2)|
-|go-github-aymanbagabas-go-udiff|0.3.1|0.4.1||
 |go-github-brianvoe-gofakeit|7.14.1|7.15.0||
 |go-github-cenkalti-backoff|5.0.3|6.0.1||
 |go-github-cespare-xxhash|1.1.0|2.3.0||
 |go-github-charmbracelet-bubbletea|1.3.10|2.0.7||
 |go-github-charmbracelet-lipgloss|1.1.0|2.0.4||
-|go-github-charmbracelet-log|0.4.2|2.0.0||
+|go-github-charmbracelet-log|1.0.0|2.0.0||
 |go-github-charmbracelet-x|0<br>+git20260204.d6a2763|powernap/v0.1.6|Compound version number '0+git20260204.d6a2763'<br>Version number indicates a snapshot (+git) is used|
 |go-github-cheggaaa-pb-v1|1.0.29|3.1.7||
 |go-github-clipperhouse-displaywidth|0.6.2|0.11.0||
 |go-github-clipperhouse-uax29-v2|2.3.0|2.7.0||
 |go-github-codegangsta-inject|1.0~rc1|1.0-rc1||
-|go-github-coder-websocket|1.8.14|1.8.15||
 |go-github-containerd-typeurl|2.2.3|2.3.0||
 |go-github-coreos-go-oidc|3.17.0|3.19.0||
-|go-github-dlclark-regexp2|1.11.5|2.2.2||
-|go-github-docker-go-connections|0.6.0|0.7.0||
+|go-github-dlclark-regexp2|1.12.0|2.2.2||
 |go-github-dougm-pretty|2011.12.22|go.weekly.2011-12-22||
 |go-github-emirpasic-gods|1.18.1|2.0.0-alpha||
 |go-github-emirpasic-gods-v2|2.0.0~alpha|2.0.0-alpha||
 |go-github-envoyproxy-protoc-gen-validate|1.3.0|1.3.3||
-|go-github-etcd-io-bbolt|1.4.3|1.5.0||
 |go-github-etcd-io-raft|3.6.0|3.7.0||
 |go-github-gin-gonic-gin|1.8.1|1.12.0||
-|go-github-go-openapi-jsonpointer|0.22.4|0.23.1||
-|go-github-go-openapi-jsonreference|0.21.4|0.21.6||
-|go-github-go-openapi-spec|0.22.3|0.22.6||
-|go-github-go-openapi-swag|0.25.4|yamlutils/v0.26.1||
+|go-github-go-openapi-swag|0.26.1|yamlutils/v0.26.1||
 |go-github-go-openapi-testify|2.3.0|2.5.1||
-|go-github-go-playground-validator-v10|10.30.2|10.30.3||
 |go-github-go-redis-redis|9.18.0|9.21.0||
-|go-github-go-sql-driver-mysql|1.9.2|1.10.0||
 |go-github-golang-freetype|0<br>+git20260106.e2365df|release|Compound version number '0+git20260106.e2365df'<br>Version number indicates a snapshot (+git) is used<br>Versions not comparable: `0+git20260106.e2365df` and `release`|
 |go-github-google-flatbuffers|25.12.19|25.12.19-2026-02-06-03fffb2||
 |go-github-grpc-ecosystem-grpc-gateway|2.27.7|2.29.0||
 |go-github-hashicorp-go-secure-stdlib|0.1.0|plugincontainer/v0.5.0||
 |go-github-hashicorp-golang-lru|2.0.7|arc/v2.0.7|Possible downgrade from the current version (2.0.7 -> arc/v2.0.7)|
 |go-github-inconshreveable-mousetrap|1.1|1.1.0||
-|go-github-klauspost-reedsolomon|1.14.0|1.14.1||
-|go-github-mattn-go-colorable|0.1.14|0.1.15||
-|go-github-mattn-go-runewidth|0.0.23|0.0.24||
 |go-github-minio-kes-go|0.2.1|kms/v0.7.0||
 |go-github-minio-kms-go|0.2.1|kms/v0.7.0||
-|go-github-minio-mux|1.9.2|1.10.0||
 |go-github-mitchellh-go-testing-interface|1.14.1|1.0.4|Possible downgrade from the current version (1.14.1 -> 1.0.4)|
-|go-github-olekukonko-errors|1.1.0|1.3.0||
 |go-github-olekukonko-ll|0.1.3|0.1.8||
-|go-github-olekukonko-tablewriter|1.1.2|1.1.4||
 |go-github-olekukonko-tablewriter-v0|0.0.5|1.1.4||
-|go-github-pelletier-go-toml-v2|2.3.1|2.4.1||
-|go-github-pierrec-lz4-v4|4.1.26|4.1.27||
+|go-github-pelletier-go-toml-v2|2.4.0|2.4.1||
 |go-github-pkg-sftp|1.13.10|2.0.0-alpha2||
-|go-github-prometheus-common|0.67.5|0.69.0||
 |go-github-prometheus-procfs|0.19.2|0.20.1||
 |go-github-puzpuzpuz-xsync|4.4.0|4.5.0||
-|go-github-rabbitmq-amqp091-go|1.11.0|1.12.0||
 |go-github-rogpeppe-go-internal|1.14.1|1.15.0||
 |go-github-russross-blackfriday|1.6.0|2.1.0||
 |go-github-shirou-gopsutil|4.26.1|4.26.5||
 |go-github-stretchr-testify|1.11.1|1.2.3|Possible downgrade from the current version (1.11.1 -> 1.2.3)|
 |go-github-ugorji-go-codec|1.2.14|codec/v1.3.1|Possible downgrade from the current version (1.2.14 -> codec/v1.3.1)|
-|go-golang-x-arch|0.23.0|0.28.0||
-|go-golang-x-crypto|0.46.0|0.53.0||
 |go-golang-x-exp|0<br>+git20260107.944ab1f|winfsnotify/v0.1.0-deprecated|Compound version number '0+git20260107.944ab1f'<br>Version number indicates a snapshot (+git) is used|
-|go-golang-x-image|0.34.0|0.43.0||
-|go-golang-x-mod|0.31.0|0.37.0||
 |go-golang-x-net|0.48.0|0.56.0||
-|go-golang-x-oauth2|0.34.0|0.36.0||
-|go-golang-x-sync|0.20.0|0.21.0||
-|go-golang-x-sys|0.39.0|0.46.0||
-|go-golang-x-term|0.38.0|0.44.0||
-|go-golang-x-text|0.32.0|0.38.0||
 |go-golang-x-tools|0.40.0|0.46.0||
 |go-gonum-v1-gonum|0.16.0|0.17.0||
 |go-gonum-v1-plot|0.16.0|0.17.0||
-|go-google-grpc|1.78.0|1.83.0-dev||
+|go-google-grpc|1.81.1|1.83.0-dev||
 |go-gopkg-yaml.v2|2.4.0|3.0.1||
 |go-gopkg-yaml.v3|3.0.4|4.0.0-rc.6||
 |go-opentelemetry-proto|1.9.0|1.10.0||
 |go-rsc-pdf|0.1.0<br>+git20260106.c47d69c|0.1.1|Compound version number '0.1.0+git20260106.c47d69c'<br>Version number indicates a snapshot (+git) is used|
-|go-uber-zap|1.27.1|1.28.0||
-|gpgme|2.0.1|2.1.0||
 |gpgmepp|2.0.0|2.1.0||
 |graphite2|1.3.14|1.3.15||
 |graphviz|14.1.5|15.1.0||
@@ -395,6 +360,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
 |multipath-tools|0.11.1|0.14.3||
+|nano|9.0|9.1||
 |ncurses|6.5|6.6||
 |ndctl|83|84||
 |netavark|1.17.1|2.0.0||
@@ -483,11 +449,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-boto3|1.43.6|1.43.36||
 |python-botocore|1.43.11|1.43.36||
 |python-cachetools|7.1.1|7.1.4||
-|python-charset-normalizer|3.4.6|3.4.7||
 |python-click|8.3.3|8.4.1||
 |python-coverage|7.13.4|7.14.3||
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
-|python-dashscope|1.25.11|1.25.23||
+|python-dashscope|1.25.11|1.25.24||
 |python-datasets|4.8.5|5.0.0||
 |python-decorator|5.2.1|5.3.1||
 |python-distlib|0.4.0|0.3.4|Possible downgrade from the current version (0.4.0 -> 0.3.4)|
@@ -501,7 +466,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-gevent|26.4.0|26.5.0||
 |python-greenlet|3.4.0|3.5.2||
 |python-hiredis|3.3.1|3.4.0||
-|python-httptools|0.7.1|0.8.0||
 |python-huggingface-hub|1.5.0|1.20.1||
 |python-hypothesis|6.152.4|6.155.7||
 |python-idna|3.13|3.18||
@@ -738,6 +702,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tar|1.35|7.5.16||
 |tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.3||
+|tcpdump|4.99.5|4.99.6||
 |tcsh|6.24.15|6.24.16||
 |tdb|1.4.14|1.4.15||
 |tensorpipe|0<br>+git20251218.|0.0.0|Compound version number '0+git20251218.'<br>Version number indicates a snapshot (+git) is used|
