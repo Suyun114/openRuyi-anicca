@@ -650,6 +650,7 @@
 ["rust-wit-bindgen-rust-macro-0.51","0.51.0","0.58.0",[]],
 ["python-distlib","0.4.0","0.3.4",["Possible downgrade from the current version (0.4.0 -> 0.3.4)"]],
 ["rpm","4.20.1","6.0.1-release",[]],
+["python-hpack","4.1.0","4.2.0",[]],
 ["python-pygit2","1.18.2","1.19.3",[]],
 ["policycoreutils","3.10","3.11-rc2",[]],
 ["mesa","26.1.1","26.1.3",[]],
