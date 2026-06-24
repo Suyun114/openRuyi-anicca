@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782269895?label=Updated)
+![Relative date](https://img.shields.io/date/1782283781?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -86,7 +86,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |expect|5.45.4|30.4.1||
 |fakeroot|1.37.2|1.38.1||
 |fast_float|8.2.5|8.2.10||
-|fastfetch|2.63.1|2.64.2||
+|fastfetch|2.63.1|2.65.1||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |file|5.47|5.48||
 |firewalld|2.4.1|2.4.2||
@@ -155,7 +155,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-mitchellh-go-testing-interface|1.14.1|1.0.4|Possible downgrade from the current version (1.14.1 -> 1.0.4)|
 |go-github-olekukonko-ll|0.1.3|0.1.8||
 |go-github-olekukonko-tablewriter-v0|0.0.5|1.1.4||
-|go-github-pelletier-go-toml-v2|2.4.0|2.4.1||
+|go-github-pelletier-go-toml-v2|2.4.0|2.4.2||
 |go-github-pkg-sftp|1.13.10|2.0.0-alpha2||
 |go-github-prometheus-procfs|0.19.2|0.20.1||
 |go-github-puzpuzpuz-xsync|4.4.0|4.5.0||
@@ -222,7 +222,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |kea|3.1.4|3.1.9||
 |keepalived|2.2.8|2.3.4||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
-|kiwi|10.2.42|10.3.5||
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
 |labwc|0.9.7|0.20.1||
 |lcms2|2.17|6.1.1||
@@ -236,6 +235,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXxf86vm|1.1.6|1.1.7||
 |libaec|1.1.6|1.1.7||
 |libarchive|3.8.7|3.8.8||
+|libass|0.17.4|0.17.5||
 |libatomic_ops|7.8.2|7.10.0||
 |libavif|1.4.0|1.4.2||
 |libblockdev|3.4.0|3.5.0||
@@ -395,10 +395,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openconnect|9.12|9.21||
 |opencv|4.13.0|5.0.0||
 |openexr|3.4.10|3.4.13||
-|openjdk-17|17.0.19.10|jdk-17.0.20+6||
-|openjdk-21|21.0.11.10|jdk-21.0.12+6||
-|openjdk-25|25.0.3.9|jdk-25.0.4+5||
-|openjdk-latest|26.0.1.8|jdk-25.0.4+5||
+|openjdk-17|17.0.19.10|jdk-17.0.20+7||
+|openjdk-21|21.0.11.10|jdk-21.0.12+7||
+|openjdk-25|25.0.3.9|jdk-25.0.4+6||
+|openjdk-latest|26.0.1.8|jdk-25.0.4+6||
 |opensbi|1.8|1.8.1||
 |openssl|3.6.3|4.0.2||
 |openvpn|2.6.16|2.7.4||
@@ -521,7 +521,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pymilvus|2.6.9|2.6.15||
 |python-pymongo|4.16.0|10.10.10.10||
 |python-pymupdf|1.27.2|1.27.2.3||
-|python-pyopenssl|26.2.0|26.3.0||
 |python-pyproject-metadata|0.9.1|0.11.0||
 |python-pyroute2|0.7.12|0.9.6||
 |python-pyrsistent|0.20.0|0.21.0||
