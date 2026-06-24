@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782307331?label=Updated)
+![Relative date](https://img.shields.io/date/1782318003?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -61,7 +61,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |curl|8.20.0|8.21.0||
 |curl-impersonate-chrome|0.7.0|2.0.0a5||
 |date|3.0.4|3.5.1||
-|db|6.2.32|18.1.40||
 |dbus|1.16.2|5.2.2||
 |dialog|1.3|1.3-20260107||
 |ding-libs|0.6.2|0.7.0||
@@ -292,7 +291,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libpcap|1.10.5|1.10.6||
 |libpciaccess|0.18|0.19||
 |libplasma|6.6.5|6.7.1||
-|libpng|1.6.55|1.6.58||
 |libqalculate|5.9.0|5.11.0||
 |libqmi|1.36.0|1.38.0||
 |libqrtr-glib|1.2.2|1.4.0||
@@ -313,7 +311,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |liburing|2.12|2.14||
 |libusb|1.0.29|1.0.30||
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
-|libvirt|12.2.0|12.4.0||
 |libvpx|1.15.2|1.16.0||
 |libwacom|2.17.0|2.19.0||
 |libxkbcommon|1.13.0|1.13.2||
@@ -406,7 +403,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openzl|0.1.0|0.2.0||
 |opus|1.5.2|1.6.1||
 |os-prober|1.83|1.84||
-|osc|1.21.0|1.27.1||
 |osinfo-db|20250606|20251212||
 |otf2bdf|3.1|3.1_p1|Possible downgrade from the current version (3.1 -> 3.1_p1)|
 |ovmf|202602|edk2-stable202605|Versions not comparable: `202602` and `edk2-stable202605`|
@@ -496,7 +492,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-narwhals|2.15.0|2.22.1||
 |python-networkx|3.6.1|networkx-3.6.1|Possible downgrade from the current version (3.6.1 -> networkx-3.6.1)|
 |python-numpy|2.4.6|2.5.0||
-|python-opentelemetry-semantic-conventions|0.63b1|1.42.1||
+|python-opentelemetry-api|1.42.1|1.43.0||
+|python-opentelemetry-semantic-conventions|0.63b1|1.43.0||
 |python-ordered-set|4.1.0|release/4.1.0||
 |python-orjson|3.11.7|3.11.9||
 |python-packaging|25.0|26.2||
@@ -507,7 +504,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-prometheus-fastapi-instrumentator|7.1.0|8.0.2||
 |python-propcache|0.4.1|0.5.2||
 |python-protobuf|6.33.2|7.35.1||
-|python-puccinialin|0.1.11|0.1.12||
 |python-puremagic|1.30|2.2.0||
 |python-pyarrow|23.0.1|24.0.0||
 |python-pycparser|3.0|release_v3.00||
@@ -574,7 +570,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-yarl|1.22.0|1.24.2||
 |python-zipp|3.23.1|4.1.0||
 |python-zope-interface|8.3|8.5||
-|qalculate-qt|5.9.0.1|5.11.0||
 |qcoro|0.12.0|0.13.0||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.66||
@@ -709,7 +704,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tar|1.35|7.5.16||
 |tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.3||
-|tcpdump|4.99.5|4.99.6||
 |tcsh|6.24.15|6.24.16||
 |tdb|1.4.14|1.4.15||
 |tensorpipe|0<br>+git20251218.|0.0.0|Compound version number '0+git20251218.'<br>Version number indicates a snapshot (+git) is used|
@@ -722,7 +716,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tzdata|2026a|2026b||
 |udisks2|2.11.0|2.11.1||
 |unicode-ucd|17.0.0|18.0.0||
-|unifont|16.0.04|17.0.04||
 |universal-ctags|6.2.0|6.2.20260621.0||
 |unixbench|6.0.0|6.0.1||
 |upower|1.91.1|1.91.2||
@@ -746,7 +739,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vulkan-utility-libraries|1.4.335.0|1.4.354||
 |vulkan-validation-layers|1.4.335.0|1.4.354||
 |wabt|1.0.39|1.0.41||
-|wavpack|5.8.1|5.9.0||
 |wayback|0.3|0.5.1||
 |wayland-protocols|1.48|1.49||
 |weston|14.0.2|15.0.1||
