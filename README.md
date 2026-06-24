@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782256150?label=Updated)
+![Relative date](https://img.shields.io/date/1782269895?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -87,7 +87,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fakeroot|1.37.2|1.38.1||
 |fast_float|8.2.5|8.2.10||
 |fastfetch|2.63.1|2.64.2||
-|ffmpeg|8.1.1|8.1.2||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |file|5.47|5.48||
 |firewalld|2.4.1|2.4.2||
@@ -189,7 +188,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |guidelines-support-library|4.2.1|4.2.2||
 |haproxy|3.3|3.4.0||
 |harfbuzz|12.1.0|14.2.1||
-|haveged|1.9.20|1.9.24||
+|haveged|1.9.20|1.9.25||
 |hdf5|2.0.0|2.1.1||
 |hipblas|7.1.1|20250912-17||
 |hipblas-common|7.1.1|7.2.4||
@@ -329,6 +328,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -425,6 +425,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.7||
+|pkgconf|2.5.1|2.9.90||
 |plasma-wayland-protocols|1.20.0|1.21.0||
 |podman|5.8.2|5.8.3||
 |policycoreutils|3.10|3.11-rc2||
@@ -442,7 +443,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-aiohttp|3.13.3|3.14.1||
 |python-altair|6.1.0|6.2.2||
 |python-anyio|4.13.0|4.14.0||
-|python-archinfo|9.2.214|9.2.221||
+|python-archinfo|9.2.214|9.2.222||
 |python-awscrt|0.32.0|0.34.1||
 |python-bcrypt|3.2.2|5.0.0||
 |python-beaker|1.13.0|1.14.1||
@@ -531,7 +532,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pytest-rerunfailures|16.1|16.3||
 |python-python-dateutil|2.9.0.post0|2.9.0||
 |python-python-multipart|0.0.28|0.0.32||
-|python-pyvex|9.2.214|9.2.221||
+|python-pyvex|9.2.214|9.2.222||
 |python-pyxbe|1.0.3|1.0.4||
 |python-rdflib|7.5.0|7.6.0||
 |python-redis|7.4.0|8.0.1||
