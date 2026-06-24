@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782283781?label=Updated)
+![Relative date](https://img.shields.io/date/1782296596?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -58,6 +58,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |crun|1.27.1|1.28||
 |cunit|2.1.3|2.1-3||
 |cups|2.4.16|2.4.19||
+|curl|8.20.0|8.21.0||
 |curl-impersonate-chrome|0.7.0|2.0.0a5||
 |date|3.0.4|3.5.1||
 |db|6.2.32|18.1.40||
@@ -74,7 +75,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dos2unix|7.5.5|7.5.6||
 |doxygen|1.13.2|1.17.0||
 |dpdk|25.07|26.03||
-|dracut|110|111||
 |dropbear|2025.89|2026.91||
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
@@ -188,7 +188,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |guidelines-support-library|4.2.1|4.2.2||
 |haproxy|3.3|3.4.0||
 |harfbuzz|12.1.0|14.2.1||
-|haveged|1.9.20|1.9.25||
+|haveged|1.9.20|1.9.26||
 |hdf5|2.0.0|2.1.1||
 |hipblas|7.1.1|20250912-17||
 |hipblas-common|7.1.1|7.2.4||
@@ -219,11 +219,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |judy|1.0.5|2.0.7||
 |kbd|2.9.0|2.10.0||
 |kdsoap|2.2.0|2.3.0||
-|kea|3.1.4|3.1.9||
+|kea|3.1.4|3.2.0||
 |keepalived|2.2.8|2.3.4||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
+|kiwi|10.2.42|10.3.5||
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
-|labwc|0.9.7|0.20.1||
 |lcms2|2.17|6.1.1||
 |ldns|1.9.0|1.9.2||
 |less|702|704||
@@ -328,7 +328,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -359,7 +358,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mksh|59|59c|Possible downgrade from the current version (59 -> 59c)|
 |mmtests|2.0~rc1<br>+git20260312.|2.0-rc5|Compound version number '2.0~rc1+git20260312.'<br>Version number indicates a snapshot (+git) is used|
 |mock|6.5|41.4-1||
-|mock-core-configs|43.2|mock-core-configs-44.3-1|Possible downgrade from the current version (43.2 -> mock-core-configs-44.3-1)|
+|mock-core-configs|43.2|mock-core-configs-44.4-1|Possible downgrade from the current version (43.2 -> mock-core-configs-44.4-1)|
 |mod_http2|2.0.39|2.0.42||
 |msgpack|3.1.0|5.4.1||
 |mstflint|4.34.0.2|4.36.0-1||
@@ -555,7 +554,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
 |python-tensile|7.1.1|rocm-7.2.4||
 |python-tokenizers|0.22.2|0.23.1||
-|python-torchvision|0.25.0|0.28.0-rc2||
+|python-torchvision|0.25.0|ciflow/rocm/9527||
 |python-tornado|6.5.4|6.5.7||
 |python-tqdm|4.67.3|4.68.3||
 |python-traitlets|5.15.0|5.15.1||
@@ -613,7 +612,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qt6-qtwebsockets|6.10.1|6.12.0-beta1||
 |qt6-qtwebview|6.10.1|6.12.0-beta1||
 |qtkeychain|0.15.0|0.16.0||
-|quota|4.10|4.11||
 |rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
 |rdfind|1.7.0|1.8.0||
 |rdma-core|60.0|63.0||
@@ -752,7 +750,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |weston|14.0.2|15.0.1||
 |which|2.23|8.0.4||
 |whois|5.6.4|5.6.6.git||
-|wlroots|0.19.3|0.20.1||
 |wofi|1.5.2|1.5.3||
 |wolfssl|5.8.2|5.9.1-stable||
 |wtmpdb|0.74.0|0.75.0||
