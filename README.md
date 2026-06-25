@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782417473?label=Updated)
+![Relative date](https://img.shields.io/date/1782423798?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -111,7 +111,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glew|2.2.0|2.3.1||
 |glib|2.87.1|2.88.2||
 |glibmm|2.86.0|2.88.0||
-|glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.3.0||
 |glusterfs|11.1|11.2||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
@@ -184,8 +183,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gsasl|2.2.2|2.2.4||
 |gsl|2.8|4.2.2||
 |gstreamer|1.27.50|4.3.6||
+|gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
-|gtk3|3.24.51|4.3.6||
 |guidelines-support-library|4.2.1|4.2.2||
 |haproxy|3.3|3.4.1||
 |harfbuzz|12.1.0|14.2.1||
@@ -307,6 +306,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libssh|0.11.3|0.12.0||
 |libstoragemgmt|1.10.2|1.10.3||
 |libthai|0.1.29|0.1.30||
+|libtiff|4.7.0|4.7.1||
 |libtraceevent|1.8.4|1.9.0||
 |libudev-zero|1.0.3|1.0.4||
 |libunibreak|6.1|7.0||
@@ -328,6 +328,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -350,7 +351,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.1.1|26.1.3||
-|meson|1.10.2|1.11.1||
 |mimalloc|3.1.5|3.3.2||
 |minicom|2.10|2.11.1||
 |minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
@@ -576,7 +576,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-yarl|1.22.0|1.24.2||
 |python-zipp|3.23.1|4.1.0||
 |python-zope-interface|8.3|8.5||
-|qalculate-qt|5.9.0.1|5.11.0||
 |qcoro|0.12.0|0.13.0||
 |qemu|11.0.1|11.0.2||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
