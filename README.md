@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782339396?label=Updated)
+![Relative date](https://img.shields.io/date/1782346241?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -13,7 +13,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
 |accountsservice|23.13.9|26.13.3||
 |alsa-lib|1.2.15.3|1.2.16.1||
-|appstream|1.1.2|1.1.3||
 |arrow|23.0.1|59.0.0||
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |asn1c|0.9.28|0.9.29||
@@ -329,6 +328,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -444,7 +444,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-altair|6.1.0|6.2.2||
 |python-anyio|4.13.0|4.14.1||
 |python-archinfo|9.2.214|9.2.222||
-|python-awscrt|0.32.0|0.34.1||
+|python-awscrt|0.32.0|0.35.0||
 |python-bcrypt|3.2.2|5.0.0||
 |python-beaker|1.13.0|1.14.1||
 |python-bibtexparser|1.4.4|2.0.0b9||
