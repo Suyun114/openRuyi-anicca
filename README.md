@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782363917?label=Updated)
+![Relative date](https://img.shields.io/date/1782377961?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -21,6 +21,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |atkmm|2.28.4|2.36.4||
 |authselect|1.6.1|1.7.1||
 |autoconf|2.72|2.73||
+|avahi|0.9~rc4|0.8|Possible downgrade from the current version (0.9~rc4 -> 0.8)|
 |bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
 |binutils|2.46.0|2.46.1||
@@ -75,7 +76,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dos2unix|7.5.5|7.5.6||
 |doxygen|1.13.2|1.17.0||
 |dpdk|25.07|26.03||
-|dropbear|2025.89|2026.91||
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarves|1.30|1.31||
@@ -141,7 +141,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-etcd-io-raft|3.6.0|3.7.0||
 |go-github-gin-gonic-gin|1.8.1|1.12.0||
 |go-github-go-openapi-swag|0.26.1|yamlutils/v0.26.1||
-|go-github-go-openapi-testify|2.3.0|2.5.1||
+|go-github-go-openapi-testify|2.3.0|2.6.0||
 |go-github-go-redis-redis|9.18.0|9.21.0||
 |go-github-golang-freetype|0<br>+git20260106.e2365df|release|Compound version number '0+git20260106.e2365df'<br>Version number indicates a snapshot (+git) is used<br>Versions not comparable: `0+git20260106.e2365df` and `release`|
 |go-github-google-flatbuffers|25.12.19|25.12.19-2026-02-06-03fffb2||
@@ -383,7 +383,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nodejs|24.13.0|26.4.0||
 |nspr|4.39.0|4.39||
 |nss|3.124.0|3.125||
-|ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-a.5||
 |obs-build|20250829|20260623||
 |ollama|0.13.5|0.30.10||
@@ -556,7 +555,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
 |python-tensile|7.1.1|rocm-7.2.4||
 |python-tokenizers|0.22.2|0.23.1||
-|python-torchvision|0.25.0|ciflow/rocm/9527||
+|python-torchvision|0.25.0|ciflow/rocm/9529||
 |python-tornado|6.5.4|6.5.7||
 |python-tqdm|4.67.3|4.68.3||
 |python-traitlets|5.15.0|5.15.1||
@@ -679,7 +678,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sdbus-cpp|2.1.0|2.3.1||
 |seatd|0.9.1|0.9.3||
 |sed|4.9|4.10||
-|setools|4.6.0|4.7.0||
 |setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |shaderc|2026.1|2026.2||
@@ -711,7 +709,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tar|1.35|7.5.16||
 |tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.3||
-|tcpdump|4.99.5|4.99.6||
 |tcsh|6.24.15|6.24.16||
 |tdb|1.4.14|1.4.15||
 |tensorpipe|0<br>+git20251218.|0.0.0|Compound version number '0+git20251218.'<br>Version number indicates a snapshot (+git) is used|
@@ -745,7 +742,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vulkan-headers|1.4.335.0|1.4.354||
 |vulkan-loader|1.4.335.0|1.4.354||
 |vulkan-tools|1.4.335|1.4.354||
-|vulkan-utility-libraries|1.4.335.0|1.4.354||
 |vulkan-validation-layers|1.4.335.0|1.4.354||
 |wabt|1.0.39|1.0.41||
 |wavpack|5.8.1|5.9.0||
