@@ -1,18 +1,18 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782490553?label=Updated)
+![Relative date](https://img.shields.io/date/1782499926?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
 |NetworkManager|1.54.3|1.56.1||
 |PackageKit|1.3.5|1.3.6||
 |SDL3|3.4.2|3.4.10||
-|Xwayland|24.1.11|24.1.12||
 |aardvark-dns|1.17.1|2.0.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
 |accountsservice|23.13.9|26.26.9||
 |alsa-lib|1.2.15.3|1.2.16.1||
+|appstream|1.1.2|1.1.3||
 |arrow|23.0.1|59.0.0||
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |asn1c|0.9.28|0.9.29||
@@ -223,7 +223,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |kdsoap|2.2.0|2.3.0||
 |kea|3.1.4|3.2.0||
 |keepalived|2.2.8|2.3.4||
-|keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
 |kiwi|10.2.42|10.3.5||
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
 |lcms2|2.17|6.1.1||
@@ -257,6 +256,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libdisplay-info|0.2.0|0.3.0||
 |libdrm|2.4.131|2.4.134||
 |libdwarf|2.2.0|2.3.1||
+|libeconf|0.7.8|0.8.3||
 |libedit|20250104.3.1|20260512-3.1||
 |libei|1.5.0|1.6.0||
 |libevdev|1.13.5|1.13.6||
@@ -365,7 +365,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |msgpack|3.1.0|5.4.1||
 |mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
-|multipath-tools|0.11.1|0.14.3||
 |mupdf|1.27.2|1.28.0||
 |nano|9.0|9.1||
 |ncurses|6.5|6.6||
@@ -378,7 +377,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nfs4-acl-tools|0.4.2|0.3.7|Possible downgrade from the current version (0.4.2 -> 0.3.7)|
 |nftables|1.1.5|1.1.6||
 |nghttp3|1.12.0|1.16.0||
-|nginx|1.31.1|1.31.2||
 |ngtcp2|1.16.0|1.23.0||
 |ninja|1.13.2|1.13.0|Possible downgrade from the current version (1.13.2 -> 1.13.0)|
 |nmap|7.92|7.99||
@@ -386,7 +384,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nspr|4.39.0|4.39||
 |nss|3.124.0|3.125||
 |ntfs-3g|2022.10.3|2026.2.25||
-|nvme-cli|2.16|3.0-a.5||
+|nvme-cli|2.16|3.0-b.1||
 |obs-build|20250829|20260623||
 |ollama|0.13.5|0.30.10||
 |onnx|1.20.1|1.22.0||
@@ -457,7 +455,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-boto3|1.43.6|1.43.36||
 |python-botocore|1.43.11|1.43.36||
 |python-cachetools|7.1.1|7.1.4||
-|python-click|8.3.3|8.4.2||
 |python-coverage|7.13.4|7.14.3||
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
 |python-dashscope|1.25.11|1.26.0||
@@ -472,7 +469,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-filelock|3.29.0|3.29.4||
 |python-fsspec|2026.4.0|2026.6.0||
 |python-gevent|26.4.0|26.5.0||
-|python-greenlet|3.4.0|3.5.2||
+|python-greenlet|3.4.0|3.5.3||
 |python-hiredis|3.3.1|3.4.0||
 |python-hpack|4.1.0|4.2.0||
 |python-httplib2|0.31.2|0.32.0||
@@ -724,7 +721,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |texinfo|7.2|7.3||
 |thrift|0.22.0|0.23.0||
 |tinysparql|3.10.1|3.11.1||
-|tmux|3.6a|3.6b||
+|tmux|3.6a|3.7||
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.27.0||
 |tzdata|2026a|2026b||
@@ -749,7 +746,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.355||
-|vulkan-loader|1.4.335.0|1.4.355||
 |vulkan-tools|1.4.335|1.4.354||
 |vulkan-utility-libraries|1.4.335.0|1.4.355||
 |vulkan-validation-layers|1.4.335.0|1.4.355||
