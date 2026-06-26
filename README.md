@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782429485?label=Updated)
+![Relative date](https://img.shields.io/date/1782444399?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -330,6 +330,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -427,7 +428,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.7||
-|pkgconf|2.5.1|2.9.91||
+|pkgconf|2.5.1|2.9.92||
 |plasma-wayland-protocols|1.20.0|1.21.0||
 |podman|5.8.2|6.0.0||
 |policycoreutils|3.10|3.11-rc3||
@@ -457,6 +458,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-boto3|1.43.6|1.43.36||
 |python-botocore|1.43.11|1.43.36||
 |python-cachetools|7.1.1|7.1.4||
+|python-click|8.3.3|8.4.2||
 |python-coverage|7.13.4|7.14.3||
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
 |python-dashscope|1.25.11|1.26.0||
@@ -681,13 +683,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sdbus-cpp|2.1.0|2.3.1||
 |seatd|0.9.1|0.9.3||
 |sed|4.9|4.10||
-|setools|4.6.0|4.7.0||
 |setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |shaderc|2026.1|2026.2||
 |shim|16.1<br>+git20260422.c17fdb2|16.1|Compound version number '16.1+git20260422.c17fdb2'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.4||
+|skalibs|2.14.5.1|2.15.0.0||
 |slang|2.3.3|2026.12||
 |slibtool|0.7.3|0.7.4||
 |socat|1.8.1.1|1.8.1.2||
