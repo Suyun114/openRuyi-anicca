@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782511922?label=Updated)
+![Relative date](https://img.shields.io/date/1782518764?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -115,13 +115,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glslang|1.4.335.0|16.3.0||
 |glusterfs|11.1|11.2||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
-|go-github-anishathalye-porcupine|1.2.0|1.2.1||
+|go-github-anishathalye-porcupine|1.2.0|1.3.0||
 |go-github-apache-arrow-go-arrow|0<br>+git20260107.bc21918|r-universe-release|Compound version number '0+git20260107.bc21918'<br>Version number indicates a snapshot (+git) is used<br>Versions not comparable: `0+git20260107.bc21918` and `r-universe-release`|
 |go-github-apache-arrow-go-v18|18.5.0|18.6.0||
 |go-github-apache-beam|2.74.0|2.75.0-RC00||
 |go-github-apparentlymart-go-textseg|16.0.0|autoversion/v1.6.0||
 |go-github-asaskevich-govalidator|11.0.1|12.0.0||
-|go-github-aws-smithy-go|2025.12.01|1.27.2|Possible downgrade from the current version (2025.12.01 -> 1.27.2)|
+|go-github-aws-smithy-go|2025.12.01|1.27.3|Possible downgrade from the current version (2025.12.01 -> 1.27.3)|
 |go-github-brianvoe-gofakeit|7.14.1|7.15.0||
 |go-github-cenkalti-backoff|5.0.3|6.0.1||
 |go-github-cespare-xxhash|1.1.0|2.3.0||
@@ -422,6 +422,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |parallel|20250822|20260522||
 |passt|0<br>+git20260424.ec96f01|2026_06_11.a9c61ff|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.1||
+|patchelf|0.18.0|0.19.0||
 |pcre2|10.45|10.47||
 |pcsc-lite|2.3.3|2.5.1||
 |perl|5.42.0|5.42.2||
