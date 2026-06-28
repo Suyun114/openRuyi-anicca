@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782674197?label=Updated)
+![Relative date](https://img.shields.io/date/1782680446?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -331,6 +331,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -408,7 +409,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openvpn|2.6.16|2.7.4||
 |openvswitch|3.5.1|3.7.1||
 |openzl|0.1.0|0.2.0||
-|opus|1.5.2|1.6.1||
 |os-prober|1.83|1.84||
 |osc|1.21.0|1.27.1||
 |osinfo-db|20250606|20251212||
@@ -448,6 +448,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-aiohttp|3.13.3|3.14.1||
 |python-altair|6.1.0|6.2.2||
 |python-anyio|4.13.0|4.14.1||
+|python-apscheduler|3.11.2|3.11.3||
 |python-archinfo|9.2.214|9.2.222||
 |python-awscrt|0.32.0|0.35.0||
 |python-bcrypt|3.2.2|5.0.0||
@@ -629,9 +630,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rdfind|1.7.0|1.8.0||
 |rdma-core|60.0|63.0||
 |re2|2025.08.12|2025-11-05||
-|re2c|4.3|4.5.1||
 |rest|0.10.2|2.6.9||
-|rocblas|7.1.1|14.3.0||
 |rocclr|7.1.1|5.6.1|Possible downgrade from the current version (7.1.1 -> 5.6.1)|
 |rocksdb|10.5.1|11.1.2||
 |rocm-bandwidth-test|6.4.2|20250912-42||
@@ -652,7 +651,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rsyslog|8.2510.0|8.2606.0||
 |rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.5||
-|runc|1.4.0|1.5.0||
 |rust|1.95.0|1.96.0||
 |rust-errno-0.3|0.3.14|0.3.13|Possible downgrade from the current version (0.3.14 -> 0.3.13)|
 |rust-foldhash-0.1|0.1.5|0.2.0||
@@ -776,7 +774,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xfsprogs|6.16.0|7.0.1||
 |xkeyboard-config|2.46|2.48||
 |xmlsec|1.3.10|1.3.17||
-|xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
 |xorg-server|21.1.21|21.1.23||
 |xorgproto|2024.1|2025.1||
