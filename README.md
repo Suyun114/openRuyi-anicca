@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782659879?label=Updated)
+![Relative date](https://img.shields.io/date/1782666531?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -10,6 +10,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |SDL3|3.4.2|3.4.10||
 |Xwayland|24.1.11|24.1.12||
 |aardvark-dns|1.17.1|2.0.0||
+|accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
 |accountsservice|23.13.9|26.26.9||
 |alsa-lib|1.2.15.3|1.2.16.1||
 |appstream|1.1.2|1.1.3||
@@ -107,7 +108,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |giflib|5.2.2|6.1.3||
 |glew|2.2.0|2.3.1||
 |glib|2.87.1|2.88.2||
-|glibmm|2.86.0|2.88.0||
+|glibmm|2.86.0|2.88.1||
 |glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.3.0||
 |glusterfs|11.1|11.2||
@@ -139,6 +140,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-envoyproxy-protoc-gen-validate|1.3.0|1.3.3||
 |go-github-etcd-io-raft|3.6.0|3.7.0||
 |go-github-gin-gonic-gin|1.8.1|1.12.0||
+|go-github-go-openapi-jsonpointer|0.23.1|0.23.2||
 |go-github-go-openapi-swag|0.26.1|yamlutils/v0.26.1||
 |go-github-go-openapi-testify|2.3.0|2.6.0||
 |go-github-go-redis-redis|9.18.0|9.21.0||
@@ -281,6 +283,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libmbim|1.32.0|1.34.0||
 |libmd|1.1.0|1.2.0||
 |libmicrohttpd|1.0.2|1.0.5||
+|libmodulemd|2.15.2|2.15.3||
 |libnbd|1.23.13|1.25.5||
 |libnetfilter_conntrack|1.0.9|1.1.1||
 |libnftnl|1.3.0|1.3.1||
@@ -370,6 +373,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nano|9.0|9.1||
 |ncurses|6.5|6.6||
 |ndctl|83|84||
+|netavark|1.17.1|2.0.0||
 |netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
@@ -427,6 +431,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.7||
+|pkgconf|2.5.1|2.9.94||
 |plasma-wayland-protocols|1.20.0|1.21.0||
 |podman|5.8.2|6.0.0||
 |policycoreutils|3.10|3.11-rc3||
@@ -688,6 +693,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |shaderc|2026.1|2026.2||
+|shim|16.1<br>+git20260422.c17fdb2|16.1|Compound version number '16.1+git20260422.c17fdb2'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.4||
 |skalibs|2.14.5.1|2.15.0.0||
