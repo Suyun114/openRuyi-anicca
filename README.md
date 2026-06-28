@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782654133?label=Updated)
+![Relative date](https://img.shields.io/date/1782659879?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -10,9 +10,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |SDL3|3.4.2|3.4.10||
 |Xwayland|24.1.11|24.1.12||
 |aardvark-dns|1.17.1|2.0.0||
-|accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
 |accountsservice|23.13.9|26.26.9||
 |alsa-lib|1.2.15.3|1.2.16.1||
+|appstream|1.1.2|1.1.3||
 |arrow|24.0.0|59.0.0||
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |asn1c|0.9.28|0.9.29||
@@ -54,6 +54,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |crash|9.0.1|9.0.2||
 |crontabs|1.11|crontabs-20190603||
 |crun|1.27.1|1.28||
+|cunit|2.1.3|2.1-3||
 |curl|8.20.0|8.21.0||
 |curl-impersonate-chrome|0.7.0|2.0.0a5||
 |date|3.0.4|3.5.1||
@@ -221,6 +222,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |kdsoap|2.2.0|2.3.0||
 |kea|3.1.4|3.2.0||
 |keepalived|2.2.8|2.3.4||
+|keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
 |kiwi|10.2.42|10.3.5||
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
 |lcms2|2.17|6.1.1||
@@ -229,6 +231,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXft|2.3.8|2.3.9||
 |libXi|1.8.2|1.8.3||
 |libXmu|1.2.1|1.3.1||
+|libXrandr|1.5.4|1.5.5||
 |libXres|1.2.2|1.2.3||
 |libXxf86vm|1.1.6|1.1.7||
 |libaec|1.1.6|1.1.7||
@@ -278,7 +281,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libmbim|1.32.0|1.34.0||
 |libmd|1.1.0|1.2.0||
 |libmicrohttpd|1.0.2|1.0.5||
-|libmodulemd|2.15.2|2.15.3||
 |libnbd|1.23.13|1.25.5||
 |libnetfilter_conntrack|1.0.9|1.1.1||
 |libnftnl|1.3.0|1.3.1||
@@ -350,6 +352,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.1.1|26.1.3||
 |meson|1.10.2|1.11.1||
+|mimalloc|3.1.5|3.3.2||
 |minicom|2.10|2.11.1||
 |minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
 |minizip-ng|4.1.0|4.2.1||
@@ -362,11 +365,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |msgpack|3.1.0|5.4.1||
 |mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
+|multipath-tools|0.11.1|0.14.3||
 |mupdf|1.27.2|1.28.0||
 |nano|9.0|9.1||
 |ncurses|6.5|6.6||
 |ndctl|83|84||
-|netavark|1.17.1|2.0.0||
 |netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
@@ -375,7 +378,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nftables|1.1.5|1.1.6||
 |nghttp3|1.12.0|1.17.0||
 |nginx|1.31.1|1.31.2||
-|ngtcp2|1.16.0|1.23.0||
+|ngtcp2|1.16.0|1.24.0||
 |ninja|1.13.2|1.13.0|Possible downgrade from the current version (1.13.2 -> 1.13.0)|
 |nmap|7.92|7.99||
 |nodejs|24.13.0|26.4.0||
@@ -424,11 +427,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.7||
-|pkgconf|2.5.1|2.9.94||
 |plasma-wayland-protocols|1.20.0|1.21.0||
 |podman|5.8.2|6.0.0||
 |policycoreutils|3.10|3.11-rc3||
 |polkit|126|127||
+|poppler|25.11.0|26.06.0||
 |ppp|2.5.2|2.5.3||
 |protobuf|33.2|35.1||
 |psutils|2.10|3.3.15||
@@ -682,9 +685,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |seatd|0.9.1|0.9.3||
 |sed|4.9|4.10||
 |setools|4.6.0|4.7.0||
+|setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |shaderc|2026.1|2026.2||
-|shim|16.1<br>+git20260422.c17fdb2|16.1|Compound version number '16.1+git20260422.c17fdb2'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.4||
 |skalibs|2.14.5.1|2.15.0.0||
@@ -753,6 +756,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wabt|1.0.39|1.0.41||
 |wavpack|5.8.1|5.9.0||
 |wayback|0.3|0.5.1||
+|wayland-protocols|1.48|1.49||
 |weston|14.0.2|15.0.1||
 |which|2.23|8.0.4||
 |whois|5.6.4|5.6.6.git||
