@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782691655?label=Updated)
+![Relative date](https://img.shields.io/date/1782711037?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -317,6 +317,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libusb|1.0.29|1.0.30||
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
 |libvirt|12.2.0|12.4.0||
+|libvpx|1.15.2|1.16.0||
 |libwacom|2.17.0|2.19.0||
 |libxkbcommon|1.13.0|1.13.2||
 |libxkbfile|1.1.3|1.2.0||
@@ -370,6 +371,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |multipath-tools|0.11.1|0.14.3||
 |mupdf|1.27.2|1.28.0||
 |nano|9.0|9.1||
+|nasm|3.01|3.02||
 |ncurses|6.5|6.6||
 |ndctl|83|84||
 |netavark|1.17.1|2.0.0||
@@ -430,7 +432,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.7||
-|pkgconf|2.5.1|2.9.94||
+|pkgconf|2.5.1|2.9.95||
 |plasma-wayland-protocols|1.20.0|1.21.0||
 |podman|5.8.2|6.0.0||
 |policycoreutils|3.10|3.11-rc3||
@@ -526,7 +528,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pygit2|1.18.2|1.19.3||
 |python-pyjwt|2.12.1|2.13.0||
 |python-pylsqpack|0.3.23|0.3.24||
-|python-pymilvus|2.6.9|2.6.16||
 |python-pymongo|4.16.0|10.10.10.10||
 |python-pymupdf|1.27.2|1.27.2.3||
 |python-pyproject-metadata|0.9.1|0.11.0||
