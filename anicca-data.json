@@ -1,6 +1,6 @@
 [
 ["tdb","1.4.14","1.4.15",[]],
-["unifont","16.0.04","17.0.04",[]],
+["unifont","16.0.04","17.0.05",[]],
 ["rust-utf8parse-0.2","0.2.2","0.15.0",[]],
 ["qt6-qtquick3dphysics","6.10.1","6.12.0-beta1",[]],
 ["libXi","1.8.2","1.8.3",[]],
@@ -692,7 +692,6 @@
 ["python-systemd","235","236",[]],
 ["mmtests","2.0~rc1+git20260312.","2.0-rc5",["Compound version number '2.0~rc1+git20260312.'","Version number indicates a snapshot (+git) is used"]],
 ["unicode-ucd","17.0.0","18.0.0",[]],
-["libvpx","1.15.2","1.16.0",[]],
 ["sed","4.9","4.10",[]],
 ["python-meson-python","0.19.0","0.20.0",[]],
 ["go-github-google-flatbuffers","25.12.19","25.12.19-2026-02-06-03fffb2",[]],
@@ -742,6 +741,7 @@
 ["nettle","3.10.2","7.5.0",[]],
 ["go-gopkg-yaml.v2","2.4.0","3.0.1",[]],
 ["libsoup","3.6.5","3.7.1",[]],
+["tensorpipe","0+git20251218.","0.0.0",["Compound version number '0+git20251218.'","Version number indicates a snapshot (+git) is used"]],
 ["llhttp","9.4.1","9.4.2",[]],
 ["fonts-sarasa-gothic","1.0.37","1.0.40",[]],
 ["rtkit","0.11","0.14",[]],
