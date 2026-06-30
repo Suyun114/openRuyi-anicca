@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782777798?label=Updated)
+![Relative date](https://img.shields.io/date/1782795775?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -317,7 +317,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libtraceevent|1.8.4|1.9.0||
 |libudev-zero|1.0.3|1.0.4||
 |libunibreak|6.1|7.0||
-|liburing|2.12|2.14||
+|liburing|2.12|2.15||
 |libusb|1.0.29|1.0.30||
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
 |libvirt|12.2.0|12.4.0||
@@ -335,7 +335,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|0.9.35||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -432,7 +431,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pcsc-lite|2.3.3|2.5.1||
 |perl|5.42.0|5.42.2||
 |perl-rpm-packaging|1.2|1.3||
-|picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
+|picoclaw|0.2.3|0.3.1||
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.7||
@@ -464,7 +463,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
 |python-boto3|1.43.6|1.43.37||
-|python-botocore|1.43.11|1.43.36||
+|python-botocore|1.43.11|1.43.37||
 |python-cachetools|7.1.1|7.1.4||
 |python-click|8.3.3|8.4.2||
 |python-coverage|7.13.4|7.14.3||
@@ -756,12 +755,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|77||
-|vim|9.2.0593|9.2.0747||
+|vim|9.2.0593|9.2.0752||
 |vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.355||
 |vulkan-loader|1.4.335.0|1.4.355||
-|vulkan-tools|1.4.335|1.4.354||
+|vulkan-tools|1.4.335|1.4.355||
 |vulkan-utility-libraries|1.4.335.0|1.4.355||
 |vulkan-validation-layers|1.4.335.0|1.4.355||
 |wabt|1.0.39|1.0.41||
