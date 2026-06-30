@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782795775?label=Updated)
+![Relative date](https://img.shields.io/date/1782808661?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -24,7 +24,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |authselect|1.6.1|1.7.1||
 |autoconf|2.72|2.73||
 |avahi|0.9~rc4|0.8|Possible downgrade from the current version (0.9~rc4 -> 0.8)|
-|bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
 |binutils|2.46.0|2.46.1||
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
@@ -72,7 +71,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dnf5|5.4.2.0|5.4.2.1||
 |dnsmasq|2.92|2.93||
 |docbook-utils|0.6.15|0.6.14|Possible downgrade from the current version (0.6.15 -> 0.6.14)|
-|dos2unix|7.5.5|7.5.6||
 |doxygen|1.13.2|1.17.0||
 |dpdk|25.07|26.03||
 |drpm|0.5.2|0.5.3||
@@ -221,7 +219,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jose|14|15||
 |jq|1.8.1|1.8.2||
 |json-c|0.18|0.19||
-|jsoncpp|1.9.7|1.9.8||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.7||
 |kbd|2.9.0|2.10.0||
@@ -426,7 +423,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |parallel|20250822|20260622||
 |passt|0<br>+git20260424.ec96f01|2026_06_11.a9c61ff|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.1||
-|patchelf|0.18.0|0.19.0||
 |pcre2|10.45|10.47||
 |pcsc-lite|2.3.3|2.5.1||
 |perl|5.42.0|5.42.2||
@@ -656,7 +652,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rsyslog|8.2510.0|8.2606.0||
 |rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.5||
-|runc|1.4.0|1.5.0||
 |rust|1.95.0|1.96.0||
 |rust-errno-0.3|0.3.14|0.3.13|Possible downgrade from the current version (0.3.14 -> 0.3.13)|
 |rust-foldhash-0.1|0.1.5|0.2.0||
