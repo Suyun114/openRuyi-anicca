@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782854883?label=Updated)
+![Relative date](https://img.shields.io/date/1782861061?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -264,7 +264,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libdatrie|0.2.13|0.2.14||
 |libdisplay-info|0.2.0|0.3.0||
 |libdrm|2.4.131|2.4.134||
-|libdwarf|2.2.0|2.3.1||
 |libeconf|0.7.8|0.8.3||
 |libedit|20250104.3.1|20260512-3.1||
 |libei|1.5.0|1.6.0||
@@ -283,7 +282,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libisofs|1.5.6|1.5.8.pl02||
 |libjpeg-turbo|3.1.2|3.2.0||
 |libjwt|3.2.2|3.6.1||
-|libklvanc|1.6.0|id.obe.1.6.0||
 |libksba|1.6.7|1.8.0||
 |liblognorm|2.0.6|2.1.0||
 |libmaxminddb|1.12.2|1.13.3||
@@ -371,6 +369,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mock|6.5|41.4-1||
 |mock-core-configs|43.2|mock-core-configs-44.4-1|Possible downgrade from the current version (43.2 -> mock-core-configs-44.4-1)|
 |mod_http2|2.0.39|2.0.42||
+|msgpack|3.1.0|5.4.1||
 |mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
 |multipath-tools|0.11.1|0.14.3||
@@ -456,6 +455,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-anyio|4.13.0|4.14.1||
 |python-apscheduler|3.11.2|3.11.3||
 |python-archinfo|9.2.214|9.2.222||
+|python-argcomplete|3.6.3|3.7.0||
 |python-awscrt|0.32.0|0.35.0||
 |python-bcrypt|3.2.2|5.0.0||
 |python-beaker|1.13.0|1.14.1||
@@ -719,6 +719,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |srt|1.5.4|1.5.5||
 |sssd|2.11.1|2.13.1||
 |strace|6.19|7.1||
+|stress-ng|0.20.01|0.21.03||
 |strongswan|6.0.2|6.0.7||
 |sysrepo|4.2.10|5.1.0||
 |sysstat|12.7.8|12.7.9||
@@ -756,7 +757,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|77||
-|vim|9.2.0593|9.2.0757||
+|vim|9.2.0593|9.2.0758||
 |vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.355||
@@ -765,6 +766,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vulkan-utility-libraries|1.4.335.0|1.4.355||
 |vulkan-validation-layers|1.4.335.0|1.4.355||
 |wabt|1.0.39|1.0.41||
+|wavpack|5.8.1|5.9.0||
 |wayback|0.3|0.5.1||
 |wayland-protocols|1.48|1.49||
 |weston|14.0.2|15.0.1||
