@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782893489?label=Updated)
+![Relative date](https://img.shields.io/date/1782907258?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -72,7 +72,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dnf5|5.4.2.0|5.4.2.1||
 |dnsmasq|2.92|2.93||
 |docbook-utils|0.6.15|0.6.14|Possible downgrade from the current version (0.6.15 -> 0.6.14)|
-|dos2unix|7.5.5|7.5.6||
 |doxygen|1.13.2|1.17.0||
 |dpdk|25.07|26.03||
 |drpm|0.5.2|0.5.3||
@@ -82,6 +81,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |elfutils|0.194|0.195||
 |enchant|2.8.16|2.8.17||
 |ethtool|6.15|7.0||
+|exfatprogs|1.3.2|1.4.2||
 |expat|2.8.1|2.8.2||
 |expect|5.45.4|30.4.1||
 |fakeroot|1.37.2|1.38.1||
@@ -155,7 +155,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-hashicorp-go-secure-stdlib|0.1.0|plugincontainer/v0.5.0||
 |go-github-hashicorp-golang-lru|2.0.7|arc/v2.0.7|Possible downgrade from the current version (2.0.7 -> arc/v2.0.7)|
 |go-github-inconshreveable-mousetrap|1.1|1.1.0||
-|go-github-klauspost-compress|1.18.6|1.18.7||
+|go-github-klauspost-compress|1.18.6|1.19.0||
 |go-github-klauspost-cpuid-v2|2.3.0|2.4.0||
 |go-github-lesismal-nbio|1.6.9|1.6.10||
 |go-github-minio-kes-go|0.2.1|kms/v0.7.0||
@@ -218,6 +218,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iprutils|2.4.19|2.4.18.1|Possible downgrade from the current version (2.4.19 -> 2.4.18.1)|
 |iptables|1.8.11|1.8.13||
 |iptstate|2.2.7|2.3.0||
+|isa-l|2.32.0|2.32.1||
 |iso-codes|4.18.0|4.20.1||
 |jitterentropy|3.6.3|3.7.0||
 |jose|14|15||
@@ -306,6 +307,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libqrtr-glib|1.2.2|1.4.0||
 |libsemanage|3.10|3.11-rc3||
 |libsepol|3.10|3.11-rc3||
+|libsigc++|3.6.0|3.8.1||
 |libsigc++2|2.12.1|3.8.1||
 |libsodium|1.0.20|1.0.22-RELEASE||
 |libsolv|0.7.37|0.7.39||
@@ -335,6 +337,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -506,7 +509,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-multipart|0.0.22|0.0.32||
 |python-munkres|1.1.4|release-1.1.4|Possible downgrade from the current version (1.1.4 -> release-1.1.4)|
 |python-murmurhash|1.0.15|release-v1.0.15|Possible downgrade from the current version (1.0.15 -> release-v1.0.15)|
-|python-narwhals|2.15.0|2.22.1||
+|python-narwhals|2.15.0|2.23.0||
 |python-networkx|3.6.1|networkx-3.6.1|Possible downgrade from the current version (3.6.1 -> networkx-3.6.1)|
 |python-numpy|2.4.6|2.5.0||
 |python-opentelemetry-api|1.42.1|1.43.0||
@@ -793,4 +796,3 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |zfs|2.4.1|2.4.3||
 |zip|3.0|8.6.0||
 |zstd|1.5.7|1.5.7.3||
-|zziplib|0.13.80|3.0||
