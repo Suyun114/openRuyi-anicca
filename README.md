@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1782935507?label=Updated)
+![Relative date](https://img.shields.io/date/1782941229?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -74,6 +74,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |docbook-utils|0.6.15|0.6.14|Possible downgrade from the current version (0.6.15 -> 0.6.14)|
 |dos2unix|7.5.5|7.5.6||
 |doxygen|1.13.2|1.17.0||
+|dpdk|25.07|26.03||
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarves|1.30|1.31||
@@ -664,6 +665,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.5||
 |runc|1.4.0|1.5.0||
+|rust|1.95.0|1.96.1||
 |rust-errno-0.3|0.3.14|0.3.13|Possible downgrade from the current version (0.3.14 -> 0.3.13)|
 |rust-foldhash-0.1|0.1.5|0.2.0||
 |rust-getrandom-0.4|0.4.2|0.4.3||
