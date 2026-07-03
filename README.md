@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1783080590?label=Updated)
+![Relative date](https://img.shields.io/date/1783091432?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -162,6 +162,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-inconshreveable-mousetrap|1.1|1.1.0||
 |go-github-klauspost-compress|1.18.6|1.19.0||
 |go-github-klauspost-cpuid-v2|2.3.0|2.4.0||
+|go-github-lesismal-llib|1.2.2|1.2.3||
 |go-github-lesismal-nbio|1.6.9|1.6.10||
 |go-github-minio-kes-go|0.2.1|kms/v0.7.0||
 |go-github-minio-kms-go|0.2.1|kms/v0.7.0||
@@ -349,6 +350,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -500,7 +502,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hpack|4.1.0|4.2.0||
 |python-httplib2|0.31.2|0.32.0||
 |python-huggingface-hub|1.5.0|1.22.0||
-|python-hypothesis|6.152.4|6.156.0||
+|python-hypothesis|6.152.4|6.156.1||
 |python-idna|3.13|3.18||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
@@ -527,7 +529,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-ordered-set|4.1.0|release/4.1.0||
 |python-orjson|3.11.7|3.11.9||
 |python-packaging|25.0|26.2||
-|python-pipdeptree|2.30.0|3.1.0||
+|python-pipdeptree|2.30.0|3.1.1||
 |python-platformdirs|4.9.6|4.10.0||
 |python-preshed|3.0.12|release-v3.0.13|Possible downgrade from the current version (3.0.12 -> release-v3.0.13)|
 |python-prettytable|3.17.0|3.18.0||
@@ -606,6 +608,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-zope-interface|8.3|8.5||
 |qalculate-qt|5.9.0.1|5.11.0||
 |qcoro|0.12.0|0.13.0||
+|qemu|11.0.1|11.0.2||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.67||
 |qt6-qt5compat|6.10.1|6.12.0-beta1||
