@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1783198537?label=Updated)
+![Relative date](https://img.shields.io/date/1783202298?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.1||
@@ -63,6 +63,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cunit|2.1.3|2.1-3||
 |curl|8.20.0|8.21.0||
 |curl-impersonate-chrome|0.7.0|2.0.0a5||
+|date|3.0.4|3.5.1||
 |db|6.2.32|18.1.40||
 |dbus|1.16.2|5.2.2||
 |dialog|1.3|1.3-20260107||
@@ -136,6 +137,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-charmbracelet-lipgloss|1.1.0|2.0.5||
 |go-github-charmbracelet-log|1.0.0|2.0.0||
 |go-github-charmbracelet-x|0<br>+git20260204.d6a2763|powernap/v0.1.6|Compound version number '0+git20260204.d6a2763'<br>Version number indicates a snapshot (+git) is used|
+|go-github-cheggaaa-pb-v1|1.0.29|3.1.7||
 |go-github-clipperhouse-displaywidth|0.6.2|0.11.0||
 |go-github-clipperhouse-uax29-v2|2.3.0|2.7.0||
 |go-github-codegangsta-inject|1.0~rc1|1.0-rc1||
@@ -191,6 +193,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gpgme|2.0.1|2.1.2||
 |gpgmepp|2.0.0|2.1.0||
 |graphite2|1.3.14|1.3.15||
+|graphviz|14.1.5|15.1.0||
 |grpc|1.80.0|1.82.0||
 |gsasl|2.2.2|2.2.4||
 |gsl|2.8|4.2.2||
@@ -225,7 +228,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iptstate|2.2.7|2.3.0||
 |iso-codes|4.18.0|4.20.1||
 |jansson|2.15.0|2.15.1||
-|jitterentropy|3.6.3|3.7.0||
 |jose|14|15||
 |jq|1.8.1|1.8.2||
 |json-c|0.18|0.19||
@@ -264,6 +266,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcerror|20240413|20260703||
 |libclc|21.1.7|22.1.8||
 |libcnotify|20240414|20260703||
+|libcomps|0.1.23|0.1.24||
 |libconfig|1.8.1|1.8.2||
 |libcthreads|20240413|20260703||
 |libdatrie|0.2.13|0.2.14||
@@ -302,7 +305,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libnftnl|1.3.0|1.3.1||
 |libnl|3.11.0|3.12.0||
 |libnotify|0.8.7|0.8.8||
-|libnvme|1.16.1|1.16.2||
 |libp11|0.4.13|0.4.18||
 |libpaper|2.2.6|2.2.8||
 |libpcap|1.10.5|1.10.6||
@@ -338,6 +340,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libxkbcommon|1.13.0|1.13.2||
 |libxkbfile|1.1.3|1.2.0||
 |libxml2|2.14.5|2.15.3||
+|libxmlb|0.3.24|0.3.28||
 |libxslt|1.1.43|1.1.45||
 |libyang|4.2.2|5.8.6||
 |lighttpd|1.4.82|1.4.84||
@@ -390,7 +393,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ndctl|83|85||
 |netavark|1.17.1|2.0.0||
 |netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
-|nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
 |nfs-utils|2.8.4|2.9.1||
 |nfs4-acl-tools|0.4.2|0.3.7|Possible downgrade from the current version (0.4.2 -> 0.3.7)|
@@ -453,7 +455,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |poppler|25.11.0|26.07.0||
 |ppp|2.5.2|2.5.3||
 |protobuf|33.2|35.1||
-|psutils|2.10|3.3.15||
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |pv|1.10.5|1.11.0||
 |pybind11|3.0.1|3.0.4||
@@ -605,6 +606,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qalculate-qt|5.9.0.1|5.11.0||
 |qcoro|0.12.0|0.13.0||
 |qemu|11.0.1|11.0.2||
+|qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.67||
 |qt6-qt5compat|6.10.1|6.12.0-beta1||
 |qt6-qtcharts|6.10.1|6.12.0-beta1||
@@ -710,6 +712,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |shaderc|2026.1|2026.2||
 |shared-mime-info|2.4|2.5.1||
+|shim|16.1<br>+git20260422.c17fdb2|16.1|Compound version number '16.1+git20260422.c17fdb2'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.4||
 |skalibs|2.14.5.1|2.15.0.0||
@@ -727,7 +730,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sqlite|3.53.2|3.53.3||
 |squashfuse|0.6.1|0.6.2||
 |srt|1.5.4|1.5.5||
-|sssd|2.11.1|2.13.1||
 |strace|6.19|7.1||
 |stress-ng|0.20.01|0.21.03||
 |strongswan|6.0.2|6.0.7||
@@ -740,9 +742,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.4||
 |tcpdump|4.99.5|4.99.6||
+|tcsh|6.24.15|6.24.16||
 |tdb|1.4.14|1.4.15||
 |tensorpipe|0<br>+git20251218.|0.0.0|Compound version number '0+git20251218.'<br>Version number indicates a snapshot (+git) is used|
 |texinfo|7.2|7.3||
+|tftp|5.3|5.4||
 |thrift|0.22.0|0.23.0||
 |tinysparql|3.10.1|3.11.1||
 |tmux|3.6a|3.7b||
@@ -751,7 +755,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tzdata|2026a|2026b||
 |udisks2|2.11.0|2.11.1||
 |unicode-ucd|17.0.0|18.0.0||
-|unifont|16.0.04|17.0.05||
 |universal-ctags|6.2.0|6.2.20260621.0||
 |unixbench|6.0.0|6.0.1||
 |upower|1.91.1|1.91.3||
@@ -791,7 +794,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xfsdump|3.2.0|3.3.0||
 |xfsprogs|6.16.0|7.0.1||
 |xkeyboard-config|2.46|2.48||
-|xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
 |xorg-server|21.1.21|21.1.23||
