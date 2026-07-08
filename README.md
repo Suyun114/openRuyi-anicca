@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1783526627?label=Updated)
+![Relative date](https://img.shields.io/date/1783534636?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -189,10 +189,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-yuin-goldmark|1.8.2|2.0.0-beta.4||
 |go-golang-x-arch|0.28.0|0.29.0||
 |go-golang-x-exp|0<br>+git20260107.944ab1f|winfsnotify/v0.1.0-deprecated|Compound version number '0+git20260107.944ab1f'<br>Version number indicates a snapshot (+git) is used|
+|go-golang-x-mod|0.37.0|0.38.0||
 |go-golang-x-net|0.48.0|0.56.0||
 |go-golang-x-sync|0.21.0|0.22.0||
 |go-golang-x-sys|0.46.0|0.47.0||
-|go-golang-x-text|0.38.0|0.39.0||
+|go-golang-x-term|0.44.0|0.45.0||
+|go-golang-x-text|0.38.0|0.40.0||
 |go-golang-x-tools|0.40.0|gopls/v0.23.0-pre.2||
 |go-gonum-v1-gonum|0.16.0|0.17.0||
 |go-gonum-v1-plot|0.16.0|0.17.0||
@@ -205,7 +207,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gpgmepp|2.0.0|2.1.0||
 |graphite2|1.3.14|1.3.15||
 |graphviz|14.1.5|15.1.0||
-|grpc|1.80.0|1.82.0||
+|grpc|1.80.0|1.82.1||
 |gsasl|2.2.2|2.2.4||
 |gsl|2.8|4.2.2||
 |gstreamer|1.27.50|4.3.6||
@@ -419,13 +421,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ngtcp2|1.16.0|1.24.0||
 |ninja|1.13.2|1.13.0|Possible downgrade from the current version (1.13.2 -> 1.13.0)|
 |nmap|7.92|7.99||
-|nodejs|24.13.0|26.4.0||
+|nodejs|24.13.0|26.5.0||
 |nspr|4.39.0|4.39||
 |nss|3.124.0|3.125||
 |ntfs-3g|2022.10.3|2026.2.25||
-|nvme-cli|2.16|3.0-b.2||
+|nvme-cli|2.16|3.0-b.3||
 |obs-build|20250829|20260623||
-|ollama|0.13.5|0.31.1||
+|ollama|0.13.5|0.31.2||
 |onnx|1.20.1|1.22.0||
 |onnxruntime|1.24.1|1.27.0||
 |open-vmdk|0.3.12|3.0.1||
@@ -606,7 +608,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
 |python-tensile|7.1.1|rocm-7.2.4||
 |python-tokenizers|0.22.2|0.23.1||
-|python-torchvision|0.25.0|0.28.0-rc5||
+|python-torchvision|0.25.0|0.28.0||
 |python-tornado|6.5.4|6.5.7||
 |python-tqdm|4.67.3|4.68.4||
 |python-traitlets|5.15.0|5.15.1||
