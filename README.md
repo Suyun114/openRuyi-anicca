@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1783489801?label=Updated)
+![Relative date](https://img.shields.io/date/1783499108?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -16,7 +16,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |alsa-lib|1.2.15.3|1.2.16.1||
 |appstream|1.1.2|1.1.3||
 |arrow|24.0.0|59.1.0||
-|asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |asn1c|0.9.28|0.9.29||
 |at-spi2-core|2.58.2|2.60.5||
 |atkmm|2.28.4|2.36.4||
@@ -26,7 +25,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |avahi|0.9~rc4|0.8|Possible downgrade from the current version (0.9~rc4 -> 0.8)|
 |bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
 |bash-completion|2.17.0|2.18.0||
-|bcc|0.36.1|0.37.0||
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
 |binutils|2.46.0|2.46.1||
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
@@ -131,7 +129,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-anishathalye-porcupine|1.2.0|1.3.0||
 |go-github-apache-arrow-go-arrow|0<br>+git20260107.bc21918|apache-arrow-25.0.0-rc1|Compound version number '0+git20260107.bc21918'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (0+git20260107.bc21918 -> apache-arrow-25.0.0-rc1)|
 |go-github-apache-arrow-go-v18|18.5.0|18.6.0||
-|go-github-apache-beam|2.74.0|2.75.0-RC1||
+|go-github-apache-beam|2.74.0|2.75.0||
 |go-github-apparentlymart-go-textseg|16.0.0|17.0.1||
 |go-github-asaskevich-govalidator|11.0.1|12.0.0||
 |go-github-aws-smithy-go|2025.12.01|1.27.3|Possible downgrade from the current version (2025.12.01 -> 1.27.3)|
@@ -223,7 +221,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hwinfo|25.0|25.4||
 |hwloc|2.12.2|2.14.0||
 |hyphen|2.8.8|2.8.9||
-|ibus|1.5.33|1.5.34||
 |icu4c|77.1|78.3||
 |iio-sensor-proxy|3.8|3.9||
 |iotop|1.30|0.6|Possible downgrade from the current version (1.30 -> 0.6)|
@@ -359,8 +356,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux|7.1.3|7.1|Possible downgrade from the current version (7.1.3 -> 7.1)|
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
+|llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
-|lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
@@ -420,6 +417,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nss|3.124.0|3.125||
 |ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-b.2||
+|obs-build|20250829|20260623||
 |ollama|0.13.5|0.31.1||
 |onnx|1.20.1|1.22.0||
 |onnxruntime|1.24.1|1.27.0||
@@ -479,7 +477,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-altair|6.1.0|6.2.2||
 |python-anyio|4.13.0|4.14.1||
 |python-apscheduler|3.11.2|3.11.3||
-|python-archinfo|9.2.214|9.2.222||
+|python-archinfo|9.2.214|9.2.223||
 |python-argcomplete|3.6.3|3.7.0||
 |python-awscrt|0.32.0|0.35.0||
 |python-bcrypt|3.2.2|5.0.0||
@@ -573,7 +571,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pytest-rerunfailures|16.1|16.4||
 |python-python-dateutil|2.9.0.post0|2.9.0||
 |python-python-multipart|0.0.28|0.0.32||
-|python-pyvex|9.2.214|9.2.222||
+|python-pyvex|9.2.214|9.2.223||
 |python-pyxbe|1.0.3|1.0.4||
 |python-rdflib|7.5.0|7.6.0||
 |python-redis|7.4.0|8.0.1||
@@ -690,7 +688,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.5||
 |runc|1.4.0|1.5.0||
-|rust|1.95.0|1.96.1||
 |rust-errno-0.3|0.3.14|0.3.13|Possible downgrade from the current version (0.3.14 -> 0.3.13)|
 |rust-foldhash-0.1|0.1.5|0.2.0||
 |rust-getrandom-0.4|0.4.2|0.4.3||
@@ -739,7 +736,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |socat|1.8.1.1|1.8.1.3||
 |socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
-|spdk|25.09|26.05||
 |spdlog|1.15.3|1.17.0||
 |spirv-cross|1.4.335.0|1.4.350.1||
 |spirv-headers|1.4.350.0|1.4.350.1||
