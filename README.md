@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1783519108?label=Updated)
+![Relative date](https://img.shields.io/date/1783526627?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -333,6 +333,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libselinux|3.10|3.11||
 |libsemanage|3.10|3.11||
 |libsepol|3.10|3.11||
+|libsigc++|3.6.0|3.8.1||
 |libsigc++2|2.12.1|3.8.1||
 |libsodium|1.0.20|1.0.22-RELEASE||
 |libsolv|0.7.37|0.7.39||
@@ -550,7 +551,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-platformdirs|4.9.6|4.10.0||
 |python-preshed|3.0.12|release-v3.0.13|Possible downgrade from the current version (3.0.12 -> release-v3.0.13)|
 |python-prettytable|3.17.0|3.18.0||
-|python-prometheus-fastapi-instrumentator|7.1.0|8.0.2||
+|python-prometheus-fastapi-instrumentator|7.1.0|8.0.3a1||
 |python-propcache|0.4.1|0.5.2||
 |python-protobuf|6.33.2|7.35.1||
 |python-prov|2.1.1|2.4.0||
@@ -758,7 +759,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |strongswan|6.0.2|6.0.7||
 |sysrepo|4.2.10|5.1.0||
 |sysstat|12.7.8|12.7.9||
-|systemd|259|0.10.1|Possible downgrade from the current version (259 -> 0.10.1)|
+|systemd|261.1|0.10.1|Possible downgrade from the current version (261.1 -> 0.10.1)|
 |taglib|2.1.1|2.3||
 |talloc|2.4.3|2.4.4||
 |tar|1.35|7.5.19||
@@ -796,6 +797,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vim|9.2.0593|9.2.0782||
 |vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
+|vulkan-headers|1.4.335.0|1.4.356||
 |vulkan-loader|1.4.335.0|1.4.356||
 |vulkan-tools|1.4.335|1.4.356||
 |vulkan-utility-libraries|1.4.335.0|1.4.356||
