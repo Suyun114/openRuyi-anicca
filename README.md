@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1783508623?label=Updated)
+![Relative date](https://img.shields.io/date/1783519108?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -187,8 +187,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-stretchr-testify|1.11.1|1.2.3|Possible downgrade from the current version (1.11.1 -> 1.2.3)|
 |go-github-ugorji-go-codec|1.2.14|codec/v1.3.1|Possible downgrade from the current version (1.2.14 -> codec/v1.3.1)|
 |go-github-yuin-goldmark|1.8.2|2.0.0-beta.4||
+|go-golang-x-arch|0.28.0|0.29.0||
 |go-golang-x-exp|0<br>+git20260107.944ab1f|winfsnotify/v0.1.0-deprecated|Compound version number '0+git20260107.944ab1f'<br>Version number indicates a snapshot (+git) is used|
 |go-golang-x-net|0.48.0|0.56.0||
+|go-golang-x-sync|0.21.0|0.22.0||
+|go-golang-x-sys|0.46.0|0.47.0||
 |go-golang-x-text|0.38.0|0.39.0||
 |go-golang-x-tools|0.40.0|gopls/v0.23.0-pre.2||
 |go-gonum-v1-gonum|0.16.0|0.17.0||
@@ -291,7 +294,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libevent|2.1.12|2.1.13||
 |libfcache|20240414|20260520||
 |libfdata|20240415|20260521||
-|libffi|3.5.2|3.6.0||
+|libffi|3.5.2|3.7.0||
 |libfontenc|1.1.8|1.1.9||
 |libfyaml|0.9.3|0.9.6||
 |libgcrypt|1.11.2|1.12.2||
@@ -310,7 +313,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libmaxminddb|1.12.2|1.13.3||
 |libmbim|1.32.0|1.34.0||
 |libmd|1.1.0|1.2.0||
-|libmicrohttpd|1.0.2|1.0.5||
+|libmicrohttpd|1.0.2|1.0.6||
 |libmodulemd|2.15.2|2.15.3||
 |libnbd|1.23.13|1.25.5||
 |libnftnl|1.3.0|1.3.1||
@@ -330,7 +333,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libselinux|3.10|3.11||
 |libsemanage|3.10|3.11||
 |libsepol|3.10|3.11||
-|libsigc++|3.6.0|3.8.1||
 |libsigc++2|2.12.1|3.8.1||
 |libsodium|1.0.20|1.0.22-RELEASE||
 |libsolv|0.7.37|0.7.39||
@@ -345,7 +347,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |liburing|2.12|2.15||
 |libusb|1.0.29|1.0.30||
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
-|libva|2.23.0|2.24.0||
+|libva|2.23.0|2.24.1||
 |libvirt|12.2.0|12.5.0||
 |libvpx|1.15.2|1.16.0||
 |libwacom|2.17.0|2.19.0||
@@ -361,7 +363,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.7.0||
@@ -517,7 +518,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hpack|4.1.0|4.2.0||
 |python-httplib2|0.31.2|0.32.0||
 |python-huggingface-hub|1.5.0|1.22.0||
-|python-hypothesis|6.152.4|6.156.2||
+|python-hypothesis|6.152.4|6.156.3||
 |python-idna|3.13|3.18||
 |python-ijson|3.5.0|3.5.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
@@ -526,7 +527,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-kiwisolver|1.4.9|1.5.0||
 |python-langtable|0.0.70|0.0.71||
 |python-libclang|18.1.1|llvm-18.1.1||
-|python-librt|0.7.8|0.12.0||
+|python-librt|0.7.8|0.13.0||
 |python-lxml|6.0.1|lxml-7.0.0a3||
 |python-marisa-trie|1.3.1|1.4.1||
 |python-maturin|1.14.0|1.14.1||
@@ -667,7 +668,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |quota|4.10|4.11||
 |rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
 |rdfind|1.7.0|1.8.0||
-|rdma-core|60.0|63.1||
+|rdma-core|60.0|64.0||
 |re2|2025.08.12|2025-11-05||
 |re2c|4.3|4.5.1||
 |rest|0.10.2|2.6.9||
@@ -795,7 +796,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vim|9.2.0593|9.2.0782||
 |vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
-|vulkan-headers|1.4.335.0|1.4.356||
 |vulkan-loader|1.4.335.0|1.4.356||
 |vulkan-tools|1.4.335|1.4.356||
 |vulkan-utility-libraries|1.4.335.0|1.4.356||
