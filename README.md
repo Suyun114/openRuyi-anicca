@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1783586244?label=Updated)
+![Relative date](https://img.shields.io/date/1783598188?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -11,7 +11,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |Xwayland|24.1.11|24.1.13||
 |aardvark-dns|1.17.1|2.0.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
-|accountsservice|23.13.9|26.27.3||
 |acl|2.3.2|2.4.0||
 |alsa-lib|1.2.15.3|1.2.16.1||
 |appstream|1.1.2|1.1.3||
@@ -45,6 +44,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |checkpolicy|3.10|3.11||
 |cifs-utils|7.5|7.6||
 |ck|0.7.2|2.6.4||
+|clevis|21|23||
 |cloud-hypervisor|52.0<br>+git20260608.|52.0|Compound version number '52.0+git20260608.'<br>Version number indicates a snapshot (+git) is used|
 |cloud-init|25.3|26.1||
 |cloud-utils|0.33|0.34||
@@ -96,8 +96,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fast_float|8.2.5|8.2.10||
 |fastfetch|2.63.1|2.65.2||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
-|file|5.47|5.48||
 |firewalld|2.4.1|2.5.0||
+|fmt|12.1.0|12.2.0||
 |fontconfig|2.17.1|2.18.1||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
 |fonts-noto|2026.01.01|noto-monthly-release-2026.07.01||
@@ -269,7 +269,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXxf86vm|1.1.6|1.1.7||
 |libaec|1.1.6|1.1.7||
 |libarchive|3.8.7|3.8.8||
-|libass|0.17.4|0.17.5||
 |libatomic_ops|7.8.2|7.10.0||
 |libavif|1.4.0|1.4.2||
 |libblockdev|3.4.0|3.5.0||
@@ -364,8 +363,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux|7.1.3|7.1|Possible downgrade from the current version (7.1.3 -> 7.1)|
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
+|llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.7.0||
@@ -427,7 +426,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-b.3||
 |ollama|0.13.5|0.31.2||
-|onnx|1.20.1|1.22.0||
 |onnxruntime|1.24.1|1.27.0||
 |open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
@@ -686,6 +684,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocminfo|7.1.1|20250912-42||
 |rocprim|7.1.1|7.2.4||
 |rocprofiler-register|7.1.0|20250912-42||
+|rocr-runtime|7.1.1|20250912-42||
 |rocsolver|7.1.1|20250912-42||
 |rocsparse|7.1.1|7.2.4||
 |rpcbind|1.2.8|1.2.9||
@@ -733,6 +732,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |seatd|0.9.1|0.9.3||
 |sed|4.9|4.10||
 |setools|4.6.0|4.7.0||
+|setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |shaderc|2026.1|2026.2||
 |shared-mime-info|2.4|2.5.1||
