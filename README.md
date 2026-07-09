@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1783548299?label=Updated)
+![Relative date](https://img.shields.io/date/1783555754?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -224,7 +224,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hipblas|7.1.1|20250912-17||
 |hipblas-common|7.1.1|7.2.4||
 |hipify|7.1.1|20250912-42||
-|httpd|2.4.66|2.4.68||
 |hunspell-en|2026.02.25|rel-2026.02.25||
 |hwdata|0.407|0.409||
 |hwinfo|25.0|25.4||
@@ -368,9 +367,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
-|log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
 |lsof|4.99.6|4.99.7||
 |ltp|20260130|20260529||
@@ -456,7 +455,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ovmf|202602|edk2-stable202605|Versions not comparable: `202602` and `edk2-stable202605`|
 |p11-kit|0.25.5|0.26.2||
 |pam|1.7.1|2.2.5||
-|pango|1.57.0|4.3.6||
 |pangomm|2.46.4|2.56.2||
 |parallel|20250822|20260622||
 |passt|0<br>+git20260424.ec96f01|2026_06_11.a9c61ff|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
@@ -471,7 +469,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.7||
-|podman|5.8.2|6.0.0||
+|podman|5.8.2|6.0.1||
 |policycoreutils|3.10|3.11||
 |polkit|126|127||
 |poppler|25.11.0|26.07.0||
@@ -499,7 +497,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
 |python-boto3|1.43.6|1.43.43||
-|python-botocore|1.43.11|1.43.42||
+|python-botocore|1.43.11|1.43.43||
 |python-cachetools|7.1.1|7.1.4||
 |python-charset-normalizer|3.4.7|3.4.9||
 |python-click|8.3.3|8.4.2||
@@ -743,7 +741,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.4||
 |skalibs|2.14.5.1|2.15.0.0||
-|slang|2.3.3|2026.12.2||
+|slang|2.3.3|2026.13||
 |slibtool|0.7.3|0.7.4||
 |socat|1.8.1.1|1.8.1.3||
 |socket_wrapper|1.5.0|1.5.2||
