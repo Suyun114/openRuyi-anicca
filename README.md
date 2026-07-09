@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1783573089?label=Updated)
+![Relative date](https://img.shields.io/date/1783586244?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -45,7 +45,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |checkpolicy|3.10|3.11||
 |cifs-utils|7.5|7.6||
 |ck|0.7.2|2.6.4||
-|clevis|21|23||
 |cloud-hypervisor|52.0<br>+git20260608.|52.0|Compound version number '52.0+git20260608.'<br>Version number indicates a snapshot (+git) is used|
 |cloud-init|25.3|26.1||
 |cloud-utils|0.33|0.34||
@@ -99,7 +98,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |file|5.47|5.48||
 |firewalld|2.4.1|2.5.0||
-|fmt|12.1.0|12.2.0||
 |fontconfig|2.17.1|2.18.1||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
 |fonts-noto|2026.01.01|noto-monthly-release-2026.07.01||
@@ -366,7 +364,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux|7.1.3|7.1|Possible downgrade from the current version (7.1.3 -> 7.1)|
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
-|llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
 |lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
@@ -404,6 +401,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mock-core-configs|43.2|mock-core-configs-44.4-1|Possible downgrade from the current version (43.2 -> mock-core-configs-44.4-1)|
 |mod_http2|2.0.39|2.0.42||
 |msgpack|3.1.0|5.4.1||
+|mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
 |multipath-tools|0.11.1|0.14.3||
 |mupdf|1.27.2|1.28.0||
@@ -624,6 +622,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-virtualenv|20.35.4|21.6.0||
 |python-wcwidth|0.7.0|0.8.2||
 |python-weasel|1.0.0|release-v1.0.0||
+|python-websockets|16.0|16.1||
 |python-wheel|0.45.1|0.47.0||
 |python-wrapt|2.1.1|2.2.2||
 |python-xxhash|3.6.0|3.8.1||
@@ -687,7 +686,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocminfo|7.1.1|20250912-42||
 |rocprim|7.1.1|7.2.4||
 |rocprofiler-register|7.1.0|20250912-42||
-|rocr-runtime|7.1.1|20250912-42||
 |rocsolver|7.1.1|20250912-42||
 |rocsparse|7.1.1|7.2.4||
 |rpcbind|1.2.8|1.2.9||
@@ -735,7 +733,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |seatd|0.9.1|0.9.3||
 |sed|4.9|4.10||
 |setools|4.6.0|4.7.0||
-|setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |shaderc|2026.1|2026.2||
 |shared-mime-info|2.4|2.5.1||
