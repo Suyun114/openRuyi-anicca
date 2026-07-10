@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1783689127?label=Updated)
+![Relative date](https://img.shields.io/date/1783700685?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -41,7 +41,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cairo|1.18.4|1.109||
 |capstone|5.0.3|5.0.9||
 |cbindgen|0.29.2|0.29.4||
-|check|0.15.2|1.12.0||
+|check|0.15.2|1.13.0||
 |checkpolicy|3.10|3.11||
 |cifs-utils|7.5|7.7||
 |ck|0.7.2|2.6.4||
@@ -121,6 +121,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glew|2.2.0|2.3.1||
 |glib|2.87.1|2.88.2||
 |glibmm|2.86.0|2.88.1||
+|glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.3.0||
 |glusterfs|11.1|11.2||
 |gnupg|2.5.20|2.5.21||
@@ -256,7 +257,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |kea|3.1.4|3.2.0||
 |keepalived|2.2.8|2.3.4||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
-|kiwi|10.2.42|10.3.8||
+|kiwi|10.2.42|10.3.9||
 |kpmcore|26.04.2|26.04.3||
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
 |lame|3.100|3.101||
@@ -299,7 +300,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libevent|2.1.12|2.1.13||
 |libfcache|20240414|20260520||
 |libfdata|20240415|20260521||
-|libffi|3.5.2|3.7.0||
+|libffi|3.5.2|3.7.1||
 |libfontenc|1.1.8|1.1.9||
 |libfyaml|0.9.3|0.9.6||
 |libgcrypt|1.11.2|1.12.2||
@@ -368,7 +369,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.7.0||
@@ -522,7 +522,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hpack|4.1.0|4.2.0||
 |python-httplib2|0.31.2|0.32.0||
 |python-huggingface-hub|1.5.0|1.23.0||
-|python-hypothesis|6.152.4|6.156.4||
+|python-hypothesis|6.152.4|6.156.5||
 |python-idna|3.13|3.18||
 |python-ijson|3.5.0|3.5.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
@@ -667,7 +667,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qt6-qtvirtualkeyboard|6.10.1|6.12.0-beta1||
 |qt6-qtwayland|6.10.1|6.12.0-beta1||
 |qt6-qtwebchannel|6.10.1|6.12.0-beta1||
-|qt6-qtwebengine|6.10.1|6.12.0-beta1||
+|qt6-qtwebengine|6.10.1|6.8.4-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.8.4-lts-lgpl)|
 |qt6-qtwebsockets|6.10.1|6.12.0-beta1||
 |qt6-qtwebview|6.10.1|6.12.0-beta1||
 |qtkeychain|0.15.0|0.17.0||
