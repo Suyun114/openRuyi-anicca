@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1783809977?label=Updated)
+![Relative date](https://img.shields.io/date/1783814073?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -177,7 +177,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-lesismal-nbio|1.6.9|1.6.11||
 |go-github-minio-kes-go|0.2.1|kms/v0.7.0||
 |go-github-minio-kms-go|0.2.1|kms/v0.7.0||
-|go-github-mitchellh-go-testing-interface|1.14.1|1.0.4|Possible downgrade from the current version (1.14.1 -> 1.0.4)|
 |go-github-olekukonko-ll|0.1.3|0.1.8||
 |go-github-olekukonko-tablewriter-v0|0.0.5|1.1.4||
 |go-github-pelletier-go-toml-v2|2.4.0|2.4.3||
@@ -296,6 +295,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libdisplay-info|0.2.0|0.3.0||
 |libdrm|2.4.131|2.4.134||
 |libdwarf|2.2.0|2.3.2||
+|libeconf|0.7.8|0.8.3||
 |libedit|20250104.3.1|20260512-3.1||
 |libei|1.5.0|1.6.0||
 |libevdev|1.13.5|1.13.6||
@@ -319,7 +319,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libksba|1.6.7|1.8.0||
 |liblognorm|2.0.6|2.1.0||
 |libmaxminddb|1.12.2|1.13.3||
-|libmbim|1.32.0|1.34.0||
 |libmd|1.1.0|1.2.0||
 |libmicrohttpd|1.0.2|1.0.6||
 |libmodulemd|2.15.2|2.15.3||
@@ -371,6 +370,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.7.0||
@@ -425,7 +425,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ngtcp2|1.16.0|1.24.0||
 |nmap|7.92|7.99||
 |nodejs|24.13.0|26.5.0||
-|nspr|4.39.0|4.39||
 |nss|3.124.0|3.125||
 |ntfs-3g|2022.10.3|2026.2.25||
 |nvme-cli|2.16|3.0-b.3||
@@ -666,7 +665,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qt6-qtserialport|6.10.1|6.12.0-beta1||
 |qt6-qtshadertools|6.10.1|6.12.0-beta1||
 |qt6-qtspeech|6.10.1|6.12.0-beta1||
-|qt6-qttranslations|6.10.1|6.12.0-beta1||
 |qt6-qtvirtualkeyboard|6.10.1|6.12.0-beta1||
 |qt6-qtwayland|6.10.1|6.12.0-beta1||
 |qt6-qtwebchannel|6.10.1|6.12.0-beta1||
@@ -773,7 +771,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tar|1.35|7.5.19||
 |tbb|2022.3.0|2023.0.0||
 |tcl|8.6.16|9.0.4||
-|tcpdump|4.99.5|4.99.6||
 |tcsh|6.24.15|6.24.16||
 |tdb|1.4.14|1.4.15||
 |tensorpipe|0<br>+git20251218.|0.0.0|Compound version number '0+git20251218.'<br>Version number indicates a snapshot (+git) is used|
@@ -786,7 +783,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tuned|2.26.0|2.27.0||
 |tzdata|2026a|2026c||
 |udisks2|2.11.0|2.11.1||
-|unicode-ucd|17.0.0|18.0.0||
 |unifont|16.0.04|17.0.05||
 |universal-ctags|6.2.0|6.2.20260621.0||
 |unixbench|6.0.0|6.0.1||
@@ -824,6 +820,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
 |xdg-desktop-portal|1.20.3|1.22.1||
 |xdg-desktop-portal-wlr|0.8.1|0.8.3||
+|xdg-user-dirs|0.19|0.20||
 |xfsdump|3.2.0|3.3.0||
 |xfsprogs|6.16.0|7.0.1||
 |xkeyboard-config|2.46|2.48||
