@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1783724712?label=Updated)
+![Relative date](https://img.shields.io/date/1783736745?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -30,7 +30,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |binutils|2.46.0|2.46.1||
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
 |bluez|5.86|5.87||
-|bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.91.0-1||
 |brotli|1.2.0|8.0.4||
 |btrfs-progs|6.19.1|7.0||
@@ -56,7 +55,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |console-setup|1.244|1.248||
 |containers-common|0.67.0|0.64.2|Possible downgrade from the current version (0.67.0 -> 0.64.2)|
 |cpp-httplib|0.48.0|0.49.0||
-|cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.2||
 |crontabs|1.11|crontabs-20190603||
 |crun|1.27.1|1.28||
@@ -93,7 +91,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |expat|2.8.1|2.8.2||
 |expect|5.45.4|30.4.1||
 |fakeroot|1.37.2|2.1.4||
-|fast_float|8.2.5|8.2.10||
 |fastfetch|2.63.1|2.66.0||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
 |file|5.47|5.48||
@@ -429,7 +426,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nvme-cli|2.16|3.0-b.3||
 |ollama|0.13.5|0.31.2||
 |onnx|1.20.1|1.22.0||
-|onnxruntime|1.24.1|1.27.0||
+|onnxruntime|1.24.1|1.27.1||
 |open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
 |openblas|0.3.31|0.3.33||
@@ -498,7 +495,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
 |python-boto3|1.43.6|1.43.46||
-|python-botocore|1.43.11|1.43.45||
+|python-botocore|1.43.11|1.43.46||
 |python-cachetools|7.1.1|7.1.4||
 |python-charset-normalizer|3.4.7|3.4.9||
 |python-click|8.3.3|8.4.2||
@@ -788,7 +785,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |unifont|16.0.04|17.0.05||
 |universal-ctags|6.2.0|6.2.20260621.0||
 |unixbench|6.0.0|6.0.1||
-|upower|1.91.1|1.91.3||
 |usbutils|018|019||
 |usermode|1.114|usermode-1.114|Possible downgrade from the current version (1.114 -> usermode-1.114)|
 |userspace-rcu|0.15.3|0.15.6||
@@ -833,7 +829,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xorgproto|2024.1|2025.1||
 |xrdb|1.2.2|1.2.3||
 |xsimd|14.0.0|14.2.0||
-|xxhash|0.8.3|2.3.0||
 |yaml-cpp|0.8.0|0.9.0||
 |zfs|2.4.1|2.4.3||
 |zip|3.0|8.6.0||
