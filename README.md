@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1783871949?label=Updated)
+![Relative date](https://img.shields.io/date/1783875653?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -63,6 +63,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cunit|2.1.3|2.1-3||
 |curl|8.20.0|8.21.0||
 |curl-impersonate-chrome|0.7.0|2.0.0a5||
+|date|3.0.4|3.5.1||
 |db|6.2.32|18.1.40||
 |dbus|1.16.2|5.2.2||
 |dialog|1.3|1.3-20260107||
@@ -92,6 +93,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |exfatprogs|1.3.2|1.4.2||
 |expat|2.8.1|2.8.2||
 |expect|5.45.4|30.4.1||
+|fakeroot|1.37.2|2.1.4||
 |fast_float|8.2.5|8.2.10||
 |fastfetch|2.63.1|2.66.0||
 |ffnvcodec|13.0.19.0|n13.0.19.0||
@@ -231,13 +233,16 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hwdata|0.407|0.409||
 |hwinfo|25.0|25.4||
 |hwloc|2.12.2|2.14.0||
+|hyphen|2.8.8|2.8.9||
 |ibus|1.5.33|1.5.34||
 |icu4c|77.1|78.3||
 |iio-sensor-proxy|3.8|3.9||
 |iotop|1.30|0.6|Possible downgrade from the current version (1.30 -> 0.6)|
 |iozone|3_508|3.511||
 |iperf|3.21|2.2.1|Possible downgrade from the current version (3.21 -> 2.2.1)|
+|ipmitool|1.8.19|1_8_19||
 |iproute2|6.16.0|7.1.0||
+|iprutils|2.4.19|2.4.18.1|Possible downgrade from the current version (2.4.19 -> 2.4.18.1)|
 |iptables|1.8.11|1.8.13||
 |iptstate|2.2.7|2.3.0||
 |isl|0.27|0.28||
@@ -337,6 +342,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libselinux|3.10|3.11||
 |libsemanage|3.10|3.11||
 |libsepol|3.10|3.11||
+|libsigc++|3.6.0|3.8.1||
 |libsigc++2|2.12.1|3.8.1||
 |libsodium|1.0.20|1.0.22-RELEASE||
 |libsolv|0.7.37|0.7.39||
@@ -801,6 +807,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vim|9.2.0593|9.2.0782||
 |vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
+|vulkan-headers|1.4.335.0|1.4.356||
 |vulkan-loader|1.4.335.0|1.4.356||
 |vulkan-tools|1.4.335|1.4.356||
 |vulkan-utility-libraries|1.4.335.0|1.4.356||
