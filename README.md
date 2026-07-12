@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1783844067?label=Updated)
+![Relative date](https://img.shields.io/date/1783851967?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -60,6 +60,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |crash|9.0.1|9.0.2||
 |crontabs|1.11|crontabs-20190603||
 |crun|1.27.1|1.28||
+|cunit|2.1.3|2.1-3||
 |curl|8.20.0|8.21.0||
 |curl-impersonate-chrome|0.7.0|2.0.0a5||
 |date|3.0.4|3.5.1||
@@ -222,6 +223,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |guidelines-support-library|4.2.1|4.2.2||
 |haproxy|3.3|3.4.2||
 |harfbuzz|12.1.0|14.2.1||
+|haveged|1.9.20|1.9.26||
 |hdf5|2.0.0|2.1.1||
 |hipblas|7.1.1|20250912-17||
 |hipblas-common|7.1.1|7.2.4||
@@ -354,6 +356,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |liburing|2.12|2.15||
 |libusb|1.0.29|1.0.30||
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
+|libva|2.23.0|2.24.1||
 |libvirt|12.2.0|12.5.0||
 |libvpx|1.15.2|1.16.0||
 |libwacom|2.17.0|2.19.0||
@@ -392,7 +395,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.1.1|26.1.4||
-|meson|1.10.2|1.11.2||
 |mimalloc|3.1.5|3.3.2||
 |minicom|2.10|2.11.1||
 |minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
@@ -473,6 +475,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pkgconf|2.5.1|3.0.1||
 |podman|5.8.2|6.0.1||
 |policycoreutils|3.10|3.11||
+|polkit|126|127||
 |poppler|25.11.0|26.07.0||
 |ppp|2.5.2|2.5.3||
 |protobuf|33.2|35.1||
@@ -742,6 +745,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |shaderc|2026.1|2026.2||
 |shared-mime-info|2.4|2.5.1||
+|shim|16.1<br>+git20260422.c17fdb2|16.1|Compound version number '16.1+git20260422.c17fdb2'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.4||
 |skalibs|2.14.5.1|2.15.0.0||
@@ -775,6 +779,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tcsh|6.24.15|6.24.16||
 |tdb|1.4.14|1.4.15||
 |tensorpipe|0<br>+git20251218.|0.0.0|Compound version number '0+git20251218.'<br>Version number indicates a snapshot (+git) is used|
+|texinfo|7.2|7.3||
 |tftp|5.3|5.4||
 |thrift|0.22.0|0.24.0||
 |tinysparql|3.10.1|3.11.1||
