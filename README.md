@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1783900383?label=Updated)
+![Relative date](https://img.shields.io/date/1783909882?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -216,18 +216,17 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |grpc|1.80.0|1.82.1||
 |gsasl|2.2.2|2.2.4||
 |gsl|2.8|4.2.2||
-|gstreamer|1.27.50|4.3.6||
+|gstreamer|1.27.50|4.3.7||
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
-|gtk3|3.24.51|4.3.6||
+|gtk3|3.24.51|4.3.7||
 |guidelines-support-library|4.2.1|4.2.2||
 |haproxy|3.3|3.4.2||
 |harfbuzz|12.1.0|14.2.1||
 |haveged|1.9.20|1.9.26||
 |hdf5|2.0.0|2.1.1||
-|hipblas|7.1.1|20250912-17||
-|hipblas-common|7.1.1|7.2.4||
-|hipify|7.1.1|20250912-42||
+|hipblas|7.2.4|20250912-17||
+|hipify|7.2.4|20250912-42||
 |httpd|2.4.66|2.4.68||
 |hunspell-en|2026.02.25|rel-2026.02.25||
 |hwdata|0.407|0.409||
@@ -372,9 +371,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
+|log4cxx|1.6.1|1.7.0||
 |lshw|B.02.20|02.20||
 |lsof|4.99.6|4.99.7||
 |lttng-ust|2.14.0|2.15.1||
@@ -562,7 +561,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-prometheus-fastapi-instrumentator|7.1.0|8.0.3.dev1||
 |python-propcache|0.4.1|0.5.2||
 |python-protobuf|6.33.2|7.35.1||
-|python-prov|2.1.1|2.4.0||
+|python-prov|2.1.1|2.5.0||
 |python-puccinialin|0.1.11|0.1.13||
 |python-puremagic|1.30|2.2.0||
 |python-pyarrow|23.0.1|25.0.0||
@@ -613,7 +612,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-systemd|235|236||
 |python-tempita|0.6.0|0.6||
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
-|python-tensile|7.1.1|rocm-7.2.4||
+|python-tensile|7.2.4|rocm-7.2.4||
 |python-tokenizers|0.22.2|0.23.1||
 |python-torchvision|0.25.0|0.28.0||
 |python-tornado|6.5.4|6.5.7||
@@ -683,19 +682,17 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |re2|2025.08.12|2025-11-05||
 |re2c|4.3|4.5.1||
 |rest|0.10.2|2.6.9||
-|rocblas|7.1.1|14.3.0||
-|rocclr|7.1.1|5.6.1|Possible downgrade from the current version (7.1.1 -> 5.6.1)|
+|rocblas|7.2.4|14.3.0||
+|rocclr|7.2.4|5.6.1|Possible downgrade from the current version (7.2.4 -> 5.6.1)|
 |rocksdb|10.5.1|11.1.2||
 |rocm-bandwidth-test|6.4.2|20250912-42||
-|rocm-cmake|7.1.1|20250912-42||
-|rocm-llvm|7.1.1|20250912-42||
-|rocm-smi|7.1.1|rocm-7.2.4||
-|rocminfo|7.1.1|20250912-42||
-|rocprim|7.1.1|7.2.4||
-|rocprofiler-register|7.1.0|20250912-42||
-|rocr-runtime|7.1.1|20250912-42||
-|rocsolver|7.1.1|20250912-42||
-|rocsparse|7.1.1|7.2.4||
+|rocm-cmake|7.2.4|20250912-42||
+|rocm-llvm|7.2.4|20250912-42||
+|rocm-smi|7.2.4|rocm-7.2.4||
+|rocminfo|7.2.4|20250912-42||
+|rocprofiler-register|7.2.4|20250912-42||
+|rocr-runtime|7.2.4|20250912-42||
+|rocsolver|7.2.4|20250912-42||
 |rpcbind|1.2.8|1.2.9||
 |rpm|6.0.1|6.0.1-release|Possible downgrade from the current version (6.0.1 -> 6.0.1-release)|
 |rpmlint|2.8.0|2.9.0||
@@ -763,6 +760,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sqlite|3.53.2|3.53.3||
 |squashfuse|0.6.1|0.6.2||
 |srt|1.5.4|1.5.5||
+|sssd|2.11.1|2.13.1||
 |strace|6.19|7.1||
 |stress-ng|0.20.01|0.21.03||
 |strongswan|6.0.2|6.0.7||
@@ -778,7 +776,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tcsh|6.24.15|6.24.16||
 |tdb|1.4.14|1.4.15||
 |tensorpipe|0<br>+git20251218.|0.0.0|Compound version number '0+git20251218.'<br>Version number indicates a snapshot (+git) is used|
-|texinfo|7.2|7.3||
 |tftp|5.3|5.4||
 |thrift|0.22.0|0.24.0||
 |tinysparql|3.10.1|3.11.1||
@@ -825,7 +822,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
 |xdg-desktop-portal|1.20.3|1.22.1||
 |xdg-desktop-portal-wlr|0.8.1|0.8.3||
-|xdg-user-dirs|0.19|0.20||
 |xfsdump|3.2.0|3.3.0||
 |xfsprogs|6.16.0|7.0.1||
 |xkeyboard-config|2.46|2.48||
