@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1783909882?label=Updated)
+![Relative date](https://img.shields.io/date/1783923362?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -322,7 +322,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libmbim|1.32.0|1.34.0||
 |libmd|1.1.0|1.2.0||
 |libmicrohttpd|1.0.2|1.0.6||
-|libmodulemd|2.15.2|2.15.3||
 |libnbd|1.23.13|1.25.5||
 |libnftnl|1.3.0|1.3.1||
 |libnl|3.11.0|3.12.0||
@@ -434,7 +433,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |onnxruntime|1.24.1|1.27.1||
 |open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
-|openblas|0.3.31|0.3.33||
 |openconnect|9.12|9.21||
 |opencv|4.13.0|5.0.0||
 |openexr|3.4.10|3.4.13||
@@ -456,7 +454,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ovmf|202602|edk2-stable202605|Versions not comparable: `202602` and `edk2-stable202605`|
 |p11-kit|0.25.5|0.26.4||
 |pam|1.7.1|2.2.5||
-|pango|1.57.0|4.3.6||
+|pango|1.57.0|4.3.7||
 |pangomm|2.46.4|2.56.2||
 |parallel|20250822|20260622||
 |passt|0<br>+git20260424.ec96f01|2026_06_11.a9c61ff|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
@@ -630,7 +628,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-weasel|1.0.0|release-v1.0.0||
 |python-websockets|16.0|16.1||
 |python-wheel|0.45.1|0.47.0||
-|python-wrapt|2.1.1|2.3.0rc1||
+|python-wrapt|2.1.1|2.3.0rc2||
 |python-xxhash|3.6.0|3.8.1||
 |python-yarl|1.22.0|1.24.2||
 |python-zipp|3.23.1|4.1.0||
@@ -776,6 +774,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tcsh|6.24.15|6.24.16||
 |tdb|1.4.14|1.4.15||
 |tensorpipe|0<br>+git20251218.|0.0.0|Compound version number '0+git20251218.'<br>Version number indicates a snapshot (+git) is used|
+|texinfo|7.2|7.3||
 |tftp|5.3|5.4||
 |thrift|0.22.0|0.24.0||
 |tinysparql|3.10.1|3.11.1||
