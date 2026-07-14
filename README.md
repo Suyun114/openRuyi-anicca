@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1784031028?label=Updated)
+![Relative date](https://img.shields.io/date/1784040549?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -44,7 +44,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |check|0.15.2|1.13.0||
 |checkpolicy|3.10|3.11||
 |cifs-utils|7.5|7.7||
-|ck|0.7.2|2.6.4||
 |cloud-hypervisor|52.0<br>+git20260608.|53.0|Compound version number '52.0+git20260608.'<br>Version number indicates a snapshot (+git) is used|
 |cloud-init|25.3|26.1||
 |cloud-utils|0.33|0.34||
@@ -290,7 +289,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcerror|20240413|20260703||
 |libclc|21.1.7|22.1.8||
 |libcnotify|20240414|20260703||
-|libcomps|0.1.23|0.1.24||
 |libconfig|1.8.1|1.8.2||
 |libcthreads|20240413|20260703||
 |libdatrie|0.2.13|0.2.14||
@@ -299,7 +297,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libdvdread|7.0.1|7.1.0||
 |libdwarf|2.2.0|2.3.2||
 |libeconf|0.7.8|0.8.3||
-|libedit|20250104.3.1|20260512-3.1||
 |libei|1.5.0|1.6.0||
 |libevdev|1.13.5|1.13.6||
 |libevent|2.1.12|2.1.13||
@@ -315,7 +312,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libical|3.0.20|4.0.3||
 |libisoburn|1.5.6|1.5.8.pl02||
 |libisofs|1.5.6|1.5.8.pl02||
-|libjpeg-turbo|3.1.2|3.2.0||
 |libjwt|3.2.2|3.6.1||
 |libjxl|0.11.2|0.12.0||
 |libklvanc|1.6.0|id.obe.1.6.0||
@@ -335,7 +331,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libpaper|2.2.6|2.2.8||
 |libpcap|1.10.5|1.10.6||
 |libpciaccess|0.18|0.19||
-|libplasma|6.7.1|6.7.2||
+|libplasma|6.7.1|6.7.3||
 |libpsl|0.21.5|0.23.0||
 |libqalculate|5.9.0|5.12.0||
 |libqmi|1.36.0|1.38.0||
@@ -643,40 +639,40 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qemu|11.0.1|11.0.2||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.67||
-|qt6-qt5compat|6.10.1|6.12.0-beta1||
-|qt6-qtcharts|6.10.1|6.12.0-beta1||
-|qt6-qtcoap|6.10.1|6.12.0-beta1||
-|qt6-qtconnectivity|6.10.1|6.12.0-beta1||
-|qt6-qtdatavis3d|6.10.1|6.12.0-beta1||
-|qt6-qtdeclarative|6.10.1|6.12.0-beta1||
-|qt6-qtgrpc|6.10.1|6.12.0-beta1||
-|qt6-qthttpserver|6.10.1|6.12.0-beta1||
-|qt6-qtimageformats|6.10.1|6.12.0-beta1||
-|qt6-qtlanguageserver|6.10.1|6.12.0-beta1||
-|qt6-qtlocation|6.10.1|6.12.0-beta1||
-|qt6-qtlottie|6.10.1|6.12.0-beta1||
-|qt6-qtmqtt|6.10.1|6.12.0-beta1||
-|qt6-qtnetworkauth|6.10.1|6.12.0-beta1||
-|qt6-qtopcua|6.10.1|6.12.0-beta1||
-|qt6-qtpositioning|6.10.1|6.12.0-beta1||
-|qt6-qtquick3d|6.10.1|6.12.0-beta1||
-|qt6-qtquick3dphysics|6.10.1|6.12.0-beta1||
-|qt6-qtquickeffectmaker|6.10.1|6.12.0-beta1||
-|qt6-qtquicktimeline|6.10.1|6.12.0-beta1||
-|qt6-qtremoteobjects|6.10.1|6.12.0-beta1||
-|qt6-qtscxml|6.10.1|6.12.0-beta1||
-|qt6-qtsensors|6.10.1|6.12.0-beta1||
-|qt6-qtserialbus|6.10.1|6.12.0-beta1||
-|qt6-qtserialport|6.10.1|6.12.0-beta1||
-|qt6-qtshadertools|6.10.1|6.12.0-beta1||
-|qt6-qtspeech|6.10.1|6.12.0-beta1||
-|qt6-qttranslations|6.10.1|6.12.0-beta1||
-|qt6-qtvirtualkeyboard|6.10.1|6.12.0-beta1||
-|qt6-qtwayland|6.10.1|6.12.0-beta1||
-|qt6-qtwebchannel|6.10.1|6.12.0-beta1||
-|qt6-qtwebengine|6.10.1|6.8.4-lts-lgpl|Possible downgrade from the current version (6.10.1 -> 6.8.4-lts-lgpl)|
-|qt6-qtwebsockets|6.10.1|6.12.0-beta1||
-|qt6-qtwebview|6.10.1|6.12.0-beta1||
+|qt6-qt5compat|6.10.1|6.12.0-beta2||
+|qt6-qtcharts|6.10.1|6.12.0-beta2||
+|qt6-qtcoap|6.10.1|6.12.0-beta2||
+|qt6-qtconnectivity|6.10.1|6.12.0-beta2||
+|qt6-qtdatavis3d|6.10.1|6.12.0-beta2||
+|qt6-qtdeclarative|6.10.1|6.12.0-beta2||
+|qt6-qtgrpc|6.10.1|6.12.0-beta2||
+|qt6-qthttpserver|6.10.1|6.12.0-beta2||
+|qt6-qtimageformats|6.10.1|6.12.0-beta2||
+|qt6-qtlanguageserver|6.10.1|6.12.0-beta2||
+|qt6-qtlocation|6.10.1|6.12.0-beta2||
+|qt6-qtlottie|6.10.1|6.12.0-beta2||
+|qt6-qtmqtt|6.10.1|6.12.0-beta2||
+|qt6-qtnetworkauth|6.10.1|6.12.0-beta2||
+|qt6-qtopcua|6.10.1|6.12.0-beta2||
+|qt6-qtpositioning|6.10.1|6.12.0-beta2||
+|qt6-qtquick3d|6.10.1|6.12.0-beta2||
+|qt6-qtquick3dphysics|6.10.1|6.12.0-beta2||
+|qt6-qtquickeffectmaker|6.10.1|6.12.0-beta2||
+|qt6-qtquicktimeline|6.10.1|6.12.0-beta2||
+|qt6-qtremoteobjects|6.10.1|6.12.0-beta2||
+|qt6-qtscxml|6.10.1|6.12.0-beta2||
+|qt6-qtsensors|6.10.1|6.12.0-beta2||
+|qt6-qtserialbus|6.10.1|6.12.0-beta2||
+|qt6-qtserialport|6.10.1|6.12.0-beta2||
+|qt6-qtshadertools|6.10.1|6.12.0-beta2||
+|qt6-qtspeech|6.10.1|6.12.0-beta2||
+|qt6-qttranslations|6.10.1|6.12.0-beta2||
+|qt6-qtvirtualkeyboard|6.10.1|6.12.0-beta2||
+|qt6-qtwayland|6.10.1|6.12.0-beta2||
+|qt6-qtwebchannel|6.10.1|6.12.0-beta2||
+|qt6-qtwebengine|6.10.1|6.12.0-beta2||
+|qt6-qtwebsockets|6.10.1|6.12.0-beta2||
+|qt6-qtwebview|6.10.1|6.12.0-beta2||
 |qtkeychain|0.15.0|0.17.0||
 |quota|4.10|4.11||
 |rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
@@ -716,8 +712,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-log-0.4|0.4.30|0.4.33||
 |rust-parking-lot-0.12|0.12.5|parking_lot-v0.12.5||
 |rust-parking-lot-core-0.9|0.9.12|parking_lot-v0.12.5||
-|rust-toml-0.9|0.9.12|0.25.12||
-|rust-toml-datetime-0.7|0.7.5|0.25.12||
+|rust-toml-0.9|0.9.12|0.25.13||
+|rust-toml-datetime-0.7|0.7.5|0.25.13||
 |rust-utf8parse-0.2|0.2.2|0.15.0||
 |rust-wasip3-0.4|0.4.0|wasip3-0.7.0|Possible downgrade from the current version (0.4.0 -> wasip3-0.7.0)|
 |rust-wasm-encoder-0.244|0.244.0|1.253.0||
