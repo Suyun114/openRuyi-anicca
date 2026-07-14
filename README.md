@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1784040549?label=Updated)
+![Relative date](https://img.shields.io/date/1784045618?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -44,6 +44,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |check|0.15.2|1.13.0||
 |checkpolicy|3.10|3.11||
 |cifs-utils|7.5|7.7||
+|ck|0.7.2|2.6.4||
 |cloud-hypervisor|52.0<br>+git20260608.|53.0|Compound version number '52.0+git20260608.'<br>Version number indicates a snapshot (+git) is used|
 |cloud-init|25.3|26.1||
 |cloud-utils|0.33|0.34||
@@ -108,7 +109,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-noto-serif-cjk|2.003|Serif2.003||
 |fonts-sarasa-gothic|1.0.37|1.0.40||
 |foot|1.26.1|1.27.0||
-|freerdp|3.26.0|3.28.0||
+|freerdp|3.26.0|3.29.0||
 |fuse|2.9.9|2.5.0|Possible downgrade from the current version (2.9.9 -> 2.5.0)|
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
 |gawk|5.4.0|5.4.1||
@@ -146,7 +147,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-charmbracelet-lipgloss|1.1.0|2.0.5||
 |go-github-charmbracelet-log|1.0.0|2.0.0||
 |go-github-charmbracelet-x|0<br>+git20260204.d6a2763|powernap/v0.1.6|Compound version number '0+git20260204.d6a2763'<br>Version number indicates a snapshot (+git) is used|
-|go-github-cheggaaa-pb-v1|1.0.29|3.1.7||
+|go-github-cheggaaa-pb-v1|1.0.29|3.2.0||
 |go-github-clipperhouse-displaywidth|0.6.2|0.11.0||
 |go-github-clipperhouse-uax29-v2|2.3.0|2.7.0||
 |go-github-codegangsta-inject|1.0~rc1|1.0-rc1||
@@ -289,6 +290,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcerror|20240413|20260703||
 |libclc|21.1.7|22.1.8||
 |libcnotify|20240414|20260703||
+|libcomps|0.1.23|0.1.24||
 |libconfig|1.8.1|1.8.2||
 |libcthreads|20240413|20260703||
 |libdatrie|0.2.13|0.2.14||
@@ -297,6 +299,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libdvdread|7.0.1|7.1.0||
 |libdwarf|2.2.0|2.3.2||
 |libeconf|0.7.8|0.8.3||
+|libedit|20250104.3.1|20260512-3.1||
 |libei|1.5.0|1.6.0||
 |libevdev|1.13.5|1.13.6||
 |libevent|2.1.12|2.1.13||
@@ -312,6 +315,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libical|3.0.20|4.0.3||
 |libisoburn|1.5.6|1.5.8.pl02||
 |libisofs|1.5.6|1.5.8.pl02||
+|libjpeg-turbo|3.1.2|3.2.0||
 |libjwt|3.2.2|3.6.1||
 |libjxl|0.11.2|0.12.0||
 |libklvanc|1.6.0|id.obe.1.6.0||
