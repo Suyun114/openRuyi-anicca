@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1784146075?label=Updated)
+![Relative date](https://img.shields.io/date/1784152730?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -122,6 +122,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |giflib|5.2.2|6.1.3||
 |git|2.54.0|2.55.0||
 |glew|2.2.0|2.3.1||
+|glib|2.87.1|2.88.2||
 |glibmm|2.86.0|2.88.1||
 |glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.4.0||
@@ -234,7 +235,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hwdata|0.407|0.409||
 |hwinfo|25.0|25.4||
 |hwloc|2.12.2|2.14.0||
-|hyphen|2.8.8|2.8.9||
 |ibus|1.5.33|1.5.34||
 |icu4c|77.1|78.3||
 |iio-sensor-proxy|3.8|3.9||
@@ -396,7 +396,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
-|mesa|26.1.1|26.1.4||
+|mesa|26.1.1|26.1.5||
 |meson|1.10.2|1.11.2||
 |mimalloc|3.3.2|3.4.1||
 |minicom|2.10|2.11.1||
@@ -782,9 +782,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tcsh|6.24.15|6.24.16||
 |tdb|1.4.14|1.4.15||
 |tensorpipe|0<br>+git20251218.|0.0.0|Compound version number '0+git20251218.'<br>Version number indicates a snapshot (+git) is used|
-|texinfo|7.2|7.3||
 |tftp|5.3|5.4||
 |thrift|0.22.0|0.24.0||
+|tinysparql|3.10.1|3.11.1||
 |tmux|3.6a|3.7b||
 |tpm2-tss|4.1.3|4.2.0||
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
