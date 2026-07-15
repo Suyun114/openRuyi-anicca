@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1784138731?label=Updated)
+![Relative date](https://img.shields.io/date/1784146075?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -122,7 +122,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |giflib|5.2.2|6.1.3||
 |git|2.54.0|2.55.0||
 |glew|2.2.0|2.3.1||
-|glib|2.87.1|2.88.2||
 |glibmm|2.86.0|2.88.1||
 |glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.4.0||
@@ -375,6 +374,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
 |llvm|21.1.7|22.1.8||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.7.0||
@@ -425,17 +425,18 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nfs4-acl-tools|0.4.2|0.3.7|Possible downgrade from the current version (0.4.2 -> 0.3.7)|
 |nftables|1.1.5|1.1.6||
 |nghttp3|1.12.0|1.17.0||
-|nginx|1.31.1|1.31.2||
+|nginx|1.31.1|1.31.3||
 |ngtcp2|1.16.0|1.24.0||
 |nmap|7.92|7.99||
 |nodejs|24.13.0|26.5.0||
 |nspr|4.39.0|4.39||
 |nss|3.124.0|3.125||
-|ntfs-3g|2022.10.3|2026.2.25||
+|ntfs-3g|2022.10.3|2026.7.7||
 |nvme-cli|2.16|3.0-b.3||
 |ollama|0.13.5|0.32.0||
 |onnx|1.20.1|1.22.0||
 |onnxruntime|1.24.1|1.27.1||
+|open-iscsi|2.1.11|2.1.12||
 |open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
 |openblas|0.3.31|0.3.33||
@@ -505,12 +506,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
-|python-boto3|1.43.6|1.43.48||
-|python-botocore|1.43.11|1.43.48||
+|python-boto3|1.43.6|1.43.49||
+|python-botocore|1.43.11|1.43.49||
 |python-cachetools|7.1.1|7.1.4||
 |python-charset-normalizer|3.4.7|3.4.9||
 |python-click|8.3.3|8.4.2||
-|python-coverage|7.13.4|7.15.1||
+|python-coverage|7.13.4|7.15.2||
 |python-csvw|4.0.0|4.1.0||
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
 |python-dashscope|1.25.11|1.26.3||
@@ -623,7 +624,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-tornado|6.5.4|6.5.7||
 |python-tqdm|4.67.3|4.68.4||
 |python-traitlets|5.15.0|5.15.1||
-|python-transformers|5.2.0|5.13.1||
+|python-transformers|5.2.0|5.14.0||
 |python-trove-classifiers|2025.8.26.11|2026.6.1.19||
 |python-typing-extensions|4.15.0|4.16.0||
 |python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
@@ -784,7 +785,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |texinfo|7.2|7.3||
 |tftp|5.3|5.4||
 |thrift|0.22.0|0.24.0||
-|tinysparql|3.10.1|3.11.1||
 |tmux|3.6a|3.7b||
 |tpm2-tss|4.1.3|4.2.0||
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
