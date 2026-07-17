@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1784304926?label=Updated)
+![Relative date](https://img.shields.io/date/1784311532?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -57,7 +57,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |containers-common|0.67.0|0.64.2|Possible downgrade from the current version (0.67.0 -> 0.64.2)|
 |cpp-httplib|0.48.0|0.50.1||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
-|crash|9.0.1|9.0.2||
 |crontabs|1.11|crontabs-20190603||
 |crun|1.27.1|1.28||
 |cunit|2.1.3|2.1-3||
@@ -84,8 +83,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarfs|0.15.3|0.15.5||
+|dwarves|1.30|1.31||
 |dwz|0.16|0.17||
 |editorconfig-core-c|0.12.10|0.12.11||
+|elfutils|0.194|0.195||
 |enchant|2.8.16|2.8.19||
 |erofs-utils|1.9.1|1.9.2||
 |ethtool|6.15|7.1||
@@ -371,6 +372,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libxml2|2.14.5|2.15.3||
 |libxmlb|0.3.24|0.3.28||
 |libxslt|1.1.43|1.1.45||
+|libyang|4.2.2|5.8.6||
 |lighttpd|1.4.82|1.4.85||
 |linux|7.1.3|7.1|Possible downgrade from the current version (7.1.3 -> 7.1)|
 |linux-firmware|20260519|20260622||
@@ -708,6 +710,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rrdtool|1.9.0|1.10.3||
 |rsync|3.4.3|3.4.4||
 |rsyslog|8.2510.0|8.2606.0||
+|rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.6||
 |runc|1.4.0|1.5.1||
 |rust|1.95.0|1.97.1||
@@ -749,7 +752,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |shaderc|2026.1|2026.3||
-|shared-mime-info|2.4|2.5.1||
 |shim|16.1<br>+git20260715.0a88e2a|16.1|Compound version number '16.1+git20260715.0a88e2a'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.4||
@@ -784,7 +786,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tcsh|6.24.15|6.24.16||
 |tdb|1.4.14|1.4.15||
 |tensorpipe|0<br>+git20251218.|0.0.0|Compound version number '0+git20251218.'<br>Version number indicates a snapshot (+git) is used|
-|texinfo|7.2|7.3||
 |tftp|5.3|5.4||
 |thrift|0.22.0|0.24.0||
 |tinysparql|3.10.1|3.11.1||
@@ -822,6 +823,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wayback|0.3|0.5.1||
 |wayland|1.25.0|1.26.0||
 |wayland-protocols|1.48|1.49||
+|weston|14.0.2|16.0.0||
 |which|2.23|8.0.5||
 |whois|5.6.4|5.6.6.git||
 |wlroots|0.20.1|0.20.2||
