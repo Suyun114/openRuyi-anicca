@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1784401268?label=Updated)
+![Relative date](https://img.shields.io/date/1784405318?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -19,6 +19,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |asn1c|0.9.28|0.9.29||
 |at-spi2-core|2.58.2|2.60.5||
+|atkmm|2.28.4|2.36.4||
 |attr|2.5.2|2.6.0||
 |authselect|1.6.1|1.7.1||
 |autoconf|2.72|2.73||
@@ -98,6 +99,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fastfetch|2.63.1|2.66.0||
 |ffnvcodec|13.0.19.0|n13.1.15.0||
 |file|5.47|5.48||
+|findutils|4.10.0|4.11.0||
 |firewalld|2.4.1|2.5.0||
 |fmt|12.1.0|12.2.0||
 |fontconfig|2.17.1|2.18.2||
@@ -228,6 +230,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |haproxy|3.3|3.4.2||
 |harfbuzz|12.1.0|14.2.1||
 |haveged|1.9.20|1.9.26||
+|hdf5|2.0.0|2.1.1||
 |hipblas|7.2.4|20250912-17||
 |hipify|7.2.4|20250912-42||
 |htop|3.5.1|3.5.2||
@@ -252,6 +255,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iso-codes|4.18.0|4.20.1||
 |jansson|2.15.0|2.15.1||
 |jitterentropy|3.6.3|3.7.0||
+|jose|14|15||
 |jq|1.8.1|1.8.2||
 |json-c|0.18|0.19||
 |jsoncpp|1.9.7|1.9.8||
@@ -308,6 +312,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libfdata|20240415|20260521||
 |libffi|3.5.2|3.7.1||
 |libfontenc|1.1.8|1.1.9||
+|libfyaml|0.9.3|0.9.6||
 |libgcrypt|1.11.2|1.12.2||
 |libgit2|1.9.2|1.9.6||
 |libgpg-error|1.58|1.61||
@@ -327,7 +332,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libmicrohttpd|1.0.2|1.0.6||
 |libmodulemd|2.15.2|2.15.3||
 |libnbd|1.23.13|1.25.6||
-|libnftnl|1.3.0|1.3.1||
 |libnl|3.11.0|3.12.0||
 |libnotify|0.8.7|0.8.8||
 |libnvme|1.16.1|1.16.2||
