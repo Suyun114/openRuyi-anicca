@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1784366608?label=Updated)
+![Relative date](https://img.shields.io/date/1784372563?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -64,7 +64,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |curl|8.20.0|8.21.0||
 |curl-impersonate-chrome|0.7.0|2.0.0rc3||
 |date|3.0.4|3.5.1||
-|dav1d|1.5.3|1.5.4||
 |db|6.2.32|18.1.40||
 |dbus|1.16.2|5.2.2||
 |dialog|1.3|1.3-20260107||
@@ -98,7 +97,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fast_float|8.2.5|8.2.10||
 |fastfetch|2.63.1|2.66.0||
 |ffnvcodec|13.0.19.0|n13.1.15.0||
-|file|5.47|5.48||
 |findutils|4.10.0|4.11.0||
 |firewalld|2.4.1|2.5.0||
 |fmt|12.1.0|12.2.0||
@@ -251,6 +249,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iptables|1.8.11|1.8.13||
 |iptstate|2.2.7|2.3.0||
 |isl|0.27|0.28||
+|iso-codes|4.18.0|4.20.1||
 |jansson|2.15.0|2.15.1||
 |jitterentropy|3.6.3|3.7.0||
 |jose|14|15||
@@ -264,6 +263,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |kea|3.1.4|3.2.0||
 |keepalived|2.2.8|2.3.4||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
+|kiwi|10.2.42|10.3.9||
 |kpmcore|26.04.2|26.07.80||
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
 |lame|3.100|4.0||
@@ -291,6 +291,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
 |libcerror|20240413|20260703||
 |libclc|21.1.7|22.1.8||
+|libcnotify|20240414|20260703||
 |libcomps|0.1.23|0.1.24||
 |libconfig|1.8.1|1.8.2||
 |libcthreads|20240413|20260703||
@@ -328,6 +329,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libmicrohttpd|1.0.2|1.0.6||
 |libmodulemd|2.15.2|2.15.3||
 |libnbd|1.23.13|1.25.6||
+|libnftnl|1.3.0|1.3.1||
 |libnl|3.11.0|3.12.0||
 |libnotify|0.8.7|0.8.8||
 |libnvme|1.16.1|1.16.2||
@@ -367,6 +369,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libxkbcommon|1.13.0|1.13.2||
 |libxkbfile|1.1.3|1.2.0||
 |libxml2|2.14.5|2.15.3||
+|libxmlb|0.3.24|0.3.28||
 |libxslt|1.1.43|1.1.45||
 |libyang|4.2.2|5.8.6||
 |lighttpd|1.4.82|1.4.85||
@@ -417,7 +420,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nasm|3.01|3.02||
 |ncurses|6.5|6.6||
 |ndctl|83|85||
-|netavark|1.17.1|2.0.0||
 |netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
@@ -437,6 +439,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |onnx|1.20.1|1.22.0||
 |onnxruntime|1.24.1|1.27.1||
 |open-iscsi|2.1.11|2.1.12||
+|open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
 |openblas|0.3.31|0.3.34||
 |openconnect|9.12|9.21||
@@ -642,6 +645,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-zipp|3.23.1|4.1.0||
 |python-zope-interface|8.3|8.5||
 |qalculate-qt|5.9.0.1|5.12.0||
+|qcoro|0.12.0|0.13.0||
 |qemu|11.0.1|11.0.2||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.67||
@@ -694,6 +698,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocm-cmake|7.2.4|20250912-42||
 |rocm-llvm|7.2.4|20250912-42||
 |rocm-smi|7.2.4|rocm-7.2.4||
+|rocminfo|7.2.4|20250912-42||
 |rocprofiler-register|7.2.4|20250912-42||
 |rocr-runtime|7.2.4|20250912-42||
 |rocsolver|7.2.4|20250912-42||
@@ -805,7 +810,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.0||
 |vapoursynth|73|77||
-|vim|9.2.0593|9.2.0785||
+|vim|9.2.0593|9.2.0786||
 |vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.357||
