@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1784440285?label=Updated)
+![Relative date](https://img.shields.io/date/1784448797?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -35,7 +35,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |brotli|1.2.0|8.0.4||
 |btrfs-progs|6.19.1|7.1||
 |buildah|1.43.1|1.44.0||
-|busybox|1.37.0|1.38.0||
 |byacc|2.0.20260126|20260126||
 |c-ares|1.34.6|1.34.8||
 |cairo|1.18.4|1.109||
@@ -286,6 +285,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libatomic_ops|7.8.2|7.10.0||
 |libavif|1.4.0|1.4.2||
 |libblockdev|3.4.0|3.5.0||
+|libbluray|1.4.1|1.4.0|Possible downgrade from the current version (1.4.1 -> 1.4.0)|
 |libburn|1.5.6|1.5.8||
 |libcap|2.76|2.78||
 |libcap-ng|0.8.5|0.9.3||
@@ -358,6 +358,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libthai|0.1.29|0.1.30||
 |libtiff|4.7.0|4.7.2||
 |libtool|2.5.4|2.6.2||
+|libtraceevent|1.8.4|1.9.0||
 |libudev-zero|1.0.3|1.0.4||
 |libunibreak|6.1|7.0||
 |liburing|2.12|2.15||
@@ -504,7 +505,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-awscrt|0.32.0|0.36.0||
 |python-bcrypt|3.2.2|5.0.0||
 |python-bibtexparser|1.4.4|2.0.0b9||
-|python-bitarray|3.8.0|3.9.0||
+|python-bitarray|3.8.0|3.9.1||
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.13.2|Possible downgrade from the current version (3.13.1 -> blivet-3.13.2)|
@@ -535,7 +536,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hpack|4.1.0|4.2.0||
 |python-httplib2|0.31.2|0.32.0||
 |python-huggingface-hub|1.5.0|1.24.0||
-|python-hypothesis|6.152.4|6.156.9||
+|python-hypothesis|6.152.4|6.157.0||
 |python-idna|3.13|3.18||
 |python-ijson|3.5.0|3.5.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
@@ -709,6 +710,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rpmlint|2.8.0|2.9.0||
 |rrdtool|1.9.0|1.10.3||
 |rsync|3.4.3|3.4.4||
+|rsyslog|8.2510.0|8.2606.0||
 |rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.6||
 |runc|1.4.0|1.5.1||
