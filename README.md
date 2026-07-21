@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1784601446?label=Updated)
+![Relative date](https://img.shields.io/date/1784612969?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -116,7 +116,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gcc|16|16.1.0||
 |gdk-pixbuf|2.44.6|2.44.7||
 |genext2fs|1.5.0|1.6.2||
-|genimage|19|20||
 |gettext|1.0|2.1.0||
 |gi-docgen|2025.4|2026.1||
 |giflib|5.2.2|6.1.3||
@@ -248,6 +247,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iotop|1.30|0.6|Possible downgrade from the current version (1.30 -> 0.6)|
 |iozone|3_508|3.511||
 |iperf|3.21|2.2.1|Possible downgrade from the current version (3.21 -> 2.2.1)|
+|ipmitool|1.8.19|1_8_19||
 |iproute2|6.16.0|7.1.0||
 |iprutils|2.4.19|2.4.18.1|Possible downgrade from the current version (2.4.19 -> 2.4.18.1)|
 |iptables|1.8.11|1.8.13||
@@ -262,6 +262,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jsoncpp|1.9.7|1.9.8||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.7||
+|kbd|2.9.0|2.10.0||
 |kdsoap|2.2.0|2.3.0||
 |kea|3.1.4|3.2.0||
 |keepalived|2.2.8|2.3.4||
@@ -322,10 +323,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libisofs|1.5.6|1.5.8.pl02||
 |libjpeg-turbo|3.1.2|3.2.0||
 |libjwt|3.2.2|3.6.1||
+|libjxl|0.11.2|0.12.0||
 |libklvanc|1.6.0|id.obe.1.6.0||
 |libksba|1.6.7|1.8.0||
 |liblognorm|2.0.6|2.1.0||
 |libmaxminddb|1.12.2|1.13.3||
+|libmbim|1.32.0|1.34.0||
 |libmd|1.1.0|1.2.0||
 |libmicrohttpd|1.0.2|1.0.6||
 |libmodulemd|2.15.2|2.15.3||
@@ -337,10 +340,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libp11|0.4.13|0.4.18||
 |libpaper|2.2.6|2.2.8||
 |libpcap|1.10.5|1.10.6||
+|libpciaccess|0.18|0.19||
 |libplasma|6.7.1|6.7.3||
 |libpsl|0.21.5|0.23.0||
 |libqalculate|5.9.0|5.12.0||
-|libqmi|1.36.0|1.38.0||
 |libqrtr-glib|1.2.2|1.4.0||
 |libraw|0.22.1|0.22.2||
 |libseccomp|2.6.0|2.6.1||
@@ -373,10 +376,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libxslt|1.1.43|1.1.45||
 |libyang|4.2.2|5.8.6||
 |lighttpd|1.4.82|1.4.85||
-|linux|7.1.3|7.1|Possible downgrade from the current version (7.1.3 -> 7.1)|
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.7.0||
@@ -400,7 +403,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.1.1|26.1.5||
 |meson|1.10.2|1.11.2||
-|mimalloc|3.3.2|3.4.1||
+|mimalloc|3.3.2|3.4.3||
 |minicom|2.10|2.11.1||
 |minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
 |minizip-ng|4.1.0|4.2.2||
@@ -426,7 +429,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nfs-utils|2.8.4|2.9.1||
 |nfs4-acl-tools|0.4.2|0.3.7|Possible downgrade from the current version (0.4.2 -> 0.3.7)|
 |nftables|1.1.5|1.1.6||
-|nghttp3|1.12.0|1.17.0||
 |ngtcp2|1.16.0|1.24.0||
 |nmap|7.92|7.99||
 |nodejs|24.13.0|26.5.0||
@@ -474,6 +476,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |perl-rpm-packaging|1.2|1.3||
 |php|8.5.7|8.5.8||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
+|picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.8||
 |pkgconf|2.5.1|3.0.3||
@@ -487,6 +490,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |pv|1.10.5|1.11.0||
 |pybind11|3.0.1|3.0.4||
+|python|3.13.8|3.14.6||
 |python-accelerate|1.13.0|1.14.0||
 |python-aiohappyeyeballs|2.6.1|2.7.1||
 |python-aiohttp|3.14.1|3.14.2||
@@ -522,7 +526,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-expandvars|1.1.2|1.24.5||
 |python-fastapi|0.136.1|0.139.2||
 |python-fastavro|1.12.1|1.12.2||
-|python-filelock|3.29.0|3.31.1||
+|python-filelock|3.29.0|3.31.2||
 |python-fsspec|2026.4.0|2026.6.0||
 |python-gevent|26.4.0|26.5.0||
 |python-greenlet|3.4.0|3.5.3||
@@ -626,6 +630,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-transformers|5.2.0|5.14.1||
 |python-trove-classifiers|2025.8.26.11|2026.6.1.19||
 |python-typing-extensions|4.15.0|4.16.0||
+|python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-tzlocal|5.3.1|5.4.4||
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.51.0||
@@ -747,6 +752,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |sg3_utils|1.48|1.49||
+|shaderc|2026.1|2026.3||
 |shared-mime-info|2.4|2.5.1||
 |shim|16.1<br>+git20260715.0a88e2a|16.1|Compound version number '16.1+git20260715.0a88e2a'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
@@ -757,7 +763,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |socat|1.8.1.1|1.8.1.3||
 |socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
-|spdk|25.09|26.05||
 |spdlog|1.15.3|1.17.0||
 |spirv-cross|1.4.335.0|1.4.350.1||
 |spirv-headers|1.4.350.0|1.4.350.1||
@@ -794,13 +799,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |udisks2|2.11.0|2.11.1||
 |unicode-ucd|17.0.0|18.0.0||
 |unifont|16.0.04|17.0.05||
+|universal-ctags|6.2.0|6.2.20260621.0||
 |upower|1.91.1|1.91.3||
 |usbutils|018|019||
 |usermode|1.114|usermode-1.114|Possible downgrade from the current version (1.114 -> usermode-1.114)|
 |userspace-rcu|0.15.3|0.15.6||
 |utf8cpp|4.0.8|4.1.1||
 |utf8proc|2.10.0|2.11.3||
-|util-linux|2.41.3|2.42.2||
 |uuid|1.6.2|1.24.0||
 |vala|0.56.18|0.56.19||
 |valgrind|3.27.0|3.27.1||
