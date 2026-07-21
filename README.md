@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1784591901?label=Updated)
+![Relative date](https://img.shields.io/date/1784601446?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -244,16 +244,17 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hyphen|2.8.8|2.8.9||
 |ibus|1.5.33|1.5.34||
 |icu4c|77.1|78.3||
+|iio-sensor-proxy|3.8|3.9||
 |iotop|1.30|0.6|Possible downgrade from the current version (1.30 -> 0.6)|
 |iozone|3_508|3.511||
 |iperf|3.21|2.2.1|Possible downgrade from the current version (3.21 -> 2.2.1)|
-|ipmitool|1.8.19|1_8_19||
 |iproute2|6.16.0|7.1.0||
 |iprutils|2.4.19|2.4.18.1|Possible downgrade from the current version (2.4.19 -> 2.4.18.1)|
 |iptables|1.8.11|1.8.13||
 |iptstate|2.2.7|2.3.0||
 |isl|0.27|0.28||
 |iso-codes|4.18.0|4.20.1||
+|jansson|2.15.0|2.15.1||
 |jitterentropy|3.6.3|3.7.0||
 |jose|14|15||
 |jq|1.8.1|1.8.2||
@@ -261,7 +262,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jsoncpp|1.9.7|1.9.8||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.7||
-|kbd|2.9.0|2.10.0||
 |kdsoap|2.2.0|2.3.0||
 |kea|3.1.4|3.2.0||
 |keepalived|2.2.8|2.3.4||
@@ -278,6 +278,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXi|1.8.2|1.8.3||
 |libXmu|1.2.1|1.3.1||
 |libXrandr|1.5.4|1.5.5||
+|libXres|1.2.2|1.2.3||
 |libXxf86vm|1.1.6|1.1.7||
 |libaec|1.1.6|1.1.7||
 |libarchive|3.8.7|3.8.8||
@@ -294,6 +295,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcerror|20240413|20260703||
 |libclc|21.1.7|22.1.8||
 |libcnotify|20240414|20260703||
+|libcomps|0.1.23|0.1.24||
 |libconfig|1.8.1|1.8.2||
 |libcthreads|20240413|20260703||
 |libdatrie|0.2.13|0.2.14||
@@ -313,18 +315,17 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libfyaml|0.9.3|0.9.6||
 |libgcrypt|1.11.2|1.12.2||
 |libgit2|1.9.2|1.9.6||
+|libgpg-error|1.58|1.61||
 |libheif|1.21.2|1.23.1||
 |libical|3.0.20|4.0.3||
 |libisoburn|1.5.6|1.5.8.pl02||
 |libisofs|1.5.6|1.5.8.pl02||
 |libjpeg-turbo|3.1.2|3.2.0||
 |libjwt|3.2.2|3.6.1||
-|libjxl|0.11.2|0.12.0||
 |libklvanc|1.6.0|id.obe.1.6.0||
 |libksba|1.6.7|1.8.0||
 |liblognorm|2.0.6|2.1.0||
 |libmaxminddb|1.12.2|1.13.3||
-|libmbim|1.32.0|1.34.0||
 |libmd|1.1.0|1.2.0||
 |libmicrohttpd|1.0.2|1.0.6||
 |libmodulemd|2.15.2|2.15.3||
@@ -336,7 +337,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libp11|0.4.13|0.4.18||
 |libpaper|2.2.6|2.2.8||
 |libpcap|1.10.5|1.10.6||
-|libpciaccess|0.18|0.19||
 |libplasma|6.7.1|6.7.3||
 |libpsl|0.21.5|0.23.0||
 |libqalculate|5.9.0|5.12.0||
@@ -370,6 +370,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libxkbfile|1.1.3|1.2.0||
 |libxml2|2.14.5|2.15.3||
 |libxmlb|0.3.24|0.3.28||
+|libxslt|1.1.43|1.1.45||
 |libyang|4.2.2|5.8.6||
 |lighttpd|1.4.82|1.4.85||
 |linux|7.1.3|7.1|Possible downgrade from the current version (7.1.3 -> 7.1)|
@@ -463,6 +464,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pam|1.7.1|2.2.5||
 |pango|1.57.0|4.3.7||
 |pangomm|2.46.4|2.56.2||
+|parallel|20250822|20260622||
 |passt|0<br>+git20260424.ec96f01|2026_07_16.090d739|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.2||
 |patchelf|0.18.0|0.19.1||
@@ -472,7 +474,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |perl-rpm-packaging|1.2|1.3||
 |php|8.5.7|8.5.8||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
-|picocom|2024.07|2024-07||
+|pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.8||
 |pkgconf|2.5.1|3.0.3||
 |podman|5.8.2|6.0.1||
@@ -485,7 +487,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |pv|1.10.5|1.11.0||
 |pybind11|3.0.1|3.0.4||
-|python|3.13.8|3.14.6||
 |python-accelerate|1.13.0|1.14.0||
 |python-aiohappyeyeballs|2.6.1|2.7.1||
 |python-aiohttp|3.14.1|3.14.2||
@@ -625,7 +626,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-transformers|5.2.0|5.14.1||
 |python-trove-classifiers|2025.8.26.11|2026.6.1.19||
 |python-typing-extensions|4.15.0|4.16.0||
-|python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-tzlocal|5.3.1|5.4.4||
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.51.0||
@@ -747,7 +747,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |sg3_utils|1.48|1.49||
-|shaderc|2026.1|2026.3||
 |shared-mime-info|2.4|2.5.1||
 |shim|16.1<br>+git20260715.0a88e2a|16.1|Compound version number '16.1+git20260715.0a88e2a'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
@@ -765,6 +764,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |spirv-llvm-translator|22.1.3|22.1.4||
 |spirv-tools|1.4.350.0|2026.2||
 |sqlite|3.53.2|3.53.3||
+|squashfuse|0.6.1|0.6.2||
 |srt|1.5.4|1.5.6||
 |sssd|2.11.1|2.13.1||
 |strace|6.19|7.1||
@@ -794,12 +794,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |udisks2|2.11.0|2.11.1||
 |unicode-ucd|17.0.0|18.0.0||
 |unifont|16.0.04|17.0.05||
-|universal-ctags|6.2.0|6.2.20260621.0||
 |upower|1.91.1|1.91.3||
 |usbutils|018|019||
 |usermode|1.114|usermode-1.114|Possible downgrade from the current version (1.114 -> usermode-1.114)|
 |userspace-rcu|0.15.3|0.15.6||
 |utf8cpp|4.0.8|4.1.1||
+|utf8proc|2.10.0|2.11.3||
 |util-linux|2.41.3|2.42.2||
 |uuid|1.6.2|1.24.0||
 |vala|0.56.18|0.56.19||
