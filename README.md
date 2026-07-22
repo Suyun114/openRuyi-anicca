@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1784747610?label=Updated)
+![Relative date](https://img.shields.io/date/1784754320?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -15,6 +15,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |acl|2.3.2|2.4.0||
 |alsa-lib|1.2.15.3|1.2.16.1||
 |appstream|1.1.2|1.1.4||
+|arrow|24.0.0|59.1.0||
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |asn1c|0.9.28|0.9.29||
 |at-spi2-core|2.58.2|2.60.5||
@@ -27,7 +28,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bash-completion|2.17.0|2.18.0||
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
 |binutils|2.46.0|2.46.1||
-|blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
 |bluez|5.86|5.87||
 |bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.91.0-1||
@@ -118,6 +118,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |genext2fs|1.5.0|1.6.2||
 |genimage|19|20||
 |gettext|1.0|2.1.0||
+|gflags|2.3.0|2.3.1||
 |gi-docgen|2025.4|2026.1||
 |giflib|5.2.2|6.1.3||
 |git|2.54.0|2.55.0||
@@ -320,6 +321,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libgit2|1.9.2|1.9.6||
 |libgpg-error|1.58|1.61||
 |libheif|1.21.2|1.23.1||
+|libical|3.0.20|4.0.3||
 |libisoburn|1.5.6|1.5.8.pl02||
 |libisofs|1.5.6|1.5.8.pl02||
 |libjpeg-turbo|3.1.2|3.2.0||
@@ -382,7 +384,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.7.0||
@@ -506,15 +507,15 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-argcomplete|3.6.3|3.7.0||
 |python-asgiref|3.11.1|3.12.1||
 |python-asttokens|3.0.1|3.0.2||
-|python-awscrt|0.32.0|0.36.0||
+|python-awscrt|0.32.0|0.36.1||
 |python-bcrypt|3.2.2|5.0.0||
 |python-bibtexparser|1.4.4|2.0.0b9||
 |python-bitarray|3.8.0|3.9.1||
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.14.0|Possible downgrade from the current version (3.13.1 -> blivet-3.14.0)|
-|python-boto3|1.43.6|1.43.53||
-|python-botocore|1.43.11|1.43.53||
+|python-boto3|1.43.6|1.43.54||
+|python-botocore|1.43.11|1.43.54||
 |python-cachetools|7.1.1|7.1.4||
 |python-charset-normalizer|3.4.7|3.4.9||
 |python-click|8.3.3|8.4.2||
@@ -610,7 +611,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-rfc3986|1.5.0|2.0.0||
 |python-rpmautospec|0.8.3|0.8.4||
 |python-rtslib-fb|2.2.3|2.2.4||
-|python-s3transfer|0.17.0|0.19.1||
+|python-s3transfer|0.17.0|0.19.2||
 |python-scikit-build-core|0.12.2|1.0.3||
 |python-sentencepiece|0.2.1|0.2.2||
 |python-service-identity|24.2.0|26.1.0||
@@ -740,10 +741,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-windows-link-0.2|0.2.1|73||
 |rust-windows-sys-0.61|0.61.2|73||
 |rust-winnow-0.7|0.7.15|1.0.4||
-|rust-wit-bindgen-0.51|0.51.0|0.59.0||
-|rust-wit-bindgen-core-0.51|0.51.0|0.59.0||
-|rust-wit-bindgen-rust-0.51|0.51.0|0.59.0||
-|rust-wit-bindgen-rust-macro-0.51|0.51.0|0.59.0||
+|rust-wit-bindgen-0.51|0.51.0|0.60.0||
+|rust-wit-bindgen-core-0.51|0.51.0|0.60.0||
+|rust-wit-bindgen-rust-0.51|0.51.0|0.60.0||
+|rust-wit-bindgen-rust-macro-0.51|0.51.0|0.60.0||
 |rust-wit-component-0.244|0.244.0|1.254.0||
 |rust-wit-parser-0.244|0.244.0|1.254.0||
 |ruyi|0.46.0|0.51.0||
@@ -820,7 +821,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.1||
 |vapoursynth|73|77||
-|vim|9.2.0593|9.2.0829||
+|vim|9.2.0593|9.2.0834||
 |vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.357||
