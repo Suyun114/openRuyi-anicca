@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1784780092?label=Updated)
+![Relative date](https://img.shields.io/date/1784791958?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -125,7 +125,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |git|2.54.0|2.55.0||
 |glew|2.2.0|2.3.1||
 |glib|2.87.1|2.88.2||
-|glibmm|2.86.0|2.88.1||
 |glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.4.0||
 |glusterfs|11.1|11.2||
@@ -257,7 +256,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iptables|1.8.11|1.8.13||
 |iptstate|2.2.7|2.3.0||
 |isl|0.27|0.28||
-|iso-codes|4.18.0|4.20.1||
 |jansson|2.15.0|2.15.1||
 |jitterentropy|3.6.3|3.7.0||
 |jose|14|15||
@@ -304,7 +302,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libconfig|1.8.1|1.8.2||
 |libcthreads|20240413|20260703||
 |libdatrie|0.2.13|0.2.14||
-|libdisplay-info|0.2.0|0.3.0||
 |libdrm|2.4.131|2.4.134||
 |libdvdread|7.0.1|7.1.1||
 |libdwarf|2.2.0|2.3.2||
@@ -400,7 +397,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lxc|6.0.6|7.0.0||
 |lxcfs|6.0.6|7.0.0||
 |lynis|3.1.6|3.1.7||
-|lz4|1.10.0|1.28.1||
 |mariadb|11.8.6|13.0.1||
 |mariadb-connector-c|3.4.8|3.4.9||
 |mdevd|0.1.8.1|0.1.8.2||
@@ -542,7 +538,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hpack|4.1.0|4.2.0||
 |python-httplib2|0.31.2|0.32.0||
 |python-huggingface-hub|1.5.0|1.24.0||
-|python-hypothesis|6.152.4|6.160.0||
+|python-hypothesis|6.152.4|6.161.0||
 |python-idna|3.13|3.18||
 |python-ijson|3.5.0|3.5.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
@@ -655,7 +651,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qalculate-qt|5.9.0.1|5.12.0||
 |qcoro|0.12.0|0.13.0||
 |qemu|11.0.1|11.0.2||
-|qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.67||
 |qt6-qt5compat|6.11.1|6.12.0-beta2||
 |qt6-qtcharts|6.11.1|6.12.0-beta2||
@@ -818,7 +813,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |utf8proc|2.10.0|2.11.3||
 |util-linux|2.41.3|2.42.2||
 |uuid|1.6.2|1.24.0||
-|vala|0.56.18|0.56.19||
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.1||
 |vapoursynth|73|77||
