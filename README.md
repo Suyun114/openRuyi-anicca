@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1784891013?label=Updated)
+![Relative date](https://img.shields.io/date/1784900362?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -387,7 +387,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.7.0||
@@ -404,7 +403,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lxcfs|6.0.6|7.0.0||
 |lynis|3.1.6|3.1.7||
 |lz4|1.10.0|1.28.1||
-|mariadb|11.8.6|13.0.1||
 |mariadb-connector-c|3.4.8|3.4.9||
 |mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
@@ -455,7 +453,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openconnect|9.12|9.21||
 |opencv|4.13.0|5.0.0||
 |openexr|3.4.10|3.4.13||
-|openjdk-17|17.0.19.10|jdk-17.0.20-ga||
+|openjdk-17|17.0.19.10|jdk-17.0.20.1+0||
 |openjdk-21|21.0.11.10|jdk-21.0.12.1+0||
 |openjdk-25|25.0.3.9|jdk-25.0.4.1+0||
 |openjdk-latest|26.0.1.8|jdk-25.0.4.1+0||
@@ -496,7 +494,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |protobuf|33.2|35.1||
 |psutils|2.10|3.3.15||
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
-|pv|1.10.5|1.11.0||
 |pybind11|3.0.1|3.0.4||
 |python|3.13.8|3.14.6||
 |python-accelerate|1.13.0|1.14.0||
@@ -862,6 +859,5 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |zfs|2.4.1|2.4.3||
 |zip|3.0|8.6.0||
 |zsh|5.9.1|5.9.2||
-|zstd|1.5.7|1.5.7.3||
 |zxing-cpp|3.0.2|3.1.0||
 |zziplib|0.13.80|3.0||
