@@ -1,13 +1,12 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1784950388?label=Updated)
+![Relative date](https://img.shields.io/date/1784960278?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
 |NetworkManager|1.54.3|1.58.0||
 |PackageKit|1.3.5|1.3.6||
-|SDL3|3.4.2|3.4.12||
 |Xwayland|24.1.11|24.1.13||
 |aardvark-dns|1.17.1|2.0.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
@@ -307,9 +306,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libconfig|1.8.1|1.8.2||
 |libcthreads|20240413|20260703||
 |libdatrie|0.2.13|0.2.14||
-|libdisplay-info|0.2.0|0.4.0||
 |libdrm|2.4.131|2.4.134||
-|libdvdread|7.0.1|7.1.1||
 |libdwarf|2.2.0|2.3.2||
 |libeconf|0.7.8|0.8.4||
 |libedit|20250104.3.1|20260512-3.1||
@@ -352,7 +349,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libpsl|0.21.5|0.23.0||
 |libqalculate|5.9.0|5.12.0||
 |libqmi|1.36.0|1.38.0||
-|libqrtr-glib|1.2.2|1.4.0||
 |libraw|0.22.1|0.22.2||
 |libseccomp|2.6.0|2.6.1||
 |libselinux|3.10|3.11||
@@ -369,7 +365,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libtool|2.5.4|2.6.2||
 |libtraceevent|1.8.4|1.9.0||
 |libudev-zero|1.0.3|1.0.4||
-|libunibreak|6.1|7.0||
 |liburing|2.12|2.15||
 |libusb|1.0.29|1.0.30||
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
@@ -473,12 +468,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |otf2bdf|3.1|3.1_p1|Possible downgrade from the current version (3.1 -> 3.1_p1)|
 |ovmf|202602|edk2-stable202605|Versions not comparable: `202602` and `edk2-stable202605`|
 |p11-kit|0.25.5|0.26.4||
-|pam|1.7.1|2.2.5||
 |pango|1.57.0|4.3.7||
 |pangomm|2.46.4|2.56.2||
 |parallel|20250822|20260722||
 |passt|0<br>+git20260424.ec96f01|2026_07_16.090d739|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
-|patch|2.8|3.1.2||
 |patchelf|0.18.0|0.19.1||
 |pcsc-lite|2.3.3|2.5.1||
 |perl|5.42.0|5.44.0||
@@ -514,12 +507,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-awscrt|0.32.0|0.36.1||
 |python-bcrypt|3.2.2|5.0.0||
 |python-bibtexparser|1.4.4|2.0.0b9||
-|python-bitarray|3.8.0|3.9.1||
+|python-bitarray|3.8.0|3.9.2||
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.14.0|Possible downgrade from the current version (3.13.1 -> blivet-3.14.0)|
 |python-boto3|1.43.6|1.43.56||
-|python-botocore|1.43.11|1.43.55||
+|python-botocore|1.43.11|1.43.56||
 |python-cachetools|7.1.1|7.1.6||
 |python-charset-normalizer|3.4.7|3.4.9||
 |python-click|8.3.3|8.4.2||
@@ -826,7 +819,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.1||
 |vapoursynth|73|78||
-|vim|9.2.0593|9.2.0852||
+|vim|9.2.0593|9.2.0854||
 |vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.357||
@@ -839,7 +832,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wayback|0.3|0.5.1||
 |wayland|1.25.0|1.26.0||
 |wayland-protocols|1.48|1.49||
-|weston|14.0.2|16.0.0||
 |which|2.23|8.0.5||
 |whois|5.6.4|5.6.6.git||
 |wlroots|0.20.1|0.20.2||
