@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1785057129?label=Updated)
+![Relative date](https://img.shields.io/date/1785064738?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -25,7 +25,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |authselect|1.6.1|1.7.1||
 |autoconf|2.72|2.73||
 |avahi|0.9~rc4|0.8|Possible downgrade from the current version (0.9~rc4 -> 0.8)|
-|bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
 |bash-completion|2.17.0|2.18.0||
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
 |binutils|2.46.0|2.46.1||
@@ -34,6 +33,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.91.0-1||
 |brotli|1.2.0|8.0.4||
+|btrbk|0.32.6|0.32.7||
 |btrfs-progs|6.19.1|7.1||
 |buildah|1.43.1|1.44.1||
 |busybox|1.37.0|1.38.0||
@@ -85,7 +85,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dropbear|2026.91|2026.94||
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
-|dwarfs|0.15.3|0.15.5||
 |dwarves|1.30|1.31||
 |dwz|0.16|0.17||
 |editorconfig-core-c|0.12.10|0.12.11||
@@ -328,7 +327,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libical|3.0.20|4.0.4||
 |libisoburn|1.5.6|1.5.8.pl02||
 |libisofs|1.5.6|1.5.8.pl02||
-|libjpeg-turbo|3.1.2|3.2.0||
 |libjwt|3.2.2|3.6.1||
 |libjxl|0.11.2|0.12.0||
 |libklvanc|1.6.0|id.obe.1.6.0||
@@ -367,6 +365,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libthai|0.1.29|0.1.30||
 |libtiff|4.7.0|4.7.2||
 |libtool|2.5.4|2.6.2||
+|libtraceevent|1.8.4|1.9.0||
 |libudev-zero|1.0.3|1.0.4||
 |libunibreak|6.1|7.0||
 |liburing|2.12|2.15||
@@ -387,7 +386,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.7.0||
@@ -400,7 +398,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |luajit|2.1<br>+openresty20260114|2.1.ROLLING|Compound version number '2.1+openresty20260114'|
 |lutok|0.6.1|0.6.2||
 |lvm2|2.03.35|2.03.41||
-|lxc|6.0.6|7.0.0||
 |lxcfs|6.0.6|7.0.0||
 |lynis|3.1.6|3.1.7||
 |lz4|1.10.0|1.28.1||
@@ -438,6 +435,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nftables|1.1.5|1.1.6||
 |nghttp3|1.12.0|1.17.0||
 |ngtcp2|1.16.0|1.24.0||
+|nmap|7.92|7.99||
 |nodejs|24.13.0|26.5.0||
 |nspr|4.39.0|4.39||
 |nss|3.124.0|3.126||
@@ -578,7 +576,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-preshed|3.0.12|release-v3.0.13|Possible downgrade from the current version (3.0.12 -> release-v3.0.13)|
 |python-prettytable|3.17.0|3.18.0||
 |python-prometheus-client|0.25.0|0.26.0||
-|python-prometheus-fastapi-instrumentator|7.1.0|8.0.3.dev2||
+|python-prometheus-fastapi-instrumentator|7.1.0|8.1.0||
 |python-propcache|0.4.1|0.5.2||
 |python-protobuf|6.33.2|7.35.1||
 |python-prov|2.1.1|2.5.1||
@@ -812,6 +810,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |unbound|1.25.1|1.25.2||
 |unicode-ucd|17.0.0|18.0.0||
 |unifont|16.0.04|17.0.05||
+|universal-ctags|6.2.0|6.2.20260621.0||
 |upower|1.91.1|1.91.3||
 |usbutils|018|019||
 |usermode|1.114|usermode-1.114|Possible downgrade from the current version (1.114 -> usermode-1.114)|
@@ -824,7 +823,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.1||
 |vapoursynth|73|78||
-|vim|9.2.0593|9.2.0856||
 |vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.357||
