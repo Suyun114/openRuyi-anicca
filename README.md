@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1785071730?label=Updated)
+![Relative date](https://img.shields.io/date/1785078216?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -389,7 +389,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.7.0||
@@ -474,6 +473,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |otf2bdf|3.1|3.1_p1|Possible downgrade from the current version (3.1 -> 3.1_p1)|
 |ovmf|202602|edk2-stable202605|Versions not comparable: `202602` and `edk2-stable202605`|
 |p11-kit|0.25.5|0.26.4||
+|pam|1.7.1|2.2.5||
 |pango|1.57.0|4.3.7||
 |pangomm|2.46.4|2.56.2||
 |parallel|20250822|20260722||
@@ -806,6 +806,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tftp|5.3|5.4||
 |thrift|0.22.0|0.24.0||
 |tinysparql|3.10.1|3.11.1||
+|tmux|3.6a|3.7b||
 |tpm2-tss|4.1.3|4.2.0||
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.27.0||
