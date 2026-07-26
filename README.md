@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1785023976?label=Updated)
+![Relative date](https://img.shields.io/date/1785035883?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.2||
@@ -33,7 +33,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bluez|5.86|5.87||
 |bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.91.0-1||
-|brotli|1.2.0|8.0.4||
 |btrbk|0.32.6|0.32.7||
 |btrfs-progs|6.19.1|7.1||
 |buildah|1.43.1|1.44.1||
@@ -61,7 +60,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.2||
 |crontabs|1.11|crontabs-20190603||
-|crun|1.27.1|1.28||
 |cryptsetup|2.8.6|2.8.7||
 |cunit|2.1.3|2.1-3||
 |curl|8.20.0|8.21.0||
@@ -86,7 +84,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dropbear|2026.91|2026.94||
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
-|dwarfs|0.15.3|0.15.5||
 |dwarves|1.30|1.31||
 |dwz|0.16|0.17||
 |editorconfig-core-c|0.12.10|0.12.11||
@@ -114,6 +111,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |foot|1.26.1|1.27.0||
 |freerdp|3.26.0|3.30.0||
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
+|gawk|5.4.0|5.4.1||
 |gcc|16|16.1.0||
 |gdk-pixbuf|2.44.6|2.44.7||
 |genext2fs|1.5.0|1.6.2||
@@ -227,6 +225,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gpgme|2.0.1|2.1.2||
 |gpgmepp|2.0.0|2.1.0||
 |graphite2|1.3.14|1.3.15||
+|graphviz|14.1.5|15.1.0||
 |grpc|1.80.0|1.83.0||
 |gsasl|2.2.2|2.2.4||
 |gsl|2.8|4.2.2||
@@ -237,7 +236,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |guidelines-support-library|4.2.1|4.2.2||
 |haproxy|3.3|3.4.2||
 |harfbuzz|12.1.0|14.2.1||
-|haveged|1.9.20|1.9.26||
 |hdf5|2.0.0|2.1.1||
 |hipblas|7.2.4|20250912-17||
 |hipify|7.2.4|20250912-42||
@@ -486,7 +484,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
-|pipewire|1.5.84|1.6.8||
 |pkgconf|2.5.1|3.0.4||
 |podman|5.8.2|6.0.2||
 |policycoreutils|3.10|3.11||
@@ -806,6 +803,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |thrift|0.22.0|0.24.0||
 |tinysparql|3.10.1|3.11.1||
 |tmux|3.6a|3.7b||
+|tpm2-tss|4.1.3|4.2.0||
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.27.0||
 |udisks2|2.11.0|2.11.1||
