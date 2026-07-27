@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1785110748?label=Updated)
+![Relative date](https://img.shields.io/date/1785126972?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -390,6 +390,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.7.0||
@@ -404,8 +405,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lvm2|2.03.35|2.03.41||
 |lxc|6.0.6|7.0.0||
 |lxcfs|6.0.6|7.0.0||
-|lynis|3.1.6|3.1.7||
 |lz4|1.10.0|1.28.1||
+|mariadb|11.8.6|13.0.1||
 |mariadb-connector-c|3.4.8|3.4.9||
 |mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
@@ -482,7 +483,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |patchelf|0.18.0|0.19.1||
 |pcsc-lite|2.3.3|2.5.1||
 |perl|5.42.0|5.44.0||
-|perl-rpm-packaging|1.2|1.3||
 |php|8.5.7|8.5.8||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
@@ -519,7 +519,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.14.0|Possible downgrade from the current version (3.13.1 -> blivet-3.14.0)|
 |python-boto3|1.43.6|1.43.56||
-|python-botocore|1.43.11|1.43.56||
 |python-cachetools|7.1.1|7.1.6||
 |python-charset-normalizer|3.4.7|3.4.9||
 |python-click|8.3.3|8.4.2||
