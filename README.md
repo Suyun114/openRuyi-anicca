@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1785254906?label=Updated)
+![Relative date](https://img.shields.io/date/1785262427?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -20,6 +20,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |asn1c|0.9.28|0.9.29||
 |at-spi2-core|2.58.2|2.60.5||
+|atkmm|2.28.4|2.36.4||
 |attr|2.5.2|2.6.0||
 |audit|4.1.4|4.2||
 |authselect|1.6.1|1.7.1||
@@ -50,7 +51,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cloud-hypervisor|52.0<br>+git20260608.|53.0|Compound version number '52.0+git20260608.'<br>Version number indicates a snapshot (+git) is used|
 |cloud-init|25.3|26.1||
 |cloud-utils|0.33|0.34||
-|cmake|4.3.2|4.4.0||
+|cmake|4.3.2|4.4.1||
 |cmocka|1.1.7|2.0.2||
 |config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
 |conmon|2.1.13|2.2.1||
@@ -242,7 +243,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |harfbuzz|12.1.0|14.2.1||
 |haveged|1.9.20|1.9.26||
 |hdf5|2.0.0|2.1.1||
-|hipblas|7.2.4|20250912-17||
 |hipify|7.2.4|20250912-42||
 |htop|3.5.1|3.5.2||
 |httpd|2.4.66|2.4.68||
@@ -250,7 +250,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hwdata|0.407|0.409||
 |hwinfo|25.0|25.4||
 |hwloc|2.12.2|2.14.0||
-|hyphen|2.8.8|2.8.9||
 |ibus|1.5.33|1.5.34||
 |icu4c|77.1|78.3||
 |iio-sensor-proxy|3.8|3.9||
@@ -293,7 +292,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXxf86vm|1.1.6|1.1.7||
 |libaec|1.1.6|1.1.7||
 |libarchive|3.8.7|3.8.9||
-|libass|0.17.4|0.17.5||
 |libavif|1.4.0|1.4.2||
 |libblockdev|3.4.0|3.5.0||
 |libbluray|1.4.1|1.4.0|Possible downgrade from the current version (1.4.1 -> 1.4.0)|
@@ -479,13 +477,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pango|1.57.0|4.3.7||
 |pangomm|2.46.4|2.56.2||
 |parallel|20250822|20260722||
-|passt|0<br>+git20260424.ec96f01|2026_07_16.090d739|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
+|passt|0<br>+git20260424.ec96f01|2026_07_28.f8df3f1|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.2||
 |patchelf|0.18.0|0.19.1||
 |pcsc-lite|2.3.3|2.5.1||
 |perl|5.42.0|5.44.0||
 |perl-rpm-packaging|1.2|1.3||
-|php|8.5.7|8.5.8||
+|php|8.5.7|8.5.9||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
@@ -541,7 +539,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-fastavro|1.12.1|1.12.2||
 |python-fastjsonschema|2.21.2|2.22.1||
 |python-filelock|3.29.0|3.32.1||
-|python-fsspec|2026.4.0|2026.6.0||
+|python-fsspec|2026.4.0|2026.7.0||
 |python-gevent|26.4.0|26.7.0||
 |python-greenlet|3.4.0|3.5.4||
 |python-h2|4.3.0|4.4.0||
@@ -833,6 +831,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.1||
 |vapoursynth|73|78||
+|vim|9.2.0593|9.2.0865||
 |vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.357||
