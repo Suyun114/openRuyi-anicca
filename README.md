@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1785342059?label=Updated)
+![Relative date](https://img.shields.io/date/1785348384?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -239,7 +239,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gtk-doc|1.35.1|1.36.1||
 |gtk3|3.24.51|4.3.7||
 |guidelines-support-library|4.2.1|4.2.2||
-|haproxy|3.3|3.4.2||
+|haproxy|3.3|3.4.3||
 |harfbuzz|12.1.0|14.2.1||
 |haveged|1.9.20|1.9.26||
 |hdf5|2.0.0|2.2.0||
@@ -415,6 +415,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
+|mesa|26.1.1|26.1.5||
 |meson|1.10.2|1.11.2||
 |mimalloc|3.3.2|3.4.3||
 |minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
@@ -453,6 +454,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |obs-build|20260623|20260721||
 |ollama|0.13.5|0.32.5||
 |onnx|1.20.1|1.22.0||
+|onnxruntime|1.24.1|1.28.0||
 |open-iscsi|2.1.11|2.1.12||
 |open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
@@ -539,7 +541,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-en-core-web-sm|3.8.0|en_core_web_hftrf-3.8.1|Possible downgrade from the current version (3.8.0 -> en_core_web_hftrf-3.8.1)|
 |python-eval-type-backport|0.3.1|0.4.0||
 |python-expandvars|1.1.2|1.24.5||
-|python-fastapi|0.136.1|0.141.0||
+|python-fastapi|0.136.1|0.141.1||
 |python-fastavro|1.12.1|1.12.2||
 |python-fastjsonschema|2.21.2|2.22.1||
 |python-filelock|3.29.0|3.32.1||
@@ -565,6 +567,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-lxml|6.0.1|lxml-7.0.0a3||
 |python-marisa-trie|1.3.1|1.4.1||
 |python-maturin|1.14.0|1.14.1||
+|python-meh|0.52|0.53||
 |python-meson-python|0.19.0|0.20.0||
 |python-mitogen|0.3.47|0.3.51||
 |python-more-itertools|11.0.2|11.1.0||
@@ -658,7 +661,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-virtualenv|20.35.4|21.7.0||
 |python-wcwidth|0.7.0|0.8.2||
 |python-weasel|1.0.0|release-v1.0.0||
-|python-websockets|16.0|16.1.1||
+|python-websockets|16.0|17.0||
 |python-wheel|0.45.1|0.47.0||
 |python-wrapt|2.1.1|2.3.0||
 |python-xxhash|3.6.0|3.8.1||
