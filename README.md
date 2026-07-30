@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1785426730?label=Updated)
+![Relative date](https://img.shields.io/date/1785432349?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -132,6 +132,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.4.0||
 |glusterfs|11.1|11.2||
+|gnupg|2.5.20|2.5.21||
 |go-github-ajg-form|1.7.1|1.9.0||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
 |go-github-alecthomas-kong|1.15.0|1.16.0||
@@ -153,7 +154,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-charmbracelet-lipgloss|1.1.0|2.0.5||
 |go-github-charmbracelet-log|1.0.0|2.0.0||
 |go-github-charmbracelet-ssh|0<br>+git20250826.ebfa259|0.4.1|Compound version number '0+git20250826.ebfa259'<br>Version number indicates a snapshot (+git) is used|
-|go-github-charmbracelet-x|0<br>+git20260204.d6a2763|powernap/v0.1.6|Compound version number '0+git20260204.d6a2763'<br>Version number indicates a snapshot (+git) is used|
+|go-github-charmbracelet-x|0<br>+git20260204.d6a2763|xpty/v0.1.4|Compound version number '0+git20260204.d6a2763'<br>Version number indicates a snapshot (+git) is used|
 |go-github-cheggaaa-pb-v1|1.0.29|3.2.0||
 |go-github-clipperhouse-displaywidth|0.6.2|0.11.0||
 |go-github-clipperhouse-uax29-v2|2.3.0|2.7.0||
@@ -334,14 +335,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libisofs|1.5.6|1.5.8.pl02||
 |libjpeg-turbo|3.1.2|3.2.0||
 |libjwt|3.2.2|3.6.1||
-|libjxl|0.11.2|0.12.0||
 |libklvanc|1.6.0|id.obe.1.6.0||
 |libksba|1.6.7|1.8.0||
-|liblognorm|2.0.6|2.1.0||
 |libmaxminddb|1.12.2|1.13.3||
 |libmbim|1.32.0|1.34.0||
 |libmd|1.1.0|1.2.0||
-|libmicrohttpd|1.0.2|1.0.8||
+|libmicrohttpd|1.0.2|1.0.9||
 |libmodulemd|2.15.2|2.15.3||
 |libnbd|1.23.13|1.25.7||
 |libnftnl|1.3.0|1.3.1||
@@ -392,7 +391,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux|7.1.4|7.1|Possible downgrade from the current version (7.1.4 -> 7.1)|
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
-|llhttp|9.4.1|9.4.2||
+|llhttp|9.4.1|9.4.3||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -728,11 +727,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocsolver|7.2.4|20250912-42||
 |rpcbind|1.2.8|1.2.9||
 |rpm|6.0.1|6.0.2-release||
-|rpmlint|2.8.0|2.9.0||
 |rrdtool|1.9.0|1.10.3||
 |rsync|3.4.3|3.4.4||
 |rsyslog|8.2510.0|8.2606.0||
-|rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.6||
 |runc|1.4.0|1.5.1||
 |rust|1.95.0|1.97.1||
@@ -858,7 +855,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wlroots|0.20.1|0.20.2||
 |wofi|1.5.2|1.5.3||
 |wolfssl|5.8.2|5.9.2-stable||
-|wtmpdb|0.74.0|0.75.0||
+|wtmpdb|0.74.0|0.76.0||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
 |xdg-desktop-portal|1.20.3|1.22.1||
 |xdg-desktop-portal-wlr|0.8.1|0.8.4||
