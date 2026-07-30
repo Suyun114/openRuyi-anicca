@@ -1,13 +1,14 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1785403887?label=Updated)
+![Relative date](https://img.shields.io/date/1785412310?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
 |NetworkManager|1.54.3|1.58.0||
 |PackageKit|1.3.5|1.3.6||
 |SDL3|3.4.2|3.4.12||
+|Xwayland|24.1.11|24.1.13||
 |aardvark-dns|1.17.1|2.0.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
 |accountsservice|23.13.9|26.27.3||
@@ -176,7 +177,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-go-openapi-spec|0.22.6|0.22.9||
 |go-github-go-openapi-swag|0.26.1|yamlutils/v0.28.0||
 |go-github-go-openapi-testify|2.3.0|2.6.0||
-|go-github-go-redis-redis|9.18.0|9.21.0||
+|go-github-go-redis-redis|9.18.0|9.22.0-beta.1||
 |go-github-golang-freetype|0<br>+git20260106.e2365df|release|Compound version number '0+git20260106.e2365df'<br>Version number indicates a snapshot (+git) is used<br>Versions not comparable: `0+git20260106.e2365df` and `release`|
 |go-github-google-flatbuffers|25.12.19|25.12.19-2026-02-06-03fffb2||
 |go-github-grpc-ecosystem-grpc-gateway|2.27.7|2.29.0||
@@ -262,6 +263,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iproute2|6.16.0|7.1.0||
 |iprutils|2.4.19|2.4.18.1|Possible downgrade from the current version (2.4.19 -> 2.4.18.1)|
 |iptables|1.8.11|1.8.13||
+|iptstate|2.2.7|2.3.0||
 |isl|0.27|0.28||
 |iso-codes|4.18.0|4.20.1||
 |jansson|2.15.0|2.15.1||
@@ -286,6 +288,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |less|702|704||
 |libXfont2|2.0.7|2.0.8||
 |libXft|2.3.8|2.3.9||
+|libXi|1.8.2|1.8.3||
 |libXmu|1.2.1|1.3.1||
 |libXrandr|1.5.4|1.5.5||
 |libXres|1.2.2|1.2.3||
@@ -391,6 +394,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -550,8 +554,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hiredis|3.3.1|3.4.0||
 |python-hpack|4.1.0|4.2.0||
 |python-httplib2|0.31.2|0.32.0||
-|python-huggingface-hub|1.5.0|1.25.1||
-|python-hypothesis|6.152.4|6.163.0||
+|python-huggingface-hub|1.5.0|1.26.0.rc2||
+|python-hypothesis|6.152.4|6.163.1||
 |python-idna|3.13|3.18||
 |python-ijson|3.5.0|3.5.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
