@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1785419659?label=Updated)
+![Relative date](https://img.shields.io/date/1785426730?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -132,7 +132,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.4.0||
 |glusterfs|11.1|11.2||
-|gnupg|2.5.20|2.5.21||
 |go-github-ajg-form|1.7.1|1.9.0||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
 |go-github-alecthomas-kong|1.15.0|1.16.0||
@@ -147,13 +146,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-asaskevich-govalidator|11.0.1|12.0.0||
 |go-github-aws-smithy-go|2025.12.01|1.27.5|Possible downgrade from the current version (2025.12.01 -> 1.27.5)|
 |go-github-brianvoe-gofakeit|7.14.1|7.15.0||
-|go-github-buger-jsonparser|1.2.0|1.6.0||
+|go-github-buger-jsonparser|1.2.0|1.6.1||
 |go-github-cenkalti-backoff|5.0.3|7.0.0||
 |go-github-cespare-xxhash|1.1.0|2.3.0||
 |go-github-charmbracelet-bubbletea|1.3.10|2.0.8||
 |go-github-charmbracelet-lipgloss|1.1.0|2.0.5||
 |go-github-charmbracelet-log|1.0.0|2.0.0||
-|go-github-charmbracelet-ssh|0<br>+git20250826.ebfa259|0.4.0|Compound version number '0+git20250826.ebfa259'<br>Version number indicates a snapshot (+git) is used|
+|go-github-charmbracelet-ssh|0<br>+git20250826.ebfa259|0.4.1|Compound version number '0+git20250826.ebfa259'<br>Version number indicates a snapshot (+git) is used|
 |go-github-charmbracelet-x|0<br>+git20260204.d6a2763|powernap/v0.1.6|Compound version number '0+git20260204.d6a2763'<br>Version number indicates a snapshot (+git) is used|
 |go-github-cheggaaa-pb-v1|1.0.29|3.2.0||
 |go-github-clipperhouse-displaywidth|0.6.2|0.11.0||
@@ -394,7 +393,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.2||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -474,7 +472,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openvswitch|3.5.1|3.7.1||
 |openzl|0.1.0|0.2.0||
 |opus|1.5.2|1.6.1||
-|os-prober|1.83|1.84||
+|os-prober|1.83|1.85||
 |osc|1.21.0|1.27.2||
 |osinfo-db|20250606|20251212||
 |otf2bdf|3.1|3.1_p1|Possible downgrade from the current version (3.1 -> 3.1_p1)|
@@ -554,7 +552,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hiredis|3.3.1|3.4.0||
 |python-hpack|4.1.0|4.2.0||
 |python-httplib2|0.31.2|0.32.0||
-|python-huggingface-hub|1.5.0|1.26.0.rc2||
+|python-huggingface-hub|1.5.0|1.26.0||
 |python-hypothesis|6.152.4|6.164.0||
 |python-idna|3.13|3.18||
 |python-ijson|3.5.0|3.5.1||
@@ -585,7 +583,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-packaging|25.0|26.2||
 |python-peft|0.19.1|0.20.0||
 |python-pip|26.1.2|26.2||
-|python-pipdeptree|2.30.0|4.1.1||
+|python-pipdeptree|2.30.0|4.1.2||
 |python-platformdirs|4.9.6|4.11.0||
 |python-preshed|3.0.12|release-v3.0.13|Possible downgrade from the current version (3.0.12 -> release-v3.0.13)|
 |python-prettytable|3.17.0|3.18.0||
@@ -660,7 +658,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-tzlocal|5.3.1|5.4.4||
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.52.0||
-|python-virtualenv|20.35.4|21.7.0||
+|python-virtualenv|20.35.4|21.7.1||
 |python-wcwidth|0.7.0|0.8.2||
 |python-weasel|1.0.0|release-v1.0.0||
 |python-websockets|16.0|17.0||
@@ -785,7 +783,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.5||
 |skalibs|2.14.5.1|2.15.1.0||
-|slang|2.3.3|2026.14||
+|slang|2.3.3|2026.14.1||
 |slibtool|0.7.3|0.7.4||
 |socat|1.8.1.1|1.8.1.3||
 |socket_wrapper|1.5.0|1.5.2||
