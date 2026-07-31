@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1785506826?label=Updated)
+![Relative date](https://img.shields.io/date/1785516308?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -46,11 +46,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cbindgen|0.29.2|0.29.4||
 |check|0.15.2|1.13.0||
 |checkpolicy|3.10|3.11||
+|cifs-utils|7.5|7.7||
 |ck|0.7.2|2.6.4||
 |cloud-hypervisor|52.0<br>+git20260608.|53.0|Compound version number '52.0+git20260608.'<br>Version number indicates a snapshot (+git) is used|
 |cloud-init|25.3|26.2||
 |cloud-utils|0.33|0.34||
-|cmake|4.3.2|4.4.1||
+|cmake|4.3.2|4.4.2||
 |cmocka|1.1.7|2.0.2||
 |cockpit|364|365||
 |config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
@@ -451,7 +452,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nspr|4.39.0|4.39||
 |nss|3.124.0|3.126||
 |ntfs-3g|2022.10.3|2026.7.7||
-|nvme-cli|2.16|3.0-b.3||
+|nvme-cli|2.16|3.0-b.4||
 |obs-build|20260623|20260721||
 |ollama|0.13.5|0.32.5||
 |onnx|1.20.1|1.22.0||
@@ -527,12 +528,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.14.0|Possible downgrade from the current version (3.13.1 -> blivet-3.14.0)|
 |python-boto3|1.43.6|1.43.61||
-|python-botocore|1.43.11|1.43.60||
+|python-botocore|1.43.11|1.43.61||
 |python-cachetools|7.1.1|7.1.6||
 |python-charset-normalizer|3.4.7|3.4.9||
 |python-click|8.3.3|8.4.2||
 |python-colorlog|6.10.1|6.12.0||
 |python-coverage|7.13.4|7.15.2||
+|python-cryptography|49.0.0|50.0.0||
 |python-csvw|4.0.0|4.1.0||
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
 |python-dashscope|1.25.11|1.26.5||
@@ -584,6 +586,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-orjson|3.11.7|3.11.9||
 |python-packaging|25.0|26.2||
 |python-peft|0.19.1|0.20.0||
+|python-phonemizer|3.3.0|3.4.0||
 |python-pip|26.1.2|26.2||
 |python-pipdeptree|2.30.0|4.1.2||
 |python-platformdirs|4.9.6|4.11.0||
@@ -652,7 +655,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-torchvision|0.25.0|0.28.0||
 |python-tornado|6.5.4|6.5.7||
 |python-tqdm|4.67.3|4.70.0||
-|python-traitlets|5.15.0|5.15.1||
+|python-traitlets|5.15.0|5.16.0||
 |python-transformers|5.2.0|5.14.1||
 |python-trove-classifiers|2025.8.26.11|2026.6.1.19||
 |python-typing-extensions|4.15.0|4.16.0||
@@ -858,6 +861,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |which|2.23|8.0.5||
 |whois|5.6.4|5.6.6.git||
 |wlroots|0.20.1|0.20.2||
+|wofi|1.5.2|1.5.3||
 |wolfssl|5.8.2|5.9.2-stable||
 |wtmpdb|0.74.0|0.76.0||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
