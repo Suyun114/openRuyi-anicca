@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1785535477?label=Updated)
+![Relative date](https://img.shields.io/date/1785542471?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -235,7 +235,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gpgmepp|2.0.0|2.1.0||
 |graphite2|1.3.14|1.3.15||
 |graphviz|14.1.5|15.1.0||
-|grpc|1.80.0|1.83.0||
 |gsasl|2.2.2|2.2.4||
 |gsl|2.8|4.2.2||
 |gstreamer|1.27.50|4.3.7||
@@ -244,7 +243,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gtk3|3.24.51|4.3.7||
 |guidelines-support-library|4.2.1|4.2.2||
 |haproxy|3.3|3.4.3||
-|harfbuzz|12.1.0|14.3.0||
 |haveged|1.9.20|1.9.26||
 |hdf5|2.0.0|2.2.0||
 |hipblas|7.2.4|20250912-17||
@@ -397,6 +395,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -589,7 +588,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-peft|0.19.1|0.20.0||
 |python-phonemizer|3.3.0|3.4.0||
 |python-pip|26.1.2|26.2||
-|python-pipdeptree|2.30.0|4.1.2||
+|python-pipdeptree|2.30.0|4.2.0||
 |python-platformdirs|4.9.6|4.11.0||
 |python-preshed|3.0.12|release-v3.0.13|Possible downgrade from the current version (3.0.12 -> release-v3.0.13)|
 |python-prettytable|3.17.0|3.18.0||
@@ -852,6 +851,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vulkan-headers|1.4.335.0|1.4.358||
 |vulkan-loader|1.4.335.0|1.4.358||
 |vulkan-tools|1.4.335|1.4.357||
+|vulkan-utility-libraries|1.4.335.0|1.4.358||
 |vulkan-validation-layers|1.4.335.0|ulkan-sdk-1.4.357.0|Possible downgrade from the current version (1.4.335.0 -> ulkan-sdk-1.4.357.0)|
 |wabt|1.0.39|1.0.41||
 |wavpack|5.8.1|5.9.0||
