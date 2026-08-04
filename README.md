@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1785829089?label=Updated)
+![Relative date](https://img.shields.io/date/1785839793?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -18,6 +18,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |appstream-glib|0.8.3|0.8.4||
 |arrow|24.0.0|59.1.0||
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
+|asn1c|0.9.28|0.9.29||
 |at-spi2-core|2.58.2|2.60.6||
 |atkmm|2.28.4|2.36.4||
 |attr|2.5.2|2.6.0||
@@ -45,6 +46,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cbindgen|0.29.2|0.29.4||
 |check|0.15.2|1.13.0||
 |checkpolicy|3.10|3.11||
+|cifs-utils|7.5|7.7||
 |ck|0.7.2|2.6.4||
 |cloud-hypervisor|52.0<br>+git20260608.|53.0|Compound version number '52.0+git20260608.'<br>Version number indicates a snapshot (+git) is used|
 |cloud-init|25.3|26.2||
@@ -93,7 +95,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |editorconfig-core-c|0.12.10|0.12.11||
 |elfutils|0.194|0.195||
 |enchant|2.8.16|2.8.19||
-|erofs-utils|1.9.1|1.9.2||
 |ethtool|6.15|7.1||
 |exfatprogs|1.3.2|1.4.2||
 |expat|2.8.1|2.8.2||
@@ -101,6 +102,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fakeroot|1.37.2|2.1.4||
 |fast_float|8.2.5|8.2.10||
 |fastfetch|2.63.1|2.66.0||
+|ffmpeg|8.1.2|9.0||
 |ffnvcodec|13.0.19.0|n13.1.15.0||
 |file|5.47|5.48||
 |findutils|4.10.0|4.11.0||
@@ -113,6 +115,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-noto-serif-cjk|2.003|Serif2.003||
 |fonts-sarasa-gothic|1.0.37|1.0.40||
 |foot|1.26.1|1.27.0||
+|freerdp|3.26.0|3.30.0||
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
 |gawk|5.4.0|5.4.1||
 |gcc|16|16.1.0||
@@ -120,6 +123,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |genext2fs|1.5.0|1.6.2||
 |genimage|19|20||
 |gettext|1.0|2.1.0||
+|gflags|2.3.0|2.3.1||
 |gi-docgen|2025.4|2026.1||
 |giflib|5.2.2|6.1.3||
 |git|2.54.0|2.55.0||
@@ -245,11 +249,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |harfbuzz|12.1.0|14.3.0||
 |haveged|1.9.20|1.9.26||
 |hdf5|2.0.0|2.2.0||
+|hipblas|7.2.4|20250912-17||
 |hipify|7.2.4|20250912-42||
 |htop|3.5.1|3.5.2||
 |httpd|2.4.66|2.4.68||
 |hunspell-en|2026.02.25|rel-2026.02.25||
-|hwdata|0.407|0.410||
 |hwinfo|25.0|25.5||
 |hwloc|2.12.2|2.14.0||
 |hyphen|2.8.8|2.8.9||
@@ -303,7 +307,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcap|2.76|2.78||
 |libcap-ng|0.8.5|0.9.3||
 |libcdata|20240414|20260703||
-|libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
 |libcerror|20240413|20260703||
 |libclc|21.1.7|22.1.8||
 |libcnotify|20240414|20260703||
@@ -318,6 +321,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libdwarf|2.2.0|2.3.2||
 |libeconf|0.7.8|0.8.4||
 |libedit|20250104.3.1|20260512-3.1||
+|libei|1.5.0|1.6.0||
 |libevdev|1.13.5|1.13.6||
 |libevent|2.1.12|2.1.13||
 |libfcache|20240414|20260520||
@@ -350,6 +354,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libnvme|1.16.1|1.16.2||
 |libp11|0.4.13|0.4.19||
 |libpaper|2.2.6|2.2.8||
+|libpcap|1.10.5|1.10.6||
 |libpciaccess|0.18|0.19||
 |libplasma|6.7.1|6.7.3||
 |libpsl|0.21.5|0.23.1||
@@ -394,6 +399,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |llhttp|9.4.1|9.4.3||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
+|log4cxx|1.6.1|1.8.0||
 |lshw|B.02.20|02.20||
 |lsof|4.99.6|4.99.7||
 |lttng-ust|2.14.0|2.15.1||
@@ -426,6 +432,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |msgpack|3.1.0|5.4.1||
 |mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
+|multipath-tools|0.11.1|0.15.0||
 |mupdf|1.27.2|1.28.1||
 |nano|9.0|9.2||
 |nasm|3.01|3.02||
@@ -648,7 +655,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-tempita|0.6.0|0.6||
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
 |python-tensile|7.2.4|rocm-7.2.4||
-|python-time-machine|3.2.0|3.3.0||
+|python-time-machine|3.2.0|3.3.1||
 |python-tokenizers|0.22.2|pipeline-baseline|Versions not comparable: `0.22.2` and `pipeline-baseline`|
 |python-tomlkit|0.15.0|0.15.1||
 |python-torchvision|0.25.0|0.28.0||
@@ -770,6 +777,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-wit-parser-0.244|0.244.0|1.255.0||
 |ruyi|0.46.0|0.51.0||
 |safeint|3.0.28a|3.24||
+|samba|4.23.2|4.24.5||
 |scap-security-guide|0.1.80|0.1.81||
 |scdoc|1.11.3|1.11.5||
 |sdbus-cpp|2.1.0|2.3.1||
@@ -805,7 +813,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |stress-ng|0.20.01|0.21.04||
 |strongswan|6.0.2|6.0.7||
 |sysrepo|4.2.10|5.1.0||
-|systemd|261.1|0.10.1|Possible downgrade from the current version (261.1 -> 0.10.1)|
+|sysstat|12.7.8|12.7.9||
 |taglib|2.1.1|2.3.1||
 |talloc|2.4.3|2.5.0||
 |tar|1.35|7.5.22||
@@ -825,7 +833,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.27.0||
 |udisks2|2.11.0|2.11.1||
-|unbound|1.25.1|1.25.2||
+|unbound|1.25.1|1.26.0||
 |unicode-ucd|17.0.0|18.0.0||
 |unifont|16.0.04|17.0.05||
 |universal-ctags|6.2.0|6.2.20260621.0||
@@ -881,6 +889,5 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |zfs|2.4.1|2.4.3||
 |zip|3.0|8.6.0||
 |zsh|5.9.1|5.9.2||
-|zstd|1.5.7|1.5.7.3||
 |zxing-cpp|3.0.2|3.1.1||
 |zziplib|0.13.80|3.0||
