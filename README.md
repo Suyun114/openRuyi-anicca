@@ -1,13 +1,13 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1785794852?label=Updated)
+![Relative date](https://img.shields.io/date/1785802125?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
 |NetworkManager|1.54.3|1.58.0||
 |PackageKit|1.3.5|1.3.6||
-|SDL3|3.4.2|3.4.12||
+|SDL3|3.4.2|3.4.14||
 |Xwayland|24.1.11|24.1.13||
 |aardvark-dns|1.17.1|2.0.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
@@ -306,7 +306,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libbluray|1.4.1|1.5.0||
 |libburn|1.5.6|1.5.8||
 |libcap|2.76|2.78||
-|libcap-ng|0.8.5|0.9.3||
 |libcdata|20240414|20260703||
 |libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
 |libcerror|20240413|20260703||
@@ -323,6 +322,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libdwarf|2.2.0|2.3.2||
 |libeconf|0.7.8|0.8.4||
 |libedit|20250104.3.1|20260512-3.1||
+|libei|1.5.0|1.6.0||
 |libevdev|1.13.5|1.13.6||
 |libevent|2.1.12|2.1.13||
 |libfcache|20240414|20260520||
@@ -398,6 +398,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -454,6 +455,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nspr|4.39.0|4.39||
 |nss|3.124.0|3.126||
 |ntfs-3g|2022.10.3|2026.7.7||
+|nvme-cli|2.16|3.0-b.4||
 |obs-build|20260623|20260721||
 |ollama|0.13.5|0.32.5||
 |onnx|1.20.1|1.22.0||
@@ -554,7 +556,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-gevent|26.4.0|26.7.0||
 |python-greenlet|3.4.0|3.5.4||
 |python-h2|4.3.0|4.4.1||
-|python-hf-xet|1.5.1|1.6.0-rc0||
+|python-hf-xet|1.5.1|1.6.0||
 |python-hiredis|3.3.1|3.4.0||
 |python-hpack|4.1.0|4.2.0||
 |python-httplib2|0.31.2|0.32.0||
@@ -599,7 +601,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-prometheus-fastapi-instrumentator|7.1.0|8.1.0||
 |python-prompt-toolkit|3.0.52|3.0.53||
 |python-propcache|0.4.1|0.5.2||
-|python-protobuf|6.33.2|7.35.1||
 |python-prov|2.1.1|3.0.0||
 |python-puccinialin|0.1.11|0.1.14||
 |python-puremagic|1.30|2.2.0||
@@ -851,7 +852,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valkey|8.1.4|9.1.1||
 |vapoursynth|73|78||
 |vid.stab|1.1.1|1.1.2||
-|vim|9.2.0593|9.2.0907||
 |vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.358||
