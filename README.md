@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1785884544?label=Updated)
+![Relative date](https://img.shields.io/date/1785888850?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -134,7 +134,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glibc|2.43|2.44||
 |glibmm|2.86.0|2.88.1||
 |glog|0.7.1|1.2.5||
-|glslang|1.4.335.0|16.5.0||
 |glusterfs|11.1|11.2||
 |gnupg|2.5.20|2.5.21||
 |go-github-ajg-form|1.7.1|1.9.0||
@@ -498,7 +497,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |php|8.5.7|8.5.9||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
-|pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.8||
 |pkgconf|2.5.1|3.0.5||
 |podman|5.8.2|6.0.2||
