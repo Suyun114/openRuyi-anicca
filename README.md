@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786015326?label=Updated)
+![Relative date](https://img.shields.io/date/1786024886?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -16,8 +16,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |alsa-lib|1.2.15.3|1.2.16.1||
 |appstream|1.1.2|1.1.5||
 |appstream-glib|0.8.3|0.8.4||
+|apr-util|1.6.3|1.6.4||
 |arrow|24.0.0|59.1.0||
-|asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |asn1c|0.9.28|0.9.29||
 |at-spi2-core|2.58.2|2.60.6||
 |atkmm|2.28.4|2.36.4||
@@ -47,6 +47,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cbindgen|0.29.2|0.29.4||
 |check|0.15.2|1.13.0||
 |checkpolicy|3.10|3.11||
+|cifs-utils|7.5|7.7||
 |ck|0.7.2|2.6.4||
 |cloud-hypervisor|52.0<br>+git20260608.|53.0|Compound version number '52.0+git20260608.'<br>Version number indicates a snapshot (+git) is used|
 |cloud-init|25.3|26.2||
@@ -255,6 +256,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hipblas|7.2.4|20250912-17||
 |hipify|7.2.4|20250912-42||
 |htop|3.5.1|3.5.2||
+|httpd|2.4.66|2.4.68||
 |hunspell-en|2026.02.25|rel-2026.02.25||
 |hwdata|0.407|0.410||
 |hwinfo|25.0|25.5||
@@ -277,7 +279,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jitterentropy|3.6.3|3.7.0||
 |jose|14|15||
 |jq|1.8.1|1.8.2||
-|json-c|0.18|0.19||
 |jsoncpp|1.9.7|1.9.8||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.7||
@@ -358,6 +359,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libnvme|1.16.1|1.16.2||
 |libp11|0.4.13|0.4.19||
 |libpaper|2.2.6|2.2.8||
+|libpcap|1.10.5|1.10.6||
 |libpciaccess|0.18|0.19||
 |libplasma|6.7.1|6.7.4||
 |libpsl|0.21.5|0.23.1||
@@ -400,6 +402,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.0||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -484,7 +487,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |osinfo-db|20250606|20251212||
 |otf2bdf|3.1|3.1_p1|Possible downgrade from the current version (3.1 -> 3.1_p1)|
 |ovmf|202602|edk2-stable202605|Versions not comparable: `202602` and `edk2-stable202605`|
-|p11-kit|0.25.5|0.26.4||
+|p11-kit|0.25.5|0.26.5||
 |pam|1.7.1|2.2.5||
 |pango|1.57.0|4.3.7||
 |pangomm|2.46.4|2.56.2||
@@ -576,6 +579,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-lxml|6.0.1|lxml-7.0.0a3||
 |python-marisa-trie|1.3.1|1.4.1||
 |python-maturin|1.14.0|1.14.1||
+|python-meh|0.52|0.53||
 |python-meson-python|0.19.0|0.20.0||
 |python-mitogen|0.3.47|0.3.51||
 |python-more-itertools|11.0.2|11.1.0||
@@ -611,7 +615,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pycdlib|1.16.0|1.20.0||
 |python-pycparser|3.0|release_v3.00||
 |python-pycurl|7.45.7|7.47.0||
-|python-pydantic|2.12.5|2.14.0a1||
+|python-pydantic|2.12.5|2.14.0b1||
 |python-pydantic-settings|2.14.1|2.14.2||
 |python-pyelftools|0.32|0.33||
 |python-pygit2|1.18.2|1.19.3||
@@ -656,7 +660,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-spacy|3.8.14|release-v3.8.14|Possible downgrade from the current version (3.8.14 -> release-v3.8.14)|
 |python-srsly|2.5.3|3.0.0||
 |python-starlette|1.0.0|1.4.1||
-|python-systemd|235|236||
 |python-tempita|0.6.0|0.6||
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
 |python-tenacity|9.1.4|9.2.0||
@@ -680,7 +683,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-weasel|1.0.0|release-v1.0.0||
 |python-websockets|16.0|17.0.1||
 |python-wheel|0.45.1|0.47.0||
-|python-wrapt|2.1.1|2.4.0.dev3||
+|python-wrapt|2.1.1|2.4.0rc1||
 |python-xxhash|3.6.0|3.8.1||
 |python-yarl|1.22.0|1.24.5||
 |python-zipp|3.23.1|4.1.0||
