@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786112059?label=Updated)
+![Relative date](https://img.shields.io/date/1786118135?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -35,7 +35,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
 |bluez|5.86|5.87||
 |bolt|0.9.11|1.3.1||
-|boost|1.89.0|1.91.0-1||
 |brotli|1.2.0|8.0.4||
 |btrbk|0.32.6|0.32.7||
 |btrfs-progs|6.19.1|7.1||
@@ -65,7 +64,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.2||
 |crontabs|1.11|crontabs-20190603||
-|crun|1.27.1|1.28||
+|crun|1.27.1|1.29||
 |cryptsetup|2.8.6|2.8.7||
 |cunit|2.1.3|2.1-3||
 |curl|8.20.0|8.21.0||
@@ -127,6 +126,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |genext2fs|1.5.0|1.6.2||
 |genimage|19|20||
 |gettext|1.0|2.1.0||
+|gflags|2.3.0|2.3.1||
 |gi-docgen|2025.4|2026.1||
 |giflib|5.2.2|6.1.3||
 |git|2.54.0|2.55.0||
@@ -888,8 +888,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xdg-desktop-portal|1.20.3|1.22.1||
 |xdg-desktop-portal-wlr|0.8.1|0.8.4||
 |xdg-user-dirs|0.19|0.20||
-|xevd|0.5.0|0.6.0||
-|xeve|0.5.1|0.6.0||
+|xevd|0.5.0|0.7.0||
+|xeve|0.5.1|0.7.0||
 |xfsdump|3.2.0|3.3.0||
 |xkeyboard-config|2.46|2.48||
 |xmlsec|1.3.10|1.3.17||
