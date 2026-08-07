@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786124897?label=Updated)
+![Relative date](https://img.shields.io/date/1786128786?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -27,7 +27,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |authselect|1.6.1|1.7.1||
 |autoconf|2.72|2.73||
 |avahi|0.9~rc4|0.8|Possible downgrade from the current version (0.9~rc4 -> 0.8)|
-|bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
 |bash-completion|2.17.0|2.18.0||
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
 |binutils|2.46.0|2.47||
@@ -106,6 +105,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fakeroot|1.37.2|2.1.4||
 |fast_float|8.2.5|8.2.10||
 |fastfetch|2.63.1|2.67.0||
+|ffmpeg|8.1.2|9.0||
 |ffnvcodec|13.0.19.0|n13.1.15.0||
 |file|5.47|5.48||
 |findutils|4.10.0|4.11.0||
@@ -151,7 +151,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-apache-thrift|0.23.0|0.24.0||
 |go-github-apparentlymart-go-textseg|16.0.0|17.0.1||
 |go-github-asaskevich-govalidator|11.0.1|12.0.0||
-|go-github-aws-smithy-go|2025.12.01|1.27.6|Possible downgrade from the current version (2025.12.01 -> 1.27.6)|
+|go-github-aws-smithy-go|2025.12.01|1.27.7|Possible downgrade from the current version (2025.12.01 -> 1.27.7)|
 |go-github-brianvoe-gofakeit|7.14.1|7.15.0||
 |go-github-buger-jsonparser|1.2.0|1.6.1||
 |go-github-cenkalti-backoff|5.0.3|7.0.0||
@@ -159,7 +159,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-charmbracelet-bubbletea|1.3.10|2.0.8||
 |go-github-charmbracelet-lipgloss|1.1.0|2.0.5||
 |go-github-charmbracelet-log|1.0.0|2.0.0||
-|go-github-charmbracelet-ssh|0<br>+git20250826.ebfa259|0.4.2|Compound version number '0+git20250826.ebfa259'<br>Version number indicates a snapshot (+git) is used|
+|go-github-charmbracelet-ssh|0<br>+git20250826.ebfa259|0.4.3|Compound version number '0+git20250826.ebfa259'<br>Version number indicates a snapshot (+git) is used|
 |go-github-charmbracelet-x|0<br>+git20260204.d6a2763|xpty/v0.1.4|Compound version number '0+git20260204.d6a2763'<br>Version number indicates a snapshot (+git) is used|
 |go-github-cheggaaa-pb-v1|1.0.29|3.2.0||
 |go-github-clipperhouse-displaywidth|0.6.2|0.11.0||
@@ -739,7 +739,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rest|0.10.2|2.6.9||
 |rocblas|7.2.4|14.3.0||
 |rocclr|7.2.4|5.6.1|Possible downgrade from the current version (7.2.4 -> 5.6.1)|
-|rocksdb|10.5.1|11.8.0||
+|rocksdb|10.5.1|11.8.1||
 |rocm-bandwidth-test|6.4.2|20250912-42||
 |rocm-cmake|7.2.4|20250912-42||
 |rocm-llvm|7.2.4|20250912-42||
@@ -751,7 +751,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rpcbind|1.2.8|1.2.9||
 |rpm|6.0.1|6.0.2-release||
 |rpmlint|2.8.0|2.10.0||
-|rrdtool|1.9.0|1.10.3||
+|rrdtool|1.9.0|1.11.0||
 |rsync|3.4.3|3.4.4||
 |rsyslog|8.2510.0|8.2606.0||
 |rtkit|0.11|0.14||
@@ -870,7 +870,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vulkan-loader|1.4.335.0|1.4.358||
 |vulkan-tools|1.4.335|1.4.358||
 |vulkan-utility-libraries|1.4.335.0|1.4.358||
-|vulkan-validation-layers|1.4.335.0|1.4.358||
+|vulkan-validation-layers|1.4.335.0|1.4.359||
 |wabt|1.0.39|1.0.41||
 |wavpack|5.8.1|5.9.0||
 |wayback|0.3|0.5.1||
