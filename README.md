@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786171596?label=Updated)
+![Relative date](https://img.shields.io/date/1786175311?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -21,6 +21,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |asn1c|0.9.28|0.9.29||
 |at-spi2-core|2.58.2|2.60.6||
+|atkmm|2.28.4|2.36.4||
 |attr|2.5.2|2.6.0||
 |audit|4.1.4|4.2.1||
 |authselect|1.6.1|1.7.1||
@@ -610,7 +611,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-prompt-toolkit|3.0.52|3.0.53||
 |python-propcache|0.4.1|0.5.2||
 |python-protobuf|6.33.2|7.35.1||
-|python-prov|2.1.1|3.1.0||
+|python-prov|2.1.1|2.5.2||
 |python-puccinialin|0.1.11|0.1.14||
 |python-puremagic|1.30|2.2.0||
 |python-pyarrow|23.0.1|25.0.0||
@@ -662,7 +663,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-soundfile|0.13.1|0.14.0||
 |python-spacy|3.8.14|release-v3.8.15|Possible downgrade from the current version (3.8.14 -> release-v3.8.15)|
 |python-srsly|2.5.3|3.0.0||
-|python-starlette|1.0.0|1.4.1||
+|python-starlette|1.0.0|1.5.0||
 |python-systemd|235|236||
 |python-tempita|0.6.0|0.6||
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
@@ -738,6 +739,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rdma-core|60.0|64.0||
 |re2|2025.08.12|2025-11-05||
 |re2c|4.3|4.5.1||
+|rest|0.10.2|2.6.9||
 |rocblas|7.2.4|14.3.0||
 |rocclr|7.2.4|5.6.1|Possible downgrade from the current version (7.2.4 -> 5.6.1)|
 |rocksdb|10.5.1|11.8.1||
