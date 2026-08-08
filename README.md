@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786192937?label=Updated)
+![Relative date](https://img.shields.io/date/1786196701?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -30,7 +30,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
 |bash-completion|2.17.0|2.18.0||
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
-|binutils|2.46.0|2.47||
 |blake3|1.8.5|1.8.6||
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
 |bluez|5.86|5.87||
@@ -69,7 +68,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cryptsetup|2.8.6|2.8.7||
 |cunit|2.1.3|2.1-3||
 |curl|8.20.0|8.21.0||
-|curl-impersonate-chrome|0.7.0|2.0.0||
+|curl-impersonate-chrome|0.7.0|2.1.0||
 |date|3.0.4|3.5.1||
 |dav1d|1.5.3|1.5.4||
 |db|6.2.32|18.1.40||
@@ -139,6 +138,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.5.0||
 |glusterfs|11.1|11.2||
+|gnupg|2.5.20|2.5.21||
 |go-github-ajg-form|1.7.1|1.9.0||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
 |go-github-alecthomas-kong|1.15.0|1.16.0||
@@ -305,7 +305,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libaec|1.1.6|1.1.7||
 |libarchive|3.8.7|3.8.9||
 |libass|0.17.4|0.17.5||
-|libavif|1.4.0|1.4.2||
 |libblockdev|3.4.0|3.5.0||
 |libbluray|1.4.1|1.5.0||
 |libburn|1.5.6|1.5.8||
@@ -313,6 +312,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcap-ng|0.8.5|0.9.3||
 |libcdata|20240414|20260703||
 |libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
+|libcerror|20240413|20260703||
 |libclc|21.1.7|22.1.8||
 |libcnotify|20240414|20260703||
 |libcomps|0.1.23|0.1.24||
@@ -321,7 +321,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libdatrie|0.2.13|0.2.14||
 |libdisplay-info|0.2.0|0.4.0||
 |libdrm|2.4.131|2.4.134||
-|libdvdcss|1.5.0|1.6.0||
 |libdvdread|7.0.1|7.1.1||
 |libdwarf|2.2.0|2.3.2||
 |libeconf|0.7.8|0.8.4||
@@ -367,7 +366,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libqalculate|5.9.0|5.12.0||
 |libqmi|1.36.0|1.38.0||
 |libqrtr-glib|1.2.2|1.4.0||
-|libraw|0.22.1|0.22.2||
 |libseccomp|2.6.0|2.6.1||
 |libselinux|3.10|3.11||
 |libsemanage|3.10|3.11||
@@ -403,6 +401,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.1||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -620,7 +619,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pydantic|2.12.5|2.14.0b1||
 |python-pydantic-settings|2.14.1|2.15.0||
 |python-pyelftools|0.32|0.33||
-|python-pygit2|1.18.2|1.19.3||
+|python-pygit2|1.18.2|1.20.0||
 |python-pyjwt|2.12.1|2.13.0||
 |python-pylsqpack|0.3.23|0.3.24||
 |python-pymilvus|2.6.16|3.0.1||
@@ -757,6 +756,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rsyslog|8.2510.0|8.2606.0||
 |rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.6||
+|runc|1.4.0|1.5.1||
 |rust|1.95.0|1.97.1||
 |rust-errno-0.3|0.3.14|0.3.13|Possible downgrade from the current version (0.3.14 -> 0.3.13)|
 |rust-foldhash-0.1|0.1.5|0.2.0||
@@ -848,7 +848,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |udisks2|2.11.0|2.11.2||
 |unbound|1.25.1|1.26.0||
 |unicode-ucd|17.0.0|18.0.0||
-|unifont|16.0.04|17.0.05||
 |universal-ctags|6.2.0|6.2.20260621.0||
 |upower|1.91.1|1.91.3||
 |usbutils|018|019||
