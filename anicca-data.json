@@ -813,7 +813,6 @@
 ["libXfont2","2.0.7","2.0.9",[]],
 ["btrfs-progs","6.19.1","7.1",[]],
 ["libgcrypt","1.11.2","1.12.2",[]],
-["wabt","1.0.39","1.0.41",[]],
 ["wofi","1.5.2","1.5.3",[]],
 ["lynis","3.1.6","3.1.7",[]],
 ["go-golang-x-exp","0+git20260107.944ab1f","winfsnotify/v0.1.0-deprecated",["Compound version number '0+git20260107.944ab1f'","Version number indicates a snapshot (+git) is used"]],
