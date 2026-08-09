@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786283361?label=Updated)
+![Relative date](https://img.shields.io/date/1786285958?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -54,6 +54,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cloud-init|25.3|26.2||
 |cloud-utils|0.33|0.34||
 |cmake|4.3.2|4.4.2||
+|cmocka|1.1.7|2.0.2||
 |cockpit|364|365||
 |config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
 |conmon|2.1.13|2.2.1||
@@ -105,7 +106,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fakeroot|1.37.2|2.1.4||
 |fast_float|8.2.5|8.2.10||
 |fastfetch|2.63.1|2.67.0||
-|ffmpeg|8.1.2|9.0||
 |ffnvcodec|13.0.19.0|n13.1.15.0||
 |file|5.47|5.48||
 |findutils|4.10.0|4.11.0||
@@ -250,6 +250,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gtk3|3.24.51|4.3.7||
 |guidelines-support-library|4.2.1|4.2.2||
 |haproxy|3.3|3.4.3||
+|harfbuzz|12.1.0|14.3.0||
 |haveged|1.9.20|1.9.26||
 |hdf5|2.0.0|2.2.0||
 |hipblas|7.2.4|20250912-17||
@@ -306,6 +307,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libass|0.17.4|0.17.5||
 |libavif|1.4.0|1.4.2||
 |libblockdev|3.4.0|3.5.0||
+|libbluray|1.4.1|1.5.0||
 |libburn|1.5.6|1.5.8||
 |libcap|2.76|2.78||
 |libcap-ng|0.8.5|0.9.3||
