@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786274798?label=Updated)
+![Relative date](https://img.shields.io/date/1786279463?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -111,8 +111,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |file|5.47|5.48||
 |findutils|4.10.0|4.11.0||
 |firewalld|2.4.1|2.5.1||
-|fmt|12.1.0|12.2.0||
-|fontconfig|2.17.1|2.18.3||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
 |fonts-noto|2026.01.01|noto-monthly-release-2026.08.01||
 |fonts-noto-sans-cjk|2.004|Serif2.003|Possible downgrade from the current version (2.004 -> Serif2.003)|
@@ -367,6 +365,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libpciaccess|0.18|0.19||
 |libplasma|6.7.1|6.7.4||
 |libpsl|0.21.5|0.23.1||
+|libqalculate|5.9.0|5.12.0||
 |libqmi|1.36.0|1.38.0||
 |libqrtr-glib|1.2.2|1.4.0||
 |libraw|0.22.1|0.22.2||
@@ -409,7 +408,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
 |lshw|B.02.20|02.20||
-|lsof|4.99.6|4.99.7||
 |lttng-ust|2.14.0|2.15.1||
 |lua|5.4.8|5.5.1||
 |lua-json|1.3.4|1.3.5||
@@ -760,7 +758,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rsyslog|8.2510.0|8.2606.0||
 |rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.6||
-|runc|1.4.0|1.5.1||
 |rust|1.95.0|1.97.1||
 |rust-errno-0.3|0.3.14|0.3.13|Possible downgrade from the current version (0.3.14 -> 0.3.13)|
 |rust-foldhash-0.1|0.1.5|0.2.0||
