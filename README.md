@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786264764?label=Updated)
+![Relative date](https://img.shields.io/date/1786268298?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -43,6 +43,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |busybox|1.37.0|1.38.0||
 |byacc|2.0.20260126|20260126||
 |c-ares|1.34.6|1.34.8||
+|cairo|1.18.4|1.109||
 |capstone|5.0.3|5.0.9||
 |cbindgen|0.29.2|0.29.4||
 |check|0.15.2|1.13.0||
@@ -243,7 +244,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |graphviz|14.1.5|15.1.1||
 |grpc|1.80.0|1.83.0||
 |gsasl|2.2.2|2.2.4||
-|gsl|2.8|4.2.2||
 |gstreamer|1.27.50|4.3.7||
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
