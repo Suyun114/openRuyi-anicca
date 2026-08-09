@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786289354?label=Updated)
+![Relative date](https://img.shields.io/date/1786293157?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -45,7 +45,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |c-ares|1.34.6|1.34.8||
 |cairo|1.18.4|1.109||
 |capstone|5.0.3|5.0.9||
-|cbindgen|0.29.2|0.29.4||
 |check|0.15.2|1.13.0||
 |checkpolicy|3.10|3.11||
 |cifs-utils|7.5|7.7||
@@ -281,6 +280,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jose|14|15||
 |jq|1.8.1|1.8.2||
 |json-c|0.18|0.19||
+|jsoncpp|1.9.7|1.9.8||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.7||
 |kbd|2.9.0|2.10.0||
@@ -405,6 +405,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.1||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -455,7 +456,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nftables|1.1.5|1.1.6||
 |nghttp2|1.69.0|1.70.0||
 |nghttp3|1.12.0|1.18.0||
-|ngtcp2|1.16.0|1.25.0||
 |nmap|7.92|7.991||
 |nodejs|24.13.0|26.7.0||
 |nspr|4.39.0|4.40||
@@ -479,7 +479,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openjdk-latest|26.0.1.8|jdk-25.0.5+1||
 |openldap|2.6.13|2.7.0||
 |opensbi|1.8|1.9||
-|openssh|10.3p1|10.4p1||
 |openssl|3.6.3|4.0.2||
 |openvpn|2.6.16|2.7.6||
 |openvswitch|3.5.1|3.7.1||
