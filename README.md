@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786384281?label=Updated)
+![Relative date](https://img.shields.io/date/1786388092?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -121,6 +121,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |foot|1.26.1|1.27.0||
 |freerdp|3.26.0|3.30.0||
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
+|gawk|5.4.0|5.4.1||
 |gcc|16|16.2.0||
 |gdk-pixbuf|2.44.6|2.44.7||
 |genext2fs|1.5.0|1.6.2||
@@ -248,6 +249,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gstreamer|1.27.50|4.3.7||
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
+|gtk3|3.24.51|4.3.7||
 |guidelines-support-library|4.2.1|4.2.2||
 |haproxy|3.3|3.4.3||
 |harfbuzz|12.1.0|14.3.0||
@@ -516,6 +518,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |protobuf|33.2|35.1||
 |psutils|2.10|3.3.16||
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
+|pv|1.10.5|1.11.0||
 |pybind11|3.0.1|3.1.0||
 |python|3.13.8|3.14.7||
 |python-accelerate|1.13.0|1.14.0||
