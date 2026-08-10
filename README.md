@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786377573?label=Updated)
+![Relative date](https://img.shields.io/date/1786381010?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -224,7 +224,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-golang-x-crypto|0.53.0|0.54.0||
 |go-golang-x-exp|0<br>+git20260107.944ab1f|winfsnotify/v0.1.0-deprecated|Compound version number '0+git20260107.944ab1f'<br>Version number indicates a snapshot (+git) is used|
 |go-golang-x-image|0.43.0|0.44.0||
-|go-golang-x-mod|0.37.0|0.38.0||
+|go-golang-x-mod|0.37.0|0.39.0||
 |go-golang-x-net|0.56.0|0.57.0||
 |go-golang-x-sync|0.21.0|0.22.0||
 |go-golang-x-sys|0.46.0|0.47.0||
@@ -327,6 +327,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libdvdcss|1.5.0|1.6.0||
 |libdvdread|7.0.1|7.1.1||
 |libdwarf|2.2.0|2.3.2||
+|libeconf|0.7.8|0.8.4||
 |libedit|20250104.3.1|20260512-3.1||
 |libei|1.5.0|1.6.0||
 |libevdev|1.13.5|1.13.6||
@@ -406,6 +407,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.1||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -501,6 +503,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |patchelf|0.18.0|0.19.1||
 |pcsc-lite|2.3.3|2.5.1||
 |perl|5.42.0|5.44.0||
+|perl-rpm-packaging|1.2|1.3||
 |php|8.5.7|8.5.9||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
@@ -561,7 +564,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-fastjsonschema|2.21.2|2.22.1||
 |python-filelock|3.29.0|3.32.2||
 |python-fsspec|2026.4.0|2026.7.0||
-|python-gevent|26.4.0|26.7.0||
+|python-gevent|26.4.0|26.8.0||
 |python-greenlet|3.4.0|3.5.5||
 |python-h2|4.3.0|4.4.1||
 |python-hf-xet|1.5.1|1.6.0||
@@ -779,9 +782,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-toml-datetime-0.7|0.7.5|toml-v1.1.4|Possible downgrade from the current version (0.7.5 -> toml-v1.1.4)|
 |rust-utf8parse-0.2|0.2.2|0.15.0||
 |rust-wasip3-0.4|0.4.0|wasip3-0.7.0|Possible downgrade from the current version (0.4.0 -> wasip3-0.7.0)|
-|rust-wasm-encoder-0.244|0.244.0|1.255.0||
-|rust-wasm-metadata-0.244|0.244.0|1.255.0||
-|rust-wasmparser-0.244|0.244.0|1.255.0||
+|rust-wasm-encoder-0.244|0.244.0|1.256.0||
+|rust-wasm-metadata-0.244|0.244.0|1.256.0||
+|rust-wasmparser-0.244|0.244.0|1.256.0||
 |rust-windows-link-0.2|0.2.1|73||
 |rust-windows-sys-0.61|0.61.2|73||
 |rust-winnow-0.7|0.7.15|1.0.4||
@@ -789,8 +792,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-wit-bindgen-core-0.51|0.51.0|0.60.0||
 |rust-wit-bindgen-rust-0.51|0.51.0|0.60.0||
 |rust-wit-bindgen-rust-macro-0.51|0.51.0|0.60.0||
-|rust-wit-component-0.244|0.244.0|1.255.0||
-|rust-wit-parser-0.244|0.244.0|1.255.0||
+|rust-wit-component-0.244|0.244.0|1.256.0||
+|rust-wit-parser-0.244|0.244.0|1.256.0||
 |ruyi|0.46.0|0.51.0||
 |safeint|3.0.28a|3.24||
 |samba|4.23.2|4.24.5||
