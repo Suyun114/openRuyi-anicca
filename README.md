@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786391702?label=Updated)
+![Relative date](https://img.shields.io/date/1786394430?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -100,7 +100,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |enchant|2.8.16|2.8.19||
 |erofs-utils|1.9.1|1.9.3||
 |ethtool|6.15|7.1||
-|exfatprogs|1.3.2|1.4.2||
 |expat|2.8.1|2.8.2||
 |expect|5.45.4|30.4.1||
 |fakeroot|1.37.2|2.1.4||
@@ -109,7 +108,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ffmpeg|8.1.2|9.0||
 |ffnvcodec|13.0.19.0|n13.1.15.0||
 |file|5.47|5.48||
-|findutils|4.10.0|4.11.0||
 |firewalld|2.4.1|2.5.1||
 |fmt|12.1.0|12.2.0||
 |fontconfig|2.17.1|2.18.3||
@@ -282,6 +280,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jose|14|15||
 |jq|1.8.1|1.8.2||
 |json-c|0.18|0.19||
+|jsoncpp|1.9.7|1.9.8||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.7||
 |kbd|2.9.0|2.10.0||
@@ -403,7 +402,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libyang|4.2.2|5.8.6||
 |lighttpd|1.4.82|1.4.85||
 |linux|7.1.4|7.1|Possible downgrade from the current version (7.1.4 -> 7.1)|
-|linux-firmware|20260519|20260622||
+|linux-firmware|20260519|20260810||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
 |lmdb|0.9.33|1.0.1||
@@ -422,7 +421,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lxcfs|6.0.6|7.0.0||
 |lynis|3.1.6|3.1.7||
 |lz4|1.10.0|1.28.1||
-|mariadb|11.8.6|13.0.1||
 |mariadb-connector-c|3.4.8|3.4.9||
 |mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
@@ -483,7 +481,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openssh|10.3p1|10.4p1||
 |openssl|3.6.3|4.0.2||
 |openvpn|2.6.16|2.7.6||
-|openvswitch|3.5.1|3.7.1||
 |openzl|0.1.0|0.2.0||
 |opus|1.5.2|1.6.1||
 |os-prober|1.83|1.85||
@@ -573,7 +570,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-huggingface-hub|1.5.0|1.27.0||
 |python-hypothesis|6.152.4|6.165.2||
 |python-idna|3.13|3.18||
-|python-ijson|3.5.0|3.5.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
 |python-iso639|0.1.4|2026.7.23||
@@ -660,12 +656,14 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-service-identity|24.2.0|26.1.0||
 |python-setuptools-gettext|0.1.14|0.1.18||
 |python-setuptools-rust|1.12.1|1.13.0||
+|python-simpleline|1.9.0|1.9.2||
 |python-sip|6.15.1|6.16.0||
 |python-smart-open|7.6.1|8.0.1||
 |python-soundfile|0.13.1|0.14.0||
 |python-spacy|3.8.14|release-v3.8.15|Possible downgrade from the current version (3.8.14 -> release-v3.8.15)|
 |python-srsly|2.5.3|3.0.0||
 |python-starlette|1.0.0|1.6.0||
+|python-systemd|235|236||
 |python-tempita|0.6.0|0.6||
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
 |python-tenacity|9.1.4|9.2.0||
@@ -797,7 +795,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |scap-security-guide|0.1.80|0.1.81||
 |scdoc|1.11.3|1.11.5||
 |sdbus-cpp|2.1.0|2.3.1||
-|seatd|0.9.1|0.9.3||
 |sed|4.9|4.10||
 |setools|4.6.0|4.7.1||
 |setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
@@ -868,7 +865,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valkey|8.1.4|9.1.1||
 |vapoursynth|73|79||
 |vid.stab|1.1.1|1.1.2||
-|vim|9.2.0593|9.2.0927||
+|vim|9.2.0593|9.2.0931||
 |vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.359||
