@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786366906?label=Updated)
+![Relative date](https://img.shields.io/date/1786371898?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -475,10 +475,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openconnect|9.12|9.21||
 |opencv|4.13.0|5.0.0||
 |openexr|3.4.10|3.4.14||
-|openjdk-17|17.0.19.10|jdk-17.0.21+1||
-|openjdk-21|21.0.11.10|jdk-21.0.13+1||
-|openjdk-25|25.0.3.9|jdk-25.0.5+1||
-|openjdk-latest|26.0.1.8|jdk-25.0.5+1||
+|openjdk-17|17.0.20.8|jdk-17.0.21+1||
+|openjdk-21|21.0.12.8|jdk-21.0.13+1||
+|openjdk-25|25.0.4.7|jdk-25.0.5+1||
+|openjdk-latest|26.0.2.10|jdk-25.0.5+1||
 |openldap|2.6.13|2.7.0||
 |opensbi|1.8|1.9||
 |openssh|10.3p1|10.4p1||
@@ -564,7 +564,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-filelock|3.29.0|3.32.2||
 |python-fsspec|2026.4.0|2026.7.0||
 |python-gevent|26.4.0|26.7.0||
-|python-greenlet|3.4.0|3.5.4||
+|python-greenlet|3.4.0|3.5.5||
 |python-h2|4.3.0|4.4.1||
 |python-hf-xet|1.5.1|1.6.0||
 |python-hiredis|3.3.1|3.4.1||
@@ -616,7 +616,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-prov|2.1.1|2.5.3||
 |python-puccinialin|0.1.11|0.1.14||
 |python-puremagic|1.30|2.2.0||
-|python-pyarrow|23.0.1|25.0.0||
+|python-pyarrow|23.0.1|25.0.1||
 |python-pyasn1|0.6.3|0.6.4||
 |python-pybase64|1.4.3|1.5.0||
 |python-pycdlib|1.16.0|1.20.0||
