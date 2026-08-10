@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786346901?label=Updated)
+![Relative date](https://img.shields.io/date/1786353492?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -17,6 +17,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |appstream|1.1.2|1.1.5||
 |appstream-glib|0.8.3|0.8.4||
 |apr-util|1.6.3|1.6.4||
+|arrow|24.0.0|59.2.0||
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |asn1c|0.9.28|0.9.29||
 |at-spi2-core|2.58.2|2.60.6||
@@ -30,6 +31,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bash-completion|2.17.0|2.18.0||
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
 |binutils|2.46.0|2.47||
+|blake3|1.8.5|1.8.6||
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
 |bluez|5.86|5.87||
 |bolt|0.9.11|1.3.1||
@@ -69,7 +71,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |curl|8.20.0|8.21.0||
 |curl-impersonate-chrome|0.7.0|2.1.0||
 |date|3.0.4|3.5.1||
-|dav1d|1.5.3|1.5.4||
 |db|6.2.32|18.1.40||
 |dbus|1.16.2|5.2.2||
 |dhcpcd|10.3.2|10.5.0||
@@ -109,7 +110,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |file|5.47|5.48||
 |findutils|4.10.0|4.11.0||
 |firewalld|2.4.1|2.5.1||
-|fmt|12.1.0|12.2.0||
 |fontconfig|2.17.1|2.18.3||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
 |fonts-noto|2026.01.01|noto-monthly-release-2026.08.01||
@@ -304,6 +304,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libaec|1.1.6|1.1.7||
 |libarchive|3.8.7|3.8.9||
 |libass|0.17.4|0.17.5||
+|libavif|1.4.0|1.4.2||
 |libblockdev|3.4.0|3.5.0||
 |libbluray|1.4.1|1.5.0||
 |libburn|1.5.6|1.5.8||
@@ -362,7 +363,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libpaper|2.2.6|2.2.8||
 |libpcap|1.10.5|1.10.6||
 |libpciaccess|0.18|0.19||
-|libplasma|6.7.1|6.7.4||
 |libpsl|0.21.5|0.23.1||
 |libqalculate|5.9.0|5.12.0||
 |libqmi|1.36.0|1.38.0||
@@ -388,6 +388,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libusb|1.0.29|1.0.30||
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
 |libva|2.23.0|2.24.1||
+|libvirt|12.2.0|12.6.0||
 |libvpx|1.15.2|1.16.0||
 |libwacom|2.17.0|2.19.1||
 |libwebsockets|4.5.8|5.0.0||
@@ -402,6 +403,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260622||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.1||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -497,7 +499,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |patchelf|0.18.0|0.19.1||
 |pcsc-lite|2.3.3|2.5.1||
 |perl|5.42.0|5.44.0||
-|perl-rpm-packaging|1.2|1.3||
 |php|8.5.7|8.5.9||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
@@ -891,6 +892,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xdg-user-dirs|0.19|0.20||
 |xevd|0.5.0|0.7.0||
 |xeve|0.5.1|0.7.0||
+|xfsdump|3.2.0|3.3.0||
 |xkeyboard-config|2.46|2.48||
 |xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
