@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786339528?label=Updated)
+![Relative date](https://img.shields.io/date/1786346901?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -17,7 +17,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |appstream|1.1.2|1.1.5||
 |appstream-glib|0.8.3|0.8.4||
 |apr-util|1.6.3|1.6.4||
-|arrow|24.0.0|59.2.0||
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |asn1c|0.9.28|0.9.29||
 |at-spi2-core|2.58.2|2.60.6||
@@ -31,7 +30,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bash-completion|2.17.0|2.18.0||
 |bind|9.20.15|9.20.13|Possible downgrade from the current version (9.20.15 -> 9.20.13)|
 |binutils|2.46.0|2.47||
-|blake3|1.8.5|1.8.6||
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
 |bluez|5.86|5.87||
 |bolt|0.9.11|1.3.1||
@@ -146,7 +144,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-alecthomas-repr|0.5.2|0.5.4||
 |go-github-andybalholm-brotli|1.2.1|1.2.2||
 |go-github-anishathalye-porcupine|1.2.0|1.3.0||
-|go-github-apache-arrow-go-arrow|0<br>+git20260107.bc21918|apache-arrow-25.0.1-rc1|Compound version number '0+git20260107.bc21918'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (0+git20260107.bc21918 -> apache-arrow-25.0.1-rc1)|
+|go-github-apache-arrow-go-arrow|0<br>+git20260107.bc21918|apache-arrow-25.0.1|Compound version number '0+git20260107.bc21918'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (0+git20260107.bc21918 -> apache-arrow-25.0.1)|
 |go-github-apache-arrow-go-v18|18.5.0|18.7.0||
 |go-github-apache-beam|2.74.0|2.76.0-RC00||
 |go-github-apache-thrift|0.23.0|0.24.0||
@@ -306,7 +304,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libaec|1.1.6|1.1.7||
 |libarchive|3.8.7|3.8.9||
 |libass|0.17.4|0.17.5||
-|libavif|1.4.0|1.4.2||
 |libblockdev|3.4.0|3.5.0||
 |libbluray|1.4.1|1.5.0||
 |libburn|1.5.6|1.5.8||
@@ -391,7 +388,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libusb|1.0.29|1.0.30||
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
 |libva|2.23.0|2.24.1||
-|libvirt|12.2.0|12.6.0||
 |libvpx|1.15.2|1.16.0||
 |libwacom|2.17.0|2.19.1||
 |libwebsockets|4.5.8|5.0.0||
@@ -895,7 +891,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xdg-user-dirs|0.19|0.20||
 |xevd|0.5.0|0.7.0||
 |xeve|0.5.1|0.7.0||
-|xfsdump|3.2.0|3.3.0||
 |xkeyboard-config|2.46|2.48||
 |xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
