@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786445595?label=Updated)
+![Relative date](https://img.shields.io/date/1786448593?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -34,7 +34,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |blake3|1.8.5|1.8.6||
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
 |bluez|5.86|5.87||
-|bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.91.0-1||
 |brotli|1.2.0|8.0.4||
 |btrbk|0.32.6|0.32.7||
@@ -301,7 +300,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXrandr|1.5.4|1.5.5||
 |libXres|1.2.2|1.2.3||
 |libXxf86vm|1.1.6|1.1.7||
-|libaec|1.1.6|1.1.7||
 |libarchive|3.8.7|3.8.9||
 |libass|0.17.4|0.17.5||
 |libavif|1.4.0|1.4.2||
@@ -341,7 +339,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libical|3.0.20|4.0.4||
 |libisoburn|1.5.6|1.5.8.pl02||
 |libisofs|1.5.6|1.5.8.pl02||
-|libjpeg-turbo|3.1.2|3.2.0||
 |libjwt|3.2.2|3.6.1||
 |libjxl|0.11.2|0.12.0||
 |libkcapi|1.5.0|1.5.1||
@@ -402,7 +399,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260810||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.1||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -453,7 +449,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nftables|1.1.5|1.1.6||
 |nghttp2|1.69.0|1.70.0||
 |nghttp3|1.12.0|1.18.0||
-|ngtcp2|1.16.0|1.25.0||
 |nmap|7.92|7.991||
 |nodejs|24.13.0|26.7.0||
 |nspr|4.39.0|4.40||
@@ -608,6 +603,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-prometheus-fastapi-instrumentator|7.1.0|8.1.0||
 |python-prompt-toolkit|3.0.52|3.0.53||
 |python-propcache|0.4.1|0.5.2||
+|python-protobuf|6.33.2|7.35.1||
 |python-prov|2.1.1|2.5.3||
 |python-puccinialin|0.1.11|0.1.14||
 |python-puremagic|1.30|2.2.0||
@@ -735,6 +731,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qtkeychain|0.15.0|0.17.0||
 |quota|4.10|4.11||
 |rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
+|rdfind|1.7.0|1.8.0||
 |rdma-core|60.0|64.0||
 |re2|2025.08.12|2025-11-05||
 |re2c|4.3|4.5.1||
@@ -851,7 +848,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |unbound|1.25.1|1.26.0||
 |unicode-ucd|17.0.0|18.0.0||
 |unifont|16.0.04|17.0.05||
-|universal-ctags|6.2.0|6.2.20260621.0||
 |upower|1.91.1|1.91.3||
 |usbutils|018|019||
 |usermode|1.114|usermode-1.114|Possible downgrade from the current version (1.114 -> usermode-1.114)|
