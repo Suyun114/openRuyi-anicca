@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786471291?label=Updated)
+![Relative date](https://img.shields.io/date/1786475620?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -48,6 +48,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cbindgen|0.29.2|0.29.4||
 |check|0.15.2|1.13.0||
 |checkpolicy|3.10|3.11||
+|cifs-utils|7.5|7.7||
 |ck|0.7.2|2.6.4||
 |cloud-hypervisor|52.0<br>+git20260608.|53.0|Compound version number '52.0+git20260608.'<br>Version number indicates a snapshot (+git) is used|
 |cloud-init|25.3|26.2||
@@ -199,6 +200,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-mattn-go-runewidth|0.0.24|0.0.27||
 |go-github-minio-kes-go|0.2.1|kms/v0.7.0||
 |go-github-minio-kms-go|0.2.1|kms/v0.7.0||
+|go-github-minio-mux|1.10.0|1.10.1||
 |go-github-mitchellh-go-testing-interface|1.14.1|1.0.4|Possible downgrade from the current version (1.14.1 -> 1.0.4)|
 |go-github-olekukonko-ll|0.1.3|0.1.8||
 |go-github-olekukonko-tablewriter-v0|0.0.5|1.1.4||
@@ -218,9 +220,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-xo-terminfo|0<br>+git20220910.abceb7e|1.0.0|Compound version number '0+git20220910.abceb7e'<br>Version number indicates a snapshot (+git) is used|
 |go-github-yuin-goldmark|1.8.2|2.0.0-beta.9||
 |go-golang-x-arch|0.28.0|0.30.0||
-|go-golang-x-crypto|0.53.0|0.54.0||
+|go-golang-x-crypto|0.53.0|0.55.0||
 |go-golang-x-exp|0<br>+git20260107.944ab1f|winfsnotify/v0.1.0-deprecated|Compound version number '0+git20260107.944ab1f'<br>Version number indicates a snapshot (+git) is used|
-|go-golang-x-image|0.43.0|0.44.0||
+|go-golang-x-image|0.43.0|0.45.0||
 |go-golang-x-mod|0.37.0|0.39.0||
 |go-golang-x-net|0.56.0|0.57.0||
 |go-golang-x-sync|0.21.0|0.22.0||
@@ -427,6 +429,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mesa|26.1.1|26.2.0||
 |meson|1.10.2|1.12.0||
 |mimalloc|3.3.2|3.4.5||
+|minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
 |minizip-ng|4.1.0|4.2.2||
 |mkosi|25.3<br>+git20251224.|26|Compound version number '25.3+git20251224.'<br>Version number indicates a snapshot (+git) is used|
 |mksh|59|59c|Possible downgrade from the current version (59 -> 59c)|
@@ -867,7 +870,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valkey|8.1.4|9.1.1||
 |vapoursynth|73|79||
 |vid.stab|1.1.1|1.1.2||
-|vim|9.2.0593|9.2.0933||
+|vim|9.2.0593|9.2.0934||
 |vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.359||
@@ -887,6 +890,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wofi|1.5.2|1.5.3||
 |wolfssl|5.8.2|5.9.2-stable||
 |wpa_supplicant|2.11|2.12||
+|wtmpdb|0.74.0|0.76.0||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
 |xdg-desktop-portal|1.20.3|1.22.1||
 |xdg-desktop-portal-wlr|0.8.1|0.8.4||
