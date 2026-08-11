@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786480863?label=Updated)
+![Relative date](https://img.shields.io/date/1786484660?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -15,12 +15,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |acl|2.3.2|2.4.0||
 |alsa-lib|1.2.15.3|1.2.16.1||
 |appstream|1.1.2|1.1.5||
-|appstream-glib|0.8.3|0.8.4||
 |apr-util|1.6.3|1.6.5||
 |arrow|24.0.0|59.2.0||
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |asn1c|0.9.28|0.9.29||
 |at-spi2-core|2.58.2|2.60.6||
+|atkmm|2.28.4|2.36.4||
 |attr|2.5.2|2.6.0||
 |audit|4.1.4|4.2.1||
 |authselect|1.6.1|1.7.1||
@@ -33,11 +33,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |blake3|1.8.5|1.8.6||
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
 |bluez|5.86|5.87||
+|bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.91.0-1||
 |brotli|1.2.0|8.0.4||
 |btrbk|0.32.6|0.32.7||
 |btrfs-progs|6.19.1|7.1||
-|buildah|1.43.1|1.45.0||
 |busybox|1.37.0|1.38.0||
 |byacc|2.0.20260126|20260126||
 |c-ares|1.34.6|1.34.8||
@@ -55,7 +55,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cmocka|1.1.7|2.0.2||
 |cockpit|364|365||
 |config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
-|conmon|2.1.13|2.2.1||
 |conntrack-tools|1.4.8|1.4.9||
 |console-setup|1.244|1.249||
 |containers-common|0.67.0|0.64.2|Possible downgrade from the current version (0.67.0 -> 0.64.2)|
@@ -132,7 +131,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glib|2.87.1|2.88.3||
 |glibmm|2.86.0|2.89.0||
 |glog|0.7.1|1.2.5||
-|glslang|1.4.335.0|16.5.0||
 |glusterfs|11.1|11.2||
 |gnupg|2.5.20|2.5.21||
 |go-github-ajg-form|1.7.1|1.9.0||
@@ -259,6 +257,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hunspell-en|2026.02.25|rel-2026.02.25||
 |hwdata|0.407|0.410||
 |hwinfo|25.0|25.5||
+|hwloc|2.12.2|2.14.0||
 |hyphen|2.8.8|2.8.9||
 |ibus|1.5.33|1.5.34||
 |icu4c|77.1|78.3||
@@ -280,7 +279,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jsoncpp|1.9.7|1.9.8||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.7||
-|kbd|2.9.0|2.10.0||
 |kdsoap|2.2.0|2.3.0||
 |kea|3.1.4|3.3.0||
 |keepalived|2.2.8|2.3.4||
@@ -307,6 +305,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libbluray|1.4.1|1.5.0||
 |libburn|1.5.6|1.5.8||
 |libcap|2.76|2.78||
+|libcap-ng|0.8.5|0.9.3||
 |libcdata|20240414|20260703||
 |libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
 |libcerror|20240413|20260703||
@@ -416,7 +415,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lxcfs|6.0.6|7.0.0||
 |lynis|3.1.6|3.1.7||
 |lz4|1.10.0|1.28.1||
-|mariadb|11.8.6|13.0.1||
 |mariadb-connector-c|3.4.8|3.4.9||
 |mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
@@ -424,7 +422,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mesa|26.1.1|26.2.0||
 |meson|1.10.2|1.12.0||
 |mimalloc|3.3.2|3.4.5||
-|minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
+|minizip-ng|4.1.0|4.2.2||
 |mkosi|25.3<br>+git20251224.|26|Compound version number '25.3+git20251224.'<br>Version number indicates a snapshot (+git) is used|
 |mksh|59|59c|Possible downgrade from the current version (59 -> 59c)|
 |mmtests|2.0~rc1<br>+git20260312.|2.0-rc5|Compound version number '2.0~rc1+git20260312.'<br>Version number indicates a snapshot (+git) is used|
@@ -444,7 +442,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |netavark|1.17.1|2.1.0||
 |netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |nettle|3.10.2|7.5.0||
-|newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
 |nfs-utils|2.8.4|2.9.2||
 |nfs4-acl-tools|0.4.2|0.3.7|Possible downgrade from the current version (0.4.2 -> 0.3.7)|
 |nftables|1.1.5|1.1.6||
@@ -510,7 +507,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |protobuf|33.2|35.1||
 |psutils|2.10|3.3.16||
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
-|pv|1.10.5|1.11.0||
 |pybind11|3.0.1|3.1.0||
 |python|3.13.8|3.14.7||
 |python-accelerate|1.13.0|1.14.0||
@@ -660,7 +656,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-spacy|3.8.14|release-v3.8.15|Possible downgrade from the current version (3.8.14 -> release-v3.8.15)|
 |python-srsly|2.5.3|3.0.0||
 |python-starlette|1.0.0|1.6.0||
-|python-systemd|235|236||
 |python-tempita|0.6.0|0.6||
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
 |python-tenacity|9.1.4|9.2.0||
@@ -849,6 +844,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |udisks2|2.11.0|2.11.2||
 |unbound|1.25.1|1.26.0||
 |unicode-ucd|17.0.0|18.0.0||
+|unifont|16.0.04|17.0.05||
 |universal-ctags|6.2.0|6.2.20260621.0||
 |upower|1.91.1|1.91.3||
 |usbutils|018|019||
@@ -863,7 +859,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valkey|8.1.4|9.1.1||
 |vapoursynth|73|79||
 |vid.stab|1.1.1|1.1.2||
-|vim|9.2.0593|9.2.0934||
+|vim|9.2.0593|9.2.0943||
 |vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.359||
@@ -881,15 +877,14 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |whois|5.6.4|5.6.6.git||
 |wlroots|0.20.1|0.20.2||
 |wofi|1.5.2|1.5.3||
-|wolfssl|5.8.2|5.9.2-stable||
 |wpa_supplicant|2.11|2.12||
 |wtmpdb|0.74.0|0.76.0||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
 |xdg-desktop-portal|1.20.3|1.22.1||
 |xdg-desktop-portal-wlr|0.8.1|0.8.4||
 |xdg-user-dirs|0.19|0.20||
-|xevd|0.5.0|0.7.0||
 |xeve|0.5.1|0.7.0||
+|xfsdump|3.2.0|3.3.0||
 |xkeyboard-config|2.46|2.48||
 |xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
