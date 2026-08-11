@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786463965?label=Updated)
+![Relative date](https://img.shields.io/date/1786467702?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -24,7 +24,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |atkmm|2.28.4|2.36.4||
 |attr|2.5.2|2.6.0||
 |audit|4.1.4|4.2.1||
-|authselect|1.6.1|1.7.1||
 |autoconf|2.72|2.73||
 |avahi|0.9~rc4|0.8|Possible downgrade from the current version (0.9~rc4 -> 0.8)|
 |bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
@@ -76,7 +75,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dhcpcd|10.3.2|10.5.0||
 |dialog|1.3|1.3-20260721||
 |ding-libs|0.6.2|0.7.0||
-|distribution-gpg-keys|1.115|1.120-1||
+|distribution-gpg-keys|1.115|1.121-1||
 |djvulibre|3.5.29|3.5.30||
 |dkms|3.2.2|3.4.2||
 |dmidecode|3.6|3.7||
@@ -238,11 +237,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-opentelemetry-proto|1.9.0|1.11.0||
 |go-rsc-pdf|0.1.0<br>+git20260106.c47d69c|0.1.1|Compound version number '0.1.0+git20260106.c47d69c'<br>Version number indicates a snapshot (+git) is used|
 |gpgme|2.0.1|2.1.2||
-|gpgmepp|2.0.0|2.1.0||
 |graphite2|1.3.14|1.3.15||
 |graphviz|14.1.5|15.1.1||
 |grpc|1.80.0|1.83.0||
-|gsasl|2.2.2|2.2.4||
 |gsl|2.8|4.2.2||
 |gstreamer|1.27.50|4.3.7||
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
@@ -358,6 +355,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libnftnl|1.3.0|1.3.1||
 |libnl|3.11.0|3.12.0||
 |libnotify|0.8.7|0.8.8||
+|libnvme|1.16.1|1.16.2||
 |libp11|0.4.13|0.4.20||
 |libpaper|2.2.6|2.2.8||
 |libpcap|1.10.5|1.10.6||
@@ -433,7 +431,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mksh|59|59c|Possible downgrade from the current version (59 -> 59c)|
 |mmtests|2.0~rc1<br>+git20260312.|2.0-rc5|Compound version number '2.0~rc1+git20260312.'<br>Version number indicates a snapshot (+git) is used|
 |mock|6.5|41.4-1||
-|mock-core-configs|43.2|mock-core-configs-44.4-1|Possible downgrade from the current version (43.2 -> mock-core-configs-44.4-1)|
+|mock-core-configs|43.2|mock-core-configs-45.1-1|Possible downgrade from the current version (43.2 -> mock-core-configs-45.1-1)|
 |mod_http2|2.0.39|2.0.42||
 |msgpack|3.1.0|5.4.1||
 |mstflint|4.34.0.2|4.36.0-1||
@@ -468,6 +466,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |open-iscsi|2.1.11|2.1.12||
 |open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
+|openblas|0.3.31|0.3.34||
 |openconnect|9.12|9.21||
 |opencv|4.13.0|5.0.0||
 |openexr|3.4.10|3.4.14||
@@ -484,7 +483,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openzl|0.1.0|0.2.0||
 |opus|1.5.2|1.6.1||
 |os-prober|1.83|1.85||
-|osc|1.21.0|1.27.3||
 |osinfo-db|20250606|20251212||
 |otf2bdf|3.1|3.1_p1|Possible downgrade from the current version (3.1 -> 3.1_p1)|
 |ovmf|202602|edk2-stable202605|Versions not comparable: `202602` and `edk2-stable202605`|
@@ -656,7 +654,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-service-identity|24.2.0|26.1.0||
 |python-setuptools-gettext|0.1.14|0.1.18||
 |python-setuptools-rust|1.12.1|1.13.0||
-|python-simpleline|1.9.0|1.9.2||
 |python-sip|6.15.1|6.16.0||
 |python-smart-open|7.6.1|8.0.1||
 |python-soundfile|0.13.1|0.14.0||
@@ -859,7 +856,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |usermode|1.114|usermode-1.114|Possible downgrade from the current version (1.114 -> usermode-1.114)|
 |userspace-rcu|0.15.3|0.15.6||
 |utf8cpp|4.0.8|4.1.1||
-|utf8proc|2.10.0|2.11.3||
 |util-linux|2.41.3|2.42.2||
 |uuid|1.6.2|1.24.0||
 |vala|0.56.18|0.56.19||
