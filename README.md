@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786453086?label=Updated)
+![Relative date](https://img.shields.io/date/1786458111?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -30,7 +30,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
 |bash-completion|2.17.0|2.18.0||
 |bind|9.20.15|9.21.24||
-|binutils|2.46.0|2.47||
 |blake3|1.8.5|1.8.6||
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
 |bluez|5.86|5.87||
@@ -91,7 +90,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dropbear|2026.91|2026.94||
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
-|dwarfs|0.15.3|0.15.6||
 |dwarves|1.30|1.31||
 |editorconfig-core-c|0.12.10|0.12.11||
 |elfutils|0.194|0.195||
@@ -140,7 +138,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-ajg-form|1.7.1|1.9.0||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
 |go-github-alecthomas-kong|1.15.0|1.16.1||
-|go-github-alecthomas-repr|0.5.2|0.5.4||
 |go-github-andybalholm-brotli|1.2.1|1.2.2||
 |go-github-anishathalye-porcupine|1.2.0|1.3.0||
 |go-github-apache-arrow-go-arrow|0<br>+git20260107.bc21918|apache-arrow-25.0.1|Compound version number '0+git20260107.bc21918'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (0+git20260107.bc21918 -> apache-arrow-25.0.1)|
@@ -403,7 +400,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260810||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.1||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -465,8 +461,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ollama|0.13.5|0.32.8||
 |onnx|1.20.1|1.22.0||
 |onnxruntime|1.24.1|1.28.0||
+|open-iscsi|2.1.11|2.1.12||
 |open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
+|openblas|0.3.31|0.3.34||
 |openconnect|9.12|9.21||
 |opencv|4.13.0|5.0.0||
 |openexr|3.4.10|3.4.14||
