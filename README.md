@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786561270?label=Updated)
+![Relative date](https://img.shields.io/date/1786565026?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -46,7 +46,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cairo|1.18.4|1.109||
 |capstone|5.0.6|5.0.9||
 |cbindgen|0.29.2|0.29.4||
-|ceph|21.3.0<br>+git20260811.|21.3.0|Compound version number '21.3.0+git20260811.'<br>Version number indicates a snapshot (+git) is used|
 |check|0.15.2|1.13.0||
 |checkpolicy|3.10|3.11||
 |cifs-utils|7.5|7.7||
@@ -81,10 +80,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |djvulibre|3.5.29|3.5.30||
 |dkms|3.2.2|3.4.2||
 |dmidecode|3.6|3.7||
-|dnf5|5.4.2.0|5.4.2.1||
+|dnf5|5.4.2.0|5.4.3.0||
 |dnsmasq|2.92|2.93||
 |docbook-utils|0.6.15|0.6.14|Possible downgrade from the current version (0.6.15 -> 0.6.14)|
 |doctest|2.5.2|2.5.3||
+|dos2unix|7.5.5|7.5.6||
 |doxygen|1.13.2|1.17.0||
 |dpdk|25.07|26.07||
 |dropbear|2026.91|2026.94||
@@ -321,6 +321,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libdatrie|0.2.13|0.2.14||
 |libdisplay-info|0.2.0|0.4.0||
 |libdrm|2.4.131|2.4.134||
+|libdvdcss|1.5.0|1.6.0||
 |libdvdread|7.0.1|7.1.1||
 |libdwarf|2.2.0|2.3.2||
 |libeconf|0.7.8|0.8.4||
@@ -386,6 +387,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libunibreak|6.1|7.0||
 |liburing|2.12|2.15||
 |libusb|1.0.29|1.0.30||
+|libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
 |libva|2.23.0|2.24.1||
 |libvirt|12.2.0|12.6.0||
 |libvpx|1.15.2|1.16.0||
@@ -477,6 +479,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openjdk-25|25.0.4.7|jdk-25.0.5+2||
 |openjdk-latest|26.0.2.10|jdk-25.0.5+2||
 |openldap|2.6.13|2.7.0||
+|opensbi|1.8|1.9||
 |openssh|10.3p1|10.5p1||
 |openssl|3.6.3|4.0.2||
 |openvpn|2.6.16|2.7.6||
@@ -535,7 +538,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.14.1|Possible downgrade from the current version (3.13.1 -> blivet-3.14.1)|
-|python-boto3|1.43.6|1.43.69||
+|python-boto3|1.43.6|1.43.70||
 |python-botocore|1.43.11|1.43.69||
 |python-cachetools|7.1.1|7.1.7||
 |python-chardet|7.4.3|7.5.1||
@@ -868,7 +871,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valkey|8.1.4|9.1.1||
 |vapoursynth|73|79||
 |vid.stab|1.1.1|1.1.2||
-|vim|9.2.0593|9.2.0943||
+|vim|9.2.0593|9.2.0950||
 |vmaf|3.0.0|3.2.0||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.359||
@@ -894,6 +897,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xdg-desktop-portal-wlr|0.8.1|0.8.4||
 |xdg-user-dirs|0.19|0.20||
 |xevd|0.5.0|0.7.0||
+|xeve|0.5.1|0.7.0||
 |xfsdump|3.2.0|3.3.0||
 |xkeyboard-config|2.46|2.48||
 |xmlsec|1.3.10|1.3.17||
