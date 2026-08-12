@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786539822?label=Updated)
+![Relative date](https://img.shields.io/date/1786546551?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -59,7 +59,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cockpit|364|365||
 |config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
 |conmon|2.1.13|2.2.1||
-|conntrack-tools|1.4.8|1.4.9||
 |console-setup|1.244|1.249||
 |containers-common|0.67.0|0.64.2|Possible downgrade from the current version (0.67.0 -> 0.64.2)|
 |cpp-httplib|0.48.0|0.53.0||
@@ -90,7 +89,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dpdk|25.07|26.07||
 |dropbear|2026.91|2026.94||
 |drpm|0.5.2|0.5.3||
-|dtc|1.7.2|1.8.1||
 |dwarfs|0.15.3|0.15.6||
 |dwarves|1.30|1.31||
 |editorconfig-core-c|0.12.10|0.12.11||
@@ -288,7 +286,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |kea|3.1.4|3.3.0||
 |keepalived|2.2.8|2.3.4||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
-|kiwi|10.2.42|10.3.9||
+|kiwi|10.2.42|10.3.10||
 |kpmcore|26.04.2|26.07.90||
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
 |lame|3.100|4.0||
@@ -321,7 +319,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcthreads|20240413|20260703||
 |libdatrie|0.2.13|0.2.14||
 |libdisplay-info|0.2.0|0.4.0||
-|libdrm|2.4.131|2.4.134||
 |libdvdcss|1.5.0|1.6.0||
 |libdvdread|7.0.1|7.1.1||
 |libdwarf|2.2.0|2.3.2||
@@ -362,7 +359,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libnvme|1.16.1|1.16.2||
 |libp11|0.4.13|0.4.20||
 |libpaper|2.2.6|2.2.8||
-|libpcap|1.10.5|1.10.6||
 |libpciaccess|0.18|0.19||
 |libplasma|6.7.1|6.7.4||
 |libpsl|0.21.5|0.23.2||
@@ -406,7 +402,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
 |lmdb|0.9.33|1.0.1||
-|log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
 |lshw|B.02.20|02.20||
 |lsof|4.99.6|4.99.7||
@@ -447,10 +442,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nano|9.0|9.2||
 |nasm|3.01|3.02||
 |ncurses|6.5|6.6||
-|ndctl|83|85||
 |netavark|1.17.1|2.1.0||
 |netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
-|nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
 |nfs-utils|2.8.4|2.9.2||
 |nfs4-acl-tools|0.4.2|0.3.7|Possible downgrade from the current version (0.4.2 -> 0.3.7)|
@@ -475,8 +468,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openconnect|9.12|9.21||
 |opencv|4.13.0|5.0.0||
 |openexr|3.4.10|3.4.14||
-|openjdk-17|17.0.20.8|jdk-17.0.21+1||
-|openjdk-21|21.0.12.8|jdk-21.0.13+1||
+|openjdk-17|17.0.20.8|jdk-17.0.21+2||
+|openjdk-21|21.0.12.8|jdk-21.0.13+2||
 |openjdk-25|25.0.4.7|jdk-25.0.5+2||
 |openjdk-latest|26.0.2.10|jdk-25.0.5+2||
 |openldap|2.6.13|2.7.0||
@@ -510,7 +503,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pkgconf|2.5.1|3.0.5||
 |podman|5.8.2|6.0.2||
 |policycoreutils|3.10|3.11||
-|polkit|126|127||
 |poppler|25.11.0|26.08.0||
 |powertop|2.15|2.16||
 |ppp|2.5.2|2.5.3||
@@ -550,7 +542,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-cryptography|49.0.0|50.0.0||
 |python-csvw|4.0.0|4.1.0||
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
-|python-dashscope|1.25.11|1.26.6||
+|python-dashscope|1.25.11|1.26.7||
 |python-datasets|4.8.5|5.0.1||
 |python-decorator|5.2.1|5.3.1||
 |python-distlib|0.4.0|0.3.4|Possible downgrade from the current version (0.4.0 -> 0.3.4)|
@@ -866,7 +858,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |utf8cpp|4.0.8|4.1.1||
 |utf8proc|2.10.0|2.11.3||
 |util-linux|2.41.3|2.42.2||
-|uuid|1.6.2|1.24.0||
 |vala|0.56.18|0.56.19||
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.1||
@@ -894,7 +885,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wpa_supplicant|2.11|2.12||
 |wtmpdb|0.74.0|0.76.0||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
-|xdg-desktop-portal|1.20.3|1.22.1||
 |xdg-desktop-portal-wlr|0.8.1|0.8.4||
 |xdg-user-dirs|0.19|0.20||
 |xevd|0.5.0|0.7.0||
