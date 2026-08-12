@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786532773?label=Updated)
+![Relative date](https://img.shields.io/date/1786539822?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -21,6 +21,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |asn1c|0.9.28|0.9.29||
 |at-spi2-core|2.58.2|2.60.6||
+|atkmm|2.28.4|2.36.4||
 |attr|2.5.2|2.6.0||
 |audit|4.1.4|4.2.1||
 |authselect|1.6.1|1.7.1||
@@ -34,7 +35,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
 |bluez|5.86|5.87||
 |bolt|0.9.11|1.3.1||
-|boost|1.89.0|1.91.0-1||
+|boost|1.89.0|1.92.0||
 |brotli|1.2.0|8.0.4||
 |btrbk|0.32.6|0.32.7||
 |btrfs-progs|6.19.1|7.1||
@@ -542,7 +543,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-botocore|1.43.11|1.43.69||
 |python-cachetools|7.1.1|7.1.7||
 |python-chardet|7.4.3|7.5.1||
-|python-charset-normalizer|3.4.7|3.4.9||
+|python-charset-normalizer|3.4.7|3.5.0||
 |python-click|8.3.3|8.4.2||
 |python-colorlog|6.10.1|6.12.0||
 |python-coverage|7.13.4|7.15.4||
@@ -683,7 +684,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-trio|0.33.0|0.34.0||
 |python-trove-classifiers|2025.8.26.11|2026.6.1.19||
 |python-typing-extensions|4.15.0|4.16.0||
-|python-typing-inspection|0.4.2|0.4.3||
+|python-typing-inspection|0.4.2|0.4.4||
 |python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-tzlocal|5.3.1|5.4.4||
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
@@ -884,6 +885,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wayback|0.3|0.5.1||
 |wayland|1.25.0|1.26.0||
 |wayland-protocols|1.48|1.49||
+|weston|14.0.2|16.0.0||
 |which|2.23|8.0.5||
 |whois|5.6.4|5.6.6.git||
 |wlroots|0.20.1|0.20.2||
