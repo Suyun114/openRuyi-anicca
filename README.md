@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1786671750?label=Updated)
+![Relative date](https://img.shields.io/date/1786680443?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -134,7 +134,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glib|2.87.1|2.88.3||
 |glibmm|2.86.0|2.89.0||
 |glog|0.7.1|1.2.5||
-|glslang|1.4.335.0|16.5.0||
 |glusterfs|11.1|11.2||
 |gnupg|2.5.20|2.5.21||
 |go|1.26.5|1.26.6||
@@ -283,6 +282,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jq|1.8.1|1.8.2||
 |json-c|0.18|0.19||
 |jsoncpp|1.9.7|1.9.8||
+|jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.7||
 |kbd|2.9.0|2.10.0||
 |kdsoap|2.2.0|2.3.0||
@@ -467,13 +467,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ntfs-3g|2022.10.3|2026.7.7||
 |nvme-cli|2.16|3.0-b.5||
 |obs-build|20260623|20260721||
-|ollama|0.13.5|0.32.10||
+|ollama|0.13.5|0.32.11||
 |onnx|1.20.1|1.22.0||
 |onnxruntime|1.24.1|1.29.0||
 |open-iscsi|2.1.11|2.1.12||
 |open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
-|openblas|0.3.31|0.3.34||
 |openconnect|9.12|9.21||
 |opencv|4.13.0|5.0.0||
 |openexr|3.4.10|3.4.14||
@@ -543,7 +542,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.14.1|Possible downgrade from the current version (3.13.1 -> blivet-3.14.1)|
 |python-boto3|1.43.6|1.43.71||
-|python-botocore|1.43.11|1.43.70||
+|python-botocore|1.43.11|1.43.71||
 |python-cachetools|7.1.1|7.1.7||
 |python-chardet|7.4.3|7.5.1||
 |python-charset-normalizer|3.4.7|3.5.0||
@@ -574,7 +573,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hpack|4.1.0|4.2.0||
 |python-httplib2|0.31.2|0.32.0||
 |python-huggingface-hub|1.10.0|1.27.0||
-|python-hypothesis|6.152.4|6.165.5||
+|python-hypothesis|6.152.4|6.165.6||
 |python-idna|3.13|3.18||
 |python-ijson|3.5.0|3.5.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
@@ -769,6 +768,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rrdtool|1.9.0|1.11.0||
 |rsync|3.4.3|3.5.0||
 |rsyslog|8.2510.0|8.2606.0||
+|rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.6||
 |runc|1.4.0|1.5.1||
 |rust-errno-0.3|0.3.14|0.3.13|Possible downgrade from the current version (0.3.14 -> 0.3.13)|
@@ -848,6 +848,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tcl|8.6.16|9.0.4||
 |tcpdump|4.99.5|4.99.6||
 |tcsh|6.24.15|6.24.16||
+|tdb|1.4.14|1.4.15||
 |tensorpipe|0<br>+git20251218.|0.0.0|Compound version number '0+git20251218.'<br>Version number indicates a snapshot (+git) is used|
 |tevent|0.17.1|0.17.2||
 |texinfo|7.2|7.3||
@@ -893,7 +894,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |which|2.23|8.0.5||
 |whois|5.6.4|5.6.6.git||
 |wlroots|0.20.1|0.20.2||
-|wofi|1.5.2|1.5.3||
 |wolfssl|5.8.2|5.9.2-stable||
 |wpa_supplicant|2.11|2.12||
 |wtmpdb|0.74.0|0.76.0||
