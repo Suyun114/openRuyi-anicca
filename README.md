@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787038636?label=Updated)
+![Relative date](https://img.shields.io/date/1787042067?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -95,7 +95,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dwarfs|0.15.3|0.15.6||
 |dwarves|1.30|1.31||
 |editorconfig-core-c|0.12.10|0.12.11||
-|elfutils|0.194|0.196||
 |enchant|2.8.16|2.8.19||
 |erofs-utils|1.9.1|1.9.3||
 |ethtool|6.15|7.1||
@@ -557,7 +556,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-cryptography|49.0.0|50.0.0||
 |python-csvw|4.0.0|4.1.0||
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
-|python-dashscope|1.25.11|1.26.7||
+|python-dashscope|1.25.11|1.27.0||
 |python-datasets|4.8.5|5.0.1||
 |python-decorator|5.2.1|5.3.1||
 |python-distlib|0.4.0|0.3.4|Possible downgrade from the current version (0.4.0 -> 0.3.4)|
