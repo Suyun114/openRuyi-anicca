@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787078086?label=Updated)
+![Relative date](https://img.shields.io/date/1787081236?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -102,6 +102,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |exfatprogs|1.3.2|1.4.3||
 |expat|2.8.1|2.8.3||
 |expect|5.45.4|30.4.1||
+|fakeroot|1.37.2|2.1.4||
 |fast_float|8.2.5|8.2.10||
 |fastfetch|2.63.1|2.67.1||
 |ffmpeg|8.1.2|9.0.1||
@@ -258,14 +259,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |haveged|1.9.20|1.9.26||
 |hdf5|2.0.0|2.2.0||
 |hipblas|7.2.4|20250912-17||
-|hipify|7.2.4|20250912-42||
 |htop|3.5.1|3.5.3||
 |httpd|2.4.66|2.4.68||
 |hunspell-en|2026.02.25|rel-2026.02.25||
 |hwdata|0.407|0.410||
 |hwinfo|25.0|25.5||
 |hwloc|2.12.2|2.14.0||
-|hyphen|2.8.8|2.8.9||
 |ibus|1.5.33|1.5.34||
 |icu4c|77.1|78.3||
 |iio-sensor-proxy|3.8|3.9||
@@ -410,10 +409,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260810||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.1||
 |log4cplus|2.1.2|2.2.0.1||
-|log4cxx|1.6.1|1.8.0||
 |lshw|B.02.20|02.20||
 |lsof|4.99.6|4.99.7||
 |lttng-ust|2.14.0|2.15.1||
@@ -464,7 +461,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nghttp2|1.69.0|1.70.0||
 |nghttp3|1.12.0|1.18.0||
 |ngtcp2|1.16.0|1.25.0||
-|nmap|7.92|7.991||
 |nodejs|24.13.0|26.7.0||
 |nspr|4.39.0|4.40||
 |nss|3.124.0|3.127||
@@ -524,7 +520,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |protobuf|33.2|35.1||
 |psutils|2.10|3.3.16||
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
-|pv|1.10.5|1.11.0||
 |pybind11|3.0.1|3.1.0||
 |python|3.13.8|3.14.7||
 |python-accelerate|1.13.0|1.14.0||
@@ -580,7 +575,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-huggingface-hub|1.10.0|1.28.0||
 |python-hypothesis|6.152.4|6.165.10||
 |python-idna|3.18|3.19||
-|python-ijson|3.5.0|3.5.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
 |python-iso639|0.1.4|2026.7.23||
@@ -655,7 +649,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-rdflib|7.5.0|7.6.0||
 |python-redis|7.4.0|8.1.0||
 |python-regex|2026.1.15|2026.8.12||
-|python-requests|2.33.1|2.34.2||
 |python-responses|0.26.0|0.26.2||
 |python-rfc3986|1.5.0|2.0.0||
 |python-rpmautospec|0.8.3|0.8.4||
@@ -757,11 +750,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocm-cmake|7.2.4|20250912-42||
 |rocm-llvm|7.2.4|20250912-42||
 |rocm-smi|7.2.4|rocm-7.2.4||
-|rocminfo|7.2.4|20250912-42||
 |rocprofiler-register|7.2.4|20250912-42||
 |rocr-runtime|7.2.4|20250912-42||
 |rocsolver|7.2.4|20250912-42||
-|rpcbind|1.2.8|1.2.9||
 |rpm|6.0.1|6.0.2-release||
 |rpmlint|2.8.0|2.10.0||
 |rrdtool|1.9.0|1.11.0||
@@ -812,16 +803,15 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |sg3_utils|1.48|1.49||
 |shaderc|2026.1|2026.3||
-|shadow|4.19.4|4.20.2||
 |shared-mime-info|2.4|2.5.1||
 |shim|16.1<br>+git20260715.0a88e2a|16.1|Compound version number '16.1+git20260715.0a88e2a'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.7||
+|simdutf|9.0.0|9.1.0||
 |skalibs|2.14.5.1|2.15.1.0||
 |slang|2.3.3|2026.14.1||
 |slibtool|0.7.3|0.7.4||
 |socat|1.8.1.1|1.8.1.3||
-|socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
 |spdk|25.09|26.05||
 |spdlog|1.15.3|1.17.0||
@@ -833,7 +823,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |squashfuse|0.6.1|0.6.2||
 |srt|1.5.4|1.5.6||
 |sssd|2.11.1|2.13.1||
-|strace|6.19|7.1||
+|strace|6.19|7.2||
 |stress-ng|0.20.01|0.21.04||
 |strongswan|6.0.2|6.0.7||
 |swig|4.4.1|4.5.0||
@@ -864,7 +854,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |unifont|16.0.04|17.0.05||
 |universal-ctags|6.2.0|6.2.20260621.0||
 |upower|1.91.1|1.91.3||
-|usbutils|018|019||
 |usermode|1.114|usermode-1.114|Possible downgrade from the current version (1.114 -> usermode-1.114)|
 |userspace-rcu|0.15.3|0.15.6||
 |utf8cpp|4.0.8|4.1.1||
