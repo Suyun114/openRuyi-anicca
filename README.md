@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787021646?label=Updated)
+![Relative date](https://img.shields.io/date/1787024615?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -33,6 +33,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bind|9.20.15|9.21.24||
 |binutils|2.46.0|2.47||
 |blake3|1.8.5|1.8.6||
+|blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
 |bluez|5.86|5.87||
 |bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.92.0||
@@ -312,7 +313,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libblockdev|3.4.0|3.5.0||
 |libbluray|1.4.1|1.5.0||
 |libburn|1.5.6|1.5.8||
-|libcap|2.76|2.78||
 |libcap-ng|0.8.5|0.9.3||
 |libcdata|20240414|20260703||
 |libcdio|2.3.0|2.4.0||
@@ -356,6 +356,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |liblognorm|2.0.6|2.1.0||
 |libmaxminddb|1.12.2|1.13.3||
 |libmbim|1.32.0|1.34.0||
+|libmd|1.1.0|1.2.0||
 |libmicrohttpd|1.0.2|1.0.10||
 |libmodulemd|2.15.2|2.15.3||
 |libnbd|1.23.13|1.25.7||
@@ -502,6 +503,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |parallel|20250822|20260722||
 |passt|0<br>+git20260424.ec96f01|2026_07_28.f8df3f1|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.2||
+|patchelf|0.18.0|0.19.1||
 |pcsc-lite|2.3.3|2.5.1||
 |perl|5.42.0|5.44.0||
 |perl-rpm-packaging|1.2|1.3||
@@ -524,6 +526,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pv|1.10.5|1.11.0||
 |pybind11|3.0.1|3.1.0||
 |python|3.13.8|3.14.7||
+|python-accelerate|1.13.0|1.14.0||
 |python-aiohappyeyeballs|2.6.1|2.7.1||
 |python-aiohttp|3.14.1|3.14.3||
 |python-altair|6.1.0|6.2.2||
@@ -576,7 +579,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-huggingface-hub|1.10.0|1.27.0||
 |python-hypothesis|6.152.4|6.165.10||
 |python-idna|3.13|3.18||
-|python-ijson|3.5.0|3.5.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
 |python-iso639|0.1.4|2026.7.23||
@@ -667,6 +669,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-service-identity|24.2.0|26.1.0||
 |python-setuptools-gettext|0.1.14|0.1.18||
 |python-setuptools-rust|1.12.1|1.13.0||
+|python-simpleline|1.9.0|1.9.2||
 |python-sip|6.15.1|6.16.1||
 |python-smart-open|7.6.1|8.0.1||
 |python-soundfile|0.13.1|0.14.0||
@@ -766,8 +769,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rpcbind|1.2.8|1.2.9||
 |rpm|6.0.1|6.0.2-release||
 |rpmlint|2.8.0|2.10.0||
+|rrdtool|1.9.0|1.11.0||
 |rsync|3.4.3|3.5.0||
-|rsyslog|8.2510.0|8.2606.0||
 |rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.6||
 |runc|1.4.0|1.5.1||
@@ -814,6 +817,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sg3_utils|1.48|1.49||
 |shaderc|2026.1|2026.3||
 |shadow|4.19.4|4.20.2||
+|shared-mime-info|2.4|2.5.1||
 |shim|16.1<br>+git20260715.0a88e2a|16.1|Compound version number '16.1+git20260715.0a88e2a'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.7||
@@ -834,7 +838,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |srt|1.5.4|1.5.6||
 |sssd|2.11.1|2.13.1||
 |strace|6.19|7.1||
-|stress-ng|0.20.01|0.21.04||
 |strongswan|6.0.2|6.0.7||
 |swig|4.4.1|4.5.0||
 |sysrepo|4.2.10|5.1.0||
