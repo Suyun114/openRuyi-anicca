@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787125024?label=Updated)
+![Relative date](https://img.shields.io/date/1787128531?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -37,6 +37,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
 |bluez|5.86|5.87||
 |bolt|0.9.11|1.3.1||
+|boost|1.89.0|1.92.0||
 |brotli|1.2.0|8.0.4||
 |btrbk|0.32.6|0.32.7||
 |btrfs-progs|6.19.1|7.1||
@@ -58,6 +59,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cmake|4.3.2|4.4.2||
 |cmocka|1.1.7|2.0.2||
 |cockpit|364|366||
+|config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
 |conmon|2.1.13|2.2.1||
 |conntrack-tools|1.4.8|1.4.9||
 |console-setup|1.244|1.249||
@@ -95,6 +97,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dwarves|1.30|1.31||
 |editorconfig-core-c|0.12.10|0.12.11||
 |enchant|2.8.16|2.8.19||
+|erofs-utils|1.9.1|1.9.3||
 |ethtool|6.15|7.1||
 |exfatprogs|1.3.2|1.4.3||
 |expat|2.8.1|2.8.3||
@@ -433,7 +436,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.1.1|26.2.0||
 |meson|1.10.2|1.12.0||
-|mimalloc|3.3.2|3.4.5||
+|mimalloc|3.3.2|3.5.0||
 |minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
 |minizip-ng|4.1.0|4.2.2||
 |mkosi|25.3<br>+git20251224.|26|Compound version number '25.3+git20251224.'<br>Version number indicates a snapshot (+git) is used|
@@ -891,7 +894,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wayland|1.25.0|1.26.0||
 |wayland-protocols|1.48|1.49||
 |weston|14.0.2|16.0.0||
-|which|2.23|8.0.5||
 |whois|5.6.4|5.6.6.git||
 |wlroots|0.20.1|0.20.2||
 |wofi|1.5.2|1.5.3||
@@ -899,6 +901,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wpa_supplicant|2.11|2.12||
 |wtmpdb|0.74.0|0.76.0||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
+|xdg-desktop-portal|1.20.3|1.22.1||
 |xdg-desktop-portal-wlr|0.8.1|0.8.4||
 |xdg-user-dirs|0.19|0.20||
 |xevd|0.5.0|0.7.0||
