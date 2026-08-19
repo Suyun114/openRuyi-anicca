@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787156992?label=Updated)
+![Relative date](https://img.shields.io/date/1787160308?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -138,7 +138,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glslang|1.4.335.0|16.5.0||
 |glusterfs|11.1|11.2||
 |gnupg|2.5.20|2.5.21||
-|go|1.26.5|1.26.6||
+|go|1.26.5|1.27.0||
 |go-cel-expr|0.25.2|0.25.3||
 |go-github-ajg-form|1.7.1|1.9.0||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
@@ -413,7 +413,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260810||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.1||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -450,7 +449,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |msgpack|3.1.0|5.4.1||
 |mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
-|mujs|1.3.9|1.3.10||
 |multipath-tools|0.11.1|0.15.0||
 |mupdf|1.27.2|1.28.2||
 |nano|9.0|9.2||
@@ -790,9 +788,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-toml-datetime-0.7|0.7.5|toml-v1.1.4|Possible downgrade from the current version (0.7.5 -> toml-v1.1.4)|
 |rust-utf8parse-0.2|0.2.2|0.15.0||
 |rust-wasip3-0.4|0.4.0|wasip3-0.7.1|Possible downgrade from the current version (0.4.0 -> wasip3-0.7.1)|
-|rust-wasm-encoder-0.244|0.244.0|1.256.0||
-|rust-wasm-metadata-0.244|0.244.0|1.256.0||
-|rust-wasmparser-0.244|0.244.0|1.256.0||
+|rust-wasm-encoder-0.244|0.244.0|1.257.0||
+|rust-wasm-metadata-0.244|0.244.0|1.257.0||
+|rust-wasmparser-0.244|0.244.0|1.257.0||
 |rust-windows-link-0.2|0.2.1|73||
 |rust-windows-sys-0.61|0.61.2|73||
 |rust-winnow-0.7|0.7.15|1.0.4||
@@ -800,8 +798,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-wit-bindgen-core-0.51|0.51.0|0.60.0||
 |rust-wit-bindgen-rust-0.51|0.51.0|0.60.0||
 |rust-wit-bindgen-rust-macro-0.51|0.51.0|0.60.0||
-|rust-wit-component-0.244|0.244.0|1.256.0||
-|rust-wit-parser-0.244|0.244.0|1.256.0||
+|rust-wit-component-0.244|0.244.0|1.257.0||
+|rust-wit-parser-0.244|0.244.0|1.257.0||
 |ruyi|0.46.0|0.51.0||
 |safeint|3.0.28a|3.24||
 |samba|4.23.2|4.24.6||
@@ -829,6 +827,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
 |spdk|25.09|26.05||
+|spdlog|1.15.3|1.17.0||
 |spirv-cross|1.4.335.0|1.4.357.0||
 |spirv-headers|1.4.350.0|2026.08.0||
 |spirv-llvm-translator|22.1.3|23.1.0||
