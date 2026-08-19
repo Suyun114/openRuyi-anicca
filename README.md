@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787153407?label=Updated)
+![Relative date](https://img.shields.io/date/1787156992?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -23,6 +23,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |asn1c|0.9.28|0.9.29||
 |at-spi2-core|2.58.2|2.60.6||
 |atf|0.23|0.24||
+|atkmm|2.28.4|2.36.4||
 |attr|2.5.2|2.6.0||
 |audit|4.1.4|4.2.1||
 |authselect|1.6.1|1.7.1||
@@ -109,6 +110,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |file|5.47|5.48||
 |findutils|4.10.0|4.11.0||
 |firewalld|2.4.1|2.5.1||
+|fmt|12.1.0|12.2.0||
 |fontconfig|2.17.1|2.18.3||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
 |fonts-noto|2026.01.01|noto-monthly-release-2026.08.01||
@@ -155,7 +157,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-buger-jsonparser|1.2.0|1.6.1||
 |go-github-cenkalti-backoff|5.0.3|7.0.0||
 |go-github-cespare-xxhash|1.1.0|2.3.0||
-|go-github-charmbracelet-bubbletea|1.3.10|2.0.8||
+|go-github-charmbracelet-bubbletea|1.3.10|2.0.9||
 |go-github-charmbracelet-lipgloss|1.1.0|2.0.6||
 |go-github-charmbracelet-log|1.0.0|2.0.0||
 |go-github-charmbracelet-ssh|0<br>+git20250826.ebfa259|0.4.3|Compound version number '0+git20250826.ebfa259'<br>Version number indicates a snapshot (+git) is used|
@@ -194,6 +196,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-kataras-jwt|0.1.17|0.2.0||
 |go-github-klauspost-compress|1.19.0|1.19.2||
 |go-github-klauspost-cpuid-v2|2.3.0|2.4.0||
+|go-github-klauspost-reedsolomon|1.14.1|1.14.2||
 |go-github-leodido-go-urn|1.4.0|1.5.0||
 |go-github-lesismal-llib|1.2.2|1.2.4||
 |go-github-lesismal-nbio|1.6.9|1.6.12||
@@ -410,6 +413,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260810||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.1||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -462,6 +466,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nftables|1.1.5|1.1.6||
 |nghttp2|1.69.0|1.70.0||
 |nghttp3|1.12.0|1.18.0||
+|nginx|1.31.3|1.31.4||
 |ngtcp2|1.16.0|1.25.0||
 |nmap|7.92|7.991||
 |nodejs|24.13.0|26.7.0||
@@ -744,6 +749,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qtkeychain|0.15.0|0.17.0||
 |quota|4.10|4.11||
 |rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
+|rdfind|1.7.0|1.8.0||
 |rdma-core|60.0|64.0||
 |re2|2025.08.12|2025-11-05||
 |re2c|4.3|4.5.1||
@@ -759,6 +765,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocprofiler-register|7.2.4|20250912-42||
 |rocr-runtime|7.2.4|20250912-42||
 |rocsolver|7.2.4|20250912-42||
+|rpcbind|1.2.8|1.2.9||
 |rpm|6.0.1|6.0.2-release||
 |rpmlint|2.8.0|2.10.0||
 |rrdtool|1.9.0|1.11.0||
@@ -822,7 +829,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
 |spdk|25.09|26.05||
-|spdlog|1.15.3|1.17.0||
 |spirv-cross|1.4.335.0|1.4.357.0||
 |spirv-headers|1.4.350.0|2026.08.0||
 |spirv-llvm-translator|22.1.3|23.1.0||
@@ -908,6 +914,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
 |xorg-server|21.1.21|21.1.24||
+|xorgproto|2024.1|2025.1||
 |xrdb|1.2.2|1.2.3||
 |xsimd|14.0.0|14.3.0||
 |xxhash|0.8.3|2.3.0||
