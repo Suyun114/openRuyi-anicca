@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787211646?label=Updated)
+![Relative date](https://img.shields.io/date/1787214939?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -118,6 +118,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-noto-serif-cjk|2.003|Serif2.003||
 |fonts-sarasa-gothic|1.0.37|1.0.40||
 |foot|1.26.1|1.27.0||
+|freerdp|3.26.0|3.30.0||
 |fuse3|3.17.4|fuse-3.18.2|Possible downgrade from the current version (3.17.4 -> fuse-3.18.2)|
 |gawk|5.4.0|5.4.1||
 |gcc|16|16.2.0||
@@ -267,6 +268,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hwdata|0.407|0.410||
 |hwinfo|25.0|25.5||
 |hwloc|2.12.2|2.14.0||
+|hyphen|2.8.8|2.8.9||
 |ibus|1.5.33|1.5.34||
 |icu4c|77.1|78.3||
 |iio-sensor-proxy|3.8|3.9||
@@ -389,7 +391,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libstoragemgmt|1.10.2|1.10.3||
 |libthai|0.1.29|0.1.30||
 |libtiff|4.7.0|4.7.2||
-|libtool|2.5.4|2.6.2||
 |libtraceevent|1.8.4|1.9.0||
 |libudev-zero|1.0.3|1.0.5||
 |libunibreak|6.1|7.0||
@@ -398,20 +399,19 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
 |libva|2.23.0|2.24.1||
 |libvirt|12.2.0|12.6.0||
+|libvpx|1.15.2|1.16.0||
 |libwacom|2.17.0|2.19.1||
 |libwebsockets|4.5.8|5.0.0||
 |libxkbcommon|1.13.0|1.13.2||
 |libxkbfile|1.1.3|1.2.0||
 |libxml2|2.14.5|2.15.3||
 |libxmlb|0.3.24|0.3.29||
-|libxslt|1.1.43|1.1.45||
 |libyang|4.2.2|5.8.6||
 |lighttpd|1.4.82|1.4.85||
 |linux|7.1.4|7.2||
 |linux-firmware|20260519|20260810||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.1||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -446,9 +446,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mod_http2|2.0.39|2.0.42||
 |mold|2.41.0|2.42.0||
 |msgpack|3.1.0|5.4.1||
+|mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
 |mujs|1.3.9|1.3.10||
-|multipath-tools|0.11.1|0.15.0||
 |mupdf|1.27.2|1.28.2||
 |nano|9.0|9.2||
 |nasm|3.01|3.02||
@@ -823,7 +823,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |slang|2.3.3|2026.14.1||
 |slibtool|0.7.3|0.7.4||
 |socat|1.8.1.1|1.8.1.3||
-|socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
 |spdk|25.09|26.05||
 |spdlog|1.15.3|1.17.0||
@@ -833,7 +832,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |spirv-tools|1.4.350.0|2026.3||
 |sqlite|3.53.2|3.53.4||
 |squashfuse|0.6.1|0.6.2||
-|srt|1.5.4|1.5.6||
 |sssd|2.11.1|2.13.1||
 |strace|6.19|7.2||
 |stress-ng|0.20.01|0.22.00||
