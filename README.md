@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787286973?label=Updated)
+![Relative date](https://img.shields.io/date/1787290291?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -100,10 +100,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |enchant|2.8.16|2.8.19||
 |erofs-utils|1.9.1|1.9.4||
 |ethtool|6.15|7.1||
-|exfatprogs|1.3.2|1.4.3||
 |expat|2.8.1|2.8.3||
 |expect|5.45.4|30.4.1||
 |fakeroot|1.37.2|2.1.4||
+|fast_float|8.2.5|8.2.10||
 |fastfetch|2.63.1|2.67.1||
 |ffmpeg|8.1.2|9.0.1||
 |ffnvcodec|13.0.19.0|n13.1.15.0||
@@ -316,6 +316,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libbluray|1.4.1|1.5.0||
 |libburn|1.5.6|1.5.8||
 |libcap|2.76|2.78||
+|libcap-ng|0.8.5|0.9.5||
 |libcdata|20240414|20260703||
 |libcdio|2.3.0|2.4.0||
 |libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
@@ -427,13 +428,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lxc|6.0.6|7.0.0||
 |lxcfs|6.0.6|7.0.0||
 |lynis|3.1.6|3.1.7||
-|lz4|1.10.0|1.28.1||
 |mariadb|11.8.6|13.0.1||
 |mariadb-connector-c|3.4.8|3.4.9||
 |mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
-|mesa|26.1.1|26.2.1||
 |meson|1.10.2|1.12.0||
 |mimalloc|3.3.2|3.5.0||
 |minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
@@ -524,6 +523,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |protobuf|33.2|36.0||
 |psutils|2.10|3.3.16||
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
+|pv|1.10.5|1.11.0||
 |pybind11|3.0.1|3.1.0||
 |python|3.13.8|3.14.7||
 |python-accelerate|1.13.0|1.14.0||
@@ -708,40 +708,40 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qemu|11.0.1|11.1.0||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.67||
-|qt6-qt5compat|6.11.1|6.11.2||
-|qt6-qtcharts|6.11.1|6.11.2||
-|qt6-qtcoap|6.11.1|6.11.2||
-|qt6-qtconnectivity|6.11.1|6.11.2||
-|qt6-qtdatavis3d|6.11.1|6.11.2||
-|qt6-qtdeclarative|6.11.1|6.11.2||
-|qt6-qtgrpc|6.11.1|6.11.2||
-|qt6-qthttpserver|6.11.1|6.11.2||
-|qt6-qtimageformats|6.11.1|6.11.2||
-|qt6-qtlanguageserver|6.11.1|6.11.2||
-|qt6-qtlocation|6.11.1|6.11.2||
-|qt6-qtlottie|6.11.1|6.11.2||
-|qt6-qtmqtt|6.11.1|6.11.2||
-|qt6-qtnetworkauth|6.11.1|6.11.2||
-|qt6-qtopcua|6.11.1|6.11.2||
-|qt6-qtpositioning|6.11.1|6.11.2||
-|qt6-qtquick3d|6.11.1|6.11.2||
-|qt6-qtquick3dphysics|6.11.1|6.11.2||
-|qt6-qtquickeffectmaker|6.11.1|6.11.2||
-|qt6-qtquicktimeline|6.11.1|6.11.2||
-|qt6-qtremoteobjects|6.11.1|6.11.2||
-|qt6-qtscxml|6.11.1|6.11.2||
-|qt6-qtsensors|6.11.1|6.11.2||
-|qt6-qtserialbus|6.11.1|6.11.2||
-|qt6-qtserialport|6.11.1|6.11.2||
-|qt6-qtshadertools|6.11.1|6.11.2||
-|qt6-qtspeech|6.11.1|6.11.2||
-|qt6-qttranslations|6.11.1|6.11.2||
-|qt6-qtvirtualkeyboard|6.11.1|6.11.2||
-|qt6-qtwayland|6.11.1|6.11.2||
-|qt6-qtwebchannel|6.11.1|6.11.2||
-|qt6-qtwebengine|6.11.1|6.11.2||
-|qt6-qtwebsockets|6.11.1|6.11.2||
-|qt6-qtwebview|6.11.1|6.11.2||
+|qt6-qt5compat|6.11.1|6.12.0-beta3||
+|qt6-qtcharts|6.11.1|6.12.0-beta3||
+|qt6-qtcoap|6.11.1|6.12.0-beta3||
+|qt6-qtconnectivity|6.11.1|6.12.0-beta3||
+|qt6-qtdatavis3d|6.11.1|6.12.0-beta3||
+|qt6-qtdeclarative|6.11.1|6.12.0-beta3||
+|qt6-qtgrpc|6.11.1|6.12.0-beta3||
+|qt6-qthttpserver|6.11.1|6.12.0-beta3||
+|qt6-qtimageformats|6.11.1|6.12.0-beta3||
+|qt6-qtlanguageserver|6.11.1|6.12.0-beta3||
+|qt6-qtlocation|6.11.1|6.12.0-beta3||
+|qt6-qtlottie|6.11.1|6.12.0-beta3||
+|qt6-qtmqtt|6.11.1|6.12.0-beta3||
+|qt6-qtnetworkauth|6.11.1|6.12.0-beta3||
+|qt6-qtopcua|6.11.1|6.12.0-beta3||
+|qt6-qtpositioning|6.11.1|6.12.0-beta3||
+|qt6-qtquick3d|6.11.1|6.12.0-beta3||
+|qt6-qtquick3dphysics|6.11.1|6.12.0-beta3||
+|qt6-qtquickeffectmaker|6.11.1|6.12.0-beta3||
+|qt6-qtquicktimeline|6.11.1|6.12.0-beta3||
+|qt6-qtremoteobjects|6.11.1|6.12.0-beta3||
+|qt6-qtscxml|6.11.1|6.12.0-beta3||
+|qt6-qtsensors|6.11.1|6.12.0-beta3||
+|qt6-qtserialbus|6.11.1|6.12.0-beta3||
+|qt6-qtserialport|6.11.1|6.12.0-beta3||
+|qt6-qtshadertools|6.11.1|6.12.0-beta3||
+|qt6-qtspeech|6.11.1|6.12.0-beta3||
+|qt6-qttranslations|6.11.1|6.12.0-beta3||
+|qt6-qtvirtualkeyboard|6.11.1|6.12.0-beta3||
+|qt6-qtwayland|6.11.1|6.12.0-beta3||
+|qt6-qtwebchannel|6.11.1|6.12.0-beta3||
+|qt6-qtwebengine|6.11.1|6.12.0-beta3||
+|qt6-qtwebsockets|6.11.1|6.12.0-beta3||
+|qt6-qtwebview|6.11.1|6.12.0-beta3||
 |qtkeychain|0.15.0|0.17.0||
 |quota|4.10|4.11||
 |rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
@@ -820,7 +820,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |simdjson|4.2.4|4.6.7||
 |simdutf|9.0.0|9.1.0||
 |skalibs|2.14.5.1|2.15.1.0||
-|slang|2.3.3|2026.16||
 |slibtool|0.7.3|0.7.4||
 |socat|1.8.1.1|1.8.1.3||
 |socket_wrapper|1.5.0|1.5.2||
@@ -858,7 +857,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |thrift|0.22.0|0.24.0||
 |tinysparql|3.10.1|3.11.1||
 |tpm2-tss|4.1.3|4.2.0||
-|trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.27.0||
 |udisks2|2.11.0|2.11.2||
 |unbound|1.25.1|1.26.0||
@@ -907,6 +905,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xeve|0.5.1|0.7.0||
 |xfsdump|3.2.0|3.3.0||
 |xkeyboard-config|2.46|2.48||
+|xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
 |xorg-server|21.1.21|21.1.24||
