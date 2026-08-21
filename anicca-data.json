@@ -870,6 +870,7 @@
 ["go-github-go-loger-logr","1.4.3","1.4.4",[]],
 ["libsodium","1.0.20","1.0.22-RELEASE",[]],
 ["go-github-prometheus-client-golang","1.23.2+git20260717.78262a7","1.24.1",["Compound version number '1.23.2+git20260717.78262a7'","Version number indicates a snapshot (+git) is used"]],
+["zxing-cpp","3.0.2","3.1.1",[]],
 ["mod_http2","2.0.39","2.0.42",[]],
 ["slibtool","0.7.3","0.7.4",[]],
 ["Xwayland","24.1.11","24.1.13",[]],
@@ -917,6 +918,6 @@
 ["python-pip","26.1.2","26.2.1",[]],
 ["ovmf","202602","edk2-stable202605",["Versions not comparable: `202602` and `edk2-stable202605`"]],
 ["go-github-stretchr-testify","1.11.1","1.12.1",[]],
-["vim","9.2.0593","9.2.0985",[]],
+["vim","9.2.0593","9.2.0992",[]],
 ["wyhash","4","wyhash_final4",["Versions not comparable: `4` and `wyhash_final4`"]]
 ]
