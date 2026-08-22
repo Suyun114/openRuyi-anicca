@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787380572?label=Updated)
+![Relative date](https://img.shields.io/date/1787383802?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -96,13 +96,14 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dwarfs|0.15.3|0.15.7||
 |dwarves|1.30|1.31||
 |ed|1.22.5|1.22.6||
+|editorconfig-core-c|0.12.10|0.12.11||
 |enchant|2.8.16|2.8.19||
 |erofs-utils|1.9.1|1.9.4||
 |ethtool|6.15|7.1||
 |exfatprogs|1.3.2|1.4.3||
-|expat|2.8.1|2.8.3||
 |expect|5.45.4|30.4.1||
 |fakeroot|1.37.2|2.1.4||
+|fast_float|8.2.5|8.2.10||
 |fastfetch|2.63.1|2.67.1||
 |ffmpeg|8.1.2|9.0.1||
 |ffnvcodec|13.0.19.0|n13.1.15.0||
@@ -256,7 +257,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |guidelines-support-library|4.2.1|4.2.2||
 |haproxy|3.3|3.4.3||
 |harfbuzz|12.1.0|14.3.1||
-|haveged|1.9.20|1.9.26||
 |hdf5|2.0.0|2.2.0||
 |hipblas|7.2.4|20250912-17||
 |hipify|7.2.4|20250912-42||
@@ -335,6 +335,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libdwarf|2.2.0|2.3.2||
 |libeconf|0.7.8|0.8.4||
 |libedit|20250104.3.1|20260512-3.1||
+|libei|1.5.0|1.6.0||
+|libevdev|1.13.5|1.13.7||
 |libevent|2.1.12|2.1.13||
 |libfcache|20240414|20260520||
 |libfdata|20240415|20260521||
@@ -430,6 +432,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
+|mesa|26.1.1|26.2.1||
 |meson|1.10.2|1.12.0||
 |mimalloc|3.3.2|3.5.0||
 |minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
@@ -498,6 +501,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pango|1.57.0|4.3.7||
 |pangomm|2.46.4|2.56.2||
 |parallel|20250822|20260722||
+|passt|0<br>+git20260424.ec96f01|2026_07_28.f8df3f1|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.2||
 |patchelf|0.18.0|0.19.1||
 |pcsc-lite|2.3.3|2.5.1||
@@ -576,6 +580,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-huggingface-hub|1.10.0|1.28.0||
 |python-hypothesis|6.152.4|6.165.10||
 |python-idna|3.18|3.19||
+|python-ijson|3.5.0|3.5.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
 |python-iso639|0.1.4|2026.7.23||
@@ -694,7 +699,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-weasel|1.0.0|release-v1.0.0||
 |python-websockets|16.0|17.0.1||
 |python-wrapt|2.1.1|2.4.0rc5||
-|python-xxhash|3.6.0|4.0.1||
 |python-yarl|1.22.0|1.24.5||
 |python-zipp|3.23.1|4.1.0||
 |python-zope-interface|8.3|8.6||
@@ -895,6 +899,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wpa_supplicant|2.11|2.12||
 |wtmpdb|0.74.0|0.76.0||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
+|xdg-desktop-portal|1.20.3|1.22.1||
 |xdg-desktop-portal-wlr|0.8.1|0.8.4||
 |xdg-user-dirs|0.19|0.20||
 |xevd|0.5.0|0.7.0||
@@ -915,4 +920,5 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |zip|3.0|8.6.0||
 |zsh|5.9.1|5.9.2||
 |zstd|1.5.7|1.5.7.3||
+|zxing-cpp|3.0.2|3.1.1||
 |zziplib|0.13.80|3.0||
