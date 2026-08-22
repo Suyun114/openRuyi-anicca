@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787354561?label=Updated)
+![Relative date](https://img.shields.io/date/1787360633?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -413,6 +413,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260810||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.1||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -482,7 +483,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openblas|0.3.31|0.3.34||
 |openconnect|9.12|9.21||
 |opencv|4.13.0|5.0.0||
-|openexr|3.4.10|3.4.14||
+|openexr|3.4.10|3.4.15||
 |openjdk-17|17.0.20.8|jdk-17.0.21+3||
 |openjdk-21|21.0.12.8|jdk-21.0.13+3||
 |openjdk-25|25.0.4.7|jdk-25.0.5+3||
@@ -549,7 +550,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blivet|3.13.1|blivet-3.14.1|Possible downgrade from the current version (3.13.1 -> blivet-3.14.1)|
 |python-blobfile|3.2.0|3.3.0||
 |python-boto3|1.43.75|1.43.78||
-|python-botocore|1.43.75|1.43.77||
+|python-botocore|1.43.75|1.43.78||
 |python-cachetools|7.1.1|7.1.7||
 |python-chardet|7.4.3|7.6.0||
 |python-charset-normalizer|3.4.7|3.5.1||
@@ -615,7 +616,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pip|26.1.2|26.2.1||
 |python-pipdeptree|2.30.0|4.2.1||
 |python-platformdirs|4.9.6|4.11.3||
-|python-portalocker|3.2.0|4.1.0||
+|python-portalocker|3.2.0|4.2.0||
 |python-preshed|3.0.12|release-v3.0.13|Possible downgrade from the current version (3.0.12 -> release-v3.0.13)|
 |python-prettytable|3.17.0|3.18.0||
 |python-progressbar2|4.5.0|4.6.0||
@@ -763,6 +764,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocprofiler-register|7.2.4|20250912-42||
 |rocr-runtime|7.2.4|20250912-42||
 |rocsolver|7.2.4|20250912-42||
+|rpcbind|1.2.8|1.2.9||
 |rpm|6.0.1|6.1.0-release||
 |rpmlint|2.8.0|2.10.0||
 |rrdtool|1.9.0|1.11.0||
@@ -866,7 +868,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |unicode-ucd|17.0.0|18.0.0||
 |unifont|16.0.04|17.0.05||
 |universal-ctags|6.2.0|6.2.20260621.0||
-|upower|1.91.1|1.91.3||
 |usbutils|018|019||
 |usermode|1.114|usermode-1.114|Possible downgrade from the current version (1.114 -> usermode-1.114)|
 |userspace-rcu|0.15.3|0.15.6||
