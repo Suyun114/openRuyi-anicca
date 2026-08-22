@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787426558?label=Updated)
+![Relative date](https://img.shields.io/date/1787430026?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -251,7 +251,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |graphviz|14.1.5|16.0.0||
 |grpc|1.80.0|1.83.0||
 |gsasl|2.2.2|2.2.4||
-|gsl|2.8|4.2.2||
 |gstreamer|1.27.50|4.3.7||
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
@@ -296,6 +295,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |kea|3.1.4|3.3.0||
 |keepalived|2.2.8|2.3.4||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
+|kiwi|10.2.42|10.3.10||
 |kpmcore|26.04.2|26.08.0||
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
 |labwc|0.20.1|0.20.2||
@@ -342,7 +342,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libevent|2.1.12|2.1.13||
 |libfcache|20240414|20260520||
 |libfdata|20240415|20260521||
-|libffi|3.5.2|3.8.0||
 |libfontenc|1.1.8|1.1.9||
 |libfyaml|0.9.3|0.9.6||
 |libgcrypt|1.11.2|1.12.2||
@@ -388,9 +387,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libsolv|0.7.37|0.7.39||
 |libsoup|3.7.1|3.7.2||
 |libssh|0.11.5|0.12.2||
-|libstoragemgmt|1.10.2|1.10.3||
 |libthai|0.1.29|0.1.30||
-|libtiff|4.7.0|4.7.2||
 |libtool|2.5.4|2.6.2||
 |libtraceevent|1.8.4|1.9.0||
 |libudev-zero|1.0.3|1.0.5||
@@ -837,6 +834,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sqlite|3.53.2|3.53.4||
 |squashfuse|0.6.1|0.6.2||
 |srt|1.5.4|1.5.6||
+|sssd|2.11.1|2.13.1||
 |strace|6.19|7.2||
 |stress-ng|0.20.01|0.22.00||
 |strongswan|6.0.2|6.0.7||
