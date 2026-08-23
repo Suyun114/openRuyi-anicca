@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787516419?label=Updated)
+![Relative date](https://img.shields.io/date/1787520001?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -60,13 +60,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cmake|4.3.2|4.4.2||
 |cmocka|1.1.7|2.0.2||
 |cockpit|364|366||
-|config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
 |conmon|2.1.13|2.2.1||
 |conntrack-tools|1.4.8|1.4.9||
 |console-setup|1.244|1.249||
 |containers-common|0.67.0|0.64.2|Possible downgrade from the current version (0.67.0 -> 0.64.2)|
 |cpp-httplib|0.48.0|0.53.1||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
+|crash|9.0.1|9.0.2||
 |crontabs|1.11|crontabs-20190603||
 |crun|1.27.1|1.29.1||
 |cryptsetup|2.8.6|2.8.7||
@@ -402,7 +402,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libva|2.23.0|2.24.1||
 |libvirt|12.2.0|12.6.0||
 |libvpx|1.15.2|1.16.0||
-|libwacom|2.17.0|2.19.1||
 |libxkbcommon|1.13.0|1.13.2||
 |libxkbfile|1.1.3|1.2.0||
 |libxml2|2.14.5|2.15.3||
@@ -437,6 +436,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.1.1|26.2.1||
+|meson|1.10.2|1.12.0||
 |mimalloc|3.3.2|3.5.0||
 |minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
 |minizip-ng|4.1.0|4.2.2||
@@ -494,6 +494,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openvpn|2.6.16|2.7.6||
 |openvswitch|3.5.1|4.0.0||
 |openzl|0.1.0|0.2.0||
+|opus|1.5.2|1.6.1||
 |os-prober|1.83|1.85||
 |osc|1.21.0|1.27.3||
 |osinfo-db|20250606|20251212||
@@ -514,7 +515,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.8||
-|pkgconf|2.5.1|3.0.5||
+|pkgconf|2.5.1|3.0.6||
 |podman|5.8.2|6.1.0||
 |policycoreutils|3.10|3.11||
 |polkit|126|127||
@@ -583,6 +584,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-huggingface-hub|1.10.0|1.28.0||
 |python-hypothesis|6.152.4|6.165.10||
 |python-idna|3.18|3.19||
+|python-ijson|3.5.0|3.5.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
 |python-iso639|0.1.4|2026.7.23||
@@ -651,6 +653,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pytest-order|1.4.0|1.5.0||
 |python-pytest-rerunfailures|16.1|16.6||
 |python-pytest-timeout|2.4.0|2.5.0||
+|python-python-dateutil|2.9.0.post0|2.9.0||
 |python-pythran|0.18.1|0.19.0||
 |python-pyvex|9.2.214|9.3.3||
 |python-pyxbe|1.0.3|1.0.4||
@@ -762,7 +765,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocprofiler-register|7.2.4|20250912-42||
 |rocr-runtime|7.2.4|20250912-42||
 |rocsolver|7.2.4|20250912-42||
-|rpcbind|1.2.8|1.2.9||
 |rpm|6.0.1|6.1.0-release||
 |rpmlint|2.8.0|2.10.0||
 |rrdtool|1.9.0|1.11.0||
@@ -834,6 +836,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |spirv-tools|1.4.350.0|2026.3||
 |sqlite|3.53.2|3.53.4||
 |squashfuse|0.6.1|0.6.2||
+|srt|1.5.4|1.5.6||
 |sssd|2.11.1|2.13.1||
 |strace|6.19|7.2||
 |stress-ng|0.20.01|0.22.00||
