@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787480513?label=Updated)
+![Relative date](https://img.shields.io/date/1787484008?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -140,7 +140,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glslang|1.4.335.0|16.5.0||
 |glusterfs|11.1|11.2||
 |gnupg|2.5.20|2.5.21||
-|go|1.26.5|1.27.0||
 |go-cel-expr|0.25.2|0.25.3||
 |go-github-ajg-form|1.7.1|1.9.0||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
@@ -254,7 +253,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gsasl|2.2.2|2.2.4||
 |gsl|2.8|4.2.2||
 |gstreamer|1.27.50|4.3.7||
-|gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
 |gtk3|3.24.51|4.3.7||
 |guidelines-support-library|4.2.1|4.2.2||
@@ -379,6 +377,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libpsl|0.21.5|0.23.3||
 |libqalculate|5.9.0|5.12.0||
 |libqmi|1.36.0|1.38.0||
+|libqrtr-glib|1.2.2|1.4.0||
 |libraw|0.22.1|0.22.2||
 |libselinux|3.10|3.11||
 |libsemanage|3.10|3.11||
@@ -404,6 +403,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libvpx|1.15.2|1.16.0||
 |libwacom|2.17.0|2.19.1||
 |libxkbcommon|1.13.0|1.13.2||
+|libxkbfile|1.1.3|1.2.0||
 |libxml2|2.14.5|2.15.3||
 |libxmlb|0.3.24|0.3.29||
 |libxslt|1.1.43|1.1.45||
@@ -584,7 +584,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-huggingface-hub|1.10.0|1.28.0||
 |python-hypothesis|6.152.4|6.165.10||
 |python-idna|3.18|3.19||
-|python-ijson|3.5.0|3.5.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
 |python-iso639|0.1.4|2026.7.23||
@@ -914,7 +913,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
-|xorg-server|21.1.21|21.1.24||
 |xorgproto|2024.1|2025.1||
 |xrdb|1.2.2|1.2.3||
 |xsimd|14.0.0|14.3.0||
