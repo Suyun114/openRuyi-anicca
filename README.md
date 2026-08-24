@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787585908?label=Updated)
+![Relative date](https://img.shields.io/date/1787589326?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -59,7 +59,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cloud-utils|0.33|0.34||
 |cmake|4.3.2|4.4.2||
 |cmocka|1.1.7|2.0.2||
-|cockpit|364|366||
 |config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
 |conmon|2.1.13|2.2.1||
 |conntrack-tools|1.4.8|1.4.9||
@@ -256,7 +255,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gsl|2.8|4.2.2||
 |gstreamer|1.27.50|4.3.7||
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
-|gtk-doc|1.35.1|1.36.1||
 |gtk3|3.24.51|4.3.7||
 |guidelines-support-library|4.2.1|4.2.2||
 |haproxy|3.3|3.4.3||
@@ -271,6 +269,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hwdata|0.407|0.410||
 |hwinfo|25.0|25.5||
 |hwloc|2.12.2|2.14.0||
+|hyphen|2.8.8|2.8.9||
 |ibus|1.5.33|1.5.34||
 |icu4c|77.1|78.3||
 |iio-sensor-proxy|3.8|3.9||
@@ -318,6 +317,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libavif|1.4.0|1.4.2||
 |libblockdev|3.4.0|3.5.0||
 |libbluray|1.4.1|1.5.0||
+|libburn|1.5.6|1.5.8||
 |libcap|2.76|2.78||
 |libcap-ng|0.8.5|0.9.5||
 |libcdata|20240414|20260703||
@@ -335,6 +335,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libdrm|2.4.131|2.4.134||
 |libdvdcss|1.5.0|1.6.0||
 |libdvdread|7.0.1|7.1.1||
+|libdwarf|2.2.0|2.3.2||
 |libeconf|0.7.8|0.8.4||
 |libedit|20250104.3.1|20260512-3.1||
 |libei|1.5.0|1.6.0||
@@ -343,7 +344,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libfcache|20240414|20260520||
 |libfdata|20240415|20260521||
 |libffi|3.5.2|3.8.0||
-|libfontenc|1.1.8|1.1.9||
 |libfyaml|0.9.3|0.9.6||
 |libgcrypt|1.11.2|1.12.2||
 |libgit2|1.9.2|1.9.7||
@@ -413,7 +413,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260810||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.1||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -447,6 +446,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mock-core-configs|43.2|mock-core-configs-45.1-1|Possible downgrade from the current version (43.2 -> mock-core-configs-45.1-1)|
 |mod_http2|2.0.39|2.0.42||
 |msgpack|3.1.0|5.4.1||
+|mstflint|4.34.0.2|4.36.0-1||
 |mtd-utils|2.3.0|2.3.1||
 |mujs|1.3.9|1.3.10||
 |multipath-tools|0.11.1|0.15.0||
@@ -611,7 +611,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-packaging|25.0|26.3||
 |python-peft|0.19.1|0.20.0||
 |python-phonemizer|3.3.0|3.4.0||
-|python-pip|26.1.2|26.2.1||
 |python-pipdeptree|2.30.0|4.2.1||
 |python-platformdirs|4.9.6|4.11.4||
 |python-portalocker|3.2.0|4.2.0||
@@ -827,6 +826,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
 |spdk|25.09|26.05||
+|spdlog|1.15.3|1.17.0||
 |spirv-cross|1.4.335.0|1.4.357.0||
 |spirv-headers|1.4.350.0|2026.08.0||
 |spirv-llvm-translator|22.1.3|23.1.0||
