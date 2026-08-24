@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787533636?label=Updated)
+![Relative date](https://img.shields.io/date/1787540474?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -30,6 +30,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |autoconf|2.72|2.73||
 |avahi|0.9~rc4|0.8|Possible downgrade from the current version (0.9~rc4 -> 0.8)|
 |bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
+|bash-completion|2.17.0|2.18.0||
 |bind|9.20.15|9.21.25||
 |binutils|2.46.0|2.47||
 |blake3|1.8.5|1.8.7||
@@ -269,6 +270,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hwdata|0.407|0.410||
 |hwinfo|25.0|25.5||
 |hwloc|2.12.2|2.14.0||
+|hyphen|2.8.8|2.8.9||
+|ibus|1.5.33|1.5.34||
 |icu4c|77.1|78.3||
 |iio-sensor-proxy|3.8|3.9||
 |imath|3.2.2|3.2.3||
@@ -412,6 +415,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260810||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.1||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -669,7 +673,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-service-identity|24.2.0|26.1.0||
 |python-setuptools-gettext|0.1.14|0.1.18||
 |python-setuptools-rust|1.12.1|1.13.0||
-|python-simpleline|1.9.0|1.9.2||
 |python-sip|6.15.1|6.16.1||
 |python-smart-open|7.6.1|8.0.1||
 |python-soundfile|0.13.1|0.14.0||
@@ -811,6 +814,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |seatd|0.9.1|0.9.3||
 |sed|4.9|4.10||
 |setools|4.6.0|4.7.1||
+|setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |sg3_utils|1.48|1.49||
 |shaderc|2026.1|2026.3||
@@ -884,6 +888,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.335.0|1.4.360||
 |vulkan-loader|1.4.335.0|1.4.360||
+|vulkan-tools|1.4.335|1.4.360||
 |vulkan-utility-libraries|1.4.335.0|1.4.360||
 |vulkan-validation-layers|1.4.335.0|1.4.360||
 |wabt|1.0.39|1.0.41||
@@ -900,12 +905,14 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wpa_supplicant|2.11|2.12||
 |wtmpdb|0.74.0|0.76.0||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
+|xdg-desktop-portal|1.20.3|1.22.1||
 |xdg-desktop-portal-wlr|0.8.1|0.8.4||
 |xdg-user-dirs|0.19|0.20||
 |xevd|0.5.0|0.7.0||
 |xeve|0.5.1|0.7.0||
 |xfsdump|3.2.0|3.3.0||
 |xkeyboard-config|2.46|2.48||
+|xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
 |xorg-server|21.1.21|21.1.24||
