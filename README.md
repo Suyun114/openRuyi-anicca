@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787561145?label=Updated)
+![Relative date](https://img.shields.io/date/1787564696?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.15.3||
@@ -53,6 +53,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |check|0.15.2|1.13.0||
 |checkpolicy|3.10|3.11||
 |cifs-utils|7.5|7.7||
+|ck|0.7.2|2.6.4||
 |cloud-hypervisor|52.0<br>+git20260608.|53.0|Compound version number '52.0+git20260608.'<br>Version number indicates a snapshot (+git) is used|
 |cloud-init|25.3|26.2||
 |cloud-utils|0.33|0.34||
@@ -583,7 +584,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-huggingface-hub|1.10.0|1.28.0||
 |python-hypothesis|6.152.4|6.165.10||
 |python-idna|3.18|3.19||
-|python-ijson|3.5.0|3.5.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
 |python-iso639|0.1.4|2026.7.23||
@@ -826,7 +826,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |slang|2.3.3|2026.16||
 |slibtool|0.7.3|0.7.4||
 |socat|1.8.1.1|1.8.1.3||
-|socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
 |spdk|25.09|26.05||
 |spdlog|1.15.3|1.17.0||
@@ -876,7 +875,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |utf8proc|2.10.0|2.11.3||
 |util-linux|2.41.3|2.42.2||
 |uuid|1.6.2|1.25.0||
-|vala|0.56.18|0.56.19||
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.1||
 |vapoursynth|73|80A2||
