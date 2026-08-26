@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787733667?label=Updated)
+![Relative date](https://img.shields.io/date/1787737112?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -11,7 +11,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |Xwayland|24.1.11|24.1.13||
 |aardvark-dns|1.17.1|2.1.0||
 |abseil-cpp|20260526.0|20260817.0||
-|accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
 |accountsservice|23.13.9|26.27.3||
 |acl|2.3.2|2.4.0||
 |alsa-lib|1.2.15.3|1.2.16.1||
@@ -111,7 +110,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ffnvcodec|13.0.19.0|n13.1.15.0||
 |file|5.47|5.48||
 |findutils|4.10.0|4.11.0||
-|firewalld|2.4.1|2.5.1||
 |fmt|12.1.0|12.2.0||
 |fontconfig|2.17.1|2.18.3||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
@@ -135,7 +133,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glew|2.2.0|2.3.1||
 |glfw|3.4|3.5.1||
 |glib|2.87.1|2.88.3||
-|glibmm|2.86.0|2.89.0||
+|glibmm|2.86.0|2.89.1||
 |glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.5.0||
 |glusterfs|11.1|11.2||
@@ -502,7 +500,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |otf2bdf|3.1|3.1_p1|Possible downgrade from the current version (3.1 -> 3.1_p1)|
 |ovmf|202602|edk2-stable202608|Versions not comparable: `202602` and `edk2-stable202608`|
 |pam|1.7.1|2.2.5||
-|pango|1.57.0|4.3.7||
 |pangomm|2.46.4|2.56.2||
 |parallel|20250822|20260722||
 |passt|0<br>+git20260424.ec96f01|2026_07_28.f8df3f1|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
@@ -711,7 +708,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-zope-interface|8.3|8.6||
 |qalculate-qt|5.9.0.1|5.12.0||
 |qcoro|0.12.0|0.13.0||
-|qemu|11.0.1|11.1.0||
+|qemu|11.0.1|11.1.1||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.67||
 |qt6-qt5compat|6.11.1|6.12.0-beta3||
@@ -871,6 +868,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |unicode-ucd|17.0.0|18.0.0||
 |unifont|16.0.04|17.0.05||
 |universal-ctags|6.2.0|6.2.20260621.0||
+|upower|1.91.1|1.91.3||
 |usbutils|018|019||
 |usermode|1.114|usermode-1.114|Possible downgrade from the current version (1.114 -> usermode-1.114)|
 |userspace-rcu|0.15.3|0.15.6||
