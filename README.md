@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1787722335?label=Updated)
+![Relative date](https://img.shields.io/date/1787726604?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -415,7 +415,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260810||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.33|1.0.1||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -704,7 +703,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-virtualenv|20.35.4|21.7.5||
 |python-wcwidth|0.7.0|0.8.2||
 |python-weasel|1.0.0|release-v1.0.0||
-|python-websockets|16.0|17.0.1||
+|python-websockets|16.0|17.1||
 |python-wrapt|2.1.1|2.4.0rc5||
 |python-xxhash|3.6.0|4.0.1||
 |python-yarl|1.22.0|1.24.5||
@@ -881,6 +880,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |util-linux|2.41.3|2.42.2||
 |uuid|1.6.2|1.25.0||
 |vala|0.56.18|0.56.19||
+|valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.1||
 |vapoursynth|73|80A3||
 |vid.stab|1.1.1|1.1.2||
