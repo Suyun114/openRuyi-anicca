@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1788042005?label=Updated)
+![Relative date](https://img.shields.io/date/1788051752?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -62,6 +62,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cmocka|1.1.7|2.0.2||
 |cockpit|364|367||
 |config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
+|conmon|2.1.13|2.2.1||
 |conntrack-tools|1.4.8|1.4.9||
 |console-setup|1.244|1.249||
 |containers-common|0.67.0|1.0.1||
@@ -254,10 +255,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |grpc|1.82.1|1.83.1||
 |gsasl|2.2.2|2.2.4||
 |gsl|2.8|5.0.0||
-|gstreamer|1.27.50|4.3.7||
+|gstreamer|1.27.50|4.3.8||
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.36.1||
-|gtk3|3.24.51|4.3.7||
+|gtk3|3.24.51|4.3.8||
 |guidelines-support-library|4.2.1|5.0.0||
 |gumbo-parser|0.13.2|0.14.0||
 |haproxy|3.3|3.4.4||
@@ -504,9 +505,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |otf2bdf|3.1|3.1_p1|Possible downgrade from the current version (3.1 -> 3.1_p1)|
 |ovmf|202602|edk2-stable202608|Versions not comparable: `202602` and `edk2-stable202608`|
 |pam|1.7.1|2.2.5||
-|pango|1.57.0|4.3.7||
+|pango|1.57.0|4.3.8||
 |pangomm|2.46.4|2.56.2||
 |parallel|20250822|20260722||
+|passt|0<br>+git20260424.ec96f01|2026_07_28.f8df3f1|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.2||
 |patchelf|0.18.0|0.19.1||
 |pcsc-lite|2.3.3|2.5.1||
@@ -585,7 +587,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hiredis|3.3.1|3.4.1||
 |python-httplib2|0.31.2|0.32.0||
 |python-huggingface-hub|1.10.0|1.29.0||
-|python-hypothesis|6.152.4|6.165.10||
+|python-hypothesis|6.152.4|6.166.0||
 |python-idna|3.18|3.19||
 |python-ijson|3.5.0|3.5.1||
 |python-importlib-metadata|9.0.0|9.0.1||
