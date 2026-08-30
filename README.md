@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1788096730?label=Updated)
+![Relative date](https://img.shields.io/date/1788112497?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -14,6 +14,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
 |accountsservice|23.13.9|26.27.3||
 |acl|2.3.2|2.4.0||
+|aide|0.19.3|0.19.4||
 |alsa-lib|1.2.15.3|1.2.16.1||
 |appstream|1.1.2|1.2.0||
 |appstream-glib|0.8.3|0.8.4||
@@ -298,6 +299,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |kbd|2.9.0|2.10.0||
 |kdsoap|2.2.0|2.3.0||
 |kea|3.1.4|3.3.1||
+|keepalived|2.2.8|2.3.4||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
 |kiwi|10.2.42|10.3.11||
 |kpmcore|26.04.2|26.08.0||
@@ -717,7 +719,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-zope-interface|8.3|8.6||
 |qalculate-qt|5.9.0.1|5.12.0||
 |qca|2.3.10|2.3.12||
-|qcoro|0.12.0|0.13.0||
 |qemu|11.0.1|11.1.1||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.67||
@@ -757,7 +758,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qt6-qtwebview|6.11.1|6.12.0-beta3||
 |qtkeychain|0.16.0|0.17.0||
 |quota|4.10|4.11||
-|rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
 |rdfind|1.7.0|1.8.0||
 |rdma-core|60.0|64.0||
 |re2|2025.08.12|2025-11-05||
