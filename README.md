@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1788310649?label=Updated)
+![Relative date](https://img.shields.io/date/1788326853?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -141,6 +141,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glslang|1.4.335.0|16.5.0||
 |glusterfs|11.1|11.2||
 |gnupg|2.5.20|2.5.22||
+|go|1.27.0|1.27.1||
 |go-cel-expr|0.25.2|0.25.3||
 |go-github-ajg-form|1.7.1|1.9.0||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
@@ -204,7 +205,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-lithammer-shortuuid|4.2.0|5.0.0||
 |go-github-lucasb-eyer-go-colorful|1.4.0|1.4.1||
 |go-github-mattn-go-isatty|0.0.22|0.0.24||
-|go-github-mattn-go-runewidth|0.0.24|0.0.28||
+|go-github-mattn-go-runewidth|0.0.24|0.0.29||
 |go-github-miekg-dns|1.1.72|1.1.73||
 |go-github-minio-kes-go|0.2.1|kms/v0.7.0||
 |go-github-minio-kms-go|0.2.1|kms/v0.7.0||
@@ -252,6 +253,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |graphite2|1.3.14|1.3.15||
 |graphviz|14.1.5|16.0.0||
 |grpc|1.82.1|1.83.1||
+|gsasl|2.2.2|2.2.4||
 |gsl|2.8|5.0.0||
 |gstreamer|1.27.50|4.3.8||
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
@@ -349,7 +351,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libgcrypt|1.11.2|1.12.3||
 |libgit2|1.9.2|1.9.7||
 |libgpg-error|1.58|1.61||
-|libheif|1.21.2|1.23.2||
+|libheif|1.21.2|1.23.3||
 |libical|3.0.20|4.0.5||
 |libisoburn|1.5.6|1.5.8.pl02||
 |libisofs|1.5.6|1.5.8.pl02||
@@ -424,7 +426,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lua-json|1.3.4|1.3.5||
 |lua-lunitx|0.8.1|0.8.2||
 |luajit|2.1<br>+openresty20260824|2.1.ROLLING|Compound version number '2.1+openresty20260824'|
-|lutok|0.6.1|0.6.2||
+|lutok|0.6.1|0.6.3||
 |lvm2|2.03.35|2.03.42||
 |lynis|3.1.6|3.1.7||
 |lz4|1.10.0|1.28.1||
@@ -475,6 +477,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |onnx|1.20.1|1.22.0||
 |onnxruntime|1.24.1|1.29.0||
 |open-iscsi|2.1.11|2.1.12||
+|open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
 |openblas|0.3.31|0.3.34||
 |openconnect|9.12|9.21||
