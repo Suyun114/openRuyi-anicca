@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1788326853?label=Updated)
+![Relative date](https://img.shields.io/date/1788345375?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -38,7 +38,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bluez|5.86|5.87||
 |bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.92.0||
-|brotli|1.2.0|8.0.4||
+|brotli|1.2.0|9.0.0||
 |btrbk|0.32.6|0.32.7||
 |btrfs-progs|6.19.1|7.1||
 |buildah|1.43.1|1.45.0||
@@ -72,6 +72,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |crun|1.27.1|1.29.1||
 |cryptsetup|2.8.6|2.8.7||
 |cunit|2.1.3|2.1-3||
+|curl|8.21.0|8.22.0||
 |curl-impersonate-chrome|0.7.0|2.2.2||
 |date|3.0.4|3.5.1||
 |dav1d|1.5.3|1.5.4||
@@ -121,7 +122,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-noto-serif-cjk|2.003|Serif2.003||
 |fonts-sarasa-gothic|1.0.37|1.0.41||
 |foot|1.26.1|1.27.0||
-|freerdp|3.26.0|3.31.0||
+|freerdp|3.26.0|3.31.1||
 |fuse3|3.18.2|fuse-3.18.2|Possible downgrade from the current version (3.18.2 -> fuse-3.18.2)|
 |gawk|5.4.0|5.4.1||
 |gcc|16|16.2.0||
@@ -187,6 +188,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-go-openapi-swag|0.26.1|yamlutils/v0.29.1||
 |go-github-go-openapi-testify|2.3.0|2.7.0||
 |go-github-go-redis-redis|9.18.0|9.22.0||
+|go-github-go-sql-driver-mysql|1.10.0|1.10.1||
 |go-github-golang-freetype|0<br>+git20260106.e2365df|release|Compound version number '0+git20260106.e2365df'<br>Version number indicates a snapshot (+git) is used<br>Versions not comparable: `0+git20260106.e2365df` and `release`|
 |go-github-google-flatbuffers|25.12.19|25.12.19-2026-02-06-03fffb2||
 |go-github-grpc-ecosystem-grpc-gateway|2.27.7|2.30.0||
@@ -268,7 +270,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hipblas|7.2.4|20250912-17||
 |hipify|7.2.4|20250912-42||
 |htop|3.5.1|3.5.3||
-|httpd|2.4.66|2.4.68||
 |hunspell-en|2026.02.25|rel-2026.02.25||
 |hwdata|0.407|0.410||
 |hwinfo|25.0|25.5||
@@ -416,6 +417,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260810||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.36|1.0.1||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -483,10 +485,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openconnect|9.12|9.21||
 |opencv|4.13.0|5.0.0||
 |openexr|3.4.10|3.4.15||
-|openjdk-17|17.0.20.8|jdk-17.0.21+4||
-|openjdk-21|21.0.12.8|jdk-21.0.13+4||
-|openjdk-25|25.0.4.7|jdk-25.0.5+4||
-|openjdk-latest|26.0.2.10|jdk-25.0.5+4||
+|openjdk-17|17.0.20.8|jdk-17.0.21+5||
+|openjdk-21|21.0.12.8|jdk-21.0.13+5||
+|openjdk-25|25.0.4.7|jdk-25.0.5+5||
+|openjdk-latest|26.0.2.10|jdk-25.0.5+5||
 |openldap|2.6.13|2.7.0||
 |opensbi|1.8|1.9||
 |openssl|3.6.3|4.0.2||
@@ -595,7 +597,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-libclang|18.1.1|llvm-18.1.1||
 |python-librt|0.7.8|0.15.0||
 |python-linkify-it-py|2.1.0|2.2.0||
-|python-lxml|6.1.1|lxml-7.0.0b1||
+|python-lxml|6.1.1|lxml-6.1.3||
 |python-marisa-trie|1.3.1|1.4.1||
 |python-marshmallow|4.3.0|4.3.1||
 |python-maturin|1.14.0|1.15.0||
