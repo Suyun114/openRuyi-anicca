@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1788384950?label=Updated)
+![Relative date](https://img.shields.io/date/1788393131?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -11,11 +11,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |Xwayland|24.1.11|24.1.13||
 |aardvark-dns|1.17.1|2.1.0||
 |abseil-cpp|20260526.0|20260817.0||
+|accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
 |accountsservice|23.13.9|26.27.3||
 |acl|2.3.2|2.4.0||
 |aide|0.19.3|0.19.4||
 |alsa-lib|1.2.15.3|1.2.16.1||
-|appstream|1.1.2|1.2.0||
 |appstream-glib|0.8.3|0.8.4||
 |arrow|24.0.0|59.3.0||
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
@@ -46,6 +46,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |c-ares|1.34.6|1.34.8||
 |cairo|1.18.4|1.109||
 |capstone|5.0.6|5.0.9||
+|ccache|4.13.6|4.14||
 |ceph|21.3.0<br>+git20260811.|21.3.0|Compound version number '21.3.0+git20260811.'<br>Version number indicates a snapshot (+git) is used|
 |check|0.15.2|1.13.0||
 |checkpolicy|3.10|3.11||
@@ -65,6 +66,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |containers-common|0.67.0|1.0.1||
 |cpp-httplib|0.48.0|0.54.1||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
+|crash|9.0.1|9.0.2||
 |crontabs|1.11|crontabs-20190603||
 |crun|1.27.1|1.29.1||
 |cryptsetup|2.8.6|2.8.7||
@@ -429,6 +431,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lua-lunitx|0.8.1|0.8.2||
 |luajit|2.1<br>+openresty20260824|2.1.ROLLING|Compound version number '2.1+openresty20260824'|
 |lutok|0.6.1|0.6.3||
+|lvm2|2.03.35|2.03.42||
 |lynis|3.1.6|3.1.7||
 |lz4|1.10.0|1.28.1||
 |man-pages|6.18|6.19||
@@ -522,7 +525,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |polkit|126|127||
 |poppler|25.11.0|26.08.0||
 |postgresql|18.4|18.6||
-|powertop|2.15|2.16||
 |ppp|2.5.2|2.5.3||
 |protobuf|33.2|36.1||
 |psutils|2.10|3.3.16||
@@ -536,7 +538,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-altair|6.1.0|6.2.2||
 |python-annotated-doc|0.0.4|0.0.5||
 |python-annotated-types|0.7.0|0.8.0||
-|python-anyio|4.13.0|4.14.2||
+|python-anyio|4.13.0|4.15.0||
 |python-apscheduler|3.11.2|3.11.3||
 |python-archinfo|9.2.214|9.3.4||
 |python-argcomplete|3.6.3|3.7.2||
@@ -572,6 +574,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-eval-type-backport|0.3.1|0.4.0||
 |python-expandvars|1.1.2|1.24.5||
 |python-fastapi|0.136.1|0.141.1||
+|python-fastavro|1.12.1|1.12.2||
 |python-fastjsonschema|2.21.2|2.22.2||
 |python-filelock|3.29.0|3.32.5||
 |python-fsspec|2026.4.0|2026.7.0||
