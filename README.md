@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1788421615?label=Updated)
+![Relative date](https://img.shields.io/date/1788438974?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -28,6 +28,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |audit|4.1.4|4.2.1||
 |authselect|1.6.1|1.8.0||
 |autoconf|2.72|2.73||
+|avahi|0.9~rc4|0.8|Possible downgrade from the current version (0.9~rc4 -> 0.8)|
 |bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
 |bash-completion|2.17.0|2.18.0||
 |bind|9.20.15|9.21.25||
@@ -106,7 +107,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |expat|2.8.1|2.8.4||
 |expect|5.45.4|30.5.1||
 |fakeroot|1.37.2|2.1.4||
-|fast_float|8.2.5|8.2.10||
 |fastfetch|2.63.1|2.68.1||
 |ffmpeg|8.1.2|9.0.1||
 |ffnvcodec|13.0.19.0|n13.1.15.0||
@@ -161,7 +161,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-cespare-xxhash|1.1.0|2.3.0||
 |go-github-charmbracelet-bubbletea|1.3.10|2.0.9||
 |go-github-charmbracelet-lipgloss|1.1.0|2.0.6||
-|go-github-charmbracelet-log|1.0.0|2.0.0||
+|go-github-charmbracelet-log|1.0.0|2.0.1||
 |go-github-charmbracelet-ssh|0<br>+git20250826.ebfa259|0.4.3|Compound version number '0+git20250826.ebfa259'<br>Version number indicates a snapshot (+git) is used|
 |go-github-charmbracelet-x|0<br>+git20260204.d6a2763|ansi/v0.11.8|Compound version number '0+git20260204.d6a2763'<br>Version number indicates a snapshot (+git) is used|
 |go-github-cheggaaa-pb-v1|1.0.29|3.2.1||
@@ -333,6 +333,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcomps|0.1.23|0.1.24||
 |libconfig|1.8.1|1.8.2||
 |libconfuse|3.3|3.4||
+|libcthreads|20240413|20260703||
 |libdatrie|0.2.13|0.2.14||
 |libdisplay-info|0.2.0|0.4.0||
 |libdvdcss|1.5.0|1.6.0||
@@ -434,7 +435,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lz4|1.10.0|1.28.1||
 |man-pages|6.18|6.19||
 |mariadb|11.8.6|13.0.1||
-|mariadb-connector-c|3.4.8|3.4.9||
+|mariadb-connector-c|3.4.8|3.4.10||
 |mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
@@ -584,7 +585,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hf-xet|1.5.1|1.6.1-a0||
 |python-hiredis|3.3.1|3.4.1||
 |python-httplib2|0.31.2|0.32.0||
-|python-huggingface-hub|1.10.0|1.29.0||
+|python-huggingface-hub|1.10.0|1.30.0||
 |python-hypothesis|6.152.4|6.167.1||
 |python-idna|3.18|3.19||
 |python-ijson|3.5.0|3.5.1||
@@ -693,7 +694,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-tenacity|9.1.4|9.2.0||
 |python-tensile|7.2.4|rocm-7.2.4||
 |python-time-machine|3.2.0|3.5.0||
-|python-tokenizers|0.22.2|pipeline-baseline|Versions not comparable: `0.22.2` and `pipeline-baseline`|
+|python-tokenizers|0.22.2|0.23.2||
 |python-tomlkit|0.15.0|0.15.1||
 |python-torchvision|0.28.0|ciflow/binaries/all/9643||
 |python-tqdm|4.67.3|4.70.0||
@@ -723,40 +724,40 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qemu|11.0.1|11.1.1||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.68||
-|qt6-qt5compat|6.11.1|6.12.0-beta3||
-|qt6-qtcharts|6.11.1|6.12.0-beta3||
-|qt6-qtcoap|6.11.1|6.12.0-beta3||
-|qt6-qtconnectivity|6.11.1|6.12.0-beta3||
-|qt6-qtdatavis3d|6.11.1|6.12.0-beta3||
-|qt6-qtdeclarative|6.11.1|6.12.0-beta3||
-|qt6-qtgrpc|6.11.1|6.12.0-beta3||
-|qt6-qthttpserver|6.11.1|6.12.0-beta3||
-|qt6-qtimageformats|6.11.1|6.12.0-beta3||
-|qt6-qtlanguageserver|6.11.1|6.12.0-beta3||
-|qt6-qtlocation|6.11.1|6.12.0-beta3||
-|qt6-qtlottie|6.11.1|6.12.0-beta3||
-|qt6-qtmqtt|6.11.1|6.12.0-beta3||
-|qt6-qtnetworkauth|6.11.1|6.12.0-beta3||
-|qt6-qtopcua|6.11.1|6.12.0-beta3||
-|qt6-qtpositioning|6.11.1|6.12.0-beta3||
-|qt6-qtquick3d|6.11.1|6.12.0-beta3||
-|qt6-qtquick3dphysics|6.11.1|6.12.0-beta3||
-|qt6-qtquickeffectmaker|6.11.1|6.12.0-beta3||
-|qt6-qtquicktimeline|6.11.1|6.12.0-beta3||
-|qt6-qtremoteobjects|6.11.1|6.12.0-beta3||
-|qt6-qtscxml|6.11.1|6.12.0-beta3||
-|qt6-qtsensors|6.11.1|6.12.0-beta3||
-|qt6-qtserialbus|6.11.1|6.12.0-beta3||
-|qt6-qtserialport|6.11.1|6.12.0-beta3||
-|qt6-qtshadertools|6.11.1|6.12.0-beta3||
-|qt6-qtspeech|6.11.1|6.12.0-beta3||
-|qt6-qttranslations|6.11.1|6.12.0-beta3||
-|qt6-qtvirtualkeyboard|6.11.1|6.12.0-beta3||
-|qt6-qtwayland|6.11.1|6.12.0-beta3||
-|qt6-qtwebchannel|6.11.1|6.12.0-beta3||
-|qt6-qtwebengine|6.11.1|6.12.0-beta3||
-|qt6-qtwebsockets|6.11.1|6.12.0-beta3||
-|qt6-qtwebview|6.11.1|6.12.0-beta3||
+|qt6-qt5compat|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtcharts|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtcoap|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtconnectivity|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtdatavis3d|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtdeclarative|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtgrpc|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qthttpserver|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtimageformats|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtlanguageserver|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtlocation|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtlottie|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtmqtt|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtnetworkauth|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtopcua|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtpositioning|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtquick3d|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtquick3dphysics|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtquickeffectmaker|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtquicktimeline|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtremoteobjects|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtscxml|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtsensors|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtserialbus|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtserialport|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtshadertools|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtspeech|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qttranslations|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtvirtualkeyboard|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtwayland|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtwebchannel|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtwebengine|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtwebsockets|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
+|qt6-qtwebview|6.11.1|6.5.10-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.10-lts-lgpl)|
 |qtkeychain|0.16.0|0.17.0||
 |quota|4.10|4.11||
 |rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
@@ -825,7 +826,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sed|4.9|4.10||
 |setools|4.6.0|4.7.1||
 |setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
-|sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |sg3_utils|1.48|1.49||
 |shaderc|2026.1|2026.3||
 |shadow|4.19.4|4.20.2||
@@ -873,7 +873,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |thrift|0.22.0|0.24.0||
 |tinysparql|3.10.1|3.11.1||
 |tpm2-tss|4.1.3|4.2.0||
-|trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.28.0||
 |udisks2|2.11.0|2.11.2||
 |unbound|1.25.1|1.26.0||
