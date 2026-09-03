@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1788464361?label=Updated)
+![Relative date](https://img.shields.io/date/1788473811?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -23,7 +23,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |asn1c|0.9.28|0.9.29||
 |at-spi2-core|2.58.2|2.60.6||
 |atf|0.23|0.25||
-|atkmm|2.28.4|2.36.4||
 |attr|2.5.2|2.6.0||
 |audit|4.1.4|4.2.1||
 |authselect|1.6.1|1.8.0||
@@ -92,14 +91,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |doxygen|1.13.2|1.18.0||
 |dpdk|25.07|26.07||
 |dropbear|2026.91|2026.94||
-|drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarfs|0.15.3|0.15.7||
 |dwarves|1.30|1.31||
 |ed|1.22.5|1.22.6||
 |editorconfig-core-c|0.12.10|0.12.11||
 |emacs|30.2|31.1||
-|enchant|2.8.16|2.8.19||
+|enchant|2.8.16|2.8.21||
 |erofs-utils|1.9.1|1.9.4||
 |ethtool|6.15|7.1||
 |exfatprogs|1.3.2|1.4.3||
@@ -180,6 +178,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-etcd-io-raft|3.6.0|3.7.0||
 |go-github-gabriel-vasile-mimetype|1.4.13|1.4.15||
 |go-github-gin-gonic-gin|1.8.1|1.12.0||
+|go-github-go-jose-go-jose-v4|4.1.4|4.1.5||
 |go-github-go-ldap-ldap|3.4.13|3.4.14||
 |go-github-go-loger-logr|1.4.3|1.4.4||
 |go-github-go-openapi-jsonpointer|0.23.1|1.0.0||
@@ -187,6 +186,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-go-openapi-spec|0.22.6|1.0.0||
 |go-github-go-openapi-swag|0.26.1|yamlutils/v0.29.1||
 |go-github-go-openapi-testify|2.3.0|2.7.0||
+|go-github-go-playground-validator-v10|10.30.3|10.30.4||
 |go-github-go-redis-redis|9.18.0|9.22.0||
 |go-github-go-sql-driver-mysql|1.10.0|1.10.1||
 |go-github-golang-freetype|0<br>+git20260106.e2365df|release|Compound version number '0+git20260106.e2365df'<br>Version number indicates a snapshot (+git) is used<br>Versions not comparable: `0+git20260106.e2365df` and `release`|
@@ -442,7 +442,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.2.1|26.2.2||
-|meson|1.10.2|1.12.0||
 |mimalloc|3.3.2|3.5.1||
 |minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
 |minizip-ng|4.1.0|4.2.2||
@@ -457,6 +456,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mujs|1.3.9|1.3.10||
 |multipath-tools|0.11.1|0.15.1||
 |mupdf|1.27.2|1.28.3||
+|nano|9.0|9.2||
 |nasm|3.01|3.02||
 |ncurses|6.5|6.6||
 |ndctl|83|85||
@@ -478,7 +478,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ntfs-3g|2022.10.3|2026.7.7||
 |nvme-cli|2.16|3.0-b.5||
 |obs-build|20260623|20260901||
-|ollama|0.13.5|0.33.2||
+|ollama|0.13.5|0.33.3||
 |onnx|1.20.1|1.22.0||
 |onnxruntime|1.24.1|1.29.0||
 |open-iscsi|2.1.11|2.1.12||
@@ -495,7 +495,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openldap|2.6.13|2.7.0||
 |opensbi|1.8|1.9||
 |openssl|3.6.3|4.0.2||
-|openvpn|2.6.16|2.7.6||
+|openvpn|2.6.16|2.7.7||
 |openvswitch|3.5.1|4.0.0||
 |openzl|0.1.0|0.2.0||
 |opus|1.5.2|1.6.1||
@@ -764,7 +764,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
 |rdfind|1.7.0|1.8.0||
 |rdma-core|60.0|64.0||
-|re2|2025.08.12|2025-11-05||
 |re2c|4.3|4.6||
 |rest|0.10.2|2.6.9||
 |rocblas|7.2.4|14.3.0||
