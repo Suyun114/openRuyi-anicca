@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1788900182?label=Updated)
+![Relative date](https://img.shields.io/date/1788909123?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -31,6 +31,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |avahi|0.9~rc4|0.8|Possible downgrade from the current version (0.9~rc4 -> 0.8)|
 |bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
 |bash-completion|2.17.0|2.18.0||
+|bind|9.20.15|9.21.25||
 |binutils|2.46.0|2.47||
 |blake3|1.8.5|1.8.7||
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
@@ -95,7 +96,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dwarfs|0.15.3|0.15.7||
 |dwarves|1.30|1.31||
 |ed|1.22.5|1.22.6||
-|editorconfig-core-c|0.12.10|0.12.11||
 |emacs|30.2|31.1||
 |enchant|2.8.16|2.8.21||
 |erofs-utils|1.9.1|1.9.4||
@@ -120,7 +120,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-sarasa-gothic|1.0.37|1.0.41||
 |foot|1.26.1|1.28.0||
 |freerdp|3.26.0|3.31.1||
-|fuse3|3.18.2|fuse-3.18.2|Possible downgrade from the current version (3.18.2 -> fuse-3.18.2)|
+|fuse3|3.18.2|fuse-3.18.3|Possible downgrade from the current version (3.18.2 -> fuse-3.18.3)|
 |gawk|5.4.0|5.4.1||
 |gcc|16|16.2.0||
 |gdk-pixbuf|2.44.6|2.44.8||
@@ -247,6 +247,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-golang-x-term|0.44.0|0.46.0||
 |go-golang-x-text|0.38.0|0.42.0||
 |go-golang-x-time|0.15.0|0.16.0||
+|go-golang-x-tools|0.49.0|0.50.0||
 |go-gonum-v1-gonum|0.16.0|0.17.0||
 |go-gonum-v1-plot|0.16.0|0.17.0||
 |go-google-grpc|1.81.1|1.83.2||
@@ -257,6 +258,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-rsc-pdf|0.1.0<br>+git20260106.c47d69c|0.1.1|Compound version number '0.1.0+git20260106.c47d69c'<br>Version number indicates a snapshot (+git) is used|
 |gpgme|2.0.1|2.2.0||
 |gpgmepp|2.0.0|2.2.0||
+|graphite2|1.3.14|1.3.15||
 |graphviz|14.1.5|16.1.0||
 |grpc|1.82.1|1.83.1||
 |gsasl|2.2.2|2.2.4||
@@ -293,6 +295,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iptstate|2.2.7|2.3.0||
 |iso-codes|4.18.0|4.20.1||
 |jansson|2.15.0|2.15.1||
+|jitterentropy|3.6.3|3.7.0||
 |jose|14|15||
 |jq|1.8.1|1.8.2||
 |json-c|0.18|0.19||
@@ -485,7 +488,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openjdk-21|21.0.12.8|jdk-21.0.13+5||
 |openjdk-25|25.0.4.7|jdk-25.0.5+5||
 |openjdk-latest|26.0.2.10|jdk-25.0.5+5||
-|openldap|2.6.13|2.7.0||
+|openldap|2.6.13|2.7.1||
 |opensbi|1.8|1.9||
 |openssl|3.6.3|4.0.2||
 |openvpn|2.6.16|2.7.7||
@@ -519,6 +522,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |poppler|25.11.0|26.08.0||
 |postgresql|18.4|18.6||
 |powertop|2.15|2.16||
+|ppp|2.5.2|2.5.3||
 |protobuf|33.2|36.1||
 |psutils|2.10|3.3.17||
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
@@ -570,7 +574,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-fastapi|0.136.1|0.141.1||
 |python-fastavro|1.12.1|1.12.2||
 |python-fastjsonschema|2.21.2|2.22.2||
-|python-filelock|3.29.0|3.32.5||
+|python-filelock|3.29.0|3.32.6||
 |python-fsspec|2026.4.0|2026.7.0||
 |python-gevent|26.4.0|26.8.0||
 |python-greenlet|3.4.0|3.5.5||
@@ -617,7 +621,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-phonemizer|3.3.0|3.4.0||
 |python-pip|26.1.2|26.2.1||
 |python-pipdeptree|2.30.0|4.2.5||
-|python-platformdirs|4.9.6|4.11.7||
+|python-platformdirs|4.9.6|4.11.8||
 |python-portalocker|3.2.0|4.3.0||
 |python-preshed|3.0.12|release-v3.0.13|Possible downgrade from the current version (3.0.12 -> release-v3.0.13)|
 |python-prettytable|3.17.0|3.18.0||
@@ -686,7 +690,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
 |python-tenacity|9.1.4|9.2.0||
 |python-tensile|7.2.4|rocm-7.2.4||
-|python-time-machine|3.2.0|3.5.0||
+|python-time-machine|3.2.0|3.5.1||
 |python-tokenizers|0.22.2|0.23.2||
 |python-tomlkit|0.15.0|0.15.1||
 |python-torchvision|0.28.0|ciflow/binaries/all/9643||
