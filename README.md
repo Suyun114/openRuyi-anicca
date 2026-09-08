@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1788856602?label=Updated)
+![Relative date](https://img.shields.io/date/1788873592?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -39,7 +39,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.92.0||
 |brotli|1.2.0|9.0.0||
-|btrbk|0.32.6|0.32.7||
 |btrfs-progs|6.19.1|7.1||
 |buildah|1.43.1|1.45.0||
 |busybox|1.37.0|1.38.0||
@@ -76,6 +75,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |date|3.0.4|3.5.1||
 |dav1d|1.5.3|1.5.4||
 |db|6.2.32|18.1.40||
+|dbus|1.16.2|5.2.2||
 |dhcpcd|10.3.2|10.5.2||
 |dialog|1.3|1.3-20260721||
 |ding-libs|0.6.2|0.7.0||
@@ -90,6 +90,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |doxygen|1.13.2|1.18.0||
 |dpdk|25.07|26.07||
 |dropbear|2026.91|2026.94||
+|drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarfs|0.15.3|0.15.7||
 |dwarves|1.30|1.31||
@@ -234,16 +235,18 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-ugorji-go-codec|1.2.14|codec/v1.3.2|Possible downgrade from the current version (1.2.14 -> codec/v1.3.2)|
 |go-github-xo-terminfo|0<br>+git20220910.abceb7e|1.0.0|Compound version number '0+git20220910.abceb7e'<br>Version number indicates a snapshot (+git) is used|
 |go-github-yuin-goldmark|1.8.2|2.0.1||
-|go-golang-x-arch|0.28.0|0.30.0||
+|go-golang-x-arch|0.28.0|0.31.0||
 |go-golang-x-crypto|0.53.0|0.56.0||
 |go-golang-x-exp|0<br>+git20260721.3dfff04|winfsnotify/v0.1.0-deprecated|Compound version number '0+git20260721.3dfff04'<br>Version number indicates a snapshot (+git) is used|
 |go-golang-x-image|0.43.0|0.45.0||
-|go-golang-x-mod|0.37.0|0.40.0||
+|go-golang-x-mod|0.37.0|0.41.0||
 |go-golang-x-net|0.56.0|0.58.0||
-|go-golang-x-sync|0.21.0|0.22.0||
-|go-golang-x-sys|0.46.0|0.47.0||
+|go-golang-x-oauth2|0.36.0|0.37.0||
+|go-golang-x-sync|0.21.0|0.23.0||
+|go-golang-x-sys|0.46.0|0.48.0||
 |go-golang-x-term|0.44.0|0.45.0||
 |go-golang-x-text|0.38.0|0.41.0||
+|go-golang-x-time|0.15.0|0.16.0||
 |go-golang-x-tools|0.40.0|0.49.0||
 |go-gonum-v1-gonum|0.16.0|0.17.0||
 |go-gonum-v1-plot|0.16.0|0.17.0||
@@ -326,12 +329,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcap|2.76|2.78||
 |libcap-ng|0.8.5|0.9.5||
 |libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
-|libclc|21.1.7|23.1.0||
+|libclc|21.1.7|23.1.1||
 |libcomps|0.1.23|0.1.24||
 |libconfig|1.8.1|1.8.2||
 |libconfuse|3.3|3.4||
 |libdatrie|0.2.13|0.2.14||
-|libdisplay-info|0.2.0|0.4.0||
 |libdvdcss|1.5.0|1.6.0||
 |libdvdread|7.0.1|7.1.1||
 |libdwarf|2.2.0|2.3.2||
@@ -410,8 +412,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux|7.2.0|7.2||
 |linux-firmware|20260519|20260810||
 |lldpad|1.1.0|1.1.1||
-|llhttp|9.4.1|9.4.3||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.36|1.0.1||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -469,7 +469,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nss|3.127.0|3.128||
 |ntfs-3g|2022.10.3|2026.7.7||
 |nvme-cli|2.16|3.0-b.5||
-|obs-build|20260623|20260901||
+|obs-build|20260623|20260908||
 |ollama|0.13.5|0.33.3||
 |onnx|1.20.1|1.22.0||
 |onnxruntime|1.24.1|1.29.0||
@@ -511,6 +511,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.8||
+|pkgconf|2.5.1|3.0.7||
 |podman|5.8.2|6.1.1||
 |policycoreutils|3.10|3.11||
 |polkit|126|127||
@@ -540,7 +541,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-asttokens|3.0.1|3.0.2||
 |python-awscrt|0.32.0|0.36.2||
 |python-bcrypt|3.2.2|5.0.0||
-|python-bibtexparser|1.4.4|2.0.0b10||
+|python-bibtexparser|1.4.4|2.0.0||
 |python-bitarray|3.8.0|3.11.0||
 |python-bitstring|4.3.1|4.4.0||
 |python-blis|1.3.3|release-v1.3.3||
