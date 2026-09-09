@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1788909123?label=Updated)
+![Relative date](https://img.shields.io/date/1788922713?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -73,7 +73,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cunit|2.1.3|2.1-3||
 |curl|8.21.0|8.22.0||
 |curl-impersonate-chrome|0.7.0|2.2.2||
-|date|3.0.4|3.5.1||
 |dav1d|1.5.3|1.5.4||
 |db|6.2.32|18.1.40||
 |dbus|1.16.2|5.2.2||
@@ -96,6 +95,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dwarfs|0.15.3|0.15.7||
 |dwarves|1.30|1.31||
 |ed|1.22.5|1.22.6||
+|editorconfig-core-c|0.12.10|0.12.11||
 |emacs|30.2|31.1||
 |enchant|2.8.16|2.8.21||
 |erofs-utils|1.9.1|1.9.4||
@@ -269,7 +269,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gtk3|3.24.51|4.3.9||
 |guidelines-support-library|4.2.1|5.0.0||
 |gumbo-parser|0.13.2|0.14.0||
-|haproxy|3.3|3.4.4||
 |harfbuzz|12.1.0|14.4.0||
 |haveged|1.9.20|1.9.26||
 |hdf5|2.0.0|2.2.0||
@@ -415,7 +414,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260810||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.36|1.0.2||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -454,7 +452,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mupdf|1.27.2|1.28.3||
 |nano|9.0|9.2||
 |nasm|3.01|3.02||
-|ncurses|6.5|6.6||
 |ndctl|83|85||
 |netavark|1.17.1|2.1.0||
 |netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
@@ -705,7 +702,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-tzlocal|5.3.1|5.4.4||
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.52.4||
-|python-virtualenv|20.35.4|21.7.8||
+|python-virtualenv|20.35.4|21.7.9||
 |python-wcwidth|0.7.0|0.8.3||
 |python-weasel|1.0.0|release-v1.0.0||
 |python-websocket-client|1.9.0|1.9.2||
