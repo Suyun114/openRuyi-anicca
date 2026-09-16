@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1789520715?label=Updated)
+![Relative date](https://img.shields.io/date/1789542782?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -109,7 +109,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |exfatprogs|1.3.2|1.4.3||
 |exiv2|0.28.8|0.28.9||
 |expect|5.45.4|30.5.1||
-|fakeroot|1.37.2|2.1.4||
 |fast_float|8.2.5|8.3.0||
 |fastfetch|2.63.1|2.68.1||
 |ffmpeg|8.1.2|9.0.1||
@@ -397,7 +396,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
 |meson|1.10.2|1.12.0||
-|mimalloc|3.3.2|3.5.2||
 |minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
 |minizip-ng|4.1.0|4.2.2||
 |mkosi|25.3<br>+git20251224.|27|Compound version number '25.3+git20251224.'<br>Version number indicates a snapshot (+git) is used|
@@ -781,7 +779,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-wit-bindgen-rust-macro-0.51|0.51.0|0.62.0||
 |rust-wit-component-0.244|0.244.0|1.259.0||
 |rust-wit-parser-0.244|0.244.0|1.259.0||
-|ruyi|0.46.0|0.52.0||
+|ruyi|0.46.0|0.53.0-beta.20260916||
 |safeint|3.0.28a|3.24||
 |samba|4.23.2|4.24.7||
 |scap-security-guide|0.1.80|0.1.82||
@@ -800,9 +798,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |shim|16.1<br>+git20260715.0a88e2a|16.1|Compound version number '16.1+git20260715.0a88e2a'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
 |simdjson|4.2.4|4.6.11||
-|simdutf|9.0.0|9.1.2||
+|simdutf|9.0.0|9.2.0||
 |skalibs|2.14.5.1|2.15.1.0||
-|slang|2.3.3|2026.17.1||
+|slang|2.3.3|2026.18||
 |slibtool|0.7.3|0.7.4||
 |snappy|1.2.2|1.3.0||
 |socat|1.8.1.1|1.8.1.3||
