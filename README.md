@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1789636317?label=Updated)
+![Relative date](https://img.shields.io/date/1789656091?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -37,7 +37,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |binutils|2.46.0|2.47||
 |blake3|1.8.5|1.8.7||
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
-|bluez|5.86|5.87||
 |bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.92.0||
 |brotli|1.2.0|9.0.0||
@@ -115,7 +114,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ffnvcodec|13.0.19.0|n13.1.15.0||
 |file|5.47|5.48||
 |findutils|4.10.0|4.11.0||
-|firewalld|2.4.1|2.5.1||
+|firewalld|2.4.1|2.5.2||
 |fmt|12.1.0|12.2.0||
 |fontconfig|2.17.1|2.18.3||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
@@ -141,7 +140,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glib|2.87.1|2.90.0||
 |glib-networking|2.80.1|2.90.0||
 |glibmm|2.86.0|2.90.0||
-|glog|0.7.1|1.2.5||
 |glslang|1.4.335.0|16.6.0||
 |glusterfs|11.1|11.2||
 |gnupg|2.5.20|2.5.22||
@@ -185,7 +183,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-grpc-ecosystem-grpc-gateway|2.27.7|2.30.0||
 |go-github-hashicorp-go-immutable-radix|1.3.1|2.1.0||
 |go-github-hashicorp-go-msgpack|0.5.5|2.1.5||
-|go-github-hashicorp-go-secure-stdlib|0.1.0|plugincontainer/v0.5.0||
+|go-github-hashicorp-go-secure-stdlib|0.3.0|plugincontainer/v0.5.0||
 |go-github-hashicorp-golang-lru|1.0.2|arc/v2.0.7|Possible downgrade from the current version (1.0.2 -> arc/v2.0.7)|
 |go-github-inconshreveable-mousetrap|1.1|1.1.0||
 |go-github-kataras-golog|0.1.15|0.2.0||
@@ -267,7 +265,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |kea|3.1.4|3.3.1||
 |keepalived|2.2.8|2.3.4||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
-|kiwi|10.2.42|11.0.1||
+|kiwi|10.2.42|11.0.2||
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
 |labwc|0.20.1|0.20.2||
 |lame|3.100|4.0||
@@ -383,6 +381,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |log4cxx|1.6.1|1.8.0||
 |lshw|B.02.20|02.20||
 |lsof|4.99.6|4.99.7||
+|lsscsi|0.32|0.33||
 |lttng-ust|2.14.0|2.16.0||
 |lua|5.4.8|5.5.1||
 |lua-lunitx|0.8.1|0.8.2||
@@ -406,7 +405,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mksh|59|59c|Possible downgrade from the current version (59 -> 59c)|
 |mmtests|2.0~rc1<br>+git20260312.|2.0-rc5|Compound version number '2.0~rc1+git20260312.'<br>Version number indicates a snapshot (+git) is used|
 |mock-core-configs|43.2|mock-core-configs-45.1-1|Possible downgrade from the current version (43.2 -> mock-core-configs-45.1-1)|
-|mod_http2|2.0.39|2.0.42||
 |mold|2.42.0|2.42.1||
 |msgpack|3.1.0|5.4.1||
 |mstflint|4.34.0.2|4.37.0-1||
@@ -476,7 +474,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
-|pipewire|1.5.84|1.6.8||
+|pipewire|1.5.84|1.6.9||
 |pkgconf|2.5.1|3.0.7||
 |plasma-wayland-protocols|1.21.0|1.22.0||
 |podman|5.8.2|6.1.2||
@@ -526,7 +524,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-cryptography|49.0.0|50.0.1||
 |python-csvw|4.0.0|4.1.0||
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
-|python-dashscope|1.25.11|1.27.5||
+|python-dashscope|1.25.11|1.27.6||
 |python-datasets|4.8.5|5.0.1||
 |python-decorator|5.2.1|5.3.1||
 |python-distlib|0.4.0|0.3.4|Possible downgrade from the current version (0.4.0 -> 0.3.4)|
@@ -547,9 +545,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hf-xet|1.5.1|1.6.1-a0||
 |python-hiredis|3.3.1|3.4.1||
 |python-httplib2|0.31.2|0.32.0||
-|python-huggingface-hub|1.10.0|1.31.0||
+|python-huggingface-hub|1.10.0|1.32.0||
 |python-hypothesis|6.152.4|6.168.0||
-|python-idna|3.18|3.19||
+|python-idna|3.18|3.20||
 |python-ijson|3.5.0|3.5.1||
 |python-importlib-metadata|9.0.0|9.0.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
@@ -694,40 +692,40 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qemu|11.0.1|11.1.1||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.68||
-|qt6-qt5compat|6.11.1|6.12.0-beta4||
-|qt6-qtcharts|6.11.1|6.12.0-beta4||
-|qt6-qtcoap|6.11.1|6.12.0-beta4||
-|qt6-qtconnectivity|6.11.1|6.12.0-beta4||
-|qt6-qtdatavis3d|6.11.1|6.12.0-beta4||
-|qt6-qtdeclarative|6.11.1|6.12.0-beta4||
-|qt6-qtgrpc|6.11.1|6.12.0-beta4||
-|qt6-qthttpserver|6.11.1|6.12.0-beta4||
-|qt6-qtimageformats|6.11.1|6.12.0-beta4||
-|qt6-qtlanguageserver|6.11.1|6.12.0-beta4||
-|qt6-qtlocation|6.11.1|6.12.0-beta4||
-|qt6-qtlottie|6.11.1|6.12.0-beta4||
-|qt6-qtmqtt|6.11.1|6.12.0-beta4||
-|qt6-qtnetworkauth|6.11.1|6.12.0-beta4||
-|qt6-qtopcua|6.11.1|6.12.0-beta4||
-|qt6-qtpositioning|6.11.1|6.12.0-beta4||
-|qt6-qtquick3d|6.11.1|6.12.0-beta4||
-|qt6-qtquick3dphysics|6.11.1|6.12.0-beta4||
-|qt6-qtquickeffectmaker|6.11.1|6.12.0-beta4||
-|qt6-qtquicktimeline|6.11.1|6.12.0-beta4||
-|qt6-qtremoteobjects|6.11.1|6.12.0-beta4||
-|qt6-qtscxml|6.11.1|6.12.0-beta4||
-|qt6-qtsensors|6.11.1|6.12.0-beta4||
-|qt6-qtserialbus|6.11.1|6.12.0-beta4||
-|qt6-qtserialport|6.11.1|6.12.0-beta4||
-|qt6-qtshadertools|6.11.1|6.12.0-beta4||
-|qt6-qtspeech|6.11.1|6.12.0-beta4||
-|qt6-qttranslations|6.11.1|6.12.0-beta4||
-|qt6-qtvirtualkeyboard|6.11.1|6.12.0-beta4||
-|qt6-qtwayland|6.11.1|6.12.0-beta4||
-|qt6-qtwebchannel|6.11.1|6.12.0-beta4||
+|qt6-qt5compat|6.11.1|6.12.0-rc1||
+|qt6-qtcharts|6.11.1|6.12.0-rc1||
+|qt6-qtcoap|6.11.1|6.12.0-rc1||
+|qt6-qtconnectivity|6.11.1|6.12.0-rc1||
+|qt6-qtdatavis3d|6.11.1|6.12.0-rc1||
+|qt6-qtdeclarative|6.11.1|6.12.0-rc1||
+|qt6-qtgrpc|6.11.1|6.12.0-rc1||
+|qt6-qthttpserver|6.11.1|6.12.0-rc1||
+|qt6-qtimageformats|6.11.1|6.12.0-rc1||
+|qt6-qtlanguageserver|6.11.1|6.12.0-rc1||
+|qt6-qtlocation|6.11.1|6.12.0-rc1||
+|qt6-qtlottie|6.11.1|6.12.0-rc1||
+|qt6-qtmqtt|6.11.1|6.12.0-rc1||
+|qt6-qtnetworkauth|6.11.1|6.12.0-rc1||
+|qt6-qtopcua|6.11.1|6.12.0-rc1||
+|qt6-qtpositioning|6.11.1|6.12.0-rc1||
+|qt6-qtquick3d|6.11.1|6.12.0-rc1||
+|qt6-qtquick3dphysics|6.11.1|6.12.0-rc1||
+|qt6-qtquickeffectmaker|6.11.1|6.12.0-rc1||
+|qt6-qtquicktimeline|6.11.1|6.12.0-rc1||
+|qt6-qtremoteobjects|6.11.1|6.12.0-rc1||
+|qt6-qtscxml|6.11.1|6.12.0-rc1||
+|qt6-qtsensors|6.11.1|6.12.0-rc1||
+|qt6-qtserialbus|6.11.1|6.12.0-rc1||
+|qt6-qtserialport|6.11.1|6.12.0-rc1||
+|qt6-qtshadertools|6.11.1|6.12.0-rc1||
+|qt6-qtspeech|6.11.1|6.12.0-rc1||
+|qt6-qttranslations|6.11.1|6.12.0-rc1||
+|qt6-qtvirtualkeyboard|6.11.1|6.12.0-rc1||
+|qt6-qtwayland|6.11.1|6.12.0-rc1||
+|qt6-qtwebchannel|6.11.1|6.12.0-rc1||
 |qt6-qtwebengine|6.11.1|6.140.0-beta2||
-|qt6-qtwebsockets|6.11.1|6.12.0-beta4||
-|qt6-qtwebview|6.11.1|6.12.0-beta4||
+|qt6-qtwebsockets|6.11.1|6.12.0-rc1||
+|qt6-qtwebview|6.11.1|6.12.0-rc1||
 |qtkeychain|0.16.0|0.17.0||
 |quota|4.10|4.11||
 |rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
@@ -893,6 +891,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xevd|0.5.0|0.7.0||
 |xeve|0.5.1|0.7.0||
 |xfsdump|3.2.0|3.3.0||
+|xfsprogs|7.1.1|7.2.0||
 |xkeyboard-config|2.46|2.48||
 |xmlsec|1.3.10|1.3.17||
 |xmlto|0.0.28|0.0.29||
@@ -905,7 +904,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |zchunk|1.5.3|1.5.4||
 |zfs|2.4.1|2.4.4||
 |zip|3.0|8.6.0||
-|zsh|5.9.1|5.9.2||
 |zstd|1.5.7|1.5.7.3||
 |zxing-cpp|3.0.2|3.1.1||
 |zziplib|0.13.80|3.0||
