@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1790147994?label=Updated)
+![Relative date](https://img.shields.io/date/1790169699?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -81,11 +81,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dav1d|1.5.3|1.5.4||
 |db|6.2.32|18.1.40||
 |dbus|1.16.2|5.2.2||
-|ddcutil|2.2.7|3.0.1||
+|ddcutil|2.2.7|3.0.2||
 |dhcpcd|10.3.2|10.5.2||
 |dialog|1.3|1.3-20260721||
 |ding-libs|0.6.2|0.7.0||
-|distribution-gpg-keys|1.115|1.122-1||
+|distribution-gpg-keys|1.115|1.123-1||
 |djvulibre|3.5.29|3.5.30||
 |dkms|3.2.2|3.4.3||
 |dmidecode|3.6|3.7||
@@ -124,7 +124,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-noto-serif-cjk|2.003|Serif2.003||
 |fonts-sarasa-gothic|1.0.37|1.0.41||
 |foot|1.26.1|1.28.0||
-|freerdp|3.26.0|3.31.1||
+|freerdp|3.26.0|3.32.0||
 |fribidi|1.0.16|1.0.17||
 |fuse3|3.18.2|fuse-3.18.3|Possible downgrade from the current version (3.18.2 -> fuse-3.18.3)|
 |gawk|5.4.0|5.4.1||
@@ -227,6 +227,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-uber-atomic|1.11.0|1.12.0||
 |gpgme|2.0.1|2.2.0||
 |gpgmepp|2.0.0|2.2.0||
+|graphite2|1.3.14|1.3.15||
 |graphviz|14.1.5|16.1.0||
 |grpc|1.82.1|1.84.0||
 |grub|2.14|2.16||
@@ -366,6 +367,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libtool|2.5.4|2.6.2||
 |libtraceevent|1.8.4|1.9.0||
 |libudev-zero|1.0.3|1.0.5||
+|libunibreak|6.1|8.0||
 |liburing|2.12|2.15||
 |libusb|1.0.29|1.0.30||
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
@@ -439,7 +441,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nmap|7.92|7.991||
 |nodejs|24.13.0|26.10.0||
 |nspr|4.39.0|4.40||
-|nss|3.127.0|3.129||
+|nss|3.127.0|3.130||
 |ntfs-3g|2022.10.3|2026.7.7||
 |nvme-cli|2.16|3.1||
 |obs-build|20260623|20260910||
@@ -653,6 +655,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-rtslib-fb|2.2.3|2.2.4||
 |python-safetensors|0.8.0|0.9.0-rc.0||
 |python-scikit-build-core|0.12.2|1.0.3||
+|python-semver|3.0.4|3.1.0||
 |python-sentencepiece|0.2.1|0.2.2||
 |python-service-identity|24.2.0|26.1.0||
 |python-setuptools-gettext|0.1.14|0.1.18||
@@ -664,6 +667,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-spacy|3.8.14|release-v3.8.16|Possible downgrade from the current version (3.8.14 -> release-v3.8.16)|
 |python-sqlparse|0.5.5|0.6.0||
 |python-srsly|2.5.3|3.0.0||
+|python-starlette|1.6.0|1.7.0||
 |python-systemd|235|236||
 |python-tempita|0.6.0|0.6||
 |python-templated-dictionary|1.6|python-templated-dictionary-1.6-1|Possible downgrade from the current version (1.6 -> python-templated-dictionary-1.6-1)|
@@ -683,7 +687,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-trove-classifiers|2025.8.26.11|2026.9.21.13||
 |python-typing-extensions|4.15.0|4.16.0||
 |python-typing-inspection|0.4.2|0.4.4||
-|python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-tzlocal|5.3.1|5.4.4||
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.53.0||
@@ -896,7 +899,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wlroots|0.20.1|0.20.2||
 |wofi|1.5.2|1.5.3||
 |wolfssl|5.8.2|5.9.2-stable||
-|wpa_supplicant|2.11|2.12||
 |wtmpdb|0.74.0|0.76.0||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
 |xdg-desktop-portal|1.20.3|1.22.1||
@@ -904,6 +906,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xdg-user-dirs|0.19|0.20||
 |xevd|0.5.0|0.7.0||
 |xeve|0.5.1|0.7.0||
+|xfsdump|3.2.0|3.3.0||
 |xfsprogs|7.1.1|7.2.0||
 |xkeyboard-config|2.46|2.48||
 |xmlsec|1.3.10|1.3.17||
