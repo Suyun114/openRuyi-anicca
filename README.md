@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1790169699?label=Updated)
+![Relative date](https://img.shields.io/date/1790187393?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -87,7 +87,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ding-libs|0.6.2|0.7.0||
 |distribution-gpg-keys|1.115|1.123-1||
 |djvulibre|3.5.29|3.5.30||
-|dkms|3.2.2|3.4.3||
 |dmidecode|3.6|3.7||
 |dnf5|5.4.2.0|5.4.5.0||
 |dnsmasq|2.92|2.93||
@@ -115,6 +114,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ffnvcodec|13.0.19.0|n13.1.15.0||
 |file|5.47|5.48||
 |findutils|4.10.0|4.11.0||
+|fio|3.42|3.43||
 |firewalld|2.4.1|2.5.2||
 |fmt|12.1.0|12.2.0||
 |fontconfig|2.17.1|2.18.3||
@@ -146,7 +146,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glog|0.7.1|1.2.5||
 |glslang|1.4.357.0|16.6.0||
 |glusterfs|11.1|11.2||
-|gnupg|2.5.20|2.5.23||
+|gnupg|2.5.20|2.5.24||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
 |go-github-anishathalye-porcupine|1.3.0|1.3.1||
 |go-github-apache-arrow-go-arrow|0<br>+git20260107.bc21918|r-universe-release|Compound version number '0+git20260107.bc21918'<br>Version number indicates a snapshot (+git) is used<br>Versions not comparable: `0+git20260107.bc21918` and `r-universe-release`|
@@ -251,7 +251,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hunspell-en|2026.02.25|rel-2026.02.25||
 |hwdata|0.407|0.411||
 |hwinfo|25.0|25.5||
-|hwloc|2.12.2|2.14.0||
+|hwloc|2.12.2|2.15.0||
 |hyphen|2.8.8|2.8.9||
 |ibus|1.5.33|1.5.34||
 |icu4c|77.1|78.3||
@@ -384,7 +384,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux|7.2.6|7.2|Possible downgrade from the current version (7.2.6 -> 7.2)|
 |linux-firmware|20260519|20260916||
 |lldpad|1.1.0|1.1.1||
-|llhttp|9.4.1|9.4.3||
 |lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.36|1.0.2||
 |log4cplus|2.1.2|2.2.0.1||
@@ -442,7 +441,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nodejs|24.13.0|26.10.0||
 |nspr|4.39.0|4.40||
 |nss|3.127.0|3.130||
-|ntfs-3g|2022.10.3|2026.7.7||
+|ntfs-3g|2022.10.3|2026.9.18||
 |nvme-cli|2.16|3.1||
 |obs-build|20260623|20260910||
 |ollama|0.13.5|0.34.3||
@@ -620,7 +619,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pyelftools|0.32|0.33||
 |python-pygit2|1.18.2|1.20.1||
 |python-pygtrie|2.5.0|2.6.2||
-|python-pyjwt|2.13.0|2.14.0||
+|python-pyjwt|2.13.0|2.15.0||
 |python-pylsqpack|0.3.23|0.3.24||
 |python-pymilvus|2.6.16|3.0.2||
 |python-pymongo|4.16.0|10.10.10.10||
@@ -653,7 +652,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-rpmautospec|0.8.3|0.8.5||
 |python-rpmautospec-core|0.1.5|0.2.0||
 |python-rtslib-fb|2.2.3|2.2.4||
-|python-safetensors|0.8.0|0.9.0-rc.0||
+|python-safetensors|0.8.0|0.9.0-rc.1||
 |python-scikit-build-core|0.12.2|1.0.3||
 |python-semver|3.0.4|3.1.0||
 |python-sentencepiece|0.2.1|0.2.2||
@@ -687,11 +686,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-trove-classifiers|2025.8.26.11|2026.9.21.13||
 |python-typing-extensions|4.15.0|4.16.0||
 |python-typing-inspection|0.4.2|0.4.4||
+|python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-tzlocal|5.3.1|5.4.4||
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.53.0||
-|python-virtualenv|21.7.4|21.11.0||
-|python-wcwidth|0.7.0|0.8.4||
+|python-virtualenv|21.7.4|21.11.1||
+|python-wcwidth|0.7.0|0.9.0||
 |python-weasel|1.0.0|release-v1.0.0||
 |python-websocket-client|1.9.0|1.9.2||
 |python-websockets|16.0|17.1||
@@ -745,7 +745,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
 |rdfind|1.7.0|1.8.0||
 |rdma-core|60.0|65.0||
-|re2|2025.08.12|2025-11-05||
 |re2c|4.3|4.6||
 |rest|0.10.2|2.6.9||
 |rocblas|7.2.4|14.3.0||
@@ -755,7 +754,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocm-cmake|7.2.4|20250912-42||
 |rocm-llvm|7.2.4|20250912-42||
 |rocm-smi|7.2.4|rocm-7.2.4||
-|rocminfo|7.2.4|20250912-42||
 |rocprofiler-register|7.2.4|20250912-42||
 |rocr-runtime|7.2.4|20250912-42||
 |rocsolver|7.2.4|20250912-42||
@@ -823,7 +821,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |snappy|1.2.2|1.3.1||
 |socat|1.8.1.1|1.8.1.3||
 |socket_wrapper|1.5.0|1.5.2||
-|softhsm|2.6.1|2.7.0||
 |spdk|25.09|26.05||
 |spdlog|1.15.3|1.17.0||
 |spirv-headers|1.4.357.0|2026.08.0||
@@ -899,6 +896,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wlroots|0.20.1|0.20.2||
 |wofi|1.5.2|1.5.3||
 |wolfssl|5.8.2|5.9.2-stable||
+|wpa_supplicant|2.11|2.12||
 |wtmpdb|0.74.0|0.76.0||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
 |xdg-desktop-portal|1.20.3|1.22.1||
