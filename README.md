@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1790211822?label=Updated)
+![Relative date](https://img.shields.io/date/1790233817?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -12,7 +12,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |aardvark-dns|1.17.1|2.1.0||
 |abseil-cpp|20260526.0|20260817.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
-|accountsservice|23.13.9|26.27.3||
+|acl|2.3.2|2.4.0||
 |adwaita-icon-theme|50.0|51.0||
 |aide|0.19.3|0.19.4||
 |alsa-lib|1.2.15.3|1.2.16.1||
@@ -100,14 +100,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dtc|1.7.2|1.8.1||
 |dwarfs|0.15.3|0.15.7||
 |dwarves|1.30|1.32||
-|ed|1.22.5|1.22.6||
 |emacs|30.2|31.1||
 |enchant|2.8.16|2.8.21||
 |erofs-utils|1.9.1|1.9.4||
 |ethtool|6.15|7.1||
 |exfatprogs|1.3.2|1.4.3||
 |exiv2|0.28.8|0.28.9||
-|expat|2.8.4|2.8.5||
 |expect|5.45.4|30.5.2||
 |fast_float|8.2.5|8.3.0||
 |fastfetch|2.63.1|2.68.1||
@@ -200,6 +198,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-inconshreveable-mousetrap|1.1|1.1.0||
 |go-github-kataras-golog|0.1.15|0.2.0||
 |go-github-kataras-jwt|0.1.17|0.3.0||
+|go-github-lesismal-nbio|1.6.12|1.7.0||
 |go-github-lithammer-shortuuid|4.2.0|5.0.0||
 |go-github-minio-kes-go|0.2.1|kms/v0.7.0||
 |go-github-minio-kms-go|0.2.1|kms/v0.7.0||
@@ -261,7 +260,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |imath|3.2.2|3.2.3||
 |iniparser|4.2.6|4.3.0||
 |iotop|1.30|0.6|Possible downgrade from the current version (1.30 -> 0.6)|
-|iozone|3_508|3.511||
 |iperf|3.21|2.2.1|Possible downgrade from the current version (3.21 -> 2.2.1)|
 |ipmitool|1.8.19|1_8_19||
 |iproute2|6.16.0|7.2.0||
@@ -367,7 +365,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libtiff|4.7.0|4.7.2||
 |libtirpc|1.3.7|1.3.8||
 |libtool|2.5.4|2.6.2||
-|libtraceevent|1.8.4|1.9.0||
 |libudev-zero|1.0.3|1.0.5||
 |libunibreak|6.1|8.0||
 |liburing|2.12|2.15||
@@ -539,7 +536,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-cryptography|49.0.0|50.0.1||
 |python-csvw|4.0.0|4.1.0||
 |python-cymem|2.0.13|release-v2.0.14|Possible downgrade from the current version (2.0.13 -> release-v2.0.14)|
-|python-dashscope|1.25.11|1.27.6||
+|python-dashscope|1.25.11|1.27.7||
 |python-decorator|5.2.1|5.3.1||
 |python-distlib|0.4.0|0.3.4|Possible downgrade from the current version (0.4.0 -> 0.3.4)|
 |python-emoji|2.15.0|2.16.0||
@@ -693,12 +690,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-tzlocal|5.3.1|5.4.4||
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.53.0||
-|python-virtualenv|21.7.4|21.11.1||
+|python-virtualenv|21.7.4|21.12.0||
 |python-wcwidth|0.7.0|0.9.1||
 |python-weasel|1.0.0|release-v1.0.0||
 |python-websocket-client|1.9.0|1.9.2||
 |python-websockets|16.0|17.1||
-|python-wrapt|2.1.1|2.4.2rc1||
+|python-wrapt|2.1.1|2.5.0rc1||
 |python-xxhash|3.6.0|4.0.1||
 |python-yarl|1.22.0|1.25.1||
 |python-zipp|3.23.1|4.1.0||
@@ -801,7 +798,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-wit-bindgen-rust-macro-0.51|0.51.0|0.62.0||
 |rust-wit-component-0.244|0.244.0|1.259.0||
 |rust-wit-parser-0.244|0.244.0|1.259.0||
-|ruyi|0.46.0|0.54.0-alpha.20260918||
+|ruyi|0.46.0|0.53.0||
 |safeint|3.0.28a|3.24||
 |samba|4.23.2|4.24.7||
 |scap-security-guide|0.1.80|0.1.82||
@@ -830,7 +827,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |softhsm|2.6.1|2.7.0||
 |spdk|25.09|26.05||
 |spdlog|1.15.3|1.17.0||
-|spirv-headers|1.4.357.0|2026.08.0||
 |spirv-llvm-translator|22.1.3|23.1.1||
 |spirv-tools|1.4.357.0|2026.3||
 |sqlite|3.53.2|3.53.4||
