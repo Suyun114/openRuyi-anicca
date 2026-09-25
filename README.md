@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1790315262?label=Updated)
+![Relative date](https://img.shields.io/date/1790334396?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -56,6 +56,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |check|0.15.2|1.14.0||
 |checkpolicy|3.10|3.11||
 |chrony|4.8|4.9||
+|cifs-utils|7.5|7.7||
 |ck|0.7.2|2.6.4||
 |cloud-hypervisor|52.0<br>+git20260608.|53.0|Compound version number '52.0+git20260608.'<br>Version number indicates a snapshot (+git) is used|
 |cloud-init|25.3|26.2||
@@ -63,13 +64,16 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |cmake|4.3.2|4.4.3||
 |cmocka|1.1.7|2.0.2||
 |cockpit|364|368||
+|config|20250710<br>+git|5.6.1|Compound version number '20250710+git'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (20250710+git -> 5.6.1)|
+|conmon|2.1.13|2.2.1||
+|console-setup|1.244|1.249||
 |containers-common|0.67.0|1.0.1||
 |coreutils|9.11|9.12||
 |cpp-httplib|0.48.0|0.58.0||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.3||
 |crontabs|1.11|crontabs-20190603||
-|crun|1.28|1.30||
+|crun|1.28|1.30.1||
 |cryptsetup|2.8.6|2.8.8||
 |cunit|2.1.3|2.1-3||
 |curl|8.21.0|8.22.0||
@@ -77,7 +81,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |date|3.0.4|3.5.1||
 |dav1d|1.5.3|1.5.4||
 |db|6.2.32|18.1.40||
-|dbus|1.16.2|5.2.2||
 |ddcutil|2.2.7|3.0.2||
 |dhcpcd|10.3.2|10.5.2||
 |dialog|1.3|1.3-20260721||
@@ -105,6 +108,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |exfatprogs|1.3.2|1.4.3||
 |exiv2|0.28.8|0.28.9||
 |expect|5.45.4|30.5.2||
+|fast_float|8.2.5|8.3.0||
 |fastfetch|2.63.1|2.68.1||
 |ffmpeg|8.1.2|9.0.2||
 |ffnvcodec|13.0.19.0|n13.1.15.0||
@@ -199,6 +203,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-inconshreveable-mousetrap|1.1|1.1.0||
 |go-github-kataras-golog|0.1.15|0.2.0||
 |go-github-kataras-jwt|0.1.17|0.3.0||
+|go-github-klauspost-compress|1.20.0|1.20.1||
 |go-github-lesismal-nbio|1.6.12|1.7.0||
 |go-github-lithammer-shortuuid|4.2.0|5.0.0||
 |go-github-minio-kes-go|0.2.1|kms/v0.7.0||
@@ -222,12 +227,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-golang-x-exp|0<br>+git20260721.3dfff04|winfsnotify/v0.1.0-deprecated|Compound version number '0+git20260721.3dfff04'<br>Version number indicates a snapshot (+git) is used|
 |go-golang-x-image|0.43.0|0.46.0||
 |go-gonum-v1-plot|0.16.0|0.17.0||
-|go-google-grpc|1.83.2|1.84.0||
+|go-google-grpc|1.83.2|1.86.0-dev||
 |go-gopkg-yaml.v2|2.4.4|3.0.1||
 |go-opentelemetry-proto|1.10.0|1.11.0||
 |go-rsc-pdf|0.1.0<br>+git20260106.c47d69c|0.1.1|Compound version number '0.1.0+git20260106.c47d69c'<br>Version number indicates a snapshot (+git) is used|
 |go-uber-atomic|1.11.0|1.12.0||
 |gpgme|2.0.1|2.2.0||
+|gpgmepp|2.0.0|2.2.0||
 |graphite2|1.3.14|1.3.15||
 |graphviz|14.1.5|16.1.0||
 |grpc|1.82.1|1.84.0||
@@ -347,6 +353,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libpkgmanifest|0.5.9|0.6.0||
 |libplasma|6.7.4|6.7.5||
 |libpsl|0.21.5|0.23.3||
+|libqalculate|5.9.0|5.12.0||
 |libqmi|1.36.0|1.38.0||
 |libqrtr-glib|1.2.2|1.4.0||
 |libraw|0.22.1|0.22.2||
@@ -693,7 +700,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
 |python-tzlocal|5.3.1|5.4.4||
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
-|python-uvicorn|0.46.0|0.53.0||
+|python-uvicorn|0.46.0|0.54.0||
 |python-virtualenv|21.7.4|21.12.1||
 |python-wcwidth|0.7.0|0.9.1||
 |python-weasel|1.0.0|release-v1.0.0||
@@ -895,6 +902,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vulkan-validation-layers|1.4.357.0|1.4.363||
 |wabt|1.0.39|1.0.42||
 |wavpack|5.8.1|5.9.0||
+|wayback|0.3|0.5.1||
 |wayland|1.25.0|1.26.0||
 |wayland-protocols|1.48|1.49||
 |weston|14.0.2|16.0.0||
