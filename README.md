@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1790591553?label=Updated)
+![Relative date](https://img.shields.io/date/1790620015?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -13,6 +13,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |abseil-cpp|20260526.0|20260817.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
 |accountsservice|23.13.9|26.27.3||
+|acl|2.3.2|2.4.0||
 |adwaita-icon-theme|50.0|51.0||
 |aide|0.19.3|0.19.4||
 |alsa-lib|1.2.15.3|1.2.16.1||
@@ -38,7 +39,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
 |bluez|5.86|5.87||
 |bolt|0.9.11|1.3.1||
-|boost|1.89.0|1.92.0||
 |brotli|1.2.0|9.0.0||
 |btrfs-progs|6.19.1|7.1||
 |bubblewrap|0.12.0|0.13.0||
@@ -48,7 +48,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |c-ares|1.34.6|1.34.8||
 |cairo|1.18.4|1.109||
 |calamares|3.4.2|3.4.3||
-|capstone|5.0.6|5.0.9||
 |ccache|4.13.6|4.14.1||
 |ceph|21.3.0<br>+git20260917.|21.3.0|Compound version number '21.3.0+git20260917.'<br>Version number indicates a snapshot (+git) is used|
 |chafa|1.18.2|1.18.3||
@@ -253,7 +252,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |guidelines-support-library|4.2.1|5.0.1||
 |gumbo-parser|0.13.2|0.14.1||
 |gzip|1.14|1.15||
-|haproxy|3.3|3.4.5||
+|haproxy|3.3|3.4.6||
 |harfbuzz|12.1.0|14.5.0||
 |haveged|1.9.20|1.9.26||
 |hdf5|2.0.0|2.2.0||
@@ -305,7 +304,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libaec|1.1.6|1.1.7||
 |libavif|1.4.0|1.4.2||
 |libblockdev|3.4.0|3.5.0||
-|libbluray|1.4.1|1.5.0||
 |libburn|1.5.6|1.5.8||
 |libcap|2.76|2.78||
 |libcap-ng|0.8.5|0.9.6||
@@ -359,6 +357,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libpkgmanifest|0.5.9|0.6.0||
 |libplasma|6.7.4|6.7.5||
 |libpsl|0.21.5|0.23.3||
+|libqalculate|5.9.0|5.12.0||
 |libqmi|1.36.0|1.38.0||
 |libqrtr-glib|1.2.2|1.4.0||
 |libraw|0.22.1|0.22.2||
@@ -398,6 +397,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260916||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.36|1.0.2||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -414,7 +414,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lz4|1.10.0|1.28.1||
 |man-pages|6.18|6.19||
 |mariadb|11.8.6|13.1.1||
-|mariadb-connector-c|3.4.8|3.4.10||
+|mariadb-connector-c|3.4.8|3.4.11||
 |md4c|0.5.3|0.6.0||
 |mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
@@ -424,7 +424,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mimalloc|3.3.2|3.5.3||
 |minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
 |minizip-ng|4.1.0|4.2.2||
-|mkosi|25.3<br>+git20251224.|27|Compound version number '25.3+git20251224.'<br>Version number indicates a snapshot (+git) is used|
+|mkosi|25.3<br>+git20251224.|27.1|Compound version number '25.3+git20251224.'<br>Version number indicates a snapshot (+git) is used|
 |mksh|59|59c|Possible downgrade from the current version (59 -> 59c)|
 |mmtests|2.0~rc1<br>+git20260312.|2.0-rc5|Compound version number '2.0~rc1+git20260312.'<br>Version number indicates a snapshot (+git) is used|
 |mock-core-configs|43.2|mock-core-configs-45.1-1|Possible downgrade from the current version (43.2 -> mock-core-configs-45.1-1)|
@@ -491,6 +491,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |passt|0<br>+git20260424.ec96f01|2026_09_25.df90211|Compound version number '0+git20260424.ec96f01'<br>Version number indicates a snapshot (+git) is used|
 |patch|2.8|3.1.2||
 |patchelf|0.18.0|0.19.1||
+|pcre2|10.48|10.49||
 |pcsc-lite|2.5.1|2.5.2||
 |perl|5.42.0|5.44.0||
 |perl-rpm-packaging|1.2|1.3||
@@ -513,7 +514,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |psutils|2.10|3.3.17||
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |pulseaudio-qt|1.8.1|1.9.0||
-|pv|1.10.5|1.12.0||
 |pybind11|3.0.1|3.1.0||
 |python|3.13.8|3.14.7||
 |python-accelerate|1.13.0|1.15.0||
@@ -722,7 +722,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qalculate-qt|5.9.0.1|5.12.0||
 |qca|2.3.10|2.3.12||
 |qcoro|0.12.0|0.13.0||
-|qemu|11.0.1|11.1.1||
+|qemu|11.0.1|11.1.2||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.68||
 |qt6-qt5compat|6.11.1|6.12.0-rc1||
@@ -771,7 +771,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocblas|7.2.4|14.3.0||
 |rocclr|7.2.4|5.6.1|Possible downgrade from the current version (7.2.4 -> 5.6.1)|
 |rocksdb|10.5.1|11.8.1||
-|rocm-bandwidth-test|6.4.2|20250912-42||
 |rocm-cmake|7.2.4|20250912-42||
 |rocm-llvm|7.2.4|20250912-42||
 |rocm-smi|7.2.4|rocm-7.2.4||
@@ -820,7 +819,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ruyi|0.46.0|0.53.0||
 |safeint|3.0.28a|3.24||
 |samba|4.23.2|4.25.0||
-|scap-security-guide|0.1.80|0.1.82||
 |scdoc|1.11.3|1.11.5||
 |scons|4.10.1|4.11.1||
 |sdbus-cpp|2.1.0|2.3.1||
@@ -835,7 +833,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |shared-mime-info|2.4|2.5.1||
 |shim|16.1<br>+git20260715.0a88e2a|16.1|Compound version number '16.1+git20260715.0a88e2a'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
-|simdjson|4.2.4|4.6.11||
+|simdjson|4.2.4|5.0.1||
 |simdutf|9.0.0|9.2.1||
 |skalibs|2.14.5.1|2.15.1.0||
 |slang|2.3.3|2026.18.3||
