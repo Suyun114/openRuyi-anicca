@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1790654806?label=Updated)
+![Relative date](https://img.shields.io/date/1790679981?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -34,7 +34,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
 |bash-completion|2.17.0|2.18.0||
 |bind|9.20.15|9.21.26||
-|binutils|2.46.0|2.47||
 |blake3|1.8.5|1.8.7||
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
 |bluez|5.86|5.87||
@@ -51,6 +50,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |calamares|3.4.2|3.4.3||
 |capstone|5.0.6|5.0.9||
 |ccache|4.13.6|4.14.1||
+|ceph|21.3.0<br>+git20260917.|21.3.0|Compound version number '21.3.0+git20260917.'<br>Version number indicates a snapshot (+git) is used|
 |chafa|1.18.2|1.18.3||
 |check|0.15.2|1.14.0||
 |checkpolicy|3.10|3.11||
@@ -80,6 +80,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |date|3.0.4|3.5.1||
 |dav1d|1.5.3|1.5.4||
 |db|6.2.32|18.1.40||
+|dbus|1.16.2|5.2.2||
 |dbus-glib|0.114|0.116||
 |ddcutil|2.2.7|3.0.2||
 |dhcpcd|10.3.2|10.5.2||
@@ -154,7 +155,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-anishathalye-porcupine|1.3.0|1.3.1||
 |go-github-apache-arrow-go-arrow|0<br>+git20260107.bc21918|r-universe-release|Compound version number '0+git20260107.bc21918'<br>Version number indicates a snapshot (+git) is used<br>Versions not comparable: `0+git20260107.bc21918` and `r-universe-release`|
 |go-github-apache-arrow-go-v18|18.5.0|18.8.0||
-|go-github-apache-beam|2.76.0|2.77.0-RC2||
+|go-github-apache-beam|2.76.0|2.77.0-RC3||
 |go-github-apparentlymart-go-textseg|16.0.0|17.0.1||
 |go-github-asaskevich-govalidator|11.0.1|12.0.0||
 |go-github-aws-smithy-go|1.28.1|1.28.2||
@@ -314,7 +315,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcomps|0.1.23|0.1.24||
 |libconfig|1.8.1|1.8.2||
 |libconfuse|3.3|3.4||
-|libdatrie|0.2.13|0.2.14||
 |libdisplay-info|0.2.0|0.4.0||
 |libdvdcss|1.5.0|1.6.0||
 |libdvdread|7.0.1|7.1.1||
@@ -371,6 +371,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libsigc++2|2.12.1|3.8.1||
 |libsodium|1.0.20|1.0.22-RELEASE||
 |libsolv|0.7.37|0.7.40||
+|libsoup|3.7.1|3.7.3||
 |libssh|0.11.5|0.12.2||
 |libstoragemgmt|1.10.2|1.11.0||
 |libthai|0.1.29|0.1.30||
@@ -394,6 +395,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libxslt|1.1.43|1.1.45||
 |libyang|4.2.2|5.8.6||
 |lighttpd|1.4.82|1.4.85||
+|linux|7.2.6|7.2|Possible downgrade from the current version (7.2.6 -> 7.2)|
 |linux-firmware|20260519|20260916||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
@@ -454,7 +456,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nodejs|24.13.0|26.10.0||
 |nspr|4.39.0|4.40||
 |nss|3.127.0|3.130||
-|ntfs-3g|2022.10.3|2026.9.18||
+|ntfs-3g|2022.10.3|2026.9.28||
 |nvme-cli|2.16|3.1||
 |obs-build|20260623|20260910||
 |ollama|0.13.5|0.35.0||
@@ -608,7 +610,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-ordered-set|4.1.0|release/4.1.0||
 |python-orjson|3.11.7|3.12.0||
 |python-packaging|25.0|26.3||
-|python-peft|0.19.1|0.21.0||
+|python-peft|0.19.1|0.21.1||
 |python-phonemizer|3.3.0|3.4.0||
 |python-pip|26.1.2|26.2.1||
 |python-pipdeptree|2.30.0|4.2.5||
@@ -676,7 +678,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-semver|3.0.4|3.1.0||
 |python-sentencepiece|0.2.1|0.2.2||
 |python-service-identity|24.2.0|26.1.0||
-|python-setuptools-gettext|0.1.14|0.1.18||
+|python-setuptools-gettext|0.1.14|0.1.19||
 |python-setuptools-rust|1.12.1|1.13.0||
 |python-simpleline|1.9.0|1.9.2||
 |python-sip|6.15.1|6.16.1||
@@ -695,7 +697,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-time-machine|3.2.0|3.5.1||
 |python-tokenizers|0.22.2|1.0.0-rc.2||
 |python-tomlkit|0.15.0|0.15.1||
-|python-torchvision|0.28.0|0.29.2-rc1||
+|python-torchvision|0.28.0|ciflow/binaries/all/9643||
 |python-tornado|6.5.8|6.6.0a1||
 |python-tqdm|4.67.3|4.70.1||
 |python-traitlets|5.15.0|5.16.1||
