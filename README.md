@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1790810896?label=Updated)
+![Relative date](https://img.shields.io/date/1790827330?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -12,6 +12,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |aardvark-dns|1.17.1|2.1.0||
 |abseil-cpp|20260526.0|20260817.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
+|accountsservice|23.13.9|26.27.3||
 |acl|2.3.2|2.4.0||
 |acpica|20260408|20260930||
 |adwaita-icon-theme|50.0|51.0||
@@ -103,6 +104,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dtc|1.7.2|1.8.1||
 |dwarfs|0.15.3|0.15.8||
 |dwarves|1.30|1.32||
+|ed|1.22.5|1.22.6||
 |emacs|30.2|31.1||
 |enchant|2.8.16|2.8.21||
 |erofs-utils|1.9.1|1.9.4||
@@ -121,7 +123,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fmt|12.1.0|12.2.0||
 |fontconfig|2.17.1|2.18.3||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
-|fonts-noto|2026.01.01|noto-monthly-release-2026.09.01||
+|fonts-noto|2026.01.01|noto-monthly-release-2026.10.01||
 |fonts-noto-color-emoji|2.051|2026-09-24-unicode18_0||
 |fonts-noto-sans-cjk|2.004|Serif2.003|Possible downgrade from the current version (2.004 -> Serif2.003)|
 |fonts-noto-serif-cjk|2.003|Serif2.003||
@@ -177,7 +179,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-containerd-typeurl|2.2.3|2.3.0||
 |go-github-coreos-go-oidc|3.17.0|3.21.0||
 |go-github-davecgh-go-spew|1.1.2<br>+git20260721.d8f796a|1.1.1|Compound version number '1.1.2+git20260721.d8f796a'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (1.1.2+git20260721.d8f796a -> 1.1.1)|
-|go-github-dlclark-regexp2|1.12.0|2.8.0||
+|go-github-dlclark-regexp2|1.12.0|2.8.1||
 |go-github-dougm-pretty|2011.12.22|go.weekly.2011-12-22||
 |go-github-dustin-go-humanize|1.0.1|1.1.0||
 |go-github-emirpasic-gods|1.18.1|2.0.0-alpha||
@@ -253,13 +255,14 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gsettings-desktop-schemas|50.1|51.0||
 |gsl|2.8|5.0.1||
 |gstreamer|1.27.50|4.3.9||
+|gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
 |gtk-doc|1.35.1|1.37.0||
 |gtk3|3.24.51|4.3.9||
 |guidelines-support-library|4.2.1|5.0.1||
 |gumbo-parser|0.13.2|0.14.1||
 |gzip|1.14|1.15||
 |haproxy|3.3|3.4.6||
-|harfbuzz|12.1.0|14.5.0||
+|harfbuzz|12.1.0|14.5.1||
 |haveged|1.9.20|1.9.26||
 |hdf5|2.0.0|2.2.0||
 |hipblas|7.2.4|20250912-17||
@@ -377,7 +380,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libsigc++2|2.12.1|3.8.1||
 |libsodium|1.0.20|1.0.22-RELEASE||
 |libsolv|0.7.37|0.7.40||
-|libsoup|3.7.1|3.7.3||
+|libsoup|3.7.1|3.8.0||
 |libssh|0.11.5|0.12.2||
 |libstoragemgmt|1.10.2|1.11.0||
 |libthai|0.1.29|0.1.30||
@@ -439,7 +442,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mold|2.42.0|2.42.1||
 |msgpack|3.1.0|5.4.1||
 |mstflint|4.34.0.2|4.37.0-1.1||
-|mtd-utils|2.3.0|2.3.1||
 |mujs|1.3.9|1.3.10||
 |multipath-tools|0.11.1|0.15.1||
 |mupdf|1.27.2|1.28.5||
@@ -447,7 +449,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nasm|3.01|3.02||
 |ncurses|6.5|6.6||
 |ndctl|83|85||
-|netavark|1.17.1|2.1.0||
 |netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
@@ -734,7 +735,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qca|2.3.10|2.3.12||
 |qcoro|0.12.0|0.13.0||
 |qemu|11.0.1|11.1.2||
-|qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.68||
 |qt6-qt5compat|6.11.1|6.12.0||
 |qt6-qtcharts|6.11.1|6.12.0||
@@ -859,7 +859,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |spdlog|1.15.3|1.17.0||
 |spirv-cross|1.4.357.0|1.4.363.0||
 |spirv-headers|1.4.357.0|2026.08.0||
-|spirv-llvm-translator|22.1.3|23.1.1||
+|spirv-llvm-translator|22.1.3|23.1.2||
 |spirv-tools|1.4.357.0|2026.3||
 |sqlite|3.53.2|3.53.4||
 |squashfuse|0.6.1|0.6.3||
@@ -911,7 +911,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valkey|8.1.4|9.1.2||
 |vapoursynth|73|80||
 |vid.stab|1.1.1|1.1.2||
-|vim|9.2.1090|9.2.1160||
+|vim|9.2.1090|9.2.1161||
 |vlc|3.0.23|3.0.24||
 |vmaf|3.0.0|3.2.1||
 |vte|0.82.3|3.4.3||
