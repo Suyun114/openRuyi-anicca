@@ -1,13 +1,13 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1790986215?label=Updated)
+![Relative date](https://img.shields.io/date/1791007344?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
 |NetworkManager|1.54.3|1.58.1||
 |PackageKit|1.3.5|1.4.0||
-|SDL3|3.4.2|3.4.16||
+|SDL3|3.4.2|3.4.18||
 |Xwayland|24.1.11|24.1.13||
 |aardvark-dns|1.17.1|2.1.0||
 |abseil-cpp|20260526.0|20260817.0||
@@ -71,7 +71,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |console-setup|1.244|1.249||
 |containers-common|0.67.0|1.0.1||
 |coreutils|9.11|9.12||
-|cpp-httplib|0.48.0|0.58.0||
+|cpp-httplib|0.48.0|0.59.0||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.3||
 |crontabs|1.11|crontabs-20190603||
@@ -120,6 +120,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |findutils|4.10.0|4.11.0||
 |fio|3.42|3.43||
 |firewalld|2.4.1|2.5.2||
+|fmt|12.1.0|12.2.0||
 |fontconfig|2.17.1|2.18.3||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
 |fonts-noto|2026.01.01|noto-monthly-release-2026.10.01||
@@ -304,6 +305,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lame|3.100|4.0||
 |lcms2|2.17|6.2.0||
 |ldns|1.9.0|1.9.2||
+|less|702|710||
 |libXfont2|2.0.7|2.0.9||
 |libXft|2.3.8|2.3.9||
 |libXmu|1.2.1|1.3.1||
@@ -477,7 +479,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openblas|0.3.31|0.3.34||
 |openconnect|9.12|9.21||
 |opencv|4.13.0|5.0.0||
-|openexr|3.4.10|3.5.1||
+|openexr|3.4.10|3.5.2||
 |openjdk-17|17.0.20.8|jdk-17.0.21+8||
 |openjdk-21|21.0.12.8|jdk-21.0.13+8||
 |openjdk-25|25.0.4.7|jdk-25.0.5+7||
@@ -528,6 +530,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pv|1.10.5|1.12.0||
 |pybind11|3.0.1|3.1.0||
 |python|3.13.8|3.14.8||
+|python-accelerate|1.13.0|1.15.0||
 |python-aiohappyeyeballs|2.6.1|2.7.1||
 |python-aiohttp|3.14.1|3.14.3||
 |python-aiolimiter|1.2.1|1.3.0||
@@ -589,6 +592,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-importlib-metadata|9.0.0|9.0.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
+|python-iso639|0.1.4|2026.7.23||
 |python-joblib|1.5.3|1.6.0||
 |python-kiwisolver|1.4.9|1.5.1||
 |python-langtable|0.0.70|0.0.71||
@@ -874,6 +878,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |swtpm|0.10.1|0.10.2||
 |sysrepo|4.2.10|5.1.0||
 |sysstat|12.7.8|12.8.0||
+|systemd|261.1|0.10.1|Possible downgrade from the current version (261.1 -> 0.10.1)|
 |systemtap|5.5|5.6||
 |taglib|2.1.1|2.3.2||
 |talloc|2.4.3|2.5.0||
