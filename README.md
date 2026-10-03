@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1790972499?label=Updated)
+![Relative date](https://img.shields.io/date/1790986215?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -120,7 +120,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |findutils|4.10.0|4.11.0||
 |fio|3.42|3.43||
 |firewalld|2.4.1|2.5.2||
-|fmt|12.1.0|12.2.0||
 |fontconfig|2.17.1|2.18.3||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
 |fonts-noto|2026.01.01|noto-monthly-release-2026.10.01||
@@ -130,6 +129,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-sarasa-gothic|1.0.37|1.0.42||
 |foot|1.26.1|1.28.0||
 |freerdp|3.26.0|3.32.1||
+|fribidi|1.0.16|1.0.17||
 |fuse3|3.18.2|fuse-3.18.3|Possible downgrade from the current version (3.18.2 -> fuse-3.18.3)|
 |gawk|5.4.0|5.4.1||
 |gcc|16|16.2.0||
@@ -148,6 +148,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glib-networking|2.80.1|2.90.0||
 |glibc|2.44<br>+git20260918.1f5026241027|2.44|Compound version number '2.44+git20260918.1f5026241027'<br>Version number indicates a snapshot (+git) is used|
 |glibmm|2.86.0|2.90.0||
+|glog|0.7.1|1.2.5||
 |glslang|1.4.357.0|16.6.0||
 |glusterfs|11.1|11.2||
 |gnupg|2.5.20|2.5.24||
@@ -303,7 +304,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lame|3.100|4.0||
 |lcms2|2.17|6.2.0||
 |ldns|1.9.0|1.9.2||
-|less|702|710||
 |libXfont2|2.0.7|2.0.9||
 |libXft|2.3.8|2.3.9||
 |libXmu|1.2.1|1.3.1||
@@ -378,6 +378,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libsepol|3.10|3.11||
 |libsigc++|3.6.0|3.8.1||
 |libsigc++2|2.12.1|3.8.1||
+|libsodium|1.0.20|1.0.22-RELEASE||
 |libsolv|0.7.37|0.7.40||
 |libsoup|3.7.1|3.8.0||
 |libssh|0.11.5|0.12.2||
@@ -430,6 +431,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.2.2|26.2.4||
+|meson|1.10.2|1.12.1||
 |mimalloc|3.3.2|3.5.4||
 |minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
 |minizip-ng|4.1.0|4.2.2||
@@ -526,7 +528,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pv|1.10.5|1.12.0||
 |pybind11|3.0.1|3.1.0||
 |python|3.13.8|3.14.8||
-|python-accelerate|1.13.0|1.15.0||
 |python-aiohappyeyeballs|2.6.1|2.7.1||
 |python-aiohttp|3.14.1|3.14.3||
 |python-aiolimiter|1.2.1|1.3.0||
@@ -549,7 +550,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blivet|3.13.1|blivet-3.14.2|Possible downgrade from the current version (3.13.1 -> blivet-3.14.2)|
 |python-blobfile|3.2.0|3.3.0||
 |python-boto3|1.43.75|1.43.108||
-|python-botocore|1.43.75|1.43.107||
+|python-botocore|1.43.75|1.43.108||
 |python-cachetools|7.1.1|7.2.0||
 |python-chardet|7.4.3|7.6.0||
 |python-charset-normalizer|3.4.7|3.5.2||
@@ -588,7 +589,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-importlib-metadata|9.0.0|9.0.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
-|python-iso639|0.1.4|2026.7.23||
 |python-joblib|1.5.3|1.6.0||
 |python-kiwisolver|1.4.9|1.5.1||
 |python-langtable|0.0.70|0.0.71||
@@ -874,7 +874,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |swtpm|0.10.1|0.10.2||
 |sysrepo|4.2.10|5.1.0||
 |sysstat|12.7.8|12.8.0||
-|systemd|261.1|0.10.1|Possible downgrade from the current version (261.1 -> 0.10.1)|
 |systemtap|5.5|5.6||
 |taglib|2.1.1|2.3.2||
 |talloc|2.4.3|2.5.0||
@@ -908,7 +907,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |utf8cpp|4.0.8|4.2.1||
 |utf8proc|2.10.0|2.12.0||
 |util-linux|2.41.3|2.42.4||
-|uuid|1.6.2|1.26.1||
+|uuid|1.6.2|1.27.0||
 |vala|0.56.18|0.56.19||
 |valgrind|3.27.0|3.27.1||
 |valkey|8.1.4|9.1.2||
