@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1791126603?label=Updated)
+![Relative date](https://img.shields.io/date/1791140590?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.0||
@@ -112,7 +112,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |exfatprogs|1.3.2|1.4.3||
 |exiv2|0.28.8|0.28.9||
 |expect|5.45.4|30.5.2||
-|fast_float|8.2.5|8.3.0||
+|fast_float|8.2.5|8.3.1||
 |fastfetch|2.63.1|2.69.0||
 |ffmpeg|8.1.2|9.0.2||
 |ffnvcodec|13.0.19.0|n13.1.15.0||
@@ -280,7 +280,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iio-sensor-proxy|3.8|3.9||
 |imath|3.2.2|3.2.3||
 |iniparser|4.2.6|4.3.2||
-|iotop|1.30|0.6|Possible downgrade from the current version (1.30 -> 0.6)|
 |iozone|3_508|3.511||
 |ipcalc|1.0.3|1.1.0||
 |iperf|3.21|2.2.1|Possible downgrade from the current version (3.21 -> 2.2.1)|
@@ -304,6 +303,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
 |labwc|0.20.1|0.20.2||
 |lame|3.100|4.0||
+|lcms2|2.17|6.2.0||
 |ldns|1.9.0|1.9.2||
 |less|702|710||
 |libXfont2|2.0.7|2.0.9||
@@ -353,7 +353,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |liblognorm|2.0.6|2.1.1||
 |libmaxminddb|1.12.2|1.14.1||
 |libmbim|1.32.0|1.34.0||
-|libmd|1.1.0|1.3.0||
 |libmicrohttpd|1.0.2|1.0.10||
 |libmodulemd|2.15.2|2.15.3||
 |libnbd|1.23.13|1.25.7||
@@ -431,7 +430,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mariadb-connector-c|3.4.8|3.4.11||
 |md4c|0.5.3|0.6.0||
 |mdevd|0.1.8.1|0.1.8.2||
-|memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.2.2|26.2.4||
 |meson|1.10.2|1.12.1||
@@ -941,6 +939,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |which|2.23|8.0.6||
 |whois|5.6.4|5.6.6.git||
 |wlroots|0.20.1|0.20.2||
+|wofi|1.5.2|1.5.3||
 |wolfssl|5.8.2|5.9.4-stable||
 |wpa_supplicant|2.11|2.12||
 |wtmpdb|0.74.0|0.76.0||
