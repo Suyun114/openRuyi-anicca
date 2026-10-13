@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1791898392?label=Updated)
+![Relative date](https://img.shields.io/date/1791921908?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -13,6 +13,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |abseil-cpp|20260526.0|20260817.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
 |accountsservice|23.13.9|26.27.3||
+|acl|2.3.2|2.4.0||
 |acpica|20260408|20260930||
 |adwaita-icon-theme|50.0|51.0||
 |aide|0.19.3|0.19.4||
@@ -84,7 +85,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |date|3.0.4|3.6.0||
 |dav1d|1.5.3|1.5.4||
 |db|6.2.32|18.1.40||
-|dbus|1.16.2|5.2.3||
+|dbus|1.16.2|5.2.4||
 |dbus-glib|0.114|0.116||
 |ddcutil|2.2.7|3.0.2||
 |dhcpcd|10.3.2|10.5.2||
@@ -101,7 +102,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |doxygen|1.13.2|1.18.0||
 |dpdk|25.07|26.07||
 |dropbear|2026.91|2026.94||
-|drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarfs|0.15.3|0.15.8||
 |dwarves|1.30|1.32||
@@ -143,6 +143,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gdk-pixbuf|2.44.6|2.44.8||
 |genext2fs|1.5.0|1.6.3||
 |gettext|1.0|2.1.0||
+|gflags|2.3.0|2.3.1||
 |gi-docgen|2025.4|2026.1||
 |giflib|5.2.2|6.1.3||
 |git|2.54.0|2.56.0||
@@ -193,7 +194,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-go-openapi-testify|2.3.0|2.8.0||
 |go-github-go-playground-locales|0.14.1|0.14.2||
 |go-github-go-redis-redis|9.18.0|9.23.0||
-|go-github-godbus-dbus|5.2.2|5.2.3||
+|go-github-godbus-dbus|5.2.2|5.2.4||
 |go-github-golang-freetype|0<br>+git20260106.e2365df|release|Compound version number '0+git20260106.e2365df'<br>Version number indicates a snapshot (+git) is used<br>Versions not comparable: `0+git20260106.e2365df` and `release`|
 |go-github-google-flatbuffers|25.12.19|25.12.19-2026-02-06-03fffb2||
 |go-github-gorilla-websocket|1.5.4<br>+git20260721.e064f32|1.5.3|Compound version number '1.5.4+git20260721.e064f32'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (1.5.4+git20260721.e064f32 -> 1.5.3)|
@@ -271,6 +272,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hipify|7.2.4|20250912-42||
 |htop|3.5.1|3.5.3||
 |httpd|2.4.68|2.4.69||
+|hunspell|1.7.3|1.7.5||
 |hunspell-en|2026.02.25|rel-2026.02.25||
 |hwdata|0.407|0.412||
 |hwinfo|25.0|26.0||
@@ -385,6 +387,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libsigc++|3.6.0|3.8.1||
 |libsigc++2|2.12.1|3.8.1||
 |libsodium|1.0.20|1.0.22-RELEASE||
+|libsolv|0.7.37|0.7.40||
 |libsoup|3.7.1|3.8.0||
 |libssh|0.11.5|0.12.2||
 |libstoragemgmt|1.10.2|1.11.0||
@@ -402,6 +405,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libva|2.23.0|2.24.1||
 |libvirt|12.2.0|12.8.0||
 |libvpx|1.15.2|1.17.0||
+|libwacom|2.17.0|2.20.0||
 |libxkbcommon|1.13.0|1.13.2||
 |libxml2|2.14.5|2.15.4||
 |libxmlb|0.3.24|0.3.29||
@@ -413,6 +417,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20260916||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.36|1.0.2||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -462,6 +467,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nfs-utils|2.8.4|3.1.1||
 |nfs4-acl-tools|0.4.2|0.3.7|Possible downgrade from the current version (0.4.2 -> 0.3.7)|
 |nftables|1.1.6|1.1.7||
+|nghttp2|1.69.0|1.70.0||
 |nghttp3|1.12.0|1.18.0||
 |nginx|1.31.3|1.30.5|Possible downgrade from the current version (1.31.3 -> 1.30.5)|
 |ngtcp2|1.16.0|1.25.0||
@@ -527,6 +533,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |protobuf|33.2|36.2||
 |psutils|2.10|3.3.17||
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
+|pulseaudio-qt|1.8.1|1.9.0||
 |pv|1.10.5|1.12.0||
 |pybind11|3.0.1|3.1.0||
 |python|3.14.7|3.15.0||
@@ -553,7 +560,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blis|1.3.3|release-v1.3.3||
 |python-blivet|3.13.1|blivet-3.14.2|Possible downgrade from the current version (3.13.1 -> blivet-3.14.2)|
 |python-blobfile|3.2.0|3.3.0||
-|python-boto3|1.43.75|1.43.112||
+|python-boto3|1.43.75|1.43.113||
 |python-botocore|1.43.75|1.43.112||
 |python-cacheout|0.16.0|0.17.0||
 |python-cachetools|7.1.1|7.2.1||
@@ -617,7 +624,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-meson-python|0.19.0|0.22.1||
 |python-mitogen|0.3.47|0.3.54||
 |python-ml-dtypes|0.5.4|0.6.0||
-|python-more-itertools|11.0.2|11.1.0||
+|python-more-itertools|11.0.2|11.2.0||
 |python-multidict|6.7.1|7.1.0||
 |python-munkres|1.1.4|release-1.1.4|Possible downgrade from the current version (1.1.4 -> release-1.1.4)|
 |python-murmurhash|1.0.15|release-v1.0.15|Possible downgrade from the current version (1.0.15 -> release-v1.0.15)|
@@ -653,11 +660,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pyasn1|0.6.3|0.6.4||
 |python-pybase64|1.4.3|1.5.1||
 |python-pybind11-stubgen|2.5.5|3.0.0||
-|python-pycares|5.0.1|5.1.0||
+|python-pycares|5.0.1|5.2.0||
 |python-pycdlib|1.16.0|1.22.0||
 |python-pycparser|3.0|release_v3.11||
-|python-pycryptodome|3.23.0|3.24.1||
-|python-pycryptodomex|3.23.0|3.24.1||
+|python-pycryptodome|3.23.0|test_build_wheel_6||
+|python-pycryptodomex|3.23.0|test_build_wheel_6||
 |python-pycurl|7.45.7|7.48.0||
 |python-pydantic|2.12.5|2.14.1||
 |python-pyelftools|0.32|0.33||
@@ -796,6 +803,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rdfind|1.7.0|1.8.0||
 |rdma-core|60.0|65.0||
 |re2|2025.08.12|2025-11-05||
+|re2c|4.3|4.6||
 |recode|3.7.15|3.7.17||
 |rest|0.10.2|2.6.9||
 |rocblas|7.2.4|14.3.0||
