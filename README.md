@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1792189868?label=Updated)
+![Relative date](https://img.shields.io/date/1792199004?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -91,6 +91,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dhcpcd|10.3.2|10.5.2||
 |dialog|1.3|1.3-20260721||
 |ding-libs|0.6.2|0.7.0||
+|distribution-gpg-keys|1.115|1.123-1||
 |djvulibre|3.5.29|3.5.30||
 |dkms|3.2.2|3.4.4||
 |dmidecode|3.6|3.7||
@@ -180,7 +181,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-containerd-typeurl|2.2.3|2.3.0||
 |go-github-coreos-go-oidc|3.17.0|3.21.0||
 |go-github-davecgh-go-spew|1.1.2<br>+git20260721.d8f796a|1.1.1|Compound version number '1.1.2+git20260721.d8f796a'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (1.1.2+git20260721.d8f796a -> 1.1.1)|
-|go-github-dlclark-regexp2|1.12.0|2.9.0||
+|go-github-dlclark-regexp2|1.12.0|2.9.1||
 |go-github-docker-go-connections|0.8.1|0.8.2||
 |go-github-dougm-pretty|2011.12.22|go.weekly.2011-12-22||
 |go-github-emirpasic-gods|1.18.1|2.0.0-alpha||
@@ -300,7 +301,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jbigkit|2.1|2.2||
 |jitterentropy|3.6.3|3.7.0||
 |jose|14|15||
-|json-c|0.18|0.19||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.8||
 |kbd|2.9.0|2.10.0||
@@ -389,6 +389,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libqmi|1.36.0|1.38.0||
 |libqrtr-glib|1.2.2|1.4.0||
 |libraw|0.22.1|0.22.2||
+|librepo|1.21.1|1.21.2||
 |libsecret|0.21.7|0.21.8.2||
 |libselinux|3.10|3.11||
 |libsemanage|3.10|3.11||
@@ -439,7 +440,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lua-lunitx|0.8.1|0.8.2||
 |luajit|2.1<br>+openresty20260824|2.1.ROLLING|Compound version number '2.1+openresty20260824'|
 |lutok|0.6.1|0.6.3||
-|lvm2|2.03.35|2.03.43||
 |lynis|3.1.6|3.1.7||
 |lz4|1.10.0|1.28.1||
 |man-pages|6.18|6.19||
@@ -461,6 +461,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mold|2.42.0|3.0.0||
 |msgpack|3.1.0|5.4.1||
 |mstflint|4.34.0.2|4.37.0-1.1||
+|mtd-utils|2.3.0|2.3.1||
 |mujs|1.3.9|1.3.10||
 |mupdf|1.27.2|1.28.5||
 |nano|9.0|9.2||
@@ -684,6 +685,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pyjwt|2.13.0|2.15.1||
 |python-pylsqpack|0.3.23|1.0.0||
 |python-pymilvus|2.6.16|3.0.2||
+|python-pymongo|4.16.0|10.10.10.10||
 |python-pymupdf|1.27.2|1.28.2||
 |python-pyopenssl|26.3.0|26.4.0||
 |python-pyparsing|3.3.2|3.3.3||
@@ -843,7 +845,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-hashbrown-0.14|0.14.5|0.17.1||
 |rust-hashbrown-0.15|0.15.5|0.17.1||
 |rust-hashbrown-0.16|0.16.1|0.17.1||
-|rust-libc-0.2|0.2.186|1.0.0-alpha.5||
+|rust-libc-0.2|0.2.186|0.2.191||
 |rust-lock-api-0.4|0.4.14|parking_lot-v0.12.5||
 |rust-log-0.4|0.4.30|0.4.34||
 |rust-parking-lot-0.12|0.12.5|parking_lot-v0.12.5||
@@ -988,7 +990,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xorg-server|21.1.21|21.1.25||
 |xorgproto|2025.1|2026.1||
 |xsimd|14.0.0|14.3.0||
-|xxhash|0.8.3|2.3.0||
 |yaml-cpp|0.8.0|0.9.0||
 |zchunk|1.5.3|1.5.4||
 |zfs|2.4.1|2.4.4||
