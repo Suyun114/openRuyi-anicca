@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1792450377?label=Updated)
+![Relative date](https://img.shields.io/date/1792460085?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -46,6 +46,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bubblewrap|0.12.0|0.13.1||
 |buildah|1.43.1|1.45.2||
 |busybox|1.37.0|1.38.0||
+|byacc|2.0.20260126|20260126||
 |c-ares|1.34.6|1.34.8||
 |cairo|1.18.4|1.109||
 |calamares|3.4.2|3.4.3||
@@ -74,7 +75,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |crash|9.0.1|9.0.3||
 |createrepo_c|1.2.4|1.2.5||
 |crontabs|1.11|crontabs-20190603||
-|crun|1.28|1.30.1||
 |cryptsetup|2.8.6|2.8.8||
 |cunit|2.1.3|2.1-3||
 |cups|2.4.19|2.4.20||
@@ -105,6 +105,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dwarfs|0.15.3|0.15.8||
 |dwarves|1.30|1.32||
 |ed|1.22.5|1.22.6||
+|elfutils|0.196|0.197||
 |emacs|30.2|31.1||
 |enchant|2.8.16|2.8.21||
 |erofs-utils|1.9.1|1.9.4||
@@ -112,7 +113,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |exfatprogs|1.3.2|1.4.3||
 |exiv2|0.28.8|0.28.9||
 |expat|2.8.5|2.9.0||
-|expect|5.45.4|30.5.2||
 |fast_float|8.2.5|8.3.2||
 |fastfetch|2.63.1|2.70.0||
 |fdk-aac|2.0.3|3.0.0||
@@ -255,6 +255,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gpgmepp|2.0.0|2.2.0||
 |graphite2|1.3.14|1.3.15||
 |graphviz|14.1.5|16.1.0||
+|groff|1.24.1|1.24.2||
 |grpc|1.82.1|1.84.0||
 |grub|2.14|2.16||
 |gsasl|2.2.2|2.2.4||
@@ -298,7 +299,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jbigkit|2.1|2.2||
 |jitterentropy|3.6.3|3.7.0||
 |jose|14|15||
-|json-c|0.18|0.19||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.8||
 |kbd|2.9.0|2.10.0||
@@ -315,7 +315,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lcms2|2.17|6.2.0||
 |ldns|1.9.0|1.9.2||
 |less|702|710||
-|libX11|1.8.13|1.8.14||
 |libXfont2|2.0.7|2.0.9||
 |libXft|2.3.8|2.3.9||
 |libXi|1.8.3|1.8.4||
@@ -606,9 +605,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-httplib2|0.31.2|0.32.0||
 |python-httptools|0.8.0|0.9.0||
 |python-huggingface-hub|1.16.0|2.2.0||
-|python-hypothesis|6.152.4|6.170.3||
+|python-hypothesis|6.152.4|6.170.5||
 |python-idna|3.18|3.20||
-|python-ijson|3.5.0|3.6.0||
 |python-importlib-metadata|9.0.0|9.0.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
@@ -810,6 +808,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qt6-qtwebview|6.11.1|6.8.5-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.8.5-lts-lgpl)|
 |qtkeychain|0.16.0|0.17.0||
 |quota|4.10|4.11||
+|rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
 |rdfind|1.7.0|1.8.0||
 |rdma-core|60.0|65.0||
 |re2|2025.08.12|2025-11-05||
@@ -876,7 +875,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sed|4.9|4.10||
 |setools|4.6.0|4.7.1||
 |setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
-|sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |sg3_utils|1.48|1.49||
 |shaderc|2026.1|2026.4||
 |shadow|4.19.4|4.20.3||
@@ -889,7 +887,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |slang|2.3.3|2026.20||
 |slibtool|0.7.3|0.7.4||
 |snappy|1.2.2|1.3.1||
-|socat|1.8.1.1|1.8.1.3||
 |socket_wrapper|1.5.0|1.5.2||
 |softhsm|2.6.1|2.7.0||
 |spdlog|1.15.3|1.17.0||
