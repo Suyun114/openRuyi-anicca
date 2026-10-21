@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1792566183?label=Updated)
+![Relative date](https://img.shields.io/date/1792587303?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -25,7 +25,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |asn1c|0.9.28|0.9.29||
 |at-spi2-core|2.58.2|2.62.1||
 |atf|0.23|0.26||
-|atkmm|2.28.4|2.36.4||
 |attr|2.5.2|2.6.0||
 |augeas|1.14.1|1.15.0||
 |authselect|1.6.1|1.8.0||
@@ -34,7 +33,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |avahi|0.9~rc5|0.8|Possible downgrade from the current version (0.9~rc5 -> 0.8)|
 |bash|5.3.3|5.3|Possible downgrade from the current version (5.3.3 -> 5.3)|
 |bash-completion|2.17.0|2.18.0||
-|bind|9.20.15|9.21.26||
+|bind|9.20.15|9.21.27||
 |binutils|2.46.0|2.47||
 |blake3|1.8.5|1.8.7||
 |blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
@@ -71,7 +70,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |containers-common|0.67.0|1.0.1||
 |coreutils|9.11|9.12||
 |cpp-httplib|0.48.0|0.62.0||
-|cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.3||
 |createrepo_c|1.2.4|1.2.5||
 |crontabs|1.11|crontabs-20190603||
@@ -103,7 +101,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dropbear|2026.91|2026.94||
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
-|dwarfs|0.15.3|0.15.8||
 |dwarves|1.30|1.32||
 |ed|1.22.5|1.22.6||
 |elfutils|0.196|0.197||
@@ -213,7 +210,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-kataras-jwt|0.1.17|0.3.0||
 |go-github-klauspost-compress|1.20.1|1.20.3||
 |go-github-klauspost-cpuid-v2|2.4.0|2.4.1||
-|go-github-klauspost-pgzip|1.2.6|1.2.7||
+|go-github-klauspost-pgzip|1.2.6|1.3.0||
 |go-github-lesismal-nbio|1.7.0|1.7.1||
 |go-github-lithammer-shortuuid|4.2.0|5.0.0||
 |go-github-mattn-go-colorable|0.1.15|0.1.16||
@@ -238,7 +235,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-tinylib-msgp|1.6.4|1.6.5||
 |go-github-ugorji-go-codec|1.2.14|codec/v1.3.2|Possible downgrade from the current version (1.2.14 -> codec/v1.3.2)|
 |go-github-xo-terminfo|0<br>+git20220910.abceb7e|1.2.0|Compound version number '0+git20220910.abceb7e'<br>Version number indicates a snapshot (+git) is used|
-|go-github-yuin-goldmark|1.8.6|2.1.7||
+|go-github-yuin-goldmark|1.8.6|2.1.8||
 |go-golang-x-arch|0.31.0|0.32.0||
 |go-golang-x-crypto|0.57.0|0.58.0||
 |go-golang-x-exp|0<br>+git20260721.3dfff04|winfsnotify/v0.1.0-deprecated|Compound version number '0+git20260721.3dfff04'<br>Version number indicates a snapshot (+git) is used|
@@ -483,8 +480,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nghttp3|1.12.0|1.18.0||
 |nginx|1.31.3|1.30.6|Possible downgrade from the current version (1.31.3 -> 1.30.6)|
 |ngtcp2|1.16.0|1.25.0||
-|nmap|7.92|7.992||
-|nodejs|24.13.0|26.12.0||
+|nodejs|24.13.0|26.12.1||
 |nspr|4.39.0|4.40||
 |nss|3.127.0|3.131.1||
 |ntfs-3g|2022.10.3|2026.9.28||
@@ -584,7 +580,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-cryptography|49.0.0|50.0.2||
 |python-csvw|4.0.0|4.1.1||
 |python-cymem|2.0.13|release-v2.0.15|Possible downgrade from the current version (2.0.13 -> release-v2.0.15)|
-|python-dashscope|1.25.11|1.27.8||
+|python-dashscope|1.25.11|2.0.1||
 |python-datasets|5.0.1|5.1.0||
 |python-decorator|5.2.1|5.3.1||
 |python-deprecated|1.3.1|3.0.0||
@@ -596,7 +592,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-eval-type-backport|0.3.1|0.4.0||
 |python-executing|2.2.1|2.3.0||
 |python-expandvars|1.1.2|1.25.1||
-|python-fastapi|0.136.1|0.156.4||
+|python-fastapi|0.136.1|0.156.8||
 |python-fastavro|1.12.1|1.13.1||
 |python-fastjsonschema|2.21.2|2.22.2||
 |python-filelock|3.29.0|4.2.4||
@@ -848,10 +844,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-hashbrown-0.15|0.15.5|0.17.1||
 |rust-hashbrown-0.16|0.16.1|0.17.1||
 |rust-libc-0.2|0.2.186|0.2.191||
-|rust-lock-api-0.4|0.4.14|parking_lot-v0.12.5||
+|rust-lock-api-0.4|0.4.14|parking_lot-v0.13.0||
 |rust-log-0.4|0.4.30|0.4.34||
-|rust-parking-lot-0.12|0.12.5|parking_lot-v0.12.5||
-|rust-parking-lot-core-0.9|0.9.12|parking_lot-v0.12.5||
+|rust-parking-lot-0.12|0.12.5|parking_lot-v0.13.0||
+|rust-parking-lot-core-0.9|0.9.12|parking_lot-v0.13.0||
 |rust-prettyplease-0.2|0.2.37|0.3.0||
 |rust-toml-0.9|0.9.12|0.25.17||
 |rust-toml-datetime-0.7|0.7.5|0.25.17||
@@ -887,7 +883,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |shared-mime-info|2.4|2.5.1||
 |shim|16.1<br>+git20260715.0a88e2a|16.1|Compound version number '16.1+git20260715.0a88e2a'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
-|simdjson|4.2.4|5.0.5||
 |simdutf|9.0.0|9.3.2||
 |skalibs|2.14.5.1|2.16.0.0||
 |slang|2.3.3|2026.20||
@@ -908,7 +903,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sssd|2.11.1|2.13.1||
 |strace|6.19|7.2||
 |stress-ng|0.20.01|0.22.01||
-|strongswan|6.0.2|6.1.0||
 |swig|4.4.1|4.5.1||
 |swtpm|0.10.1|0.10.2||
 |sysrepo|4.2.10|5.2.27||
@@ -929,14 +923,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |tftp|5.3|7.2||
 |thrift|0.22.0|0.25.0||
 |timeshift|25.12.4|26.09.0||
-|tinysparql|3.10.1|3.12.0||
 |tmux|3.7c|3.8||
 |tpm2-tss|4.1.3|4.2.0||
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.28.0||
 |tzdata|2026c|2026e||
 |udisks2|2.11.0|2.11.2||
-|unbound|1.25.1|1.26.1||
+|unbound|1.25.1|1.26.2||
 |unicode-ucd|17.0.0|18.0.0||
 |unifont|16.0.04|18.0.01||
 |universal-ctags|6.2.0|6.2.20260621.0||
