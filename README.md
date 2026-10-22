@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1792700852?label=Updated)
+![Relative date](https://img.shields.io/date/1792713272?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -402,7 +402,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libsigc++2|2.12.1|3.8.1||
 |libsodium|1.0.20|1.0.22-RELEASE||
 |libsolv|0.7.37|0.7.40||
-|libsoup|3.7.1|3.8.0||
 |libssh|0.11.5|0.12.2||
 |libstoragemgmt|1.10.2|1.11.0||
 |libthai|0.1.29|0.1.30||
@@ -546,6 +545,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pv|1.10.5|1.12.0||
 |pybind11|3.0.1|3.1.0||
 |python|3.14.9|3.15.1||
+|python-accelerate|1.13.0|1.15.0||
 |python-aiohappyeyeballs|2.6.1|2.7.1||
 |python-aiohttp|3.14.1|3.14.5||
 |python-aiolimiter|1.2.1|1.3.0||
@@ -570,7 +570,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blivet|3.13.1|blivet-3.14.2|Possible downgrade from the current version (3.13.1 -> blivet-3.14.2)|
 |python-blobfile|3.2.0|3.3.0||
 |python-boto3|1.43.75|1.43.118||
-|python-botocore|1.43.75|1.43.117||
+|python-botocore|1.43.75|1.43.118||
 |python-cacheout|0.16.0|0.17.0||
 |python-cachetools|7.1.1|7.2.4||
 |python-chardet|7.4.3|7.7.0||
@@ -595,7 +595,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-eval-type-backport|0.3.1|0.4.0||
 |python-executing|2.2.1|2.3.0||
 |python-expandvars|1.1.2|1.25.1||
-|python-fastapi|0.136.1|0.161.0||
+|python-fastapi|0.136.1|0.161.1||
 |python-fastavro|1.12.1|1.13.1||
 |python-fastjsonschema|2.21.2|2.22.2||
 |python-filelock|3.29.0|4.2.4||
@@ -608,10 +608,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-httplib2|0.31.2|0.32.0||
 |python-httptools|0.8.0|0.9.0||
 |python-huggingface-hub|1.16.0|2.3.0.rc1||
-|python-hypothesis|6.152.4|6.170.6||
+|python-hypothesis|6.152.4|6.170.8||
 |python-idna|3.18|3.20||
 |python-ijson|3.5.0|3.6.0||
-|python-importlib-metadata|9.0.0|9.0.1||
+|python-importlib-metadata|9.0.0|9.1.0||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
 |python-iso639|0.1.4|2026.7.23||
@@ -765,11 +765,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-websockets|16.0|17.3||
 |python-werkzeug|3.1.8|3.1.9||
 |python-wrapt|2.1.1|2.5.2rc1||
-|python-xxhash|3.6.0|4.0.2||
 |python-yarl|1.22.0|1.25.1||
 |python-zipp|3.23.1|4.1.2||
 |python-zope-interface|8.3|8.7||
-|qalculate-qt|5.9.0.1|5.13.0||
 |qca|2.3.10|2.3.12||
 |qcoro|0.12.0|0.13.0||
 |qemu|11.0.1|11.1.2||
@@ -809,12 +807,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qt6-qtwebengine|6.11.1|6.8.5-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.8.5-lts-lgpl)|
 |qt6-qtwebsockets|6.11.1|6.8.5-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.8.5-lts-lgpl)|
 |qt6-qtwebview|6.11.1|6.8.5-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.8.5-lts-lgpl)|
-|qtkeychain|0.16.0|0.17.0||
 |quota|4.10|4.11||
 |rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
 |rdfind|1.7.0|1.8.0||
 |re2|2025.08.12|2025-11-05||
-|re2c|4.3|4.6||
 |recode|3.7.15|3.7.17||
 |rest|0.10.2|2.6.9||
 |rocblas|7.2.4|14.3.0||
@@ -967,11 +963,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |weston|14.0.2|16.0.1||
 |wget2|2.2.1|2.3.0||
 |which|2.23|8.0.6||
-|whois|5.6.4|5.6.6.git||
 |wlroots|0.20.1|0.20.2||
 |wofi|1.5.2|1.5.3||
 |wolfssl|5.8.2|5.9.4-stable||
-|wpa_supplicant|2.11|2.12||
 |wtmpdb|0.74.0|0.76.0||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
 |xdg-desktop-portal|1.20.3|1.22.1||
