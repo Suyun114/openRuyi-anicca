@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1792628820?label=Updated)
+![Relative date](https://img.shields.io/date/1792647996?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -24,7 +24,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |asmjit|0<br>+git20260104.|0.2.2|Compound version number '0+git20260104.'<br>Version number indicates a snapshot (+git) is used|
 |asn1c|0.9.28|0.9.29||
 |at-spi2-core|2.58.2|2.62.1||
-|atf|0.23|0.26||
 |atkmm|2.28.4|2.36.4||
 |attr|2.5.2|2.6.0||
 |augeas|1.14.1|1.15.0||
@@ -37,7 +36,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bind|9.20.15|9.21.27||
 |binutils|2.46.0|2.47||
 |blake3|1.8.5|1.8.7||
-|blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
 |bluez|5.86|5.87||
 |bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.92.0||
@@ -70,7 +68,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |console-setup|1.244|1.249||
 |containers-common|0.67.0|1.0.1||
 |coreutils|9.11|9.12||
-|cpp-httplib|0.48.0|0.62.0||
+|cpp-httplib|0.48.0|0.63.0||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |crash|9.0.1|9.0.3||
 |createrepo_c|1.2.4|1.2.5||
@@ -97,6 +95,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dnf5|5.4.2.0|5.4.6.0||
 |dnsmasq|2.92|2.93||
 |docbook-utils|0.6.15|0.6.14|Possible downgrade from the current version (0.6.15 -> 0.6.14)|
+|doctest|2.5.2|2.5.3||
 |doxygen|1.13.2|1.18.0||
 |draco|1.5.7|1.5.9||
 |dropbear|2026.91|2026.94||
@@ -156,7 +155,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glog|0.7.1|1.2.5||
 |glslang|1.4.357.0|16.6.0||
 |glusterfs|11.1|11.2||
-|go|1.27.2|1.27.3||
 |go-github-agnivade-levenshtein|1.2.1|1.2.2||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
 |go-github-andybalholm-brotli|1.2.5|1.2.6||
@@ -266,7 +264,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gsl|2.8|5.0.1||
 |gstreamer|1.27.50|4.3.9||
 |gtest|1.17.0|0.1.5|Possible downgrade from the current version (1.17.0 -> 0.1.5)|
-|gtk-doc|1.35.1|1.37.0||
 |gtk3|3.24.51|4.3.9||
 |guidelines-support-library|4.2.1|5.0.1||
 |gumbo-parser|0.13.2|0.14.1||
@@ -318,6 +315,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |labwc|0.20.1|0.20.2||
 |lame|3.100|4.0||
 |lcms2|2.17|6.2.0||
+|ldns|1.9.0|1.9.2||
 |less|702|710||
 |libX11|1.8.13|1.8.14||
 |libXfont2|2.0.7|2.0.9||
@@ -340,7 +338,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
 |libclc|21.1.7|23.1.4||
 |libcomps|0.1.23|0.1.24||
-|libconfig|1.8.1|1.8.2||
+|libconfig|1.8.1|1.8.3||
 |libconfuse|3.3|3.4||
 |libdatrie|0.2.13|0.2.14||
 |libdisplay-info|0.2.0|0.4.0||
@@ -363,7 +361,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libinput|1.31.3|1.32.0||
 |libisoburn|1.5.6|1.5.8.pl02||
 |libisofs|1.5.6|1.5.8.pl02||
-|libjpeg-turbo|3.1.2|3.2.0||
+|libjpeg-turbo|3.1.2|3.2.1||
 |libjxl|0.11.2|0.12.0||
 |libkcapi|1.5.0|1.5.1||
 |libklvanc|1.6.0|id.obe.1.7.0||
@@ -398,15 +396,16 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libsepol|3.10|3.11||
 |libsigc++|3.6.0|3.8.1||
 |libsigc++2|2.12.1|3.8.1||
-|libsodium|1.0.20|1.0.22-RELEASE||
 |libsolv|0.7.37|0.7.40||
 |libsoup|3.7.1|3.8.0||
 |libssh|0.11.5|0.12.2||
+|libstoragemgmt|1.10.2|1.11.0||
 |libthai|0.1.29|0.1.30||
 |libtiff|4.7.0|4.7.2||
 |libtirpc|1.3.7|1.3.8||
 |libtool|2.5.4|2.6.2||
 |libtraceevent|1.8.4|1.9.1||
+|libudev-zero|1.0.3|1.0.5||
 |libunibreak|6.1|8.0||
 |libunistring|1.4.2|1.5||
 |libusb|1.0.29|1.0.30||
@@ -428,6 +427,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
 |lmdb|0.9.36|1.0.3||
+|log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
 |lshw|B.02.20|02.20||
 |lsof|4.99.6|4.99.7||
@@ -467,6 +467,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nasm|3.01|3.02||
 |ncurses|6.5|6.6||
 |ndctl|83|85||
+|netavark|1.17.1|2.1.0||
 |netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
@@ -480,11 +481,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nmap|7.92|7.992||
 |nodejs|24.13.0|26.12.1||
 |nspr|4.39.0|4.40||
-|nss|3.127.0|3.131.1||
+|nss|3.131.1|3.132||
 |ntfs-3g|2022.10.3|2026.9.28||
 |oath-toolkit|2.6.14|2.6.15||
 |obs-build|20260623|20261016||
-|ollama|0.13.5|0.40.7||
+|ollama|0.13.5|0.40.8||
 |onnx|1.20.1|1.23.2||
 |open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
@@ -522,7 +523,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |perl|5.42.0|5.44.0||
 |perl-rpm-packaging|1.2|1.3||
 |pesign|116|117||
-|php|8.5.9|8.5.12||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
 |pinentry|1.3.2|4.0.1||
@@ -566,7 +566,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blivet|3.13.1|blivet-3.14.2|Possible downgrade from the current version (3.13.1 -> blivet-3.14.2)|
 |python-blobfile|3.2.0|3.3.0||
 |python-boto3|1.43.75|1.43.117||
-|python-botocore|1.43.75|1.43.117||
 |python-cacheout|0.16.0|0.17.0||
 |python-cachetools|7.1.1|7.2.4||
 |python-chardet|7.4.3|7.7.0||
@@ -605,7 +604,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-huggingface-hub|1.16.0|2.2.0||
 |python-hypothesis|6.152.4|6.170.5||
 |python-idna|3.18|3.20||
-|python-ijson|3.5.0|3.6.0||
 |python-importlib-metadata|9.0.0|9.0.1||
 |python-iniconfig|2.3.0|2.1.0|Possible downgrade from the current version (2.3.0 -> 2.1.0)|
 |python-iniparse|0.5|0.5.1||
@@ -645,7 +643,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-paramiko|5.0.0|5.1.0||
 |python-peft|0.19.1|0.21.2||
 |python-phonemizer|3.3.0|3.4.0||
-|python-pip|26.2|26.2.2||
 |python-pipdeptree|2.30.0|4.2.9||
 |python-platformdirs|4.9.6|4.13.5||
 |python-pluggy|1.6.0|1.7.0||
@@ -810,6 +807,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
 |rdfind|1.7.0|1.8.0||
 |rdma-core|60.0|65.0||
+|re2|2025.08.12|2025-11-05||
 |re2c|4.3|4.6||
 |recode|3.7.15|3.7.17||
 |rest|0.10.2|2.6.9||
@@ -876,7 +874,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
 |sg3_utils|1.48|1.49||
 |shaderc|2026.1|2026.4||
-|shadow|4.19.4|4.20.3||
 |shared-mime-info|2.4|2.5.1||
 |shim|16.1<br>+git20260715.0a88e2a|16.1|Compound version number '16.1+git20260715.0a88e2a'<br>Version number indicates a snapshot (+git) is used|
 |signon-plugin-oauth2|0.25<br>+git20210102.|0.25|Compound version number '0.25+git20210102.'<br>Version number indicates a snapshot (+git) is used|
@@ -923,6 +920,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |thrift|0.22.0|0.25.0||
 |timeshift|25.12.4|26.09.0||
 |tinysparql|3.10.1|3.12.0||
+|tmux|3.7c|3.8||
 |tpm2-tss|4.1.3|4.2.0||
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.28.0||
@@ -970,7 +968,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wtmpdb|0.74.0|0.76.0||
 |wyhash|4|wyhash_final4|Versions not comparable: `4` and `wyhash_final4`|
 |xdg-desktop-portal|1.20.3|1.22.1||
-|xdg-desktop-portal-wlr|0.8.1|0.8.4||
 |xdg-user-dirs|0.19|0.20||
 |xevd|0.5.0|0.8.0||
 |xeve|0.5.1|0.7.1||
