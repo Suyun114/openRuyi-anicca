@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1792725482?label=Updated)
+![Relative date](https://img.shields.io/date/1792746419?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -37,6 +37,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bind|9.20.15|9.21.27||
 |binutils|2.46.0|2.47||
 |blake3|1.8.5|1.8.7||
+|blktrace|1.3.0<br>+git20251126.|1.3.0|Compound version number '1.3.0+git20251126.'<br>Version number indicates a snapshot (+git) is used|
 |bluez|5.86|5.87||
 |bolt|0.9.11|1.3.1||
 |boost|1.89.0|1.92.0||
@@ -102,6 +103,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dropbear|2026.91|2026.94||
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
+|dwarfs|0.15.3|0.15.8||
 |dwarves|1.30|1.32||
 |ed|1.22.5|1.22.6||
 |elfutils|0.196|0.197||
@@ -202,6 +204,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-hashicorp-go-bexpr|0.1.16|0.1.17||
 |go-github-hashicorp-go-immutable-radix|1.3.1|2.1.0||
 |go-github-hashicorp-go-msgpack|0.5.5|2.1.5||
+|go-github-hashicorp-go-rootcerts|1.0.2|1.1.0||
 |go-github-hashicorp-go-secure-stdlib|0.3.0|awsutil/v2.1.3||
 |go-github-hashicorp-go-syslog|1.0.0|1.0.1||
 |go-github-hashicorp-golang-lru|1.0.2|arc/v2.0.7|Possible downgrade from the current version (1.0.2 -> arc/v2.0.7)|
@@ -488,7 +491,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ntfs-3g|2022.10.3|2026.9.28||
 |oath-toolkit|2.6.14|2.6.15||
 |obs-build|20260623|20261016||
-|ollama|0.13.5|0.40.8||
+|ollama|0.13.5|0.40.9||
 |onnx|1.20.1|1.23.2||
 |open-vmdk|0.3.12|3.0.1||
 |openal-soft|1.25.1|1.25.2||
@@ -498,7 +501,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openexr|3.4.10|3.5.2||
 |openjdk-17|17.0.21.9|jdk-17.0.21.0.2+1||
 |openjdk-21|21.0.13.9|jdk-21.0.13.0.2+1||
-|openjdk-25|25.0.4.7|jdk-25.0.5.0.2+1||
+|openjdk-25|25.0.5.8|jdk-25.0.5.0.2+1||
 |openjdk-latest|26.0.2.10|jdk-25.0.5.0.2+1||
 |openldap|2.6.13|2.7.2||
 |opensbi|1.8|1.9||
@@ -558,7 +561,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-argcomplete|3.6.3|3.7.2||
 |python-argparse-manpage|4.7|4.8||
 |python-arpy|2.3.0|2.4.0||
-|python-asgiref|3.11.1|3.12.1||
+|python-asgiref|3.11.1|3.13.0||
 |python-asttokens|3.0.1|3.0.2||
 |python-awscrt|0.32.0|0.38.0||
 |python-bcrypt|3.2.2|5.0.0||
@@ -606,7 +609,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-hiredis|3.3.1|3.5.0||
 |python-httplib2|0.31.2|0.32.0||
 |python-httptools|0.8.0|0.9.0||
-|python-huggingface-hub|1.16.0|2.3.0.rc1||
+|python-huggingface-hub|1.16.0|2.3.0||
 |python-hypothesis|6.152.4|6.170.8||
 |python-idna|3.18|3.20||
 |python-ijson|3.5.0|3.6.0||
@@ -834,8 +837,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rsync|3.4.3|3.5.1||
 |rsyslog|8.2510.0|8.2610.0||
 |rtkit|0.11|0.14||
-|ruby|4.0.4|4.0.8||
+|ruby|4.0.4|4.0.9||
 |runc|1.4.3|1.5.2||
+|rust|1.97.1|1.99.1||
 |rust-errno-0.3|0.3.14|0.3.13|Possible downgrade from the current version (0.3.14 -> 0.3.13)|
 |rust-foldhash-0.1|0.1.5|0.2.0||
 |rust-getrandom-0.4|0.4.2|0.4.3||
@@ -986,7 +990,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xorg-server|21.1.21|21.1.25||
 |xorgproto|2025.1|2026.1||
 |xsimd|14.0.0|14.3.0||
-|xxhash|0.8.3|2.3.0||
 |yaml-cpp|0.8.0|0.9.0||
 |zchunk|1.5.3|1.5.4||
 |zfs|2.4.1|2.4.4||
