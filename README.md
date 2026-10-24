@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1792819424?label=Updated)
+![Relative date](https://img.shields.io/date/1792836974?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -155,6 +155,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glib-networking|2.80.1|2.90.1||
 |glibc|2.44<br>+git20260918.1f5026241027|2.44|Compound version number '2.44+git20260918.1f5026241027'<br>Version number indicates a snapshot (+git) is used|
 |glibmm|2.86.0|2.90.0||
+|glog|0.7.1|1.2.5||
 |glslang|1.4.357.0|16.6.0||
 |glusterfs|11.1|11.2||
 |go-github-agnivade-levenshtein|1.2.1|1.2.2||
@@ -209,6 +210,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-hashicorp-go-syslog|1.0.0|1.0.1||
 |go-github-hashicorp-golang-lru|1.0.2|arc/v2.0.7|Possible downgrade from the current version (1.0.2 -> arc/v2.0.7)|
 |go-github-inconshreveable-mousetrap|1.1|1.1.0||
+|go-github-jpillora-backoff|1.0.0|1.1.0||
 |go-github-kataras-golog|0.1.15|0.2.0||
 |go-github-kataras-jwt|0.1.17|0.3.0||
 |go-github-klauspost-compress|1.20.1|1.20.3||
@@ -307,7 +309,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jbigkit|2.1|2.2||
 |jitterentropy|3.6.3|3.7.0||
 |jose|14|15||
-|json-c|0.18|0.19||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.8||
 |kbd|2.9.0|2.10.0||
@@ -457,6 +458,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mergerfs|2.41.1|2.42.0||
 |mesa|26.2.4|26.2.5||
 |meson|1.10.2|1.12.1||
+|mimalloc|3.3.2|3.6.0||
 |minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
 |minizip-ng|4.1.0|4.2.2||
 |mkosi|25.3<br>+git20251224.|27.1|Compound version number '25.3+git20251224.'<br>Version number indicates a snapshot (+git) is used|
@@ -677,8 +679,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pycares|5.0.1|5.2.1||
 |python-pycdlib|1.16.0|1.22.0||
 |python-pycparser|3.0|release_v3.12||
-|python-pycryptodome|3.23.0|4.1.0||
-|python-pycryptodomex|3.23.0|4.1.0||
+|python-pycryptodome|3.23.0|4.2.0||
+|python-pycryptodomex|3.23.0|4.2.0||
 |python-pycurl|7.45.7|7.48.0||
 |python-pydantic|2.12.5|2.14.1||
 |python-pydantic-settings|2.15.0|2.16.1||
@@ -966,7 +968,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wavpack|5.8.1|5.9.0||
 |wayback|0.3|0.5.1||
 |wayland|1.25.0|1.26.0||
-|wayland-protocols|1.48|1.49||
 |weston|14.0.2|16.0.1||
 |wget2|2.2.1|2.3.0||
 |which|2.23|8.0.6||
