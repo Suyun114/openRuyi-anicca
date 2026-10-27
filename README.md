@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1793128477?label=Updated)
+![Relative date](https://img.shields.io/date/1793143765?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -96,7 +96,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |doxygen|1.13.2|1.18.0||
 |draco|1.5.7|1.5.9||
 |dropbear|2026.91|2026.94||
-|drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
 |dwarfs|0.15.3|0.15.8||
 |dwarves|1.30|1.32||
@@ -149,6 +148,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |glibc|2.44<br>+git20260918.1f5026241027|2.44|Compound version number '2.44+git20260918.1f5026241027'<br>Version number indicates a snapshot (+git) is used|
 |glibmm|2.86.0|2.90.0||
 |glog|0.7.1|1.2.5||
+|glslang|1.4.357.0|16.6.0||
 |glusterfs|11.1|11.2||
 |go-github-agnivade-levenshtein|1.2.1|1.2.2||
 |go-github-ajstarks-svgo|2012.01.27|go.weekly.2012-01-27||
@@ -240,7 +240,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-golang-x-exp|0<br>+git20260721.3dfff04|winfsnotify/v0.1.0-deprecated|Compound version number '0+git20260721.3dfff04'<br>Version number indicates a snapshot (+git) is used|
 |go-golang-x-image|0.43.0|0.47.0||
 |go-golang-x-mod|0.41.0|0.42.0||
-|go-golang-x-net|0.59.0|0.61.0||
+|go-golang-x-net|0.59.0|0.62.0||
 |go-golang-x-sync|0.23.0|0.24.0||
 |go-golang-x-sys|0.48.0|0.49.0||
 |go-golang-x-term|0.46.0|0.47.0||
@@ -320,6 +320,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |less|702|710||
 |libX11|1.8.13|1.8.14||
 |libXfont2|2.0.7|2.0.9||
+|libXft|2.3.8|2.3.9||
 |libXi|1.8.3|1.8.4||
 |libXmu|1.2.1|1.3.1||
 |libXrandr|1.5.4|1.5.5||
@@ -436,7 +437,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lua-lunitx|0.8.1|0.8.2||
 |luajit|2.1<br>+openresty20260824|2.1.ROLLING|Compound version number '2.1+openresty20260824'|
 |lutok|0.6.1|0.6.3||
-|lvm2|2.03.35|2.03.43||
+|lvm2|2.03.35|2.03.44||
 |lynis|3.1.6|3.1.7||
 |lz4|1.10.0|1.28.1||
 |man-pages|6.18|6.20||
@@ -490,10 +491,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openconnect|9.12|9.21||
 |opencv|4.13.0|5.0.0||
 |openexr|3.4.10|3.5.2||
-|openjdk-17|17.0.21.9|jdk-17.0.21.0.3+0||
-|openjdk-21|21.0.13.9|jdk-21.0.13.0.3+0||
-|openjdk-25|25.0.5.8|jdk-25.0.5.0.3+0||
-|openjdk-latest|27.0.1.0.2.1|jdk-25.0.5.0.3+0||
+|openjdk-17|17.0.21.9|jdk-17.0.21.0.3+1||
+|openjdk-21|21.0.13.9|jdk-21.0.13.0.3+1||
+|openjdk-25|25.0.5.8|jdk-25.0.5.0.3+1||
+|openjdk-latest|27.0.1.0.2.1|jdk-25.0.5.0.3+1||
 |openldap|2.6.13|2.7.2||
 |opensbi|1.8|1.9||
 |openssh|10.5p1|10.6p1||
@@ -533,7 +534,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |protobuf|33.2|36.2||
 |psutils|2.10|3.3.17||
 |pthreadpool|0<br>+git20260202.|0.1|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
-|pulseaudio-qt|1.8.1|1.9.0||
 |pv|1.10.5|1.12.0||
 |pybind11|3.0.1|3.1.0||
 |python|3.14.9|3.15.2||
@@ -559,7 +559,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blis|1.3.3|release-v1.3.4||
 |python-blivet|3.13.1|blivet-3.14.2|Possible downgrade from the current version (3.13.1 -> blivet-3.14.2)|
 |python-blobfile|3.2.0|3.3.0||
-|python-boto3|1.43.115|1.43.119||
+|python-boto3|1.43.115|1.43.120||
 |python-botocore|1.43.115|1.43.119||
 |python-cacheout|0.16.0|0.17.0||
 |python-cachetools|7.1.1|7.2.6||
@@ -837,7 +837,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-toml-0.9|0.9.12|0.25.17||
 |rust-toml-datetime-0.7|0.7.5|0.25.17||
 |rust-utf8parse-0.2|0.2.2|0.15.0||
-|rust-wasip3-0.4|0.4.0|wasip2-2.0.1|Possible downgrade from the current version (0.4.0 -> wasip2-2.0.1)|
+|rust-wasip3-0.4|0.4.0|wasip3-0.10.0|Possible downgrade from the current version (0.4.0 -> wasip3-0.10.0)|
 |rust-wasm-encoder-0.244|0.244.0|1.262.0||
 |rust-wasm-metadata-0.244|0.244.0|1.262.0||
 |rust-wasmparser-0.244|0.244.0|1.262.0||
@@ -905,7 +905,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |thrift|0.22.0|0.25.0||
 |timeshift|25.12.4|26.09.0||
 |tinysparql|3.10.1|3.12.0||
-|tmux|3.7c|3.8||
 |tpm2-tss|4.1.3|4.2.0||
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.28.0||
