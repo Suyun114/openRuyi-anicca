@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1793487859?label=Updated)
+![Relative date](https://img.shields.io/date/1793506440?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -126,7 +126,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fmt|12.1.0|12.2.0||
 |fontconfig|2.17.1|2.18.3||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
-|fonts-noto|2026.01.01|noto-monthly-release-2026.10.01||
+|fonts-noto|2026.01.01|noto-monthly-release-2026.11.01||
 |fonts-noto-color-emoji|2.051|2026-09-24-unicode18_0||
 |fonts-noto-sans-cjk|2.004|Serif2.003|Possible downgrade from the current version (2.004 -> Serif2.003)|
 |fonts-noto-serif-cjk|2.003|Serif2.003||
@@ -237,7 +237,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-rabbitmq-amqp091-go|1.15.0|1.16.0||
 |go-github-rogpeppe-go-internal|1.14.1|1.16.0||
 |go-github-russross-blackfriday|1.6.0|2.1.0||
-|go-github-shirou-gopsutil|3.21.11|4.26.9||
+|go-github-shirou-gopsutil|3.21.11|4.26.10||
 |go-github-stretchr-objx|0.5.3|0.8.0||
 |go-github-tinylib-msgp|1.6.4|1.6.5||
 |go-github-ugorji-go-codec|1.2.14|codec/v1.3.2|Possible downgrade from the current version (1.2.14 -> codec/v1.3.2)|
@@ -393,7 +393,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libpcap|1.10.7|1.11.0||
 |libpciaccess|0.18|0.19||
 |libpkgmanifest|0.5.9|0.6.1||
-|libplacebo|7.360.1|7.387.0||
 |libplasma|6.7.5|6.8.2||
 |libplist|2.7.0|2.8.0||
 |libpng|1.6.58|1.6.59||
@@ -404,7 +403,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libraw|0.22.1|0.22.3||
 |librepo|1.21.1|1.21.3||
 |libsecret|0.21.7|0.21.8.2||
-|libselinux|3.10|3.11||
 |libsemanage|3.10|3.11||
 |libsepol|3.10|3.11||
 |libsigc++|3.6.0|3.8.1||
@@ -438,6 +436,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20261019||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.36|1.0.3||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -754,7 +753,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-traitlets|5.15.0|5.16.1||
 |python-traits|7.1.0|7.3.0||
 |python-transformers|5.12.1|5.22.1||
-|python-trio|0.33.0|0.34.0||
+|python-trio|0.33.0|0.35.0||
 |python-trove-classifiers|2025.8.26.11|2026.9.21.13||
 |python-typing-inspection|0.4.2|0.4.4||
 |python-typogrify|2.1.0|2.0.7|Possible downgrade from the current version (2.1.0 -> 2.0.7)|
@@ -902,7 +901,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sqlite|3.53.2|3.54.1||
 |srt|1.5.4|1.5.7||
 |sscg|4.0.3|4.0.4||
-|sssd|2.11.1|2.13.1||
 |strace|6.19|7.3||
 |stress-ng|0.20.01|0.22.01||
 |strongswan|6.0.2|6.1.0||
