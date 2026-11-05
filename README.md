@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1793864579?label=Updated)
+![Relative date](https://img.shields.io/date/1793917957?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -69,7 +69,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |console-setup|1.244|1.249||
 |containers-common|0.67.0|1.0.1||
 |coreutils|9.11|9.12||
-|cpp-httplib|0.63.0|0.64.0||
+|cpp-httplib|0.63.0|0.65.0||
 |cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |cracklib|2.10.3|2.10.4-gpg||
 |crash|9.0.1|9.0.3||
@@ -85,7 +85,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |db|6.2.32|18.1.40||
 |dbus|1.16.2|5.2.4||
 |dbus-glib|0.114|0.116||
-|ddcutil|2.2.7|3.0.2||
 |debugedit|5.3|5.4||
 |dhcpcd|10.3.2|10.5.2||
 |dialog|1.3|1.3-20260721||
@@ -107,7 +106,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dwarfs|0.15.3|0.15.8||
 |dwarves|1.30|1.32||
 |ed|1.22.5|1.22.6||
-|elfutils|0.196|0.197||
 |emacs|30.2|31.1||
 |enchant|2.8.16|2.8.21||
 |erofs-utils|1.9.1|1.9.4||
@@ -176,7 +174,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-charmbracelet-log|1.0.0|2.0.1||
 |go-github-charmbracelet-ssh|0<br>+git20250826.ebfa259|0.4.3|Compound version number '0+git20250826.ebfa259'<br>Version number indicates a snapshot (+git) is used|
 |go-github-charmbracelet-x|0<br>+git20260204.d6a2763|exp/charmtone/v0.1.1|Compound version number '0+git20260204.d6a2763'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (0+git20260204.d6a2763 -> exp/charmtone/v0.1.1)|
-|go-github-cheggaaa-pb-v1|1.0.30|3.2.1||
+|go-github-cheggaaa-pb-v1|1.0.30|3.3.0||
 |go-github-cloudykit-jet|6.3.2|6.3.3||
 |go-github-codegangsta-inject|1.0~rc1|1.0-rc1||
 |go-github-containerd-typeurl|2.2.3|2.3.0||
@@ -192,7 +190,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-gin-contrib-cors|1.7.9|1.7.10||
 |go-github-gin-contrib-sse|1.1.2|1.2.0||
 |go-github-gin-gonic-gin|1.8.1|1.12.0||
-|go-github-go-jose-go-jose-v4|4.1.4|4.1.8||
+|go-github-go-jose-go-jose-v4|4.1.4|4.1.9||
 |go-github-go-ldap-ldap|3.4.13|3.4.15||
 |go-github-go-openapi-spec|0.22.6|1.0.1||
 |go-github-go-openapi-swag|0.26.1|yamlutils/v0.29.2||
@@ -324,9 +322,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |kea|3.1.4|3.3.3||
 |keepalived|2.2.8|2.4.3||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
-|kiwi|10.2.42|11.1.6||
+|kiwi|10.2.42|11.1.7||
 |kmod|34.2|34.3||
-|kpmcore|26.08.1|26.08.2||
+|kpmcore|26.08.1|26.08.3||
 |krb5|1.22.2|1.22.2-final|Possible downgrade from the current version (1.22.2 -> 1.22.2-final)|
 |kyua|0.14.1|0.15.1||
 |labwc|0.20.1|0.20.3||
@@ -353,6 +351,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libburn|1.5.6|1.5.8||
 |libcap|2.76|2.78||
 |libcap-ng|0.8.5|0.9.6||
+|libcdio|2.3.0|2.4.0||
 |libcdio-paranoia|10.2<br>+2.0.2|2.0.2|Compound version number '10.2+2.0.2'<br>Possible downgrade from the current version (10.2+2.0.2 -> 2.0.2)|
 |libclc|21.1.7|23.1.5||
 |libcomps|0.1.23|0.1.24||
@@ -419,6 +418,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libsoup|3.7.1|3.8.1||
 |libssh|0.11.5|0.12.2||
 |libstoragemgmt|1.10.2|1.11.0||
+|libtatsu|1.0.5|1.1.0||
 |libthai|0.1.29|0.1.30||
 |libtiff|4.7.0|4.7.2||
 |libtirpc|1.3.7|1.3.8||
@@ -477,6 +477,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mock-core-configs|43.2|mock-core-configs-45.2-1|Possible downgrade from the current version (43.2 -> mock-core-configs-45.2-1)|
 |mokutil|0.7.2|0.7.3||
 |mold|2.42.0|3.0.0||
+|mpv|0.41.0|0.42.0||
 |msgpack|3.1.0|5.4.1||
 |mstflint|4.34.0.2|4.37.0-1.1||
 |mtd-utils|2.3.0|2.3.1||
@@ -510,17 +511,17 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openal-soft|1.25.1|1.25.2||
 |openblas|0.3.31|0.3.34||
 |openconnect|9.12|9.21||
-|opencv|4.13.0|5.0.0||
+|opencv|4.13.0|5.1.0||
 |openexr|3.4.10|3.5.3||
-|openjdk-17|17.0.21.9|jdk-17.0.21.1+1||
-|openjdk-21|21.0.13.9|jdk-21.0.13.1+1||
-|openjdk-25|25.0.5.8|jdk-25.0.5.1+1||
-|openjdk-latest|27.0.1.0.2.1|jdk-25.0.5.1+1||
+|openjdk-17|17.0.21.9|jdk-17.0.22+1||
+|openjdk-21|21.0.13.9|jdk-21.0.14+1||
+|openjdk-25|25.0.5.8|jdk-25.0.6+1||
+|openjdk-latest|27.0.1.0.2.1|jdk-25.0.6+1||
 |openldap|2.6.13|2.7.2||
 |opensbi|1.8|1.9||
-|openssh|10.5p1|10.6p1||
+|openssh|10.5p1|10.6p2||
 |openssl|3.6.5|4.0.2||
-|openvpn|2.6.16|2.7.8||
+|openvpn|2.6.16|2.7.9||
 |openvswitch|3.5.1|4.0.0||
 |openzl|0.1.0|0.3.0||
 |opus|1.5.2|1.6.1||
@@ -583,10 +584,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blis|1.3.3|release-v1.3.4||
 |python-blivet|3.13.1|blivet-3.14.2|Possible downgrade from the current version (3.13.1 -> blivet-3.14.2)|
 |python-blobfile|3.2.0|3.3.0||
-|python-boto3|1.43.115|1.43.124||
-|python-botocore|1.43.115|1.43.124||
+|python-boto3|1.43.115|1.43.125||
+|python-botocore|1.43.115|1.43.125||
 |python-cacheout|0.16.0|0.17.0||
-|python-cachetools|7.1.1|7.2.8||
+|python-cachetools|7.1.1|7.3.0||
 |python-chardet|7.4.3|7.7.0||
 |python-click|8.3.3|8.5.0||
 |python-cloudpathlib|0.25.0|0.26.0||
@@ -629,9 +630,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-iso639|0.1.4|2026.7.23||
 |python-jedi|0.20.0|0.20.1||
 |python-joblib|1.5.3|1.6.0||
-|python-jsonpatch|1.33|1.42||
+|python-jsonpatch|1.33|1.43||
 |python-jsonpath-ng|1.8.0|1.16.0||
-|python-jsonpointer|3.1.1|3.8||
+|python-jsonpointer|3.1.1|3.9||
 |python-kiwisolver|1.4.9|1.5.1||
 |python-langtable|0.0.70|0.0.71||
 |python-language-tags|1.3.1|1.3.2||
@@ -669,7 +670,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-preshed|3.0.12|release-v3.0.15|Possible downgrade from the current version (3.0.12 -> release-v3.0.15)|
 |python-prettytable|3.17.0|3.18.0||
 |python-productmd|1.50|1.51||
-|python-progressbar2|4.5.0|4.6.0||
+|python-progressbar2|4.5.0|4.7.0||
 |python-prometheus-client|0.25.0|0.26.0||
 |python-prometheus-fastapi-instrumentator|7.1.0|8.1.0||
 |python-prompt-toolkit|3.0.52|3.0.53||
@@ -686,8 +687,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pycares|5.0.1|5.2.1||
 |python-pycdlib|1.16.0|1.22.0||
 |python-pycparser|3.0|release_v3.12||
-|python-pycryptodome|3.23.0|4.3.0||
-|python-pycryptodomex|3.23.0|4.3.0||
+|python-pycryptodome|3.23.0|3.24.2x||
+|python-pycryptodomex|3.23.0|3.24.2x||
 |python-pycurl|7.45.7|7.49.0||
 |python-pydantic|2.12.5|2.14.3||
 |python-pydantic-settings|2.15.0|2.16.2||
@@ -752,7 +753,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-tenacity|9.1.4|9.2.1||
 |python-tensile|7.2.4|rocm-7.2.4||
 |python-thinc|8.3.13|10.0.0||
-|python-threadpoolctl|3.6.0|3.7.0||
+|python-threadpoolctl|3.6.0|3.8.0||
 |python-time-machine|3.2.0|3.6.0||
 |python-tokenizers|0.22.2|1.0.0-rc.3||
 |python-tomlkit|0.15.0|0.15.2||
@@ -771,7 +772,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-uvicorn|0.46.0|0.54.0||
 |python-uvloop|0.22.1|0.23.0||
 |python-virtualenv|21.7.4|21.15.5||
-|python-w3lib|2.4.1|2.5.0||
+|python-w3lib|2.4.1|2.6.0||
 |python-wcwidth|0.7.0|0.9.4||
 |python-weasel|1.0.0|release-v1.0.2||
 |python-websocket-client|1.9.0|1.10.0||
@@ -952,7 +953,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valkey|8.1.4|9.1.3||
 |vapoursynth|73|82||
 |vid.stab|1.1.1|1.1.2||
-|vim|9.2.1201|9.2.1293||
+|vim|9.2.1201|9.2.1302||
 |vlc|3.0.23|3.0.24||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.357.0|1.4.367||
@@ -963,9 +964,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wabt|1.0.39|1.0.42||
 |wavpack|5.8.1|5.9.0||
 |wayback|0.3|0.5.1||
+|waybar|0.15.0|0.16.0||
 |wayland|1.25.0|1.26.0||
 |wayland-protocols|1.48|1.50||
-|weston|14.0.2|16.0.2||
 |wget2|2.2.1|2.3.0||
 |which|2.23|8.0.6||
 |whois|5.6.4|5.6.6.git||
