@@ -1,12 +1,13 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1793837351?label=Updated)
+![Relative date](https://img.shields.io/date/1793864579?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
 |NetworkManager|1.54.3|1.58.1||
 |SDL3|3.4.2|3.4.20||
+|Xwayland|24.1.11|24.1.14||
 |aardvark-dns|1.17.1|2.1.0||
 |abseil-cpp|20260526.0|20260817.0||
 |accounts-qml-module|0.7<br>+git20231216.|0.7|Compound version number '0.7+git20231216.'<br>Version number indicates a snapshot (+git) is used|
@@ -83,6 +84,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dav1d|1.5.3|1.5.4||
 |db|6.2.32|18.1.40||
 |dbus|1.16.2|5.2.4||
+|dbus-glib|0.114|0.116||
 |ddcutil|2.2.7|3.0.2||
 |debugedit|5.3|5.4||
 |dhcpcd|10.3.2|10.5.2||
@@ -428,7 +430,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
 |libuv|1.52.1|1.53.0||
 |libva|2.23.0|2.24.1||
-|libvirt|12.2.0|12.9.0||
 |libvpx|1.15.2|1.17.0||
 |libwacom|2.17.0|2.20.0||
 |libwebsockets|4.5.8|5.1.0||
@@ -732,7 +733,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-s3transfer|0.19.2|0.19.3||
 |python-safetensors|0.8.0|0.9.0-rc.1||
 |python-scikit-build-core|1.1.1|1.1.2||
-|python-sentencepiece|0.2.1|0.2.3pre3||
+|python-semver|3.0.4|3.1.0||
+|python-sentencepiece|0.2.1|0.2.3||
 |python-service-identity|24.2.0|26.1.0||
 |python-setuptools-gettext|0.1.14|0.1.20||
 |python-setuptools-rust|1.12.1|1.13.0||
@@ -867,7 +869,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-wasmparser-0.244|0.244.0|1.263.0||
 |rust-windows-link-0.2|0.2.1|74||
 |rust-windows-sys-0.61|0.61.2|74||
-|rust-winnow-0.7|0.7.15|1.0.4||
+|rust-winnow-0.7|0.7.15|1.0.5||
 |rust-wit-bindgen-0.51|0.51.0|0.63.0||
 |rust-wit-bindgen-core-0.51|0.51.0|0.63.0||
 |rust-wit-bindgen-rust-0.51|0.51.0|0.63.0||
@@ -944,7 +946,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |userspace-rcu|0.15.3|0.15.7||
 |utf8cpp|4.0.8|4.2.1||
 |utf8proc|2.10.0|2.12.0||
-|util-linux|2.41.3|2.42.4||
 |uuid|1.6.2|1.29.0||
 |vala|0.56.18|0.56.19||
 |valgrind|3.27.0|3.28.0||
@@ -962,6 +963,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |wabt|1.0.39|1.0.42||
 |wavpack|5.8.1|5.9.0||
 |wayback|0.3|0.5.1||
+|wayland|1.25.0|1.26.0||
 |wayland-protocols|1.48|1.50||
 |weston|14.0.2|16.0.2||
 |wget2|2.2.1|2.3.0||
