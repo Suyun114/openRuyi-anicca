@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1793965746?label=Updated)
+![Relative date](https://img.shields.io/date/1793991201?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -47,6 +47,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bubblewrap|0.12.0|0.13.1||
 |buildah|1.43.1|1.46.0||
 |busybox|1.37.0|1.38.0||
+|byacc|2.0.20260126|20260126||
 |cairo|1.18.4|1.109||
 |calamares|3.4.2|3.4.3||
 |ccache|4.13.6|4.14.2||
@@ -162,7 +163,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-andybalholm-brotli|1.2.5|1.2.8||
 |go-github-apache-arrow-go-arrow|0<br>+git20260107.bc21918|apache-arrow-26.0.1|Compound version number '0+git20260107.bc21918'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (0+git20260107.bc21918 -> apache-arrow-26.0.1)|
 |go-github-apache-arrow-go-v18|18.5.0|18.8.0||
-|go-github-apache-beam|2.76.0|2.78.0-RC1||
+|go-github-apache-beam|2.76.0|2.78.0-RC2||
 |go-github-apache-thrift|0.24.0|0.25.0||
 |go-github-apparentlymart-go-textseg|16.0.0|17.0.1||
 |go-github-asaskevich-govalidator|11.0.1|12.0.0||
@@ -273,6 +274,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |grpc|1.82.1|1.85.1||
 |grub|2.14|2.16||
 |gsasl|2.2.2|2.2.4||
+|gsettings-desktop-schemas|50.1|51.0||
 |gsl|2.8|5.0.1||
 |gssproxy|0.9.2|0.9.3||
 |gstreamer|1.27.50|4.4.0||
@@ -288,7 +290,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |hipblas|7.2.4|20250912-17||
 |hipify|7.2.4|20250912-42||
 |htop|3.5.1|3.5.3||
-|httpd|2.4.68|2.4.69||
+|httpd|2.4.68|2.4.70||
 |hunspell|1.7.3|1.7.6||
 |hunspell-en|2026.02.25|rel-2026.02.25||
 |hwdata|0.407|0.413||
@@ -317,6 +319,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |jose|14|15||
 |json-c|0.18|0.19||
 |jsonnet|0.21.0|0.22.0||
+|judy|1.0.5|2.0.8||
 |kbd|2.9.0|2.10.0||
 |kdsoap|2.2.0|2.3.0||
 |kea|3.1.4|3.3.3||
@@ -359,7 +362,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libconfuse|3.3|3.4||
 |libdatrie|0.2.13|0.2.14||
 |libdisplay-info|0.2.0|0.4.0||
-|libdvdcss|1.5.0|1.6.0||
 |libdvdread|7.0.1|7.1.1||
 |libdwarf|2.2.0|2.3.3||
 |libeconf|0.7.8|0.8.6||
@@ -386,7 +388,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libmbim|1.32.0|1.34.0||
 |libmd|1.1.0|1.3.0||
 |libmicrohttpd|1.0.2|1.0.10||
-|libmodulemd|2.15.2|2.15.3||
+|libmodulemd|2.15.2|2.15.4||
 |libnbd|1.23.13|1.25.8||
 |libnfs|6.0.2|8.0.0||
 |libnl|3.11.0|3.12.0||
@@ -398,12 +400,14 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libpciaccess|0.18|0.19||
 |libpkgmanifest|0.5.9|0.6.1||
 |libplacebo|7.360.1|7.387.0||
-|libplist|2.7.0|2.8.0||
+|libplasma|6.7.5|6.8.2||
+|libplist|2.7.0|2.8.1||
 |libpng|1.6.58|1.6.59||
 |libpsl|0.21.5|0.23.3||
 |libqalculate|5.9.0|5.13.2||
 |libqmi|1.36.0|1.38.0||
 |libqrtr-glib|1.2.2|1.4.0||
+|libraw|0.22.1|0.22.3||
 |librepo|1.21.1|1.22.0||
 |libsecret|0.21.7|0.21.8.2||
 |libselinux|3.10|3.11||
@@ -448,7 +452,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lsof|4.99.6|4.99.7||
 |lsscsi|0.32|0.33||
 |ltp|20260529|20260930||
-|lttng-ust|2.14.0|2.16.0||
 |lua|5.4.8|5.5.1||
 |lua-lunitx|0.8.1|0.8.2||
 |luajit|2.1<br>+openresty20260824|2.1.ROLLING|Compound version number '2.1+openresty20260824'|
@@ -463,7 +466,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |md4c|0.5.3|0.6.0||
 |mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
-|mergerfs|2.41.1|2.42.1||
+|mergerfs|2.41.1|2.42.2||
 |mesa|26.2.4|26.2.6||
 |meson|1.10.2|1.12.1||
 |mimalloc|3.3.2|3.6.1||
@@ -490,7 +493,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
 |nfs-utils|2.8.4|3.1.1||
-|nfs4-acl-tools|0.4.2|0.3.7|Possible downgrade from the current version (0.4.2 -> 0.3.7)|
 |nftables|1.1.6|1.1.7||
 |nghttp2|1.69.0|1.71.0||
 |nghttp3|1.12.0|1.19.0||
@@ -588,13 +590,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-cacheout|0.16.0|0.17.0||
 |python-cachetools|7.1.1|7.3.0||
 |python-chardet|7.4.3|7.7.0||
-|python-click|8.3.3|8.5.0||
+|python-click|8.3.3|8.5.1||
 |python-cloudpathlib|0.25.0|0.26.0||
 |python-colorlog|6.10.1|6.12.0||
 |python-confection|1.3.3|1.3.4||
 |python-configparser|7.2.0|7.3.0||
 |python-coverage|7.13.4|7.17.2||
-|python-csvw|4.0.0|4.1.1||
+|python-csvw|4.0.0|4.2.0||
 |python-cymem|2.0.13|release-v2.0.16|Possible downgrade from the current version (2.0.13 -> release-v2.0.16)|
 |python-dashscope|1.25.11|2.0.4||
 |python-datasets|5.0.1|5.1.0||
@@ -669,7 +671,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-preshed|3.0.12|release-v3.0.15|Possible downgrade from the current version (3.0.12 -> release-v3.0.15)|
 |python-prettytable|3.17.0|3.18.0||
 |python-productmd|1.50|1.51||
-|python-progressbar2|4.5.0|4.7.0||
+|python-progressbar2|4.5.0|3.11.0|Possible downgrade from the current version (4.5.0 -> 3.11.0)|
 |python-prometheus-client|0.25.0|0.26.0||
 |python-prometheus-fastapi-instrumentator|7.1.0|8.1.0||
 |python-prompt-toolkit|3.0.52|3.0.53||
@@ -721,7 +723,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pyxbe|1.0.3|1.0.4||
 |python-rdflib|7.5.0|7.6.0||
 |python-redis|7.4.0|8.2.0b1||
-|python-regex|2026.1.15|2026.9.29||
+|python-regex|2026.1.15|2026.11.6||
 |python-requests|2.33.1|2.34.2||
 |python-responses|0.26.0|0.26.3||
 |python-reuse|6.2.0|6.3.0||
@@ -761,7 +763,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-tqdm|4.67.3|4.70.1||
 |python-traitlets|5.15.0|5.16.1||
 |python-traits|7.1.0|7.3.0||
-|python-transformers|5.12.1|5.22.1||
+|python-transformers|5.12.1|5.22.2||
 |python-trio|0.33.0|0.35.0||
 |python-trove-classifiers|2025.8.26.11|2026.9.21.13||
 |python-typing-inspection|0.4.2|0.4.5||
@@ -770,7 +772,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.54.0||
 |python-uvloop|0.22.1|0.23.0||
-|python-virtualenv|21.7.4|21.15.5||
+|python-virtualenv|21.7.4|21.15.6||
 |python-w3lib|2.4.1|2.6.0||
 |python-wcwidth|0.7.0|0.9.4||
 |python-weasel|1.0.0|release-v1.0.2||
@@ -829,7 +831,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |re2c|4.3|4.6||
 |recode|3.7.15|3.7.17||
 |rest|0.10.2|2.6.9||
-|rocblas|7.2.4|14.3.0||
 |rocclr|7.2.4|5.6.1|Possible downgrade from the current version (7.2.4 -> 5.6.1)|
 |rocksdb|10.5.1|11.13.2||
 |rocm-bandwidth-test|6.4.2|20250912-42||
@@ -846,7 +847,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rrdtool|1.9.0|1.11.0||
 |rsync|3.5.1|3.5.2||
 |rsyslog|8.2510.0|8.2610.0||
-|rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.9||
 |runc|1.4.3|1.5.2||
 |rust|1.97.1|1.99.1||
@@ -860,8 +860,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rust-parking-lot-0.12|0.12.5|parking_lot-v0.13.0||
 |rust-parking-lot-core-0.9|0.9.12|parking_lot-v0.13.0||
 |rust-prettyplease-0.2|0.2.37|0.3.0||
-|rust-toml-0.9|0.9.12|0.25.18||
-|rust-toml-datetime-0.7|0.7.5|0.25.18||
+|rust-toml-0.9|0.9.12|0.25.19||
+|rust-toml-datetime-0.7|0.7.5|0.25.19||
 |rust-utf8parse-0.2|0.2.2|0.15.0||
 |rust-wasip3-0.4|0.4.0|wasip3-0.10.0|Possible downgrade from the current version (0.4.0 -> wasip3-0.10.0)|
 |rust-wasm-encoder-0.244|0.244.0|1.263.0||
@@ -958,7 +958,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vulkan-loader|1.4.357.0|1.4.368||
 |vulkan-tools|1.4.357.0|1.4.368||
 |vulkan-utility-libraries|1.4.357.0|1.4.368||
-|vulkan-validation-layers|1.4.357.0|nightly|Versions not comparable: `1.4.357.0` and `nightly`|
+|vulkan-validation-layers|1.4.357.0|1.4.368||
 |wabt|1.0.39|1.0.42||
 |wavpack|5.8.1|5.9.0||
 |wayback|0.3|0.5.1||
