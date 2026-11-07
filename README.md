@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1794051059?label=Updated)
+![Relative date](https://img.shields.io/date/1794072349?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -144,6 +144,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gdk-pixbuf|2.44.6|2.44.8||
 |genext2fs|1.5.0|1.6.3||
 |gettext|1.0|2.1.0||
+|gflags|2.3.0|2.3.1||
 |gi-docgen|2025.5|2026.1||
 |giflib|5.2.2|6.1.3||
 |git|2.54.0|2.56.0||
@@ -288,7 +289,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |haveged|1.9.20|1.9.27||
 |hipblas|7.2.4|20250912-17||
 |hipify|7.2.4|20250912-42||
-|htop|3.5.1|3.5.3||
 |httpd|2.4.68|2.4.70||
 |hunspell|1.7.3|1.7.6||
 |hunspell-en|2026.02.25|rel-2026.02.25||
@@ -389,7 +389,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libmd|1.1.0|1.3.0||
 |libmicrohttpd|1.0.2|1.0.10||
 |libmodulemd|2.15.2|2.15.4||
-|libnbd|1.23.13|1.25.8||
+|libnbd|1.23.13|1.25.9||
 |libnfs|6.0.2|8.0.0||
 |libnl|3.11.0|3.12.0||
 |libnotify|0.8.7|0.8.9||
@@ -444,7 +444,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20261019||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.36|1.0.3||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -612,7 +611,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-eval-type-backport|0.3.1|0.4.0||
 |python-executing|2.2.1|2.3.0||
 |python-expandvars|1.1.2|1.25.1||
-|python-fastapi|0.136.1|0.162.0||
+|python-fastapi|0.136.1|0.162.2||
 |python-fastavro|1.12.1|1.13.1||
 |python-fastjsonschema|2.21.2|2.22.3||
 |python-filelock|3.29.0|4.2.9||
@@ -853,6 +852,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rtkit|0.11|0.14||
 |ruby|4.0.4|4.0.9||
 |runc|1.4.3|1.5.2||
+|rust|1.97.1|1.99.1||
 |rust-errno-0.3|0.3.14|0.3.13|Possible downgrade from the current version (0.3.14 -> 0.3.13)|
 |rust-foldhash-0.1|0.1.5|0.2.0||
 |rust-hashbrown-0.14|0.14.5|0.17.1||
@@ -954,6 +954,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valkey|8.1.4|9.1.3||
 |vapoursynth|73|82||
 |vid.stab|1.1.1|1.1.2||
+|vim|9.2.1201|9.2.1302||
 |vlc|3.0.23|3.0.24||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.357.0|1.4.368||
