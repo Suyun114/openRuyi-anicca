@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1794099905?label=Updated)
+![Relative date](https://img.shields.io/date/1794126847?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -111,7 +111,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |emacs|30.2|31.1||
 |enchant|2.8.16|2.8.21||
 |erofs-utils|1.9.1|1.9.4||
-|ethtool|6.15|7.2||
 |exfatprogs|1.3.2|1.4.3||
 |expect|5.45.4|30.5.2||
 |f2fs-tools|1.16.0|1.17.0||
@@ -441,7 +440,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libxmlb|0.3.24|0.3.29||
 |libxslt|1.1.43|1.1.45||
 |lighttpd|1.4.82|1.4.85||
-|linux|7.2.6|7.3||
+|linux|7.3.3|7.3|Possible downgrade from the current version (7.3.3 -> 7.3)|
 |linux-firmware|20260519|20261019||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.3||
@@ -963,7 +962,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vulkan-loader|1.4.357.0|1.4.368||
 |vulkan-tools|1.4.357.0|1.4.368||
 |vulkan-utility-libraries|1.4.357.0|1.4.368||
-|vulkan-validation-layers|1.4.357.0|1.4.368||
+|vulkan-validation-layers|1.4.357.0|nightly|Versions not comparable: `1.4.357.0` and `nightly`|
 |wabt|1.0.39|1.0.42||
 |wavpack|5.8.1|5.9.0||
 |wayback|0.3|0.5.1||
