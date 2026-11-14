@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1794619036?label=Updated)
+![Relative date](https://img.shields.io/date/1794645330?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -118,6 +118,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ethtool|6.15|7.2||
 |exfatprogs|1.3.2|1.4.4||
 |expect|5.45.4|30.5.2||
+|f2fs-tools|1.16.0|1.17.0||
 |fast_float|8.2.5|8.3.3||
 |fastfetch|2.63.1|2.71.0||
 |fdk-aac|2.0.3|3.0.0||
@@ -309,7 +310,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |inih|62|63||
 |iniparser|4.2.6|4.3.2||
 |iotop|1.30|0.6|Possible downgrade from the current version (1.30 -> 0.6)|
-|iozone|3_508|3.511||
 |ipcalc|1.0.3|1.2.0||
 |iperf|3.21|2.2.2|Possible downgrade from the current version (3.21 -> 2.2.2)|
 |ipmitool|1.8.19|1_8_19||
@@ -399,7 +399,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libnbd|1.23.13|1.25.9||
 |libnfs|6.0.2|8.0.0||
 |libnl|3.11.0|3.12.0||
-|libnotify|0.8.7|0.8.9||
 |libnvme|1.16.1|1.16.2||
 |libp11|0.4.13|0.4.21||
 |libpaper|2.2.6|2.3.0||
@@ -708,7 +707,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pygtrie|2.5.0|2.6.2||
 |python-pylsqpack|1.0.0|1.1.1||
 |python-pymilvus|2.6.16|3.0.3||
-|python-pymongo|4.19.0|10.10.10.10||
 |python-pymupdf|1.27.2|2.1||
 |python-pyparsing|3.3.2|3.3.3||
 |python-pyproject-metadata|0.9.1|0.12.1||
@@ -966,7 +964,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |vim|9.2.1201|9.2.1345||
 |vlc|3.0.23|3.0.24||
 |vte|0.82.3|3.4.3||
-|vulkan-headers|1.4.357.0|1.4.368||
 |vulkan-loader|1.4.357.0|1.4.368||
 |vulkan-tools|1.4.357.0|1.4.368||
 |vulkan-utility-libraries|1.4.357.0|1.4.368||
