@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1794601208?label=Updated)
+![Relative date](https://img.shields.io/date/1794619036?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -118,7 +118,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ethtool|6.15|7.2||
 |exfatprogs|1.3.2|1.4.4||
 |expect|5.45.4|30.5.2||
-|f2fs-tools|1.16.0|1.17.0||
 |fast_float|8.2.5|8.3.3||
 |fastfetch|2.63.1|2.71.0||
 |fdk-aac|2.0.3|3.0.0||
@@ -423,10 +422,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libsepol|3.10|3.12-rc2||
 |libsigc++|3.6.0|3.8.1||
 |libsigc++2|2.12.1|3.8.1||
+|libsigsegv|2.15|2.16||
 |libsodium|1.0.20|1.0.22||
 |libsolv|0.7.37|0.7.41||
 |libsoup|3.7.1|3.8.1||
-|libstoragemgmt|1.10.2|1.11.0||
+|libstoragemgmt|1.10.2|1.12.0||
 |libtatsu|1.0.5|1.1.1||
 |libthai|0.1.29|0.1.30||
 |libtiff|4.7.0|4.7.2||
@@ -451,6 +451,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20261019||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.4||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.36|1.0.3||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -595,7 +596,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-blivet|3.13.1|blivet-3.14.2|Possible downgrade from the current version (3.13.1 -> blivet-3.14.2)|
 |python-blobfile|3.2.0|3.3.0||
 |python-boto3|1.43.115|1.44.3||
-|python-botocore|1.43.115|1.44.2||
+|python-botocore|1.43.115|1.44.3||
 |python-cacheout|0.16.0|0.17.0||
 |python-cachetools|7.1.1|7.3.1||
 |python-chardet|7.4.3|7.7.0||
