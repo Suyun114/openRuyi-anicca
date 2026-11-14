@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1794670426?label=Updated)
+![Relative date](https://img.shields.io/date/1794687926?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -107,7 +107,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |dropbear|2026.91|2026.94||
 |drpm|0.5.2|0.5.3||
 |dtc|1.7.2|1.8.1||
-|dwarfs|0.15.3|0.15.8||
+|dwarfs|0.15.3|0.15.9||
 |dwarves|1.30|1.32||
 |ed|1.22.5|1.22.6||
 |efivar|39|40||
@@ -128,7 +128,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |findutils|4.10.0|4.11.0||
 |fio|3.42|3.43||
 |firewalld|2.4.1|2.5.2||
-|flex|2.6.4|2.6.11||
+|flex|2.6.4|2.6.13||
 |fmt|12.1.0|12.2.1||
 |fontconfig|2.17.1|2.18.3||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
@@ -137,7 +137,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |fonts-noto-sans-cjk|2.004|Serif2.003|Possible downgrade from the current version (2.004 -> Serif2.003)|
 |fonts-noto-serif-cjk|2.003|Serif2.003||
 |fonts-sarasa-gothic|1.0.37|1.0.43||
-|foot|1.26.1|1.28.0||
 |freerdp|3.32.2|3.33.1||
 |freetype|2.14.3|2.15.0||
 |fribidi|1.0.16|1.0.18||
@@ -293,7 +292,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gzip|1.14|1.15||
 |haproxy|3.3|3.4.7||
 |harfbuzz|14.0.0|15.1.0||
-|haveged|1.9.20|1.9.27||
 |hipblas|7.2.4|20250912-17||
 |hipify|7.2.4|20250912-42||
 |httpd|2.4.68|2.4.71||
@@ -378,9 +376,11 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libevent|2.1.12|2.1.13||
 |libfaketime|0.9.12|0.9.13||
 |libfastjson|1.2304.0|1.2609.0||
+|libffi|3.8.0|3.8.1||
 |libfontenc|1.1.8|1.1.9||
 |libgit2|1.9.2|1.9.7||
 |libheif|1.23.6|1.23.7||
+|libical|4.0.7|4.0.8||
 |libiconv|1.19|1.19.1||
 |libimobiledevice-glue|1.3.2|1.3.3||
 |libinput|1.31.3|1.32.0||
@@ -452,10 +452,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux-firmware|20260519|20261019||
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.4||
-|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.36|1.0.3||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
+|lshw|B.02.20|02.20||
 |lsof|4.99.6|4.99.7||
 |lsscsi|0.32|0.33||
 |ltp|20260529|20260930||
@@ -492,6 +492,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mstflint|4.34.0.2|4.38.0-1||
 |mtd-utils|2.3.0|2.3.1||
 |mujs|1.3.9|1.3.11||
+|mupdf|1.27.2|1.28.6||
 |nasm|3.01|3.02||
 |ncurses|6.5|6.6||
 |ndctl|83|85||
@@ -538,7 +539,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |osinfo-db|20250606|20260812||
 |otf2bdf|3.1|3.1_p1|Possible downgrade from the current version (3.1 -> 3.1_p1)|
 |ovmf|202602|edk2-stable202608|Versions not comparable: `202602` and `edk2-stable202608`|
-|p11-kit|0.26.5|0.26.6||
 |pam|1.7.1|3.0.1||
 |pango|1.57.0|4.4.0||
 |pangomm|2.46.4|2.58.0||
@@ -608,6 +608,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-csvw|4.0.0|4.2.0||
 |python-cymem|2.0.13|release-v2.0.16|Possible downgrade from the current version (2.0.13 -> release-v2.0.16)|
 |python-dashscope|1.25.11|2.1.0||
+|python-datasets|5.0.1|5.2.0||
 |python-decorator|5.2.1|5.3.1||
 |python-deprecated|1.3.1|3.0.1||
 |python-distlib|0.4.0|0.3.4|Possible downgrade from the current version (0.4.0 -> 0.3.4)|
@@ -618,7 +619,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-eval-type-backport|0.3.1|0.4.0||
 |python-executing|2.2.1|2.3.0||
 |python-expandvars|1.1.2|1.25.1||
-|python-fastapi|0.136.1|0.162.7||
+|python-fastapi|0.136.1|0.163.0||
 |python-fastavro|1.12.1|1.13.1||
 |python-fastjsonschema|2.21.2|2.22.3||
 |python-filelock|3.29.0|4.2.10||
@@ -656,7 +657,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-meson-python|0.19.0|0.22.1||
 |python-mitogen|0.3.47|0.3.54||
 |python-more-itertools|11.0.2|11.2.1||
-|python-munkres|1.1.4|release-1.1.4|Possible downgrade from the current version (1.1.4 -> release-1.1.4)|
 |python-murmurhash|1.0.15|release-v1.0.16|Possible downgrade from the current version (1.0.15 -> release-v1.0.16)|
 |python-mypy-extensions|1.1.0|1.2.0||
 |python-narwhals|2.15.0|2.28.0||
@@ -848,7 +848,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocminfo|7.2.4|20250912-42||
 |rocprofiler-register|7.2.4|20250912-42||
 |rocr-runtime|7.2.4|20250912-42||
-|rocsolver|7.2.4|20250912-42||
 |rpcbind|1.2.8|1.3.1||
 |rpm|6.0.1|6.1.0-release||
 |rpmlint|2.8.0|2.10.0||
@@ -892,7 +891,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |scons|4.10.1|4.11.1||
 |sdbus-cpp|2.1.0|2.3.1||
 |seatd|0.9.1|0.9.3||
-|sed|4.9|4.10||
 |setools|4.6.0|4.7.1||
 |setup|2.15|2.2.1|Possible downgrade from the current version (2.15 -> 2.2.1)|
 |sfwbar|1.0~beta16.1|0.9.10.1|Possible downgrade from the current version (1.0~beta16.1 -> 0.9.10.1)|
@@ -920,6 +918,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |sssd|2.11.1|2.13.2||
 |strace|6.19|7.3||
 |stress-ng|0.20.01|0.22.02||
+|strongswan|6.0.2|6.1.0||
 |swig|4.4.1|4.5.1||
 |swtpm|0.10.1|0.10.2||
 |sysstat|12.7.8|12.8.0||
@@ -947,7 +946,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |unicode-ucd|17.0.0|19.0.0||
 |unifont|16.0.04|18.0.01||
 |universal-ctags|6.2.0|6.2.20260621.0||
-|unrar-free|0.3.3|0.3.4||
+|unrar-free|0.3.3|0.5.0||
 |upower|1.91.1|1.91.5||
 |usbutils|018|020||
 |usermode|1.114|usermode-1.114|Possible downgrade from the current version (1.114 -> usermode-1.114)|
@@ -960,7 +959,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valkey|8.1.4|9.1.3||
 |vapoursynth|73|82||
 |vid.stab|1.1.1|1.1.2||
-|vim|9.2.1201|9.2.1345||
+|vim|9.2.1201|9.2.1349||
 |vlc|3.0.23|3.0.24||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.357.0|1.4.368||
