@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1794789925?label=Updated)
+![Relative date](https://img.shields.io/date/1794814774?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -117,6 +117,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |erofs-utils|1.9.1|1.9.4||
 |ethtool|6.15|7.2||
 |exfatprogs|1.3.2|1.4.4||
+|expect|5.45.4|30.5.2||
 |f2fs-tools|1.16.0|1.17.0||
 |fast_float|8.2.5|8.3.3||
 |fastfetch|2.63.1|2.71.0||
@@ -281,7 +282,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |grpc|1.82.1|1.85.2||
 |grub|2.14|2.16||
 |gsasl|2.2.2|2.2.4||
-|gsettings-desktop-schemas|50.1|51.0||
 |gsl|2.8|5.0.1||
 |gssproxy|0.9.2|0.9.3||
 |gstreamer|1.27.50|4.4.0||
@@ -337,10 +337,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |krb5|1.22.2|1.22.3-final||
 |kyua|0.14.1|0.15.1||
 |labwc|0.20.1|0.20.3||
+|labwc-tweaks|0.1.0|0.2.0||
 |lame|3.100|4.0||
 |lcms2|2.17|6.2.0||
 |ldns|1.9.0|1.9.2||
-|less|702|710||
 |libX11|1.8.13|1.8.14||
 |libXfont2|2.0.7|2.0.9||
 |libXft|2.3.8|2.3.9||
@@ -354,6 +354,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libarchive|3.8.9|3.8.11||
 |libavif|1.4.0|1.4.2||
 |libblockdev|3.4.0|3.6.0||
+|libbluray|1.4.1|1.5.0||
 |libbpf|1.7.0|1.8.0||
 |libburn|1.5.6|1.5.8||
 |libcap|2.76|2.78||
@@ -406,7 +407,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libp11|0.4.13|0.4.21||
 |libpaper|2.2.6|2.3.0||
 |libpcap|1.10.7|1.11.0||
-|libpciaccess|0.18|0.19||
 |libpkgmanifest|0.5.9|0.6.2||
 |libplacebo|7.360.1|7.387.0||
 |libplasma|6.8.2|6.8.3||
@@ -557,7 +557,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pesign|116|117||
 |picoclaw|0.2.3|nightly|Versions not comparable: `0.2.3` and `nightly`|
 |picocom|2024.07|2024-07||
-|pinentry|1.3.2|4.0.1||
 |pipewire|1.5.84|1.6.11||
 |pkgconf|2.5.1|3.0.11||
 |podman|5.8.2|6.2.0||
@@ -692,7 +691,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-prov|2.1.1|3.3.0||
 |python-puccinialin|0.1.11|0.1.14||
 |python-pure-eval|0.2.3|0.2.4||
-|python-puremagic|1.30|2.2.1||
+|python-puremagic|1.30|2.3.0||
 |python-pyarrow|23.0.1|26.0.1||
 |python-pyasn1|0.6.4|0.6.5||
 |python-pybase64|1.4.3|1.5.2||
@@ -849,7 +848,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rocm-cmake|7.2.4|20250912-42||
 |rocm-llvm|7.2.4|20250912-42||
 |rocm-smi|7.2.4|rocm-7.2.4||
-|rocminfo|7.2.4|20250912-42||
 |rocprofiler-register|7.2.4|20250912-42||
 |rocr-runtime|7.2.4|20250912-42||
 |rocsolver|7.2.4|20250912-42||
@@ -910,6 +908,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |simdutf|9.3.3|9.4.0||
 |skalibs|2.14.5.1|2.16.0.0||
 |slang|2.3.3|2026.22||
+|slibtool|0.7.3|0.7.4||
 |snappy|1.2.2|1.3.1||
 |socat|1.8.1.1|1.8.1.3||
 |socket_wrapper|1.5.0|1.5.2||
