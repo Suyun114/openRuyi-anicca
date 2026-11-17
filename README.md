@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1794879252?label=Updated)
+![Relative date](https://img.shields.io/date/1794910176?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -72,6 +72,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |containers-common|0.67.0|1.0.1||
 |coreutils|9.11|9.12||
 |cpp-httplib|0.63.0|0.66.0||
+|cpuinfo|0<br>+git20260202.|9.0.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |cracklib|2.10.3|2.10.4-gpg||
 |crash|9.0.1|9.0.3||
 |createrepo_c|1.2.4|1.2.6||
@@ -96,7 +97,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |djvulibre|3.5.29|3.5.30||
 |dkms|3.2.2|3.4.5||
 |dlpack|1.3|1.4||
-|dmidecode|3.6|3.7||
 |dnf5|5.4.2.0|5.4.8.0||
 |dnsmasq|2.92|2.93||
 |docbook-utils|0.6.15|0.6.14|Possible downgrade from the current version (0.6.15 -> 0.6.14)|
@@ -115,6 +115,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |enchant|2.8.16|2.8.21||
 |erofs-utils|1.9.1|1.9.4||
 |ethtool|6.15|7.2||
+|exfatprogs|1.3.2|1.4.4||
 |expect|5.45.4|30.5.2||
 |f2fs-tools|1.16.0|1.17.0||
 |fast_float|8.2.5|8.3.3||
@@ -124,9 +125,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ffnvcodec|13.0.19.0|n13.1.15.0||
 |file|5.47|5.48||
 |findutils|4.10.0|4.11.0||
-|fio|3.42|3.43||
 |firewalld|2.4.1|2.5.2||
-|flex|2.6.4|2.6.15||
+|flex|2.6.4|2.6.16||
 |fmt|12.1.0|12.2.1||
 |fontconfig|2.17.1|2.18.3||
 |fonts-dejavu|2.37|ersion_2_37|Possible downgrade from the current version (2.37 -> ersion_2_37)|
@@ -210,7 +210,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-golang-freetype|0<br>+git20260106.e2365df|release|Compound version number '0+git20260106.e2365df'<br>Version number indicates a snapshot (+git) is used<br>Versions not comparable: `0+git20260106.e2365df` and `release`|
 |go-github-google-flatbuffers|25.12.19|25.12.19-2026-02-06-03fffb2||
 |go-github-gorilla-websocket|1.5.4<br>+git20260721.e064f32|1.5.3|Compound version number '1.5.4+git20260721.e064f32'<br>Version number indicates a snapshot (+git) is used<br>Possible downgrade from the current version (1.5.4+git20260721.e064f32 -> 1.5.3)|
-|go-github-grpc-ecosystem-grpc-gateway|2.27.7|2.33.0||
+|go-github-grpc-ecosystem-grpc-gateway|2.27.7|2.34.0||
 |go-github-hashicorp-go-bexpr|0.1.16|0.1.17||
 |go-github-hashicorp-go-immutable-radix|1.3.1|2.1.0||
 |go-github-hashicorp-go-msgpack|0.5.5|2.1.5||
@@ -244,7 +244,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-prometheus-common|0.71.0|0.74.0||
 |go-github-prometheus-procfs|0.22.0|0.23.0||
 |go-github-puzpuzpuz-xsync|4.4.0|4.5.0||
-|go-github-rabbitmq-amqp091-go|1.15.0|1.16.0||
+|go-github-rabbitmq-amqp091-go|1.15.0|1.17.0||
 |go-github-rogpeppe-go-internal|1.14.1|1.16.0||
 |go-github-russross-blackfriday|1.6.0|2.1.0||
 |go-github-shirou-gopsutil|3.21.11|4.26.10||
@@ -295,7 +295,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |haveged|1.9.20|1.9.27||
 |hipblas|7.2.4|20250912-17||
 |hipify|7.2.4|20250912-42||
-|httpd|2.4.68|2.4.71||
 |hunspell|1.7.3|1.7.6||
 |hunspell-en|2026.02.25|rel-2026.02.25||
 |hwdata|0.407|0.413||
@@ -312,16 +311,15 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |iozone|3_508|3.511||
 |ipcalc|1.0.3|1.2.0||
 |iperf|3.21|2.2.2|Possible downgrade from the current version (3.21 -> 2.2.2)|
+|ipmitool|1.8.19|1_8_19||
 |iproute2|7.2.0|7.3.0||
 |iprutils|2.4.19|2.4.18.1|Possible downgrade from the current version (2.4.19 -> 2.4.18.1)|
 |iptstate|2.2.7|2.3.0||
 |isa-l|2.32.1|2.32.1-post.1|Possible downgrade from the current version (2.32.1 -> 2.32.1-post.1)|
 |iso-codes|4.18.0|4.20.1||
-|jansson|2.15.0|2.15.1||
 |jbigkit|2.1|2.2||
 |jitterentropy|3.6.3|3.7.0||
 |jose|14|15||
-|json-c|0.18|0.19||
 |jsonnet|0.21.0|0.22.0||
 |judy|1.0.5|2.0.8||
 |kbd|2.9.0|2.10.0||
@@ -329,9 +327,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |kea|3.1.4|3.3.3||
 |keepalived|2.2.8|2.4.3||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
+|kiwi|10.2.42|11.1.16||
 |kmod|34.2|34.3||
 |kpmcore|26.08.1|26.11.80||
-|krb5|1.22.2|1.22.3-final||
+|krb5|1.22.3|1.22.3-final|Possible downgrade from the current version (1.22.3 -> 1.22.3-final)|
 |kyua|0.14.1|0.15.1||
 |labwc|0.20.1|0.20.3||
 |labwc-tweaks|0.1.0|0.2.0||
@@ -374,7 +373,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libei|1.5.0|1.6.0||
 |libevdev|1.13.5|1.14.0||
 |libevent|2.1.12|2.1.13||
-|libfaketime|0.9.12|0.9.13||
+|libfaketime|0.9.12|0.9.14||
 |libfastjson|1.2304.0|1.2609.0||
 |libffi|3.8.0|3.8.1||
 |libfontenc|1.1.8|1.1.9||
@@ -469,7 +468,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lvm2|2.03.35|2.03.44||
 |lynis|3.1.6|3.1.7||
 |lz4|1.10.0|1.28.1||
-|man-db|2.13.1|2.13.2||
+|man-db|2.13.1|2.13.3||
 |man-pages|6.18|6.20||
 |mariadb|11.8.6|13.1.1||
 |mariadb-connector-c|3.4.8|3.4.11||
@@ -477,9 +476,8 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mdevd|0.1.8.1|0.1.8.2||
 |memcached|1.6.28|3.4.0||
 |mergerfs|2.41.1|2.42.2||
-|mesa|26.2.4|26.3.0||
 |meson|1.10.2|1.12.1||
-|mimalloc|3.3.2|3.6.1||
+|mimalloc|3.3.2|3.7.0||
 |minio|2025.10.15T17.29.55Z|2025-10-15T17-29-55Z||
 |minizip-ng|4.1.0|4.2.2||
 |mkosi|25.3<br>+git20251224.|27.1|Compound version number '25.3+git20251224.'<br>Version number indicates a snapshot (+git) is used|
@@ -510,7 +508,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nginx|1.31.8|1.30.6|Possible downgrade from the current version (1.31.8 -> 1.30.6)|
 |ngtcp2|1.25.0|1.26.0||
 |nmap|7.92|7.993||
-|nodejs|26.13.0|26.13.1||
 |nspr|4.39.0|4.40||
 |nss|3.131.1|3.133||
 |ntfs-3g|2022.10.3|2026.9.28||
@@ -602,7 +599,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-cacheout|0.16.0|0.17.0||
 |python-cachetools|7.1.1|7.3.2||
 |python-chardet|7.4.3|7.7.0||
-|python-click|8.3.3|8.5.1||
 |python-cloudpathlib|0.25.0|0.26.0||
 |python-colorlog|6.10.1|6.12.0||
 |python-confection|1.3.3|1.3.4||
@@ -625,15 +621,15 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-fastapi|0.136.1|0.163.1||
 |python-fastavro|1.12.1|1.13.1||
 |python-fastjsonschema|2.21.2|2.22.3||
-|python-filelock|3.29.0|4.2.10||
+|python-filelock|3.29.0|4.2.11||
 |python-fsspec|2026.6.0|2026.9.0||
 |python-gevent|26.4.0|26.9.0||
 |python-greenlet|3.4.0|3.5.6||
 |python-gssapi|1.11.1|1.12.0||
-|python-hf-xet|1.5.1|1.8.0||
+|python-hf-xet|1.5.2|1.8.0||
 |python-hiredis|3.3.1|3.5.0||
 |python-httplib2|0.32.0|0.32.1||
-|python-huggingface-hub|1.16.0|2.4.0||
+|python-huggingface-hub|1.32.0|2.4.0||
 |python-hypothesis|6.152.4|6.170.15||
 |python-ijson|3.5.0|3.6.0||
 |python-importlib-metadata|9.0.0|10.2.0||
@@ -784,7 +780,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.54.0||
 |python-uvloop|0.22.1|0.23.0||
-|python-virtualenv|21.7.4|21.15.6||
+|python-virtualenv|21.7.4|21.15.7||
 |python-w3lib|2.4.1|2.6.0||
 |python-wcwidth|0.7.0|0.9.4||
 |python-weasel|1.0.0|release-v1.0.2||
@@ -949,19 +945,18 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |trinity|1.9<br>+git20260225.|1.9|Compound version number '1.9+git20260225.'<br>Version number indicates a snapshot (+git) is used|
 |tuned|2.26.0|2.28.0||
 |tzdata|2026c|2026f||
-|udisks2|2.11.2|2.12.0||
 |unbound|1.25.1|1.26.2||
 |unicode-ucd|17.0.0|19.0.0||
 |unifont|16.0.04|18.0.01||
 |universal-ctags|6.2.0|6.2.20260621.0||
-|unrar-free|0.3.3|0.5.0||
+|unrar-free|0.3.3|0.6.0||
 |upower|1.91.1|1.91.5||
 |usbutils|018|020||
 |usermode|1.114|usermode-1.114|Possible downgrade from the current version (1.114 -> usermode-1.114)|
 |userspace-rcu|0.15.3|0.15.7||
 |utf8cpp|4.0.8|5.0.0||
 |utf8proc|2.10.0|2.12.0||
-|uuid|1.6.2|1.29.2||
+|uuid|1.6.2|1.29.3||
 |vala|0.56.18|0.56.19||
 |valgrind|3.27.0|3.28.0||
 |valkey|8.1.4|9.1.3||
@@ -993,6 +988,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xeve|0.5.1|0.7.1||
 |xfsdump|3.2.0|3.3.0||
 |xfsprogs|7.1.1|7.3.0||
+|xkeyboard-config|2.46|2.49||
 |xmlsec|1.3.10|1.3.18||
 |xmlto|0.0.28|0.0.29||
 |xmltoman|0.4|0.6||
