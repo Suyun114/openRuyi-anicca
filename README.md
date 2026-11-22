@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1795296608?label=Updated)
+![Relative date](https://img.shields.io/date/1795312506?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -373,6 +373,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libeconf|0.7.8|0.8.8||
 |libedit|20250104.3.1|20260512-3.1||
 |libei|1.5.0|1.6.0||
+|libevdev|1.13.5|1.14.0||
 |libevent|2.1.12|2.1.13||
 |libfaketime|0.9.12|0.9.14||
 |libfastjson|1.2304.0|1.2609.0||
@@ -440,6 +441,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libutempter|1.2.3|1.2.3-alt1|Possible downgrade from the current version (1.2.3 -> 1.2.3-alt1)|
 |libva|2.23.0|2.24.1||
 |libvpx|1.15.2|1.17.0||
+|libwacom|2.17.0|2.20.0||
 |libwebsockets|4.5.8|5.1.0||
 |libxkbcommon|1.13.0|1.13.2||
 |libxml2|2.14.5|2.15.4||
@@ -523,7 +525,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openjdk-21|21.0.13.9|jdk-21.0.14+3||
 |openjdk-25|25.0.5.8|jdk-25.0.6+3||
 |openjdk-latest|27.0.1.1.4|jdk-25.0.6+3||
-|openssh|10.5p1|10.6p2||
 |openssl|4.1.0|4.0.2|Possible downgrade from the current version (4.1.0 -> 4.0.2)|
 |openvswitch|3.5.1|4.0.0||
 |openzl|0.1.0|0.3.0||
@@ -563,6 +564,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |pulseaudio-qt|1.8.1|1.9.0||
 |pv|1.10.5|1.12.7||
 |pybind11|3.0.1|3.1.0||
+|python|3.14.9|3.15.2||
 |python-accelerate|1.13.0|1.16.0||
 |python-aiohappyeyeballs|2.6.1|2.7.1||
 |python-aiolimiter|1.2.1|1.3.0||
@@ -774,7 +776,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-urlgrabber|4.1.0|urlgrabber-4-1-0||
 |python-uvicorn|0.46.0|0.54.0||
 |python-uvloop|0.22.1|0.23.0||
-|python-virtualenv|21.7.4|21.15.11||
+|python-virtualenv|21.7.4|21.15.12||
 |python-w3lib|2.4.1|2.6.0||
 |python-wcwidth|0.7.0|0.9.5||
 |python-weasel|1.0.0|release-v1.0.2||
@@ -847,15 +849,16 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |rpm|6.0.1|6.1.0-release||
 |rpmlint|2.8.0|2.10.0||
 |rrdtool|1.9.0|1.11.0||
+|rsync|3.5.1|3.5.2||
 |rsyslog|8.2510.0|8.2610.0||
 |ruby|4.0.4|4.0.10||
 |runc|1.4.3|1.5.3||
 |rust|1.97.1|1.100.0||
 |rust-errno-0.3|0.3.14|0.3.15||
 |rust-foldhash-0.1|0.1.5|0.2.0||
-|rust-hashbrown-0.14|0.14.5|0.17.1||
-|rust-hashbrown-0.15|0.15.5|0.17.1||
-|rust-hashbrown-0.16|0.16.1|0.17.1||
+|rust-hashbrown-0.14|0.14.5|0.17.2||
+|rust-hashbrown-0.15|0.15.5|0.17.2||
+|rust-hashbrown-0.16|0.16.1|0.17.2||
 |rust-lock-api-0.4|0.4.14|parking_lot-v0.13.0||
 |rust-log-0.4|0.4.33|0.4.35||
 |rust-parking-lot-0.12|0.12.5|parking_lot-v0.13.0||
@@ -950,7 +953,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valkey|8.1.4|9.2.0||
 |vapoursynth|73|82||
 |vid.stab|1.1.1|1.1.2||
-|vim|9.2.1201|9.2.1380||
+|vim|9.2.1201|9.2.1382||
 |vlc|3.0.23|3.0.24||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.357.0|1.4.369||
