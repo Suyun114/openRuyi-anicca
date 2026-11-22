@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1795369091?label=Updated)
+![Relative date](https://img.shields.io/date/1795389242?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -45,7 +45,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |bpftool|7.7.0|7.8.1||
 |brotli|1.2.1|9.1.3||
 |btrfs-progs|7.1|7.3||
-|bubblewrap|0.12.0|0.13.1||
 |buildah|1.43.1|1.46.1||
 |busybox|1.37.0|1.38.0||
 |byacc|2.0.20260126|20260126||
@@ -93,6 +92,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |distribution-gpg-keys|1.115|1.124-1||
 |djvulibre|3.5.29|3.5.30||
 |dkms|3.2.2|3.4.5||
+|dlpack|1.3|1.4||
 |dmidecode|3.6|3.7||
 |dnf5|5.4.2.0|5.4.8.0||
 |dnsmasq|2.92|2.93||
@@ -289,12 +289,14 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gtk-doc|1.35.1|1.37.0||
 |gtk3|3.24.51|4.4.0||
 |guidelines-support-library|4.2.1|5.0.1||
+|gumbo-parser|0.13.2|0.14.1||
 |gzip|1.14|1.15||
 |harfbuzz|15.1.0|15.2.0||
 |haveged|1.9.20|1.9.27||
 |hipblas|7.2.4|20250912-17||
 |hipify|7.2.4|20250912-42||
 |httpd|2.4.68|2.4.71||
+|hunspell|1.7.3|1.7.6||
 |hunspell-en|2026.02.25|rel-2026.02.25||
 |hwdata|0.407|0.413||
 |hwinfo|25.0|26.0||
@@ -439,6 +441,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libva|2.23.0|2.24.1||
 |libvpx|1.15.2|1.17.0||
 |libwacom|2.17.0|2.20.0||
+|libwebsockets|4.5.8|5.1.0||
 |libxkbcommon|1.13.0|1.13.2||
 |libxml2|2.14.5|2.15.4||
 |libxmlb|0.3.24|0.3.30||
@@ -446,6 +449,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |linux|7.3.5|7.3|Possible downgrade from the current version (7.3.5 -> 7.3)|
 |lldpad|1.1.0|1.1.1||
 |llhttp|9.4.1|9.4.4||
+|lm_sensors|3.6.0|3-6-2||
 |lmdb|0.9.36|1.0.3||
 |log4cplus|2.1.2|2.2.0.1||
 |log4cxx|1.6.1|1.8.0||
@@ -486,10 +490,12 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |mstflint|4.34.0.2|4.38.0-1||
 |mtd-utils|2.3.0|2.3.1||
 |mujs|1.3.9|1.3.11||
+|mupdf|1.27.2|1.28.6||
 |nasm|3.01|3.02||
 |ncurses|6.5|6.6||
 |ndctl|83|85||
 |netavark|1.17.1|2.1.0||
+|netperf|0<br>+git20260202.|2.7.0|Compound version number '0+git20260202.'<br>Version number indicates a snapshot (+git) is used|
 |nettle|3.10.2|7.5.0||
 |newt|0.52.25|0.1.0|Possible downgrade from the current version (0.52.25 -> 0.1.0)|
 |nfs-utils|2.8.4|3.2.1||
@@ -503,7 +509,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nodejs|26.13.0|26.13.1||
 |nspr|4.39.0|4.41||
 |nss|3.131.1|3.134||
-|nvme-cli|3.1|3.2||
 |oath-toolkit|2.6.14|2.6.15||
 |obs-build|20260623|20261016||
 |ollama|0.40.7|0.40.17||
@@ -562,7 +567,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-accelerate|1.13.0|1.16.0||
 |python-aiohappyeyeballs|2.6.1|2.7.1||
 |python-aiolimiter|1.2.1|1.3.0||
-|python-aioquic|1.7.2|1.9.0||
+|python-aioquic|1.7.2|1.9.1||
 |python-altair|6.1.0|6.3.0||
 |python-annotated-doc|0.0.4|0.0.7||
 |python-annotated-types|0.7.0|0.8.0||
@@ -664,7 +669,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-peft|0.19.1|0.22.0||
 |python-phonemizer|3.3.0|3.6.0||
 |python-pip|26.2.2|26.3||
-|python-pipdeptree|2.30.0|4.2.15||
+|python-pipdeptree|2.30.0|4.2.16||
 |python-platformdirs|4.9.6|4.14.8||
 |python-pluggy|1.6.0|1.7.0||
 |python-portalocker|3.2.0|0.5.7|Possible downgrade from the current version (3.2.0 -> 0.5.7)|
@@ -696,7 +701,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |python-pyelftools|0.32|0.33||
 |python-pygit2|1.18.2|1.21.0||
 |python-pygtrie|2.5.0|2.6.2||
-|python-pylsqpack|1.0.0|1.1.1||
+|python-pylsqpack|1.0.0|1.1.2||
 |python-pymilvus|2.6.16|3.0.3||
 |python-pymongo|4.19.0|10.10.10.10||
 |python-pymupdf|1.27.2|2.1||
@@ -785,40 +790,40 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |qemu|11.1.2|11.1.3||
 |qhull|8.1~alpha6|8.0.2|Possible downgrade from the current version (8.1~alpha6 -> 8.0.2)|
 |qmpbackup|0.52|0.68||
-|qt6-qt5compat|6.11.1|6.11.3||
-|qt6-qtcharts|6.11.1|6.11.3||
-|qt6-qtcoap|6.11.1|6.11.3||
-|qt6-qtconnectivity|6.11.1|6.11.3||
-|qt6-qtdatavis3d|6.11.1|6.11.3||
-|qt6-qtdeclarative|6.11.1|6.11.3||
-|qt6-qtgrpc|6.11.1|6.11.3||
-|qt6-qthttpserver|6.11.1|6.11.3||
-|qt6-qtimageformats|6.11.1|6.11.3||
-|qt6-qtlanguageserver|6.11.1|6.11.3||
-|qt6-qtlocation|6.11.1|6.11.3||
-|qt6-qtlottie|6.11.1|6.11.3||
-|qt6-qtmqtt|6.11.1|6.11.3||
-|qt6-qtnetworkauth|6.11.1|6.11.3||
-|qt6-qtopcua|6.11.1|6.11.3||
-|qt6-qtpositioning|6.11.1|6.11.3||
-|qt6-qtquick3d|6.11.1|6.11.3||
-|qt6-qtquick3dphysics|6.11.1|6.11.3||
-|qt6-qtquickeffectmaker|6.11.1|6.11.3||
-|qt6-qtquicktimeline|6.11.1|6.11.3||
-|qt6-qtremoteobjects|6.11.1|6.11.3||
-|qt6-qtscxml|6.11.1|6.11.3||
-|qt6-qtsensors|6.11.1|6.11.3||
-|qt6-qtserialbus|6.11.1|6.11.3||
-|qt6-qtserialport|6.11.1|6.11.3||
-|qt6-qtshadertools|6.11.1|6.11.3||
-|qt6-qtspeech|6.11.1|6.11.3||
-|qt6-qttranslations|6.11.1|6.11.3||
-|qt6-qtvirtualkeyboard|6.11.1|6.11.3||
-|qt6-qtwayland|6.11.1|6.11.3||
-|qt6-qtwebchannel|6.11.1|6.11.3||
-|qt6-qtwebengine|6.11.1|6.140.0||
-|qt6-qtwebsockets|6.11.1|6.11.3||
-|qt6-qtwebview|6.11.1|6.11.3||
+|qt6-qt5compat|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtcharts|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtcoap|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtconnectivity|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtdatavis3d|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtdeclarative|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtgrpc|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qthttpserver|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtimageformats|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtlanguageserver|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtlocation|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtlottie|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtmqtt|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtnetworkauth|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtopcua|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtpositioning|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtquick3d|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtquick3dphysics|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtquickeffectmaker|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtquicktimeline|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtremoteobjects|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtscxml|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtsensors|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtserialbus|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtserialport|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtshadertools|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtspeech|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qttranslations|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtvirtualkeyboard|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtwayland|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtwebchannel|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtwebengine|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtwebsockets|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
+|qt6-qtwebview|6.11.1|6.5.11-lts-lgpl|Possible downgrade from the current version (6.11.1 -> 6.5.11-lts-lgpl)|
 |qtkeychain|0.16.0|0.18.0||
 |quota|4.10|4.11||
 |rapidjson|1.1.0.24b5e7a|1.1.0|Possible downgrade from the current version (1.1.0.24b5e7a -> 1.1.0)|
@@ -947,7 +952,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |valkey|8.1.4|9.2.0||
 |vapoursynth|73|82||
 |vid.stab|1.1.1|1.1.2||
-|vim|9.2.1201|9.2.1383||
+|vim|9.2.1201|9.2.1391||
 |vlc|3.0.23|3.0.24||
 |vte|0.82.3|3.4.3||
 |vulkan-headers|1.4.357.0|1.4.369||
@@ -981,7 +986,9 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |xxhash|0.8.3|2.3.0||
 |yaml-cpp|0.8.0|0.9.0||
 |zchunk|1.5.3|1.5.5||
+|zfs|2.4.1|2.4.4||
 |zip|3.0|9.8.1||
+|zsh|5.9.1|5.9.2||
 |zstd|1.5.7|1.5.7.3||
 |zxing-cpp|3.0.2|3.1.1||
 |zziplib|0.13.80|3.0||
