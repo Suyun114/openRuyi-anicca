@@ -1,7 +1,7 @@
 # Anicca
 This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 ## Result
-![Relative date](https://img.shields.io/date/1795589702?label=Updated)
+![Relative date](https://img.shields.io/date/1795628970?label=Updated)
 | Package | Repo Version | New Version | Warnings |
 |---------|--------------|-------------|----------|
 |Catch2|3.14.0|3.16.1||
@@ -57,7 +57,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |check|0.15.2|1.14.1||
 |checkpolicy|3.10|3.12-rc3||
 |chrony|4.8|4.9||
-|cifs-utils|7.5|7.9||
 |ck|0.7.2|2.6.4||
 |clevis|23|25||
 |cloud-hypervisor|52.0<br>+git20260608.|55.0|Compound version number '52.0+git20260608.'<br>Version number indicates a snapshot (+git) is used|
@@ -151,7 +150,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |giflib|5.2.2|6.1.3||
 |git|2.54.0|2.56.1||
 |glfw|3.4|3.5.1||
-|glib|2.87.1|2.90.1||
+|glib|2.87.1|2.90.2||
 |glib-networking|2.80.1|2.90.1||
 |glibc|2.44<br>+git20261107.c5c6fc6f449d|2.44|Compound version number '2.44+git20261107.c5c6fc6f449d'<br>Version number indicates a snapshot (+git) is used|
 |glibmm|2.86.0|2.90.0||
@@ -176,7 +175,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-github-buger-jsonparser|1.2.0|1.6.1||
 |go-github-cenkalti-backoff|5.0.3|7.0.3||
 |go-github-cespare-xxhash|1.1.0|2.3.0||
-|go-github-charmbracelet-bubbletea|1.3.10|2.1.2||
+|go-github-charmbracelet-bubbletea|1.3.10|2.1.3||
 |go-github-charmbracelet-lipgloss|1.1.0|2.1.1||
 |go-github-charmbracelet-log|1.0.0|2.0.1||
 |go-github-charmbracelet-ssh|0<br>+git20250826.ebfa259|0.4.3|Compound version number '0+git20250826.ebfa259'<br>Version number indicates a snapshot (+git) is used|
@@ -270,7 +269,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |go-golang-x-term|0.46.0|0.48.0||
 |go-golang-x-text|0.42.0|0.44.0||
 |go-golang-x-tools|0.50.0|0.53.0||
-|go-google-grpc|1.84.0|1.85.0||
+|go-google-grpc|1.84.0|1.87.0-dev||
 |go-google-protobuf|1.36.12|1.37.0-rc.1||
 |go-gopkg-yaml.v2|2.4.4|3.0.1||
 |go-gopkg-yaml.v3|3.0.5|4.0.0||
@@ -295,6 +294,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |gzip|1.14|1.15||
 |harfbuzz|15.1.0|15.2.0||
 |haveged|1.9.20|1.9.27||
+|hdf5|2.2.0|2.3.0||
 |hipblas|7.2.4|20250912-17||
 |hipify|7.2.4|20250912-42||
 |httpd|2.4.68|2.4.71||
@@ -328,7 +328,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |judy|1.0.5|2.0.8||
 |kbd|2.9.0|2.10.0||
 |kdsoap|2.2.0|2.3.0||
-|kea|3.1.4|3.3.3||
+|kea|3.1.4|3.3.4||
 |keepalived|2.2.8|2.4.3||
 |keybinder|0.3.2|0.3.1|Possible downgrade from the current version (0.3.2 -> 0.3.1)|
 |kiwi|10.2.42|11.1.20||
@@ -346,7 +346,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libXft|2.3.8|2.3.9||
 |libXi|1.8.3|1.8.4||
 |libXmu|1.2.1|1.3.1||
-|libXrandr|1.5.4|1.5.5||
 |libXrender|0.9.12|0.9.13||
 |libXtst|1.2.5|1.2.6||
 |libXxf86vm|1.1.6|1.1.7||
@@ -381,7 +380,6 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libffcall|2.5|2.6||
 |libffi|3.8.0|3.8.1||
 |libfontenc|1.1.8|1.1.10||
-|libgit2|1.9.2|1.9.7||
 |libheif|1.23.6|1.23.7||
 |libical|4.0.7|4.0.8||
 |libiconv|1.19|1.19.1||
@@ -417,7 +415,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |libqmi|1.36.0|1.38.0||
 |libqrtr-glib|1.2.2|1.4.0||
 |libraw|0.22.1|0.22.3||
-|librepo|1.21.1|1.22.0||
+|librepo|1.21.1|1.22.1||
 |libseccomp|2.6.1|2.6.2||
 |libsecret|0.21.7|0.21.8.2||
 |libselinux|3.10|3.11||
@@ -468,6 +466,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |lvm2|2.03.35|2.03.44||
 |lynis|3.1.6|3.1.7||
 |lz4|1.10.0|1.28.1||
+|magic_enum|0.9.8|0.10.0||
 |man-db|2.13.1|2.13.3||
 |man-pages|6.18|6.20||
 |mariadb|11.8.6|13.2.1||
@@ -509,7 +508,7 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |nmap|7.92|7.993||
 |nspr|4.39.0|4.41||
 |nss|3.131.1|3.134||
-|nvme-cli|3.1|3.2||
+|nvme-cli|3.1|3.3||
 |oath-toolkit|2.6.14|2.6.15||
 |obs-build|20260623|20261016||
 |ollama|0.40.7|0.40.18||
@@ -519,10 +518,10 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |openblas|0.3.31|0.3.34||
 |openconnect|9.12|9.21||
 |openexr|3.4.10|3.5.5||
-|openjdk-17|17.0.21.9|jdk-17.0.22+3||
-|openjdk-21|21.0.13.9|jdk-21.0.14+3||
-|openjdk-25|25.0.5.8|jdk-25.0.6+3||
-|openjdk-latest|27.0.1.1.4|jdk-25.0.6+3||
+|openjdk-17|17.0.21.9|jdk-17.0.22+4||
+|openjdk-21|21.0.13.9|jdk-21.0.14+4||
+|openjdk-25|25.0.5.8|jdk-25.0.6+4||
+|openjdk-latest|27.0.1.1.4|jdk-25.0.6+4||
 |openssh|10.5p1|10.6p2||
 |openssl|4.1.0|4.0.2|Possible downgrade from the current version (4.1.0 -> 4.0.2)|
 |openvswitch|3.5.1|4.0.0||
@@ -853,12 +852,13 @@ This is a small utility to run `aosc-findupdate` regularly by GitHub Actions.
 |ruby|4.0.4|4.0.10||
 |runc|1.4.3|1.5.3||
 |rust|1.97.1|1.100.0||
-|rust-ahash-0.8|0.8.12|0.8.13||
+|rust-ahash-0.8|0.8.12|0.8.14||
 |rust-errno-0.3|0.3.14|0.3.15||
 |rust-foldhash-0.1|0.1.5|0.2.0||
 |rust-hashbrown-0.14|0.14.5|0.17.2||
 |rust-hashbrown-0.15|0.15.5|0.17.2||
 |rust-hashbrown-0.16|0.16.1|0.17.2||
+|rust-libc-0.2|0.2.191|ctest-v0.5.2|Possible downgrade from the current version (0.2.191 -> ctest-v0.5.2)|
 |rust-lock-api-0.4|0.4.14|parking_lot-v0.13.0||
 |rust-log-0.4|0.4.33|0.4.35||
 |rust-parking-lot-0.12|0.12.5|parking_lot-v0.13.0||
